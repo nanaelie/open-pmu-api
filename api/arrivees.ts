@@ -26,6 +26,7 @@ module.exports = async (req, res) => {
 		}
 
 		res.setHeader('Content-Type', 'application/json');
+		console.log(resp);
 		res.send(resp);
 
 	} catch (error) {
