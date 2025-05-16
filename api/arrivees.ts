@@ -15,9 +15,9 @@ module.exports = async (req, res) => {
 		if (prix !== "") {
 			const resp = getData({ prix: prix });    
 		}else if (hippo !== "") {
-			const resp = getData({ hippo:hippo });    
+			const resp = getData({ hippo: hippo });    
 		}else if (date !== "") {
-			const resp = getData({ date:date });    
+			const resp = getData({ date: date });    
 		}else {
 			const resp = {
 				"error": true, 
