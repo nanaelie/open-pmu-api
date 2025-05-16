@@ -27,9 +27,7 @@ const getData = ({ prix, hippo, date }: ReqProps): ArriveeType[] => {
 		resp = data.filter(arrivee => arrivee.date.toLowerCase().includes(date.toLowerCase()));
 	}
 
-	console.log('Donnée: ', resp);
-
 	return resp;
 }
-getData({ date: "05/05/2021" });
+
 export default getData;
