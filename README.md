@@ -13,7 +13,14 @@ Une API REST gratuite et open source pour consulter les **arrivées des courses 
 - Code simple et ouvert pour intégration facile
 
 ## Utilisation
-
+```http
+GET https://open-pmu-api.vercel.app/api/arrivee
+```
+```
+date=DAY/MONTH/YEAR
+prix=PRIX
+hippo=HIPPODROME
+```
 ### Exemple d'appel
 
 ```http
