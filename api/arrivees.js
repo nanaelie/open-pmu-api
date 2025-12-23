@@ -48,9 +48,9 @@ module.exports = (req, res) => {
   }
 
   try {
-    const prix = req.query.prix as string;
-    const hippo = req.query.hippo as string;
-    const date = req.query.date as string;
+    const prix = req.query.prix;
+    const hippo = req.query.hippo;
+    const date = req.query.date;
 
     let _resp;
 
