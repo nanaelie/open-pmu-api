@@ -41,12 +41,12 @@ module.exports = (req, res) => {
 
 import getData from '../get-data.js';
 
-module.exports = (req, res) => {
+export default (req, res) => {
   if (req.method !== 'GET') {
     res.status(405).send('Method Not Allowed');
     return;
   }
-
+...
   try {
     const prix = req.query.prix;
     const hippo = req.query.hippo;
