@@ -39,7 +39,7 @@ module.exports = (req, res) => {
     }
 };*/
 
-import getData from '../get-data';
+import getData from '../get-data.js';
 
 module.exports = (req, res) => {
   if (req.method !== 'GET') {
