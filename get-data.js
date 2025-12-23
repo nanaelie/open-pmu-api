@@ -25,7 +25,7 @@ exports.default = getData;
 
 */
 
-import Data from './racing-horse-data';
+import Data from './racing-horse-data.js';
 
 const data = Data;
 
