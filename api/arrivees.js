@@ -46,7 +46,7 @@ export default (req, res) => {
     res.status(405).send('Method Not Allowed');
     return;
   }
-...
+
   try {
     const prix = req.query.prix;
     const hippo = req.query.hippo;
