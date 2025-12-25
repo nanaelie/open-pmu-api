@@ -3,14 +3,15 @@ Une API REST open source pour consulter les arrivées de courses PMU par date, h
 
 Une API REST gratuite et open source pour consulter les **arrivées des courses PMU**, filtrables par **date**, **hippodrome** ou **prix**.
 
+Période des données : du ```22/01/2004``` au ```23/12/2025```  
+Dernière mise à jour : ```25/12/2025```
+
 ## Fonctionnalités
 
 - Rechercher les arrivées d'une course PMU :
   - par **date**
   - par **nom d'hippodrome**
   - par **nom de prix**
-- Hébergement serverless optimisé pour Vercel (gratuit)
-- Code simple et ouvert pour intégration facile
 
 ## Utilisation
 ```http
@@ -26,6 +27,15 @@ hippo=HIPPODROME
 ```http
 GET https://open-pmu-api.vercel.app/api/arrivees?date=05/05/2021
 ```
+
+```http
+GET https://open-pmu-api.vercel.app/api/arrivees?prix=Prix de la foret de fontainebleau
+```
+
+```http
+GET https://open-pmu-api.vercel.app/api/arrivees?hippo=Fontainebleau
+```
+
 
 Réponse
 ```JSON
