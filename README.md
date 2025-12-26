@@ -22,7 +22,7 @@ date=DAY/MONTH/YEAR
 prix=PRIX
 hippo=HIPPODROME
 ```
-### Exemple d'appel
+### Exemples d'appel
 
 ```http
 GET https://open-pmu-api.vercel.app/api/arrivees?date=05/05/2021
