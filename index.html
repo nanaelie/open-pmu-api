@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Open PMU API</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="open-pmu-api">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="default">
+        <meta name="mobile-web-app-capable" content="yes">
+        <link rel="icon" href="/favicon.png"/>
+        <style>
+            @font-face {
+                font-family: 'dm';
+                src: url('/fonts/DMSans-Regular.ttf') format('truetype');
+                font-display: block;
+            }
+
+            * {
+                scrollbar-width: thin;
+                scrollbar-arrow-color: transparent; }
+
+            textarea::-webkit-scrollbar {
+                display: none;
+            }
+
+            ::-webkit-scrollbar-corner {
+                display: none;
+            }
+
+            ::-webkit-scrollbar {
+                width: 2px;
+                background-color: #181818;
+            }
+
+            ::-webkit-scrollbar-track {
+                background-color: #f0f0f0;
+            }
+
+            ::-webkit-scrollbar-thumb {
+                background-color: #888;
+                border-radius: 4px;
+                border: 1px solid transparent;
+                background-clip: content-box;
+            }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background-color: #555;
+            }
+
+            html,body,* {
+                box-sizing: border-box !important;
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                font-family: 'dm';
+                color: #eaeaea;
+                box-sizing: border-box !important;
+                width: 100%;
+                background: rgba(255, 255, 255, 0.03);
+                padding: 40px;
+                border: 1px solid rgba(255, 255, 255, 0.08);
+                box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+                background: linear-gradient(135deg, #0f0f0f, #1c1c1c, #141414);
+            }
+
+            .container {
+                width: 100%;
+            }
+
+            h1 {
+                font-size: 2.5rem;
+                font-weight: 700;
+                background: linear-gradient(90deg, #00c6ff, #0072ff);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                margin-bottom: 20px;
+            }
+
+            h2 {
+                font-size: 1.6rem;
+                margin-top: 40px;
+                margin-bottom: 15px;
+                font-weight: 600;
+                color: #ffffff;
+            }
+
+            h3 {
+                margin-top: 30px;
+                margin-bottom: 10px;
+                font-weight: 500;
+                color: #bbbbbb;
+            }
+
+            p {
+                margin-bottom: 15px;
+                line-height: 1.6;
+                color: #cccccc;
+            }
+
+            ul {
+                width: 100%;
+                margin-top: 10px;
+                margin-left: 20px;
+                margin-bottom: 20px;
+            }
+
+            ul li {
+                margin-bottom: 6px;
+            }
+
+            pre {
+                background: #111;
+                padding: 15px 20px;
+                /*width: 500px;*/
+                border-radius: 12px;
+                margin: 15px 0;
+                overflow-x: auto;
+                font-size: 0.9rem;
+                color: #00ffb3;
+                border: 1px solid rgba(0, 255, 179, 0.2);
+            }
+
+            pre.json {
+                color: #00d4ff;
+            }
+
+            @media (max-width: 768px) {
+                .container {
+                    margin: 20px;
+                    padding: 25px;
+                }
+
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+
+            footer {
+                padding: 25px;
+                margin-top: 25px;
+                text-align: center;
+                font-size: 0.9rem;
+                border-top: 1px solid rgba(255, 255, 255, 0.08);
+                color: #999;
+            }
+
+            footer span {
+                font-weight: 600;
+                color: #fff;
+            }
+
+            *, *::before, *::after {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            html {
+                scroll-behavior: smooth;
+            }
+
+            h1 {
+                font-size: 3rem;
+                font-weight: 700;
+                letter-spacing: -1px;
+                background: linear-gradient(90deg, #00c6ff, #0072ff);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            .badge {
+                display: inline-block;
+                margin-top: 15px;
+                padding: 6px 14px;
+                border-radius: 50px;
+                font-size: 0.8rem;
+                font-weight: 600;
+                background: rgba(0, 255, 180, 0.1);
+                color: #00ffb3;
+                border: 1px solid rgba(0, 255, 180, 0.3);
+            }
+
+            p {
+                margin-top: 15px;
+                line-height: 1.7;
+                color: #cfcfcf;
+            }
+
+            .abs {
+                position: absolute;
+                top: 40px;
+                right: 40px;
+                width: 35px;
+            }
+
+            .abs a {
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="abs">
+                <a href="https://github.com/nanaelie/open-pmu-api" target="_blank">
+                    <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="#fff" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="opacity:1;"><path fill="none" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>-->
+                    <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 499.368">
+                        <path fill="#fff" fill-rule="nonzero" d="M256.003 0C114.555 0 0 114.555 0 256.003c0 113.286 73.28 208.961 175.038 242.865 12.796 2.247 17.586-5.433 17.586-12.153 0-6.077-.309-26.225-.309-47.686-64.313 11.844-80.941-15.674-86.058-30.055-2.896-7.37-15.359-30.1-26.269-36.177-8.948-4.808-21.752-16.652-.31-16.961 20.168-.309 34.574 18.564 39.382 26.244 23.038 38.732 59.839 27.828 74.555 21.101 2.227-16.627 8.947-27.828 16.318-34.239-56.968-6.386-116.467-28.471-116.467-126.399 0-27.827 9.907-50.866 26.225-68.787-2.562-6.41-11.51-32.655 2.562-67.853 0 0 21.436-6.72 70.409 26.244 20.483-5.767 42.227-8.638 63.998-8.638 21.751 0 43.52 2.896 63.997 8.638 48.973-33.279 70.39-26.244 70.39-26.244 14.09 35.192 5.117 61.443 2.562 67.853 16.318 17.921 26.244 40.625 26.244 68.787 0 98.237-59.84 119.988-116.801 126.399 9.282 8.014 17.277 23.373 17.277 47.371 0 34.238-.309 61.751-.309 70.389 0 6.721 4.808 14.735 17.586 12.179C438.739 464.964 512 368.955 512 256.003 512 114.555 397.445 0 256.003 0z"/>
+                    </svg>
+                </a>
+            </div>
+            <h1>open-pmu-api</h1>
+            <div class="badge">Open Source • Gratuit</div>
+            <p>Open PMU API est une API REST open source conçue pour permettre l’accès structuré
+                aux arrivées officielles des courses PMU. Elle offre un moyen simple, rapide et
+                fiable d’interroger des données historiques détaillées sur les courses hippiques.
+            </p>
+            <p>
+                L’API permet de consulter les <b>arrivées des courses PMU</b>
+                en les filtrant par <b>date</b>, <b>nom d’hippodrome</b> ou <b>nom de prix</b>.
+                Chaque réponse fournit des informations complètes incluant le type de course,
+                le montant, la distance, le nombre de partants, les non-partants, l’arrivée
+                officielle ainsi que les détails descriptifs de l’épreuve.
+            </p>
+            <p>Conçue pour les développeurs, analystes de données et passionnés de courses,
+                Open PMU API facilite l’intégration des données hippiques dans des applications,
+                outils statistiques, dashboards ou projets de recherche.
+            </p>
+            <p>Période des données : <b>22/01/2004</b> → <b>13/02/2026</b></p>
+            <p>Dernière mise à jour : <b>13/02/2026</b></p>
+            <h2>Fonctionnalités</h2>
+            <ul>
+                <li>Recherche par date</li>
+                <li>Recherche par hippodrome</li>
+                <li>Recherche par prix</li>
+            </ul>
+            <h2>Utilisation</h2>
+            <pre>GET https://open-pmu-api.vercel.app/api/arrivees</pre>
+            <pre>date=DAY/MONTH/YEAR
+prix=PRIX
+hippo=HIPPODROME</pre>
+            <h3>Exemples d'appel</h3>
+            <pre>GET https://open-pmu-api.vercel.app/api/arrivees?date=12/02/2026</pre>
+            <pre>GET https://open-pmu-api.vercel.app/api/arrivees?prix=Prix jules roucayrol</pre>
+            <pre>GET https://open-pmu-api.vercel.app/api/arrivees?hippo=Cagnes Sur Me</pre>
+            <h3>Réponse</h3>
+            <pre class="json">{
+  "error": false,
+  "message": [
+    {
+      "date": "12/02/2026",
+      "type": "Attelé",
+      "montant": 49000,
+      "distance": 2925,
+      "pix": "Prix jules roucayrol",
+      "lieu": "Cagnes Sur Mer",
+      "r/c": "R1C1",
+      "partants": 15,
+      "non_partants": [5],
+      "arrivee": [14, 11, 12, 15, 10],
+      "details": "Pour 8 à 11 ans inclus (F à I), n'ayant pas gagné 380.000."
+    }
+  ]
+}</pre>
+        </div>
+        <footer>
+            © 2025–2026 <span>Open PMU API</span>. Tous droits réservés.
+        </footer>
+    </body>
+</html>
+
