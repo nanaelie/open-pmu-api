@@ -158422,86 +158422,14538 @@ const Data = [
         "details": "PLAT, 3000 metres , Corde a GAUCHE 50.900- HANDICAP DIVISE Pour tous chevaux de 4 ans et au-dessus"
     },
     {
-        "date": "01/04/2026",
         "type": "Attelé",
         "montant": 64000,
         "distance": 3100,
-        "prix": "Grand prix angers loire metropole",
+        "prix": "GRAND PRIX ANGERS LOIRE METROPOLE",
         "lieu": "Angers",
-        "r/c": "R1C1",
-        "partants": 16,
-        "non_partants": [
-            8,
-            13,
-            15
-        ],
+        "heure_depart": "13:55:00",
+        "details": "Pour 6 à 11 ans inclus, les 6 à 9 ans ayant gagné au moins 85.000",
+        "partants": 13,
+        "non_partants": 3,
         "arrivee": [
             1,
             5,
             9,
             3,
-            2
+            2,
+            10,
+            11
         ],
-        "details": "Pour 6 à 11 ans inclus, les 6 à 9 ans ayant gagné au moins 85.000"
+        "r/c": "R1/C1",
+        "arrivee_details": {
+            "1": {
+                "nom_cheval": "JOLIE STAR",
+                "sexe": "F",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "MOTTIER M.",
+                "nom_entraineur": "MOTTIER M.",
+                "poid_du_cheval": 3100,
+                "musique": "1a Da 8a Da 6a (25) Da 0a 0a Da 7a 0a 5a ",
+                "cotes": [
+                    "6.7",
+                    "5.1",
+                    "3.6"
+                ],
+                "gains": "235490",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 3100
+            },
+            "5": {
+                "nom_cheval": "RIKITA JP",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "ABRIVARD M.",
+                "nom_entraineur": "ROBERT J.",
+                "poid_du_cheval": 3100,
+                "musique": "1a 7a 0a 1a (25) 2a Da Da 0a 1a 1a 2a (24) 5a ",
+                "cotes": [
+                    "4.0",
+                    "4.3",
+                    "3.3"
+                ],
+                "gains": "274923",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 3100
+            },
+            "9": {
+                "nom_cheval": "IDEAL DU ROCHER",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "DUVALDESTIN C.",
+                "nom_entraineur": "DUVALDESTIN TH.",
+                "poid_du_cheval": 3125,
+                "musique": "3a 7m 1a 4a (25) 3m Da 1a 5a 1a 2a 1a 4a ",
+                "cotes": [
+                    "3.3",
+                    "3.1",
+                    "3.9"
+                ],
+                "gains": "541379",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 3100
+            },
+            "3": {
+                "nom_cheval": "KELLE BEAUTE",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "ABRIVARD A.",
+                "nom_entraineur": "ABRIVARD L.CL.",
+                "poid_du_cheval": 3100,
+                "musique": "5a 4a 2a 3a (25) Da 5a 7a 7a 8a 3a 6a 5a ",
+                "cotes": [
+                    "8.7",
+                    "8.7",
+                    "8.4"
+                ],
+                "gains": "265640",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 3100
+            },
+            "2": {
+                "nom_cheval": "JOYCE DELTO",
+                "sexe": "F",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "THOMAS A.",
+                "nom_entraineur": "THOMAS A.",
+                "poid_du_cheval": 3100,
+                "musique": "1a 3a (25) 7a 3a 3a 3a 5a 1a Da 1a 1a 2a ",
+                "cotes": [
+                    "11.0",
+                    "10.0",
+                    "11.0"
+                ],
+                "gains": "242695",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 3100
+            },
+            "10": {
+                "nom_cheval": "HIDALGO DES NOES",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "GELORMINI G.",
+                "nom_entraineur": "PROVOOST S.",
+                "poid_du_cheval": 3125,
+                "musique": "6a 7a 0a 7a (25) 4a 10a 6a Da 1a 6a 0a 5a ",
+                "cotes": [
+                    "20.0",
+                    "27.0",
+                    "42.0"
+                ],
+                "gains": "563350",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 3100
+            },
+            "11": {
+                "nom_cheval": "HALFA",
+                "sexe": "F",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "GENDROT A.",
+                "nom_entraineur": "LEVOY S.",
+                "poid_du_cheval": 3125,
+                "musique": "4m Dm 6m 3m (25) 8m Da 5m 3m 1m 1m 4a 6m ",
+                "cotes": [
+                    "64.0",
+                    "91.0",
+                    "147.0"
+                ],
+                "gains": "586900",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 3100
+            }
+        },
+        "date": "01/04/2026"
     },
     {
-        "date": "02/04/2026",
         "type": "Haies",
         "montant": 98000,
         "distance": 3600,
-        "prix": "Prix alain grimaux",
+        "prix": "PRIX ALAIN GRIMAUX",
         "lieu": "Auteuil",
-        "r/c": "R1C1",
-        "partants": 13,
-        "non_partants": [
-            2
-        ],
+        "heure_depart": "13:55:00",
+        "details": "HAIES, 3600 metres 98.000- HANDICAP Pour pouliches et juments de 4 ans et au-dessus, ayant couru, depuis le 1er septembre 2024 inclus.",
+        "partants": 12,
+        "non_partants": 1,
         "arrivee": [
             9,
             10,
             7,
             4,
-            3
+            3,
+            6,
+            11
         ],
-        "details": "HAIES, 3600 metres 98.000- HANDICAP Pour pouliches et juments de 4 ans et au-dessus, ayant couru, depuis le 1er septembre 2024 inclus."
+        "r/c": "R1/C1",
+        "arrivee_details": {
+            "9": {
+                "nom_cheval": "BOTERVIA DU KALON",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "BEAURAIN T.",
+                "nom_entraineur": "DELAUNAY (S) J.",
+                "poid_du_cheval": 680,
+                "musique": "7h 2h (25) 2s 5s Ts 5h 6s 5s Ts 2s (24) 2s Ts ",
+                "cotes": [
+                    "12.0",
+                    "14.0",
+                    "13.0"
+                ],
+                "gains": "109885",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "10": {
+                "nom_cheval": "LOUBA",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "LE CLERC B.",
+                "nom_entraineur": "BELLEMERE F.",
+                "poid_du_cheval": 670,
+                "musique": "2h (25) Ah Ah 1h 2h 2h 4h 6h 5h (24) 4p 5p 3p ",
+                "cotes": [
+                    "14.0",
+                    "10.0",
+                    "10.0"
+                ],
+                "gains": "74335",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "7": {
+                "nom_cheval": "ASTORIUS",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "LEFEBVRE MR C.",
+                "nom_entraineur": "PITART M.",
+                "poid_du_cheval": 680,
+                "musique": "3h 4s 1h (25) 7s 5s 6s Ts 4s 4s 1s 2s 5h ",
+                "cotes": [
+                    "15.0",
+                    "13.0",
+                    "18.0"
+                ],
+                "gains": "92590",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "4": {
+                "nom_cheval": "AL FONCE",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "NABET K.",
+                "nom_entraineur": "GEORGE & A N.",
+                "poid_du_cheval": 695,
+                "musique": "9h (25) 3h 1h 1h 2h ",
+                "cotes": [
+                    "10.0",
+                    "7.7",
+                    "4.4"
+                ],
+                "gains": "35247",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "3": {
+                "nom_cheval": "AMARNA",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "ZULIANI A.",
+                "nom_entraineur": "MELE (S) D.",
+                "poid_du_cheval": 695,
+                "musique": "Ah 7h (25) As 5s 2s 7s 2s 5s 5s Ah 1h (24) 1h ",
+                "cotes": [
+                    "29.0",
+                    "29.0",
+                    "39.0"
+                ],
+                "gains": "97615",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "6": {
+                "nom_cheval": "EDITION ORIGINALE",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "DUVACHER A.",
+                "nom_entraineur": "D' ANDIGNE E.",
+                "poid_du_cheval": 685,
+                "musique": "4h 2h (25) 2h Th 4h Th 3h 7h 3h 1s (24) 10s 4s ",
+                "cotes": [
+                    "25.0",
+                    "25.0",
+                    "32.0"
+                ],
+                "gains": "109465",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "11": {
+                "nom_cheval": "JOCASTA",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "FAIVRE-PICON G.",
+                "nom_entraineur": "MENATO MME G.",
+                "poid_du_cheval": 665,
+                "musique": "8h 3h (25) 1s 4s 5s 8s 4s 5s 3s 4s (24) Th 1h ",
+                "cotes": [
+                    "36.0",
+                    "41.0",
+                    "67.0"
+                ],
+                "gains": "43370",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            }
+        },
+        "date": "02/04/2026"
     },
     {
-        "date": "03/04/2026",
         "type": "Attelé",
         "montant": 59000,
         "distance": 2700,
-        "prix": "Prix gratia",
+        "prix": "PRIX GRATIA",
         "lieu": "Vincennes",
-        "r/c": "R1C8",
+        "heure_depart": "20:15:00",
+        "details": "Pour 7 à 11 ans inclus, n'ayant pas gagné 205.000.",
         "partants": 13,
-        "non_partants": null,
+        "non_partants": 0,
         "arrivee": [
             9,
             4,
             10,
             13,
-            7
+            7,
+            1,
+            3
         ],
-        "details": "Pour 7 à 11 ans inclus, n'ayant pas gagné 205.000."
+        "r/c": "R1/C8",
+        "arrivee_details": {
+            "9": {
+                "nom_cheval": "JIPET DE CREPIN",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "ERNAULT S.",
+                "nom_entraineur": "ERNAULT S.",
+                "poid_du_cheval": 2700,
+                "musique": "1a 1a (25) Da 7a Da 0a 0a 3a Da Da 1a (24) 1a ",
+                "cotes": [
+                    "2.3",
+                    "2.2",
+                    "1.8"
+                ],
+                "gains": "201280",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "4": {
+                "nom_cheval": "INITIALE HERAULT",
+                "sexe": "F",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "PLOQUIN PAU. PH.",
+                "nom_entraineur": "LHERETE A.",
+                "poid_du_cheval": 2700,
+                "musique": "Da (25) 1a 0a 0a 0a Da (24) 1a 7a 8a 5a 3a 8a ",
+                "cotes": [
+                    "20.0",
+                    "17.0",
+                    "20.0"
+                ],
+                "gains": "197600",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "10": {
+                "nom_cheval": "INDOCILE",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "TERRY C.",
+                "nom_entraineur": "TERRY F.",
+                "poid_du_cheval": 2700,
+                "musique": "7a 0a 0a Da (25) 5a 7a 4a 0a Da 1a 2a 0a ",
+                "cotes": [
+                    "24.0",
+                    "28.0",
+                    "32.0"
+                ],
+                "gains": "202195",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "13": {
+                "nom_cheval": "INTELLO DE CHENU",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "THOMAIN D.",
+                "nom_entraineur": "PELLEROT P.",
+                "poid_du_cheval": 2700,
+                "musique": "5a (25) 0a 0a 3a 3a 3a Da 3a Da 0a 7a 6a ",
+                "cotes": [
+                    "11.0",
+                    "13.0",
+                    "18.0"
+                ],
+                "gains": "204830",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "7": {
+                "nom_cheval": "IERMES DE GUEZ",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "RAFFIN E.",
+                "nom_entraineur": "CHARBONNEL L.",
+                "poid_du_cheval": 2700,
+                "musique": "0a 4a 3a 8a (25) 4a 4a 6a Da Da 2a 3a 1a ",
+                "cotes": [
+                    "14.0",
+                    "18.0",
+                    "25.0"
+                ],
+                "gains": "199740",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "1": {
+                "nom_cheval": "HOLLY GREEN",
+                "sexe": "F",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "NIVARD F.",
+                "nom_entraineur": "GUILLOTTE J.M.",
+                "poid_du_cheval": 2700,
+                "musique": "3a 3a 9a 1a 0a (25) 0a Dm 0a 0a 8a 8a 3a ",
+                "cotes": [
+                    "24.0",
+                    "26.0",
+                    "38.0"
+                ],
+                "gains": "139185",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "3": {
+                "nom_cheval": "JALIMEDE",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "SENET J.F.",
+                "nom_entraineur": "MIRANDEL CH.",
+                "poid_du_cheval": 2700,
+                "musique": "4a 8a 2a (25) 7a 4a 1a Da 5a 2a 4a 4a 6a ",
+                "cotes": [
+                    "12.0",
+                    "11.0",
+                    "13.0"
+                ],
+                "gains": "196520",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            }
+        },
+        "date": "03/04/2026"
     },
     {
-        "date": "04/04/2026",
         "type": "Attelé",
         "montant": 120000,
         "distance": 2700,
-        "prix": "Prix kerjacques",
+        "prix": "PRIX KERJACQUES",
         "lieu": "Vincennes",
-        "r/c": "R1C4",
+        "heure_depart": "15:15:00",
+        "details": "Pour 6 à 11 ans inclus, ayant gagné au moins 130.000. Sont seules admises à driver les personnes ayant gagné au moins trente-cinq courses dont dix au trot attelé (en étant titulaire d'une autorisation de monter à titre professionnel).",
         "partants": 13,
-        "non_partants": null,
+        "non_partants": 0,
         "arrivee": [
             10,
             8,
             7,
             3,
+            12,
+            5,
+            13
+        ],
+        "r/c": "R1/C4",
+        "arrivee_details": {
+            "10": {
+                "nom_cheval": "INEXESS BLEU",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "ABRIVARD A.",
+                "nom_entraineur": "ABRIVARD L.CL.",
+                "poid_du_cheval": 2700,
+                "musique": "6a (25) 2a 1a 1a Da 1a 1a 1a 1a 1a 1a (24) 1a ",
+                "cotes": [
+                    "2.2",
+                    "2.2",
+                    "1.9"
+                ],
+                "gains": "1274520",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "8": {
+                "nom_cheval": "INO DU LUPIN",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "WIELS A.",
+                "nom_entraineur": "MARMION J.P.",
+                "poid_du_cheval": 2700,
+                "musique": "1a 5a Dm 2a (25) 1a 2a 2a 3a 3a 1a 6a 5a ",
+                "cotes": [
+                    "8.7",
+                    "7.2",
+                    "7.5"
+                ],
+                "gains": "857930",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "7": {
+                "nom_cheval": "IROISE DE LA NOE",
+                "sexe": "F",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "LAMY R.",
+                "nom_entraineur": "LEVESQUE T.",
+                "poid_du_cheval": 2700,
+                "musique": "1a Da 1a (25) 9a 2a 2a 7a 2a 2a 0a Da 1a ",
+                "cotes": [
+                    "11.0",
+                    "11.0",
+                    "12.0"
+                ],
+                "gains": "658300",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "3": {
+                "nom_cheval": "COBRA KILLER GAR",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "GELORMINI G.",
+                "nom_entraineur": "BONDO H.E.",
+                "poid_du_cheval": 2700,
+                "musique": "3a Da 1a (25) 2a 1a 1a 1a 1a 1a 1a 2a (24) 2a ",
+                "cotes": [
+                    "18.0",
+                    "15.0",
+                    "15.0"
+                ],
+                "gains": "543391",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "12": {
+                "nom_cheval": "HOOKER BERRY",
+                "sexe": "M",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "LHERETE A.",
+                "nom_entraineur": "LHERETE A.",
+                "poid_du_cheval": 2700,
+                "musique": "5a 9a 6a (25) 0a Da 5a 7a Da 0a 0a 0a 3a ",
+                "cotes": [
+                    "25.0",
+                    "31.0",
+                    "39.0"
+                ],
+                "gains": "1849003",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "5": {
+                "nom_cheval": "HULYSSE DIGEO",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "HALLAIS J. W.",
+                "nom_entraineur": "HALLAIS J.W.",
+                "poid_du_cheval": 2700,
+                "musique": "4a 5a 3a 9a (25) 4a 0a 3a 0a 1a 5a 5a 1a ",
+                "cotes": [
+                    "16.0",
+                    "19.0",
+                    "22.0"
+                ],
+                "gains": "595190",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "13": {
+                "nom_cheval": "IDAO DE TILLARD",
+                "sexe": "M",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "DUVALDESTIN C.",
+                "nom_entraineur": "DUVALDESTIN TH.",
+                "poid_du_cheval": 2700,
+                "musique": "7a (25) 4a 3a 6a 1a (24) 1a 8a 4a 3a 1a 2a 6a ",
+                "cotes": [
+                    "8.7",
+                    "7.8",
+                    "9.0"
+                ],
+                "gains": "2947568",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            }
+        },
+        "date": "04/04/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 96000,
+        "distance": 1400,
+        "prix": "SUPER HANDICAP DE REOUVERTURE",
+        "lieu": "Paris-Longchamp",
+        "heure_depart": "15:15:00",
+        "details": "PLAT, 1400 metres , Corde a DROITE 96.000- HANDICAP DIVISE Pour chevaux entiers, hongres et juments de 4 ans et au-dessus",
+        "partants": 19,
+        "non_partants": 1,
+        "arrivee": [
+            3,
+            1,
+            7,
+            5,
+            12,
+            20,
+            11
+        ],
+        "r/c": "R1/C3",
+        "arrivee_details": {
+            "3": {
+                "nom_cheval": "LANZELOT GOLD",
+                "sexe": "M",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "DEMURO C.",
+                "nom_entraineur": "MOSSE (S) G.",
+                "poid_du_cheval": 595,
+                "musique": "3p 5p (25) 17p 6p 6p 2p 1p 4p 3p 1p (24) 10p 9p ",
+                "cotes": [
+                    "11.0",
+                    "9.3",
+                    "11.0"
+                ],
+                "gains": "137670",
+                "corde": "9",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "1": {
+                "nom_cheval": "MISE EN BOITE",
+                "sexe": "M",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "CRASTUS A.",
+                "nom_entraineur": "BLANCHET (S) X.",
+                "poid_du_cheval": 605,
+                "musique": "2p 1p (25) 12p 8p 5p 6p 1p 9p 1p 5p (24) 4p ",
+                "cotes": [
+                    "15.0",
+                    "12.0",
+                    "14.0"
+                ],
+                "gains": "62992",
+                "corde": "6",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "7": {
+                "nom_cheval": "TEN HORNS",
+                "sexe": "M",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "BESNIER H.",
+                "nom_entraineur": "COTTIER P.",
+                "poid_du_cheval": 580,
+                "musique": "2p 2p 4p (25) 2p 2p 3p 4p 6p 5p 5p 1p 5p ",
+                "cotes": [
+                    "20.0",
+                    "18.0",
+                    "20.0"
+                ],
+                "gains": "188372",
+                "corde": "17",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "5": {
+                "nom_cheval": "PURPLE LION",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "BOUTIN HUG.",
+                "nom_entraineur": "GRAFFARD (S) FH.",
+                "poid_du_cheval": 590,
+                "musique": "1p (25) 1p 3p 1p 1p 2p 8p 9p 7p 8p (24) 3p 1p ",
+                "cotes": [
+                    "4.7",
+                    "5.1",
+                    "4.4"
+                ],
+                "gains": "91754",
+                "corde": "3",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "12": {
+                "nom_cheval": "MARCUS AURELIUS",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "PICCONE T.",
+                "nom_entraineur": "PANTALL (S) HA.",
+                "poid_du_cheval": 575,
+                "musique": "1p (25) 4p 5p 2p 7p 7p 6p 7p 1p (24) 4p 1p 3p ",
+                "cotes": [
+                    "19.0",
+                    "19.0",
+                    "15.0"
+                ],
+                "gains": "45529",
+                "corde": "2",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "20": {
+                "nom_cheval": "HALF HALF",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "BOISSEAU L.",
+                "nom_entraineur": "SMAGA D.",
+                "poid_du_cheval": 540,
+                "musique": "2p 3p 12p (25) 7p 3p (24) 9p 8p 10p 5p 5p 6p 3p ",
+                "cotes": [
+                    "6.9",
+                    "6.9",
+                    "5.3"
+                ],
+                "gains": "129476",
+                "corde": "5",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "11": {
+                "nom_cheval": "JUSEARTH FAL",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "TROLLEY DE PREVAUX G.",
+                "nom_entraineur": "DONWORTH (S) TIM.",
+                "poid_du_cheval": 580,
+                "musique": "4p 2p (25) 5p 8p 2p 2p 4p 1p ",
+                "cotes": [
+                    "20.0",
+                    "22.0",
+                    "27.0"
+                ],
+                "gains": "25568",
+                "corde": "8",
+                "discipline": "Plat",
+                "distance": 1400
+            }
+        },
+        "date": "05/04/2026"
+    },
+    {
+        "type": "Steeple-Chase",
+        "montant": 98000,
+        "distance": 3800,
+        "prix": "PRIX DE LA ROCHELLE",
+        "lieu": "Compiegne",
+        "heure_depart": "15:15:00",
+        "details": "STEEPLE-CHASE, 3800 metres 98.000- HANDICAP DIVISE Pour tous chevaux de 5 ans et au-dessus , ayant couru depuis le 1er septembre 2024 inclus",
+        "partants": 15,
+        "non_partants": 1,
+        "arrivee": [
+            10,
+            2,
+            1,
+            6,
+            7,
+            13,
+            11
+        ],
+        "r/c": "R1/C3",
+        "arrivee_details": {
+            "10": {
+                "nom_cheval": "HAMANDIO",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "NABET K.",
+                "nom_entraineur": "GEORGE & A N.",
+                "poid_du_cheval": 665,
+                "musique": "(25) 8h 6h 1h 5h 1h 1h 1h 6h 10h 10h (24) 7h 5h ",
+                "cotes": [
+                    "27.0",
+                    "19.0",
+                    "9.8"
+                ],
+                "gains": "266872",
+                "corde": "",
+                "discipline": "Steeple-Chase",
+                "distance": 3800
+            },
+            "2": {
+                "nom_cheval": "JAGUAR DU BERLAIS",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "JOURNIAC THO.",
+                "nom_entraineur": "GRALL (S) E.",
+                "poid_du_cheval": 715,
+                "musique": "3s 1s (25) 4s 5h 3h 2h 1h 2h (23) 6h 4h Th (21) 2h ",
+                "cotes": [
+                    "5.7",
+                    "5.4",
+                    "4.9"
+                ],
+                "gains": "201650",
+                "corde": "",
+                "discipline": "Steeple-Chase",
+                "distance": 3800
+            },
+            "1": {
+                "nom_cheval": "CI PPO RA",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "LE CLERC B.",
+                "nom_entraineur": "BELLEMERE F.",
+                "poid_du_cheval": 720,
+                "musique": "1h (25) 6h Ah 7h 2s Ts 7h 2h 1s 12h 11h (24) 1h ",
+                "cotes": [
+                    "12.0",
+                    "12.0",
+                    "9.4"
+                ],
+                "gains": "221750",
+                "corde": "",
+                "discipline": "Steeple-Chase",
+                "distance": 3800
+            },
+            "6": {
+                "nom_cheval": "PRIAM DU MESNIL",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "REVELEY J.",
+                "nom_entraineur": "GEORGE & A N.",
+                "poid_du_cheval": 690,
+                "musique": "1s 1s (25) 5s 2s 4s 3h 1h 8h 9h Th ",
+                "cotes": [
+                    "4.8",
+                    "4.6",
+                    "4.9"
+                ],
+                "gains": "74590",
+                "corde": "",
+                "discipline": "Steeple-Chase",
+                "distance": 3800
+            },
+            "7": {
+                "nom_cheval": "LEGENDE ALLEN",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "BEAURAIN T.",
+                "nom_entraineur": "MERIENNE (S) H.",
+                "poid_du_cheval": 680,
+                "musique": "11h 5h (25) As 1s 2s 1s 1h 2h 6p 4p 7p ",
+                "cotes": [
+                    "14.0",
+                    "18.0",
+                    "27.0"
+                ],
+                "gains": "62310",
+                "corde": "",
+                "discipline": "Steeple-Chase",
+                "distance": 3800
+            },
+            "13": {
+                "nom_cheval": "FAN D'APPLE'S",
+                "sexe": "H",
+                "annee_de_naissance": "2015",
+                "nom_jockey": "ZULIANI A.",
+                "nom_entraineur": "QUINTON (S) P.",
+                "poid_du_cheval": 655,
+                "musique": "4s (25) Ts 9h 4s 3s 6s 8s 5s 3s 13h 1h 1h ",
+                "cotes": [
+                    "17.0",
+                    "18.0",
+                    "27.0"
+                ],
+                "gains": "349009",
+                "corde": "",
+                "discipline": "Steeple-Chase",
+                "distance": 3800
+            },
+            "11": {
+                "nom_cheval": "FLANKER",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "BAYLE F.",
+                "nom_entraineur": "CHAILLE-CHAILLE & PAMART (S)",
+                "poid_du_cheval": 660,
+                "musique": "3h (25) As 14s 11h (24) Ts 3s 1h (23) 1s 2s 5s 5s 2s ",
+                "cotes": [
+                    "18.0",
+                    "21.0",
+                    "26.0"
+                ],
+                "gains": "215965",
+                "corde": "",
+                "discipline": "Steeple-Chase",
+                "distance": 3800
+            }
+        },
+        "date": "06/04/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 1900,
+        "prix": "PRIX DE L'OPERATION OVERLORD",
+        "lieu": "Deauville",
+        "heure_depart": "13:55:00",
+        "details": "PLAT, 1900 metres , PSF , Corde a DROITE 50.900- HANDICAP DIVISE Pour chevaux entiers, hongres et juments de 4 ans et au-dessus",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            8,
+            2,
+            6,
+            12,
+            7,
+            16,
+            10
+        ],
+        "r/c": "R1/C1",
+        "arrivee_details": {
+            "8": {
+                "nom_cheval": "ZELZARI",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "GRANDIN MAR.",
+                "nom_entraineur": "MELE (S) D.",
+                "poid_du_cheval": 570,
+                "musique": "4p 4p 1p 2p (25) 1p 3p 1p 8p 5p 2p (24) 2p 2p ",
+                "cotes": [
+                    "10.0",
+                    "9.9",
+                    "9.2"
+                ],
+                "gains": "69080",
+                "corde": "12",
+                "discipline": "Plat",
+                "distance": 1900
+            },
+            "2": {
+                "nom_cheval": "QUIET KING",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "BACHELOT T.",
+                "nom_entraineur": "WATTEL (S) S.",
+                "poid_du_cheval": 605,
+                "musique": "2p (25) 3p 1p 1p 9p 2p 3p 2p 2p (24) 5p ",
+                "cotes": [
+                    "5.1",
+                    "4.9",
+                    "4.0"
+                ],
+                "gains": "67937",
+                "corde": "7",
+                "discipline": "Plat",
+                "distance": 1900
+            },
+            "6": {
+                "nom_cheval": "WATCH HIM",
+                "sexe": "M",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "BARZALONA M.",
+                "nom_entraineur": "REYNIER (S) J.",
+                "poid_du_cheval": 585,
+                "musique": "2p 4p 7p (25) 5p 13p 8p 4p 8p 3p (24) 10p 2p 3p ",
+                "cotes": [
+                    "12.0",
+                    "13.0",
+                    "15.0"
+                ],
+                "gains": "241603",
+                "corde": "10",
+                "discipline": "Plat",
+                "distance": 1900
+            },
+            "12": {
+                "nom_cheval": "CICCIO BOY",
+                "sexe": "M",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "JUSTUM M.",
+                "nom_entraineur": "JUSTUM M.",
+                "poid_du_cheval": 565,
+                "musique": "1p 3p 4p 11p 9p (25) 10p 7p 8p 5p 7p 8p (24) 11p ",
+                "cotes": [
+                    "32.0",
+                    "44.0",
+                    "67.0"
+                ],
+                "gains": "296461",
+                "corde": "16",
+                "discipline": "Plat",
+                "distance": 1900
+            },
+            "7": {
+                "nom_cheval": "STORMY DONALD",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "PICCONE T.",
+                "nom_entraineur": "CHAPPET (S) F.",
+                "poid_du_cheval": 575,
+                "musique": "10p 1p (25) 7p 5p 5p 3p 7p 5p 1p (24) 1p 6p ",
+                "cotes": [
+                    "19.0",
+                    "17.0",
+                    "24.0"
+                ],
+                "gains": "50254",
+                "corde": "9",
+                "discipline": "Plat",
+                "distance": 1900
+            },
+            "16": {
+                "nom_cheval": "STAR ROCK",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "LECOEUVRE C.",
+                "nom_entraineur": "LUKA V.",
+                "poid_du_cheval": 555,
+                "musique": "12p (25) 9p 2p 5p 1p 2p 9p 15p 12p (24) 1p 3p 5p ",
+                "cotes": [
+                    "22.0",
+                    "21.0",
+                    "30.0"
+                ],
+                "gains": "120893",
+                "corde": "6",
+                "discipline": "Plat",
+                "distance": 1900
+            },
+            "10": {
+                "nom_cheval": "RAKHIM",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "DEMURO C.",
+                "nom_entraineur": "REYNIER (S) J.",
+                "poid_du_cheval": 570,
+                "musique": "8p 1p 4p (25) 7p 5p 4p 3p 1p 3p ",
+                "cotes": [
+                    "28.0",
+                    "32.0",
+                    "30.0"
+                ],
+                "gains": "33988",
+                "corde": "13",
+                "discipline": "Plat",
+                "distance": 1900
+            }
+        },
+        "date": "07/04/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 90000,
+        "distance": 2825,
+        "prix": "GRAND NATIONAL DU TROT",
+        "lieu": "Lyon Parilly",
+        "heure_depart": "13:55:00",
+        "details": "Pour 5 à 10 ans inclus, les 5, 6 et 7 ans ayant gagné au moins 34.000, les 8 ans au moins 68.000, les 9 et 10 ans au moins 130.000",
+        "partants": 15,
+        "non_partants": 1,
+        "arrivee": [
+            4,
+            14,
+            3,
+            9,
+            16,
+            13,
+            "2/5"
+        ],
+        "r/c": "R1/C1",
+        "arrivee_details": {
+            "4": {
+                "nom_cheval": "JOTUNN DU DOME",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "DAUGEARD PH.",
+                "nom_entraineur": "DAUGEARD PH.",
+                "poid_du_cheval": 2825,
+                "musique": "4a 1a (25) 3a 1a Da 2a 1a 1a 1a 4a 4a 2a ",
+                "cotes": [
+                    "99",
+                    "7.2",
+                    "6.8"
+                ],
+                "gains": "276510",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2825
+            },
+            "14": {
+                "nom_cheval": "ISTER MAN",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "CUOQ J.",
+                "nom_entraineur": "CUOQ J.",
+                "poid_du_cheval": 2850,
+                "musique": "1a 1a (25) 1a 8a 7a 2a 3a 1a 2a 7m 2a 4a ",
+                "cotes": [
+                    "99",
+                    "3.8",
+                    "4.3"
+                ],
+                "gains": "458480",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2825
+            },
+            "3": {
+                "nom_cheval": "JAPPELOUP TURGOT",
+                "sexe": "M",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "ABRIVARD M.",
+                "nom_entraineur": "ABRIVARD M.",
+                "poid_du_cheval": 2825,
+                "musique": "9a 8a (25) Da 9a 4a 5a 4a 5a 2a 1a 4a 4a ",
+                "cotes": [
+                    "99",
+                    "9.3",
+                    "4.5"
+                ],
+                "gains": "273815",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2825
+            },
+            "9": {
+                "nom_cheval": "IMPERIAL DURABUTIN",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "OUVRIE F.",
+                "nom_entraineur": "DELLIAUX J.R.",
+                "poid_du_cheval": 2825,
+                "musique": "2a 0a (25) 1a 0a 4a 2a Da 1a 8a 1a 2a 1a ",
+                "cotes": [
+                    "99",
+                    "10.0",
+                    "13.0"
+                ],
+                "gains": "284645",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2825
+            },
+            "16": {
+                "nom_cheval": "HARMONY DU RABUTIN",
+                "sexe": "F",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "BEKAERT D.",
+                "nom_entraineur": "HUGUET G.R.",
+                "poid_du_cheval": 2875,
+                "musique": "2a Da 6a (25) 4a 4a 6a 1a 3a 2a 1a 1a 2a ",
+                "cotes": [
+                    "99",
+                    "45.0",
+                    "64.0"
+                ],
+                "gains": "565400",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2825
+            },
+            "13": {
+                "nom_cheval": "HEDIC GEMA",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "GENDROT A.",
+                "nom_entraineur": "SASSIER M.",
+                "poid_du_cheval": 2850,
+                "musique": "1a (25) 7a 0a 4a 0a 5a (24) 3a 0a 2a 2a 3a 2a ",
+                "cotes": [
+                    "99",
+                    "14.0",
+                    "13.0"
+                ],
+                "gains": "448160",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2825
+            },
+            "2": {
+                "nom_cheval": "IRIS FROM",
+                "sexe": "F",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "HERIVAUX C.",
+                "nom_entraineur": "BIGEON W.",
+                "poid_du_cheval": 2825,
+                "musique": "5a 3a (25) 2a 1a 4a 1a 5a 7a 4a 6a 0a Da ",
+                "cotes": [
+                    "99",
+                    "17.0",
+                    "24.0"
+                ],
+                "gains": "273060",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2825
+            },
+            "5": {
+                "nom_cheval": "JOUR DE FETE",
+                "sexe": "M",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "BAZIRE N.",
+                "nom_entraineur": "BAZIRE N.",
+                "poid_du_cheval": 2825,
+                "musique": "6m 3m 1m (25) Dm 9a 9a 1a 2m 3a 9a 5a 2a ",
+                "cotes": [
+                    "99",
+                    "16.0",
+                    "17.0"
+                ],
+                "gains": "278555",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2825
+            }
+        },
+        "date": "08/04/2026"
+    },
+    {
+        "type": "Haies",
+        "montant": 61000,
+        "distance": 3900,
+        "prix": "PRIX OISELEUR",
+        "lieu": "Auteuil",
+        "heure_depart": "13:55:00",
+        "details": "HAIES, 3900 metres 61.000- HANDICAP DE CATEGORIE Pour tous chevaux de 5 ans",
+        "partants": 18,
+        "non_partants": 0,
+        "arrivee": [
+            2,
+            14,
+            1,
+            3,
+            15,
+            13,
+            4
+        ],
+        "r/c": "R1/C1",
+        "arrivee_details": {
+            "2": {
+                "nom_cheval": "CHOUCHOU D'ANJOU",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "COUPU A.",
+                "nom_entraineur": "LECOIFFIER E.",
+                "poid_du_cheval": 715,
+                "musique": "12h 3s (25) 5s 1h 3h Ts 3s 4h 10h 5p ",
+                "cotes": [
+                    "30.0",
+                    "23.0",
+                    "23.0"
+                ],
+                "gains": "45210",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3900
+            },
+            "14": {
+                "nom_cheval": "LOUP BLOND",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "CHEVILLARD T.",
+                "nom_entraineur": "D' ANDIGNE E.",
+                "poid_du_cheval": 685,
+                "musique": "6h 4h 5h (25) 8h (24) 1h ",
+                "cotes": [
+                    "14.0",
+                    "15.0",
+                    "15.0"
+                ],
+                "gains": "14970",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3900
+            },
+            "1": {
+                "nom_cheval": "LASCAR D'AIRY",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "FERREIRA N.",
+                "nom_entraineur": "MERIENNE (S) H.",
+                "poid_du_cheval": 720,
+                "musique": "(25) 7h Ah 3h 1p 7p 2p ",
+                "cotes": [
+                    "30.0",
+                    "57.0",
+                    "57.0"
+                ],
+                "gains": "7395",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3900
+            },
+            "3": {
+                "nom_cheval": "LA VALETTE",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "MEUNIER GAB.",
+                "nom_entraineur": "MERIENNE (S) H.",
+                "poid_du_cheval": 715,
+                "musique": "3h 4h (25) As 4s 2s 5s 2s 4h 8h 3h 2h (24) 5p ",
+                "cotes": [
+                    "6.7",
+                    "8.6",
+                    "8.6"
+                ],
+                "gains": "40475",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3900
+            },
+            "15": {
+                "nom_cheval": "LIEN DU CHOEUR",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "ZULIANI L.",
+                "nom_entraineur": "PELTIER (S) P&C.",
+                "poid_du_cheval": 680,
+                "musique": "(25) 4h 5h 5h 2h (24) 1p ",
+                "cotes": [
+                    "10.0",
+                    "6.4",
+                    "6.4"
+                ],
+                "gains": "12540",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3900
+            },
+            "13": {
+                "nom_cheval": "CARGO DE NUIT",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "CHARRON J.",
+                "nom_entraineur": "FOUIN Y.",
+                "poid_du_cheval": 685,
+                "musique": "4h 12s 2s (25) As 9h As Ah 5s 4h 8h 2h 7h ",
+                "cotes": [
+                    "10.0",
+                    "10.0",
+                    "10.0"
+                ],
+                "gains": "78150",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3900
+            },
+            "4": {
+                "nom_cheval": "LE ROI LOTH",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "BRECHET LÉO P.",
+                "nom_entraineur": "FOUIN Y.",
+                "poid_du_cheval": 710,
+                "musique": "10h Ah (25) 5h 9s Ah 1h 4h Ah 3h 9h 7h Ah ",
+                "cotes": [
+                    "28.0",
+                    "20.0",
+                    "20.0"
+                ],
+                "gains": "65590",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3900
+            }
+        },
+        "date": "09/04/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 60000,
+        "distance": 2850,
+        "prix": "PRIX ARIEL",
+        "lieu": "Vincennes",
+        "heure_depart": "20:15:00",
+        "details": "Pour 5 ans, n'ayant pas gagné 140.000",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            15,
+            6,
+            14,
+            7,
+            10,
+            11,
+            16
+        ],
+        "r/c": "R1/C8",
+        "arrivee_details": {
+            "15": {
+                "nom_cheval": "LOBBING DE BLARY",
+                "sexe": "M",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "LAMY R.",
+                "nom_entraineur": "LEVESQUE T.",
+                "poid_du_cheval": 2850,
+                "musique": "7a 5a 2a 5a (25) Da 4a 2a 2a 1a 2a 4a 5a ",
+                "cotes": [
+                    "13.0",
+                    "12.0",
+                    "10.0"
+                ],
+                "gains": "132060",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "6": {
+                "nom_cheval": "LOTUS GRIFF",
+                "sexe": "M",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "ABRIVARD A.",
+                "nom_entraineur": "ABRIVARD L.CL.",
+                "poid_du_cheval": 2850,
+                "musique": "4a 4a Da Da 5a (25) Da 3a Da 1a Da 5a 3a ",
+                "cotes": [
+                    "20.0",
+                    "21.0",
+                    "16.0"
+                ],
+                "gains": "107525",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "14": {
+                "nom_cheval": "FIGHTER KRONOS",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "RAFFIN E.",
+                "nom_entraineur": "BONDO H.E.",
+                "poid_du_cheval": 2850,
+                "musique": "3a Da Da 7a 0a 1a 4a (25) 7a 7a 6a 3a 6a ",
+                "cotes": [
+                    "6.0",
+                    "5.3",
+                    "5.0"
+                ],
+                "gains": "129052",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "7": {
+                "nom_cheval": "LEADER D'AIMTE",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "LAGADEUC F.",
+                "nom_entraineur": "MARY C.A.",
+                "poid_du_cheval": 2850,
+                "musique": "Da 9a 4a (25) 5a 2a 4a 2a Da Da (24) 3a 3a 4a ",
+                "cotes": [
+                    "48.0",
+                    "52.0",
+                    "60.0"
+                ],
+                "gains": "109420",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "10": {
+                "nom_cheval": "LORD TURGOT",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "ABRIVARD M.",
+                "nom_entraineur": "ABRIVARD M.",
+                "poid_du_cheval": 2850,
+                "musique": "Da 2a 1a (25) 2a 2a 8a Da 5a Da 2a 1a 4a ",
+                "cotes": [
+                    "2.9",
+                    "3.1",
+                    "3.2"
+                ],
+                "gains": "116850",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "11": {
+                "nom_cheval": "FIRST TIME ROC",
+                "sexe": "M",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "GELORMINI G.",
+                "nom_entraineur": "ROCCA F.",
+                "poid_du_cheval": 2850,
+                "musique": "0a 3a Da 4a (25) 0a 9a Da 0a 3a 5a 4a 4a ",
+                "cotes": [
+                    "19.0",
+                    "18.0",
+                    "20.0"
+                ],
+                "gains": "118234",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "16": {
+                "nom_cheval": "GREAT PRIDE",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "NIVARD F.",
+                "nom_entraineur": "DRAGT H.",
+                "poid_du_cheval": 2850,
+                "musique": "0a 4a (25) 7a 0a 0a 0a 7a 3a 7a 3a 2a 6a ",
+                "cotes": [
+                    "34.0",
+                    "39.0",
+                    "48.0"
+                ],
+                "gains": "138631",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            }
+        },
+        "date": "10/04/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 120000,
+        "distance": 2700,
+        "prix": "PRIX HENRI LEVESQUE",
+        "lieu": "Vincennes",
+        "heure_depart": "15:15:00",
+        "details": "Pour juments de 5 ans, ayant gagné au moins 45.000. Sont seules admises à driver les personnes ayant gagné au moins trente-cinq courses dont dix au trot attelé (en étant titulaire d'une autorisation de monter à titre professionnel).",
+        "partants": 15,
+        "non_partants": 0,
+        "arrivee": [
+            13,
+            9,
+            5,
+            10,
+            14,
+            7,
+            15
+        ],
+        "r/c": "R1/C4",
+        "arrivee_details": {
+            "13": {
+                "nom_cheval": "LUNELLA LEMAN",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "ROBIN B.",
+                "nom_entraineur": "ROBIN B.",
+                "poid_du_cheval": 2700,
+                "musique": "3a 1a (25) 1a 5a Da 1a 2a 3a 5a 4a 9a 0a ",
+                "cotes": [
+                    "13.0",
+                    "14.0",
+                    "17.0"
+                ],
+                "gains": "177715",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "9": {
+                "nom_cheval": "LALUNA DES FORGES",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "PLOQUIN PAU. PH.",
+                "nom_entraineur": "PLOQUIN P.",
+                "poid_du_cheval": 2700,
+                "musique": "9a 1a 1a (25) 6a 1a 2a 3a 4a 3a 5a 7a 3a ",
+                "cotes": [
+                    "10.0",
+                    "10.0",
+                    "12.0"
+                ],
+                "gains": "151470",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "5": {
+                "nom_cheval": "LAROZE DU GERS",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "ABRIVARD M.",
+                "nom_entraineur": "ABRIVARD M.",
+                "poid_du_cheval": 2700,
+                "musique": "2a Da (25) 1a Da 1a Da 0a 1a Da 1a 1a Da ",
+                "cotes": [
+                    "13.0",
+                    "12.0",
+                    "14.0"
+                ],
+                "gains": "105055",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "10": {
+                "nom_cheval": "LUMINOSITY",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "RAFFIN E.",
+                "nom_entraineur": "ENT. DUBOIS S.E.",
+                "poid_du_cheval": 2700,
+                "musique": "5a 7a 4a 8a (25) 9a 5a 3a 2a 3a Da 6a 0a ",
+                "cotes": [
+                    "17.0",
+                    "16.0",
+                    "18.0"
+                ],
+                "gains": "156935",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "14": {
+                "nom_cheval": "LIBERTE DE CHOISEL",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "BARRIER A.",
+                "nom_entraineur": "DUPONT S.G.",
+                "poid_du_cheval": 2700,
+                "musique": "2a 1a 6a (25) 1a 6a 5a 1a 1a 1a 1a 1a (24) 1a ",
+                "cotes": [
+                    "3.1",
+                    "3.2",
+                    "2.2"
+                ],
+                "gains": "387210",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "7": {
+                "nom_cheval": "LILY DE L'AUNAY",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "DAVID L. M.",
+                "nom_entraineur": "DAVID L.M.",
+                "poid_du_cheval": 2700,
+                "musique": "1a 8a Da 1a 2a (25) 6a Da Da 6a 2a 0a Da ",
+                "cotes": [
+                    "19.0",
+                    "20.0",
+                    "25.0"
+                ],
+                "gains": "120895",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "15": {
+                "nom_cheval": "LIZA JOSSELYN",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "BAZIRE J. M.",
+                "nom_entraineur": "BAZIRE N.",
+                "poid_du_cheval": 2700,
+                "musique": "7a 5a 3a 1a (25) 1a 2a 1a 0a 1a 1a 1a Da ",
+                "cotes": [
+                    "3.8",
+                    "3.1",
+                    "3.4"
+                ],
+                "gains": "770300",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            }
+        },
+        "date": "11/04/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 2400,
+        "prix": "PRIX DU PAVILLON ROYAL",
+        "lieu": "Paris-Longchamp",
+        "heure_depart": "15:15:00",
+        "details": "PLAT, 2400 metres , Corde a DROITE 50.900- HANDICAP DIVISE Pour chevaux entiers, hongres et juments de 4 ans et au-dessus",
+        "partants": 15,
+        "non_partants": 1,
+        "arrivee": [
+            2,
+            10,
+            11,
+            16,
+            9,
+            1,
+            4
+        ],
+        "r/c": "R1/C3",
+        "arrivee_details": {
+            "2": {
+                "nom_cheval": "KARLA JET",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "THOMAS RON.",
+                "nom_entraineur": "LERNER (S) C&Y.",
+                "poid_du_cheval": 590,
+                "musique": "8p (25) 6p 1p 1p ",
+                "cotes": [
+                    "11.0",
+                    "9.7",
+                    "8.1"
+                ],
+                "gains": "22850",
+                "corde": "1",
+                "discipline": "Plat",
+                "distance": 2400
+            },
+            "10": {
+                "nom_cheval": "REMBRAND TO GO",
+                "sexe": "M",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "GRANDIN MAR.",
+                "nom_entraineur": "RULEC (S) M.",
+                "poid_du_cheval": 555,
+                "musique": "3p 5p 4p (25) 2p 1p 10p 4p 4p ",
+                "cotes": [
+                    "16.0",
+                    "14.0",
+                    "10.0"
+                ],
+                "gains": "31490",
+                "corde": "14",
+                "discipline": "Plat",
+                "distance": 2400
+            },
+            "11": {
+                "nom_cheval": "SHRIHARA",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "HARDOUIN E.",
+                "nom_entraineur": "FEY MLLE C.",
+                "poid_du_cheval": 555,
+                "musique": "5p (25) 1p 3p 1p 2p 4p 3p 7p 9p ",
+                "cotes": [
+                    "15.0",
+                    "15.0",
+                    "17.0"
+                ],
+                "gains": "28982",
+                "corde": "2",
+                "discipline": "Plat",
+                "distance": 2400
+            },
+            "16": {
+                "nom_cheval": "DEMPY",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "REMOUE PIE.",
+                "nom_entraineur": "BONILLA (S) D.",
+                "poid_du_cheval": 535,
+                "musique": "5p 7p 7p 3p (25) 14p 2p 13p Ah 3h 10h 5p 4h ",
+                "cotes": [
+                    "14.0",
+                    "15.0",
+                    "19.0"
+                ],
+                "gains": "79424",
+                "corde": "4",
+                "discipline": "Plat",
+                "distance": 2400
+            },
+            "9": {
+                "nom_cheval": "MOST GLAMOROUS",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "PASQUIER S.",
+                "nom_entraineur": "CLEMENT & HERMANS (S)",
+                "poid_du_cheval": 555,
+                "musique": "4p (25) 15p 1p 4p 5p 1p 2p 7p ",
+                "cotes": [
+                    "7.3",
+                    "6.8",
+                    "8.8"
+                ],
+                "gains": "35987",
+                "corde": "5",
+                "discipline": "Plat",
+                "distance": 2400
+            },
+            "1": {
+                "nom_cheval": "ZULU WARRIOR",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "POUCHIN A.",
+                "nom_entraineur": "FABRE MME A.",
+                "poid_du_cheval": 600,
+                "musique": "4p (25) 9p 1p 1p 13p 6p 8p 2p (24) 2p 3p 5p 3p ",
+                "cotes": [
+                    "14.0",
+                    "11.0",
+                    "9.9"
+                ],
+                "gains": "142560",
+                "corde": "13",
+                "discipline": "Plat",
+                "distance": 2400
+            },
+            "4": {
+                "nom_cheval": "GERARD TER BORCH",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "HAMELIN A.",
+                "nom_entraineur": "DELZANGLES M.",
+                "poid_du_cheval": 585,
+                "musique": "6p (25) 1p 3p 3p 2p 11p 2p 3p 4p 1p ",
+                "cotes": [
+                    "9.0",
+                    "8.8",
+                    "7.8"
+                ],
+                "gains": "72491",
+                "corde": "7",
+                "discipline": "Plat",
+                "distance": 2400
+            }
+        },
+        "date": "12/04/2026"
+    },
+    {
+        "type": "Haies",
+        "montant": 98000,
+        "distance": 3600,
+        "prix": "PRIX GASTON BRANERE",
+        "lieu": "Auteuil",
+        "heure_depart": "13:55:00",
+        "details": "HAIES, 3600 metres 98.000- HANDICAP DIVISE Pour tous poulains et pouliches de 4 ans , ayant couru, depuis le 1er janvier de l annee derniere inclus",
+        "partants": 15,
+        "non_partants": 1,
+        "arrivee": [
+            12,
+            1,
+            16,
+            2,
+            11,
+            7,
+            8
+        ],
+        "r/c": "R1/C1",
+        "arrivee_details": {
+            "12": {
+                "nom_cheval": "GABISON",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "DE GILES F.",
+                "nom_entraineur": "ROLLAND (S) M.",
+                "poid_du_cheval": 645,
+                "musique": "1h 2h (25) 6h 8h 7h Th ",
+                "cotes": [
+                    "9.1",
+                    "7.8",
+                    "9.8"
+                ],
+                "gains": "41185",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "1": {
+                "nom_cheval": "NO LIMITS STEVE",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "LE CLERC B.",
+                "nom_entraineur": "SEROR (S) M.",
+                "poid_du_cheval": 705,
+                "musique": "1h 4h 2h (25) 4s 3h 4h 2h ",
+                "cotes": [
+                    "6.9",
+                    "6.7",
+                    "4.6"
+                ],
+                "gains": "82230",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "16": {
+                "nom_cheval": "EMSILORD",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "MEUNIER GAB.",
+                "nom_entraineur": "MERIENNE (S) H.",
+                "poid_du_cheval": 630,
+                "musique": "5h 5h (25) 3h 2h 6h Ah 4h ",
+                "cotes": [
+                    "14.0",
+                    "13.0",
+                    "13.0"
+                ],
+                "gains": "24750",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "2": {
+                "nom_cheval": "MAHARAJA",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "LESTRADE B.",
+                "nom_entraineur": "SEROR (S) M.",
+                "poid_du_cheval": 700,
+                "musique": "7h (25) Ah 3h 4h 2h ",
+                "cotes": [
+                    "18.0",
+                    "14.0",
+                    "17.0"
+                ],
+                "gains": "32775",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "11": {
+                "nom_cheval": "FRENCH LOVER",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "CHARRON J.",
+                "nom_entraineur": "LAGENESTE & MACAIRE (S)",
+                "poid_du_cheval": 650,
+                "musique": "3h 5h (25) 2h 7h ",
+                "cotes": [
+                    "10.0",
+                    "10.0",
+                    "12.0"
+                ],
+                "gains": "17520",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "7": {
+                "nom_cheval": "SAINT GENY",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "DEFONTAINE Q.",
+                "nom_entraineur": "QUINTON (S) P.",
+                "poid_du_cheval": 670,
+                "musique": "2h 4h (25) As Ah 4h 2h 4h 1h ",
+                "cotes": [
+                    "7.8",
+                    "6.8",
+                    "5.8"
+                ],
+                "gains": "56790",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "8": {
+                "nom_cheval": "TROUBLEINPARADISE",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "FROST MLLE B.",
+                "nom_entraineur": "SEROR (S) M.",
+                "poid_du_cheval": 660,
+                "musique": "5h 1h (25) 3h 5h Th 1p ",
+                "cotes": [
+                    "12.0",
+                    "11.0",
+                    "14.0"
+                ],
+                "gains": "19155",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            }
+        },
+        "date": "13/04/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 1200,
+        "prix": "PRIX DE ROISSY",
+        "lieu": "Chantilly",
+        "heure_depart": "13:55:00",
+        "details": "PLAT, 1200 metres , Ligne DROITE 50.900- HANDICAP DIVISE Pour chevaux entiers, hongres et juments de 4 ans et au-dessus",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            16,
+            10,
+            1,
+            12,
+            11,
+            3,
+            13
+        ],
+        "r/c": "R1/C1",
+        "arrivee_details": {
+            "16": {
+                "nom_cheval": "ROYALWOOD",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "VALLE SKAR MLLE F.",
+                "nom_entraineur": "BARANDE BARBE MME C.",
+                "poid_du_cheval": 540,
+                "musique": "4p 10p 3p 9p (25) 10p 9p 6p 2p 7p 6p 5p 8p ",
+                "cotes": [
+                    "10.0",
+                    "11.0",
+                    "13.0"
+                ],
+                "gains": "136856",
+                "corde": "2",
+                "discipline": "Plat",
+                "distance": 1200
+            },
+            "10": {
+                "nom_cheval": "MISTER CHANG",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "JOURNIAC H.",
+                "nom_entraineur": "BARBEROT (S) Y.",
+                "poid_du_cheval": 580,
+                "musique": "4p 1p (25) 3p 2p 3p 11p 15p 11p 2p 11p 2p 6p ",
+                "cotes": [
+                    "19.0",
+                    "16.0",
+                    "18.0"
+                ],
+                "gains": "81557",
+                "corde": "16",
+                "discipline": "Plat",
+                "distance": 1200
+            },
+            "1": {
+                "nom_cheval": "PROFUMO DI IENA",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "DEMURO C.",
+                "nom_entraineur": "GUARNIERI M.",
+                "poid_du_cheval": 610,
+                "musique": "1p 2p 6p (25) 12p 5p 1p 1p 1p 7p (24) 11p ",
+                "cotes": [
+                    "6.9",
+                    "5.5",
+                    "3.9"
+                ],
+                "gains": "71434",
+                "corde": "7",
+                "discipline": "Plat",
+                "distance": 1200
+            },
+            "12": {
+                "nom_cheval": "GRAND SCOOP",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "POUCHIN A.",
+                "nom_entraineur": "MOSSE (S) G.",
+                "poid_du_cheval": 565,
+                "musique": "4p 6p 9p (25) 16p 8p 7p 4p 4p 4p 1p 7p (24) 7p ",
+                "cotes": [
+                    "8.2",
+                    "8.8",
+                    "10.0"
+                ],
+                "gains": "60990",
+                "corde": "9",
+                "discipline": "Plat",
+                "distance": 1200
+            },
+            "11": {
+                "nom_cheval": "BID FOR CHESTER",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "LECOEUVRE C.",
+                "nom_entraineur": "MONFORT (S) ED.",
+                "poid_du_cheval": 565,
+                "musique": "7p 10p (25) 9p 1p 4p 1p 7p 12p 3p 10p 13p 6p ",
+                "cotes": [
+                    "30.0",
+                    "31.0",
+                    "37.0"
+                ],
+                "gains": "91654",
+                "corde": "4",
+                "discipline": "Plat",
+                "distance": 1200
+            },
+            "3": {
+                "nom_cheval": "FOU FURIEUX",
+                "sexe": "M",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "MADAMET A.",
+                "nom_entraineur": "CAULLERY N.",
+                "poid_du_cheval": 600,
+                "musique": "9p 8p 1p 2p (25) 4p 1p 4p 4p 10p 8p 6p 14p ",
+                "cotes": [
+                    "23.0",
+                    "26.0",
+                    "33.0"
+                ],
+                "gains": "134270",
+                "corde": "6",
+                "discipline": "Plat",
+                "distance": 1200
+            },
+            "13": {
+                "nom_cheval": "REGALIEN",
+                "sexe": "M",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "SANTIAGO MLLE D.",
+                "nom_entraineur": "PLISSON (S) CH.",
+                "poid_du_cheval": 560,
+                "musique": "14p 12p 13p 1p 6p 5p 2p 1p (25) 2p 3p 4p 10p ",
+                "cotes": [
+                    "24.0",
+                    "28.0",
+                    "35.0"
+                ],
+                "gains": "256777",
+                "corde": "5",
+                "discipline": "Plat",
+                "distance": 1200
+            }
+        },
+        "date": "14/04/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 33000,
+        "distance": 2825,
+        "prix": "PRIX DE LA COMMUNE DE CORDEMAIS",
+        "lieu": "Cordemais",
+        "heure_depart": "13:55:00",
+        "details": "Pour 6 à 11 ans inclus, n'ayant pas gagné 264.000. - Recul de 25 m. à 141.000. Sont seules admises à driver les personnes ayant gagné au moins cinq courses (en étant titulaire d'une autorisation de monter à titre professionnel).",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            15,
+            9,
+            14,
+            3,
+            6,
+            16,
+            7
+        ],
+        "r/c": "R1/C4",
+        "arrivee_details": {
+            "15": {
+                "nom_cheval": "ILEO PIERJI",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "BARRIER A.",
+                "nom_entraineur": "MARY C.A.",
+                "poid_du_cheval": 2850,
+                "musique": "Dm Da (25) Da 2a 3a 1a Da 5m 8m 0a 4m 1m ",
+                "cotes": [
+                    "15.0",
+                    "15.0",
+                    "16.0"
+                ],
+                "gains": "257935",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2825
+            },
+            "9": {
+                "nom_cheval": "JOLYDOLE",
+                "sexe": "F",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "PLOQUIN PAU. PH.",
+                "nom_entraineur": "BERTR MME F.F.",
+                "poid_du_cheval": 2850,
+                "musique": "5a Da 9a (25) 1a Da 1a 2a 2a 3a 2a 1a 2a ",
+                "cotes": [
+                    "8.7",
+                    "7.9",
+                    "8.7"
+                ],
+                "gains": "195020",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2825
+            },
+            "14": {
+                "nom_cheval": "INDIEN DE FONTAINE",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "RAFFIN E.",
+                "nom_entraineur": "DANET P.",
+                "poid_du_cheval": 2850,
+                "musique": "6a Da (25) 1a 2a Da 2a 5a 1a 5a 8a 2a 1a ",
+                "cotes": [
+                    "5.1",
+                    "5.3",
+                    "4.2"
+                ],
+                "gains": "256920",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2825
+            },
+            "3": {
+                "nom_cheval": "JIM D'ALOUETTE",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "CHAVATTE A. A.",
+                "nom_entraineur": "CHAVATTE A.",
+                "poid_du_cheval": 2825,
+                "musique": "0a (25) 4a 2a 1a 1a 1a 9a 2a 3a 2a 1a (24) 0a ",
+                "cotes": [
+                    "6.0",
+                    "4.8",
+                    "5.7"
+                ],
+                "gains": "124595",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2825
+            },
+            "6": {
+                "nom_cheval": "ISIS DE SYVA",
+                "sexe": "F",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "COLLETTE A.",
+                "nom_entraineur": "MARMION S.",
+                "poid_du_cheval": 2825,
+                "musique": "7a 6a Da 3a 6a Da (25) 2a Da 0a 2a 8a Da ",
+                "cotes": [
+                    "17.0",
+                    "27.0",
+                    "35.0"
+                ],
+                "gains": "138455",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2825
+            },
+            "16": {
+                "nom_cheval": "GOLD D'ECROVILLE",
+                "sexe": "H",
+                "annee_de_naissance": "2016",
+                "nom_jockey": "LEGROS M.",
+                "nom_entraineur": "MARIE B.",
+                "poid_du_cheval": 2850,
+                "musique": "Da Da 4a 2a 5a 5a 6a (25) Da 8a 8a 0a 9a ",
+                "cotes": [
+                    "19.0",
+                    "20.0",
+                    "21.0"
+                ],
+                "gains": "260110",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2825
+            },
+            "7": {
+                "nom_cheval": "KAPUSHA MIP",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "MONTHULE HUG.",
+                "nom_entraineur": "GUARATO S.",
+                "poid_du_cheval": 2825,
+                "musique": "(25) 7a 7a 4a Da Da 1a 1a Da 1a 3a 3a 6a ",
+                "cotes": [
+                    "14.0",
+                    "13.0",
+                    "12.0"
+                ],
+                "gains": "139420",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2825
+            }
+        },
+        "date": "15/04/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 1600,
+        "prix": "PRIX DE LA FONTAINE CARPEAUX",
+        "lieu": "Paris-Longchamp",
+        "heure_depart": "13:55:00",
+        "details": "PLAT, 1600 metres , Corde a DROITE 50.900- HANDICAP DIVISE Pour chevaux entiers, hongres et juments de 4 ans et au-dessus",
+        "partants": 15,
+        "non_partants": 1,
+        "arrivee": [
+            10,
+            14,
+            8,
+            2,
+            13,
+            7,
+            6
+        ],
+        "r/c": "R1/C1",
+        "arrivee_details": {
+            "10": {
+                "nom_cheval": "FELIX AUX ORMES",
+                "sexe": "M",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "DEMURO C.",
+                "nom_entraineur": "BARBEROT (S) Y.",
+                "poid_du_cheval": 575,
+                "musique": "2p 8p 3p 2p (25) 5p 10p 3p 10p 7p 7p 6p 1p ",
+                "cotes": [
+                    "7.0",
+                    "7.0",
+                    "4.4"
+                ],
+                "gains": "88158",
+                "corde": "2",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "14": {
+                "nom_cheval": "ABIAT",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "HARDOUIN E.",
+                "nom_entraineur": "RULEC (S) M.",
+                "poid_du_cheval": 570,
+                "musique": "15p 1p 7p (25) 10p 5p 5p 1p 4p (24) 6p 2p 5p 2p ",
+                "cotes": [
+                    "15.0",
+                    "15.0",
+                    "17.0"
+                ],
+                "gains": "68521",
+                "corde": "4",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "8": {
+                "nom_cheval": "BIG LOG",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "HAMELIN A.",
+                "nom_entraineur": "PROD'HOMME (S) D&P.",
+                "poid_du_cheval": 580,
+                "musique": "1p 13p 5p (25) 2p 1p 3p 3p 2p 6p 7p 4p 9p ",
+                "cotes": [
+                    "17.0",
+                    "23.0",
+                    "22.0"
+                ],
+                "gains": "161184",
+                "corde": "1",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "2": {
+                "nom_cheval": "PUMALIN PARK",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "PASQUIER S.",
+                "nom_entraineur": "MOSSE (S) G.",
+                "poid_du_cheval": 595,
+                "musique": "4p 1p 9p (25) 1p 4p 6p 12p 13p 13p 14p 5p 9p ",
+                "cotes": [
+                    "16.0",
+                    "15.0",
+                    "17.0"
+                ],
+                "gains": "80398",
+                "corde": "12",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "13": {
+                "nom_cheval": "ZELMAN",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "MADAMET A.",
+                "nom_entraineur": "ALLARD (S) AS&D.",
+                "poid_du_cheval": 570,
+                "musique": "5p 5p 2p (25) 16p 5p 6p 5p 2p 5p 7p 3p 1p ",
+                "cotes": [
+                    "30.0",
+                    "30.0",
+                    "40.0"
+                ],
+                "gains": "116398",
+                "corde": "14",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "7": {
+                "nom_cheval": "WIT",
+                "sexe": "M",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "BARZALONA M.",
+                "nom_entraineur": "GRAFFARD (S) FH.",
+                "poid_du_cheval": 585,
+                "musique": "6p 1p (25) 2p 2p ",
+                "cotes": [
+                    "2.8",
+                    "2.7",
+                    "2.7"
+                ],
+                "gains": "19122",
+                "corde": "8",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "6": {
+                "nom_cheval": "EVERSTAR",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "GRANDIN MAR.",
+                "nom_entraineur": "GADBIN (S) L.",
+                "poid_du_cheval": 585,
+                "musique": "6p (25) 6p 2p 1p 15p 8p 1p 3p 6p 7p 4p 9p ",
+                "cotes": [
+                    "36.0",
+                    "47.0",
+                    "60.0"
+                ],
+                "gains": "128153",
+                "corde": "9",
+                "discipline": "Plat",
+                "distance": 1600
+            }
+        },
+        "date": "16/04/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 59000,
+        "distance": 2100,
+        "prix": "PRIX NEPTUNA",
+        "lieu": "Vincennes",
+        "heure_depart": "20:15:00",
+        "details": "Pour 6 à 11 ans inclus, n'ayant pas gagné 192.000.",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            4,
+            2,
+            11,
+            10,
+            1,
+            8,
+            15
+        ],
+        "r/c": "R1/C8",
+        "arrivee_details": {
+            "4": {
+                "nom_cheval": "JETIDA",
+                "sexe": "F",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "MOTTIER M.",
+                "nom_entraineur": "MOTTIER M.",
+                "poid_du_cheval": 2100,
+                "musique": "3a 7a 2a 6a 1a 0a 6a (25) 5a 8a 1a 6a 5a ",
+                "cotes": [
+                    "18.0",
+                    "20.0",
+                    "26.0"
+                ],
+                "gains": "189410",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2100
+            },
+            "2": {
+                "nom_cheval": "KANO",
+                "sexe": "M",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "RAFFIN E.",
+                "nom_entraineur": "MEGISSIER C.",
+                "poid_du_cheval": 2100,
+                "musique": "1a 4a (25) 0a Dm 4m 9a 9m 5m 1m 6a 0a (24) 1a ",
+                "cotes": [
+                    "4.7",
+                    "3.8",
+                    "3.0"
+                ],
+                "gains": "184940",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2100
+            },
+            "11": {
+                "nom_cheval": "KRYSTAL PIYA",
+                "sexe": "M",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "THOMAIN D.",
+                "nom_entraineur": "THOMAIN C.",
+                "poid_du_cheval": 2100,
+                "musique": "1a (25) 2a 1a 3a 3a 3a Da 2a 1a 2a 7a (24) 7a ",
+                "cotes": [
+                    "8.2",
+                    "7.3",
+                    "9.1"
+                ],
+                "gains": "183380",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2100
+            },
+            "10": {
+                "nom_cheval": "IRRESISTIBLE PAJ",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "LAGADEUC F.",
+                "nom_entraineur": "PLOQUIN P.",
+                "poid_du_cheval": 2100,
+                "musique": "3a (25) 8a 2a Da 1a 9a 2a 1a 4a 4a 3a 6a ",
+                "cotes": [
+                    "50.0",
+                    "70.0",
+                    "99.0"
+                ],
+                "gains": "181975",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2100
+            },
+            "1": {
+                "nom_cheval": "KENTUCKY IDEAL",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "HESLOUIN CHA.",
+                "nom_entraineur": "HESLOUIN C.",
+                "poid_du_cheval": 2100,
+                "musique": "6a Da Dm Dm 2a (25) 4m 4m 0a 1m 1m 2m 3m ",
+                "cotes": [
+                    "20.0",
+                    "23.0",
+                    "21.0"
+                ],
+                "gains": "186000",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2100
+            },
+            "8": {
+                "nom_cheval": "JOY JENILOU",
+                "sexe": "F",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "BARRIER A.",
+                "nom_entraineur": "ENT. THOREL S.G.",
+                "poid_du_cheval": 2100,
+                "musique": "4m 2a Da 8a 7a 1a (25) 4a 7a 1a 3a 7a 5a ",
+                "cotes": [
+                    "20.0",
+                    "27.0",
+                    "37.0"
+                ],
+                "gains": "183570",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2100
+            },
+            "15": {
+                "nom_cheval": "KIPHYLE DESBOIS",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "ROCHARD B.",
+                "nom_entraineur": "ROCHARD P.Y.",
+                "poid_du_cheval": 2100,
+                "musique": "7a 7a (25) 0a 7a 6a 4a 0a 2a 7a 2a 9a 2a ",
+                "cotes": [
+                    "19.0",
+                    "21.0",
+                    "27.0"
+                ],
+                "gains": "159405",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2100
+            }
+        },
+        "date": "17/04/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 200000,
+        "distance": 2150,
+        "prix": "PRIX DE L'ATLANTIQUE",
+        "lieu": "Enghien Soisy",
+        "heure_depart": "15:15:00",
+        "details": "Pour 4 à 11 ans inclus, hongres exclus, ayant gagné au moins 130.000",
+        "partants": 13,
+        "non_partants": 0,
+        "arrivee": [
+            3,
+            4,
+            11,
+            5,
+            10,
+            7,
             12
         ],
-        "details": "Pour 6 à 11 ans inclus, ayant gagné au moins 130.000. Sont seules admises à driver les personnes ayant gagné au moins trente-cinq courses dont dix au trot attelé (en étant titulaire d'une autorisation de monter à titre professionnel)."
+        "r/c": "R1/C4",
+        "arrivee_details": {
+            "3": {
+                "nom_cheval": "IDAO DE TILLARD",
+                "sexe": "M",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "DUVALDESTIN C.",
+                "nom_entraineur": "DUVALDESTIN TH.",
+                "poid_du_cheval": 2150,
+                "musique": "7a 7a (25) 4a 3a 6a 1a (24) 1a 8a 4a 3a 1a 2a ",
+                "cotes": [
+                    "7.3",
+                    "8.0",
+                    "6.6"
+                ],
+                "gains": "2948768",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "4": {
+                "nom_cheval": "GO ON BOY",
+                "sexe": "M",
+                "annee_de_naissance": "2016",
+                "nom_jockey": "DERIEUX R.",
+                "nom_entraineur": "DERIEUX R.",
+                "poid_du_cheval": 2150,
+                "musique": "3a 2a Da (25) 2a 1a 1a 2a 1a 2a 2a Da 1a ",
+                "cotes": [
+                    "9.3",
+                    "8.5",
+                    "8.4"
+                ],
+                "gains": "2787297",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "11": {
+                "nom_cheval": "KEEP GOING",
+                "sexe": "M",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "MOTTIER M.",
+                "nom_entraineur": "MOTTIER M.",
+                "poid_du_cheval": 2150,
+                "musique": "0a 0a (25) 6a 2a Da 0a 1a 1a 4a 4a 4a 0a ",
+                "cotes": [
+                    "23.0",
+                    "27.0",
+                    "31.0"
+                ],
+                "gains": "663860",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "5": {
+                "nom_cheval": "FRANK GIO",
+                "sexe": "M",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "ABRIVARD M.",
+                "nom_entraineur": "GUARATO S.",
+                "poid_du_cheval": 2150,
+                "musique": "6a 6a 4a 2a (25) 2a 4a 5a 4a 2a 1a Da 5a ",
+                "cotes": [
+                    "5.8",
+                    "5.6",
+                    "4.2"
+                ],
+                "gains": "979369",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "10": {
+                "nom_cheval": "HARMONY DU RABUTIN",
+                "sexe": "F",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "BEKAERT D.",
+                "nom_entraineur": "HUGUET G.R.",
+                "poid_du_cheval": 2150,
+                "musique": "5a 2a Da 6a (25) 4a 4a 6a 1a 3a 2a 1a 1a ",
+                "cotes": [
+                    "12.0",
+                    "13.0",
+                    "14.0"
+                ],
+                "gains": "569900",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "7": {
+                "nom_cheval": "HOOKER BERRY",
+                "sexe": "M",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "RAFFIN E.",
+                "nom_entraineur": "LHERETE A.",
+                "poid_du_cheval": 2150,
+                "musique": "5a 5a 9a 6a (25) 0a Da 5a 7a Da 0a 0a 0a ",
+                "cotes": [
+                    "15.0",
+                    "18.0",
+                    "23.0"
+                ],
+                "gains": "1855003",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "12": {
+                "nom_cheval": "IROISE DE LA NOE",
+                "sexe": "F",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "LEVESQUE TH.",
+                "nom_entraineur": "LEVESQUE T.",
+                "poid_du_cheval": 2150,
+                "musique": "3a 1a Da 1a (25) 9a 2a 2a 7a 2a 2a 0a Da ",
+                "cotes": [
+                    "4.2",
+                    "3.5",
+                    "3.7"
+                ],
+                "gains": "675100",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            }
+        },
+        "date": "18/04/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 19200,
+        "distance": 2400,
+        "prix": "PRIX DE MONFORT",
+        "lieu": "Toulouse",
+        "heure_depart": "16:10:00",
+        "details": "PLAT, 2400 metres , Corde a DROITE 19.200- HANDICAP Pour chevaux entiers, hongres et juments de 4 ans et au-dessus",
+        "partants": 13,
+        "non_partants": 1,
+        "arrivee": [
+            14,
+            5,
+            1,
+            4,
+            10,
+            8,
+            2
+        ],
+        "r/c": "R1/C1",
+        "arrivee_details": {
+            "14": {
+                "nom_cheval": "GOLDEN BLUSH",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "TRULLIER T.",
+                "nom_entraineur": "ESCUDER C.",
+                "poid_du_cheval": 535,
+                "musique": "3p 7p 10p 6p 3p 7p (25) 5p 5p 3p 1p 7p 5p ",
+                "cotes": [
+                    "12.0",
+                    "10.0",
+                    "14.0"
+                ],
+                "gains": "27084",
+                "corde": "3",
+                "discipline": "Plat",
+                "distance": 2400
+            },
+            "5": {
+                "nom_cheval": "XILOFONO",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "MENDIZABAL I.",
+                "nom_entraineur": "ARIZKORRETA ELOSEGUI G.",
+                "poid_du_cheval": 585,
+                "musique": "16p 12p (25) 13p 1p 7p 2p 6p 6p 3p 1p (24) 2p 1p ",
+                "cotes": [
+                    "11.0",
+                    "11.0",
+                    "5.4"
+                ],
+                "gains": "70146",
+                "corde": "1",
+                "discipline": "Plat",
+                "distance": 2400
+            },
+            "1": {
+                "nom_cheval": "POCA GEN",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "MEROU MLLE A.",
+                "nom_entraineur": "HERISSON DE BEAUVOIR MME C.",
+                "poid_du_cheval": 605,
+                "musique": "5p 11p (25) 10p 16p 4p 4p 8p 2p 2p 1p 8p 9p ",
+                "cotes": [
+                    "13.0",
+                    "14.0",
+                    "14.0"
+                ],
+                "gains": "114409",
+                "corde": "6",
+                "discipline": "Plat",
+                "distance": 2400
+            },
+            "4": {
+                "nom_cheval": "SENORITO",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "SOUMILLON C.",
+                "nom_entraineur": "SOGORB P.",
+                "poid_du_cheval": 590,
+                "musique": "15p 5p 6p (25) 3p 12p 2p 2p (24) 1p 4p ",
+                "cotes": [
+                    "5.4",
+                    "6.3",
+                    "8.0"
+                ],
+                "gains": "31922",
+                "corde": "10",
+                "discipline": "Plat",
+                "distance": 2400
+            },
+            "10": {
+                "nom_cheval": "PIANO MAN",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "MOUESAN H.",
+                "nom_entraineur": "BAPTISTA RIBEIRO DE ABREU AJ.",
+                "poid_du_cheval": 560,
+                "musique": "14p (25) 3p 2p 1p 1p 12p 6p 15p 5p 2p (24) 6p 6p ",
+                "cotes": [
+                    "20.0",
+                    "18.0",
+                    "25.0"
+                ],
+                "gains": "87428",
+                "corde": "4",
+                "discipline": "Plat",
+                "distance": 2400
+            },
+            "8": {
+                "nom_cheval": "MAD WHIP",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "SEGUY V.",
+                "nom_entraineur": "BONIN (S) C.",
+                "poid_du_cheval": 565,
+                "musique": "1p 2p 8p (25) 3p 4p 5p 6p 1p 5p 9p 6p 1p ",
+                "cotes": [
+                    "11.0",
+                    "9.4",
+                    "7.8"
+                ],
+                "gains": "110175",
+                "corde": "5",
+                "discipline": "Plat",
+                "distance": 2400
+            },
+            "2": {
+                "nom_cheval": "LE CONQUERANT",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "DEMURO C.",
+                "nom_entraineur": "ROUGET (S) JC.",
+                "poid_du_cheval": 600,
+                "musique": "4p 1p (25) 2p 1p 4p 3p 3p 3p 8p ",
+                "cotes": [
+                    "5.1",
+                    "4.7",
+                    "5.4"
+                ],
+                "gains": "33667",
+                "corde": "13",
+                "discipline": "Plat",
+                "distance": 2400
+            }
+        },
+        "date": "19/04/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 2000,
+        "prix": "PRIX DE LA FORET DE FONTAINEBLEAU",
+        "lieu": "Fontainebleau",
+        "heure_depart": "13:55:00",
+        "details": "PLAT, 2000 metres , Corde a GAUCHE 50.900- HANDICAP DIVISE Pour chevaux entiers, hongres et juments de 4 ans et au-dessus",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            5,
+            10,
+            11,
+            14,
+            9,
+            13,
+            7
+        ],
+        "r/c": "R1/C1",
+        "arrivee_details": {
+            "5": {
+                "nom_cheval": "DALAKIR",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "BARZALONA M.",
+                "nom_entraineur": "GRAFFARD (S) FH.",
+                "poid_du_cheval": 570,
+                "musique": "4p (25) 7p 9p 2p 2p 3p 1p 4p (24) 9p ",
+                "cotes": [
+                    "4.6",
+                    "4.5",
+                    "4.1"
+                ],
+                "gains": "43776",
+                "corde": "3",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "10": {
+                "nom_cheval": "ROI DE L'AIR",
+                "sexe": "M",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "LEBOUC HUG.",
+                "nom_entraineur": "BOISNARD (S) J.",
+                "poid_du_cheval": 555,
+                "musique": "1p 6p (25) 3p 4p 1p 7p 8p 5p 5p 1p 1p 4p ",
+                "cotes": [
+                    "23.0",
+                    "20.0",
+                    "9.5"
+                ],
+                "gains": "98467",
+                "corde": "5",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "11": {
+                "nom_cheval": "ROCKY RUN",
+                "sexe": "M",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "ORANI ANT.",
+                "nom_entraineur": "PERRET (S) N.",
+                "poid_du_cheval": 550,
+                "musique": "13p 3p 10p (25) 1p 3p 2p 5p 8p ",
+                "cotes": [
+                    "14.0",
+                    "14.0",
+                    "18.0"
+                ],
+                "gains": "19256",
+                "corde": "16",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "14": {
+                "nom_cheval": "MIA JULIA",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "HARDOUIN E.",
+                "nom_entraineur": "SPEICHER T.",
+                "poid_du_cheval": 520,
+                "musique": "4p (25) 4p 1p 2p 1p 5p 4p 2p (24) 7p 5p 4p ",
+                "cotes": [
+                    "11.0",
+                    "11.0",
+                    "13.0"
+                ],
+                "gains": "39040",
+                "corde": "15",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "9": {
+                "nom_cheval": "CUNNING FOX",
+                "sexe": "M",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "LEMAITRE A.",
+                "nom_entraineur": "SAUER MME H.",
+                "poid_du_cheval": 560,
+                "musique": "6p 6p (25) 8p 1p 6p 4p 5p 2p (24) 4p 2p 5p 3p ",
+                "cotes": [
+                    "16.0",
+                    "14.0",
+                    "14.0"
+                ],
+                "gains": "35267",
+                "corde": "11",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "13": {
+                "nom_cheval": "MELBORA",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "DEMURO C.",
+                "nom_entraineur": "MIKHALIDES (S) E.",
+                "poid_du_cheval": 535,
+                "musique": "8p 14p 10p 4p 11p (25) 6p 3p 12p 6p 8p 1p 5p ",
+                "cotes": [
+                    "11.0",
+                    "12.0",
+                    "10.0"
+                ],
+                "gains": "126613",
+                "corde": "6",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "7": {
+                "nom_cheval": "DOURIANN",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "BOISSEAU L.",
+                "nom_entraineur": "PANNIER G.",
+                "poid_du_cheval": 560,
+                "musique": "8p (25) 11p 10p 4p 3p 3p 2p 1p 5p 2p 8p 4p ",
+                "cotes": [
+                    "22.0",
+                    "22.0",
+                    "26.0"
+                ],
+                "gains": "128369",
+                "corde": "1",
+                "discipline": "Plat",
+                "distance": 2000
+            }
+        },
+        "date": "20/04/2026"
+    },
+    {
+        "type": "Haies",
+        "montant": 98000,
+        "distance": 3800,
+        "prix": "PRIX LA BATE",
+        "lieu": "Compiegne",
+        "heure_depart": "13:55:00",
+        "details": "HAIES, 3800 metres 98.000- HANDICAP DE CATEGORIE Pour tous les chevaux de 5 ans et au-dessus, ayant couru depuis le 1er septembre 2024 inclus",
+        "partants": 17,
+        "non_partants": 1,
+        "arrivee": [
+            3,
+            15,
+            13,
+            7,
+            12,
+            1,
+            9
+        ],
+        "r/c": "R1/C1",
+        "arrivee_details": {
+            "3": {
+                "nom_cheval": "HAUT LES COEURS",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "PHILIPPERON L.",
+                "nom_entraineur": "DE LAGENESTE N.",
+                "poid_du_cheval": 720,
+                "musique": "1h (25) 5h Ah 1h 2h 2h 6s 9s 5h (24) 5s 4h 4h ",
+                "cotes": [
+                    "10.0",
+                    "9.7",
+                    "11.0"
+                ],
+                "gains": "258185",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3800
+            },
+            "15": {
+                "nom_cheval": "LE COEUR SAUVAGE",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "NABET K.",
+                "nom_entraineur": "JAFFRELOT-BEDON MME S.",
+                "poid_du_cheval": 670,
+                "musique": "2h (25) 1h 8h 5h 9h ",
+                "cotes": [
+                    "11.0",
+                    "11.0",
+                    "9.2"
+                ],
+                "gains": "24440",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3800
+            },
+            "13": {
+                "nom_cheval": "LADY ANGE WIN",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "LESTRADE B.",
+                "nom_entraineur": "SEROR (S) M.",
+                "poid_du_cheval": 675,
+                "musique": "1h 5h 2s 1h 6h 4h (25) Th 4s 3s 3h 5h 2h ",
+                "cotes": [
+                    "19.0",
+                    "19.0",
+                    "22.0"
+                ],
+                "gains": "77980",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3800
+            },
+            "7": {
+                "nom_cheval": "PRIAM DU MESNIL",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "REVELEY J.",
+                "nom_entraineur": "GEORGE & A N.",
+                "poid_du_cheval": 700,
+                "musique": "4s 1s 1s (25) 5s 2s 4s 3h 1h 8h 9h Th ",
+                "cotes": [
+                    "5.1",
+                    "4.5",
+                    "4.3"
+                ],
+                "gains": "83410",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3800
+            },
+            "12": {
+                "nom_cheval": "KESIUS DU GRANIT",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "CHEVILLARD T.",
+                "nom_entraineur": "GRALL (S) E.",
+                "poid_du_cheval": 680,
+                "musique": "3h 6h 3h 4h (25) 3h (24) 7h 6h 4h 5h 6h ",
+                "cotes": [
+                    "10.0",
+                    "13.0",
+                    "9.5"
+                ],
+                "gains": "33150",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3800
+            },
+            "1": {
+                "nom_cheval": "TATOO",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "LE CLERC B.",
+                "nom_entraineur": "BELLEMERE F.",
+                "poid_du_cheval": 720,
+                "musique": "5h 1h (25) Ah 10h 2h 4h Ah 1h 3h 9h (24) 2h 2h ",
+                "cotes": [
+                    "9.1",
+                    "8.9",
+                    "7.5"
+                ],
+                "gains": "121830",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3800
+            },
+            "9": {
+                "nom_cheval": "MOSSY WALSH",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "PHELIPPE JOE.",
+                "nom_entraineur": "SEROR (S) M.",
+                "poid_du_cheval": 690,
+                "musique": "4h 3h 4h (25) 4h 2h ",
+                "cotes": [
+                    "7.6",
+                    "6.4",
+                    "6.6"
+                ],
+                "gains": "32560",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3800
+            }
+        },
+        "date": "21/04/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 90000,
+        "distance": 2975,
+        "prix": "GRAND NATIONAL DU TROT",
+        "lieu": "Chateaubriant",
+        "heure_depart": "13:55:00",
+        "details": "Pour 5 à 10 ans inclus, les 5, 6 et 7 ans ayant gagné au moins 34.000, les 8 ans au moins 68.000, les 9 et 10 ans au moins 130.000",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            5,
+            9,
+            2,
+            12,
+            11,
+            7,
+            14
+        ],
+        "r/c": "R1/C1",
+        "arrivee_details": {
+            "5": {
+                "nom_cheval": "JOYCE DELTO",
+                "sexe": "F",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "THOMAS A.",
+                "nom_entraineur": "THOMAS A.",
+                "poid_du_cheval": 2975,
+                "musique": "5a 1a 3a (25) 7a 3a 3a 3a 5a 1a Da 1a 1a ",
+                "cotes": [
+                    "4.7",
+                    "4.6",
+                    "2.8"
+                ],
+                "gains": "245895",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2975
+            },
+            "9": {
+                "nom_cheval": "IALTO D'HERTALS",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "DUVALDESTIN C.",
+                "nom_entraineur": "DUVALDESTIN TH.",
+                "poid_du_cheval": 3000,
+                "musique": "2a 2a 2a 2a (25) 1a 3a 3a Da 5a 8a 1a 2a ",
+                "cotes": [
+                    "4.4",
+                    "4.1",
+                    "4.9"
+                ],
+                "gains": "436530",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2975
+            },
+            "2": {
+                "nom_cheval": "JENTIL DIESCHOOT",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "ABRIVARD A.",
+                "nom_entraineur": "LEBLANC K.",
+                "poid_du_cheval": 2975,
+                "musique": "7a 1a 4a 1a 2a (25) 4a 3a 0a 0a Da 1a 2a ",
+                "cotes": [
+                    "10.0",
+                    "10.0",
+                    "10.0"
+                ],
+                "gains": "243060",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2975
+            },
+            "12": {
+                "nom_cheval": "JINGLE DU PONT",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "BAZIRE N.",
+                "nom_entraineur": "BAZIRE N.",
+                "poid_du_cheval": 3000,
+                "musique": "3a 4a 7a 8a 2a (25) 1a 1a 0a 0a 9a 1a 2a ",
+                "cotes": [
+                    "6.4",
+                    "7.1",
+                    "9.7"
+                ],
+                "gains": "479430",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2975
+            },
+            "11": {
+                "nom_cheval": "HORATIUS D'ELA",
+                "sexe": "M",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "ROCHARD B.",
+                "nom_entraineur": "SASSIER M.",
+                "poid_du_cheval": 3000,
+                "musique": "0a 6a 2a 9a (25) 6a 7a 0a 1a Da 2a 6a 1a ",
+                "cotes": [
+                    "12.0",
+                    "11.0",
+                    "13.0"
+                ],
+                "gains": "459955",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2975
+            },
+            "7": {
+                "nom_cheval": "IMPERATOR D'ELA",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "BARRIER A.",
+                "nom_entraineur": "VARIN M.",
+                "poid_du_cheval": 3000,
+                "musique": "6a 4a 3a (25) 2a 3a 3a 0a Da Da 0a 0a Da ",
+                "cotes": [
+                    "15.0",
+                    "14.0",
+                    "18.0"
+                ],
+                "gains": "329775",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2975
+            },
+            "14": {
+                "nom_cheval": "HORCHESTRO",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "RAFFIN E.",
+                "nom_entraineur": "HUGUET G.R.",
+                "poid_du_cheval": 3025,
+                "musique": "0a 0a 2a (25) 2a 7a 4a Da 5a Da 2a 1a 1a ",
+                "cotes": [
+                    "30.0",
+                    "29.0",
+                    "42.0"
+                ],
+                "gains": "678560",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2975
+            }
+        },
+        "date": "22/04/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 3000,
+        "prix": "PRIX DU PANTHEON",
+        "lieu": "Paris-Longchamp",
+        "heure_depart": "13:55:00",
+        "details": "PLAT, 3000 metres , Corde a DROITE 50.900- HANDICAP DIVISE Pour tous chevaux de 4 ans et au-dessus",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            7,
+            3,
+            12,
+            5,
+            1,
+            6,
+            14
+        ],
+        "r/c": "R1/C1",
+        "arrivee_details": {
+            "7": {
+                "nom_cheval": "BLACK SAXON",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "MADAMET A.",
+                "nom_entraineur": "BELLANGER (S) N.",
+                "poid_du_cheval": 555,
+                "musique": "1p 2p 2p (25) 7p 2p 2p 10p 6p 2p 1p 2p 15p ",
+                "cotes": [
+                    "12.0",
+                    "10.0",
+                    "7.9"
+                ],
+                "gains": "58729",
+                "corde": "5",
+                "discipline": "Plat",
+                "distance": 3000
+            },
+            "3": {
+                "nom_cheval": "CHESS",
+                "sexe": "M",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "GUYON M.",
+                "nom_entraineur": "BRANDT (S) P&J.",
+                "poid_du_cheval": 595,
+                "musique": "2p 3p 1p (25) 13p 8p 14p 6p 16p 7p 2p (24) 1p 1p ",
+                "cotes": [
+                    "5.0",
+                    "4.5",
+                    "4.8"
+                ],
+                "gains": "96654",
+                "corde": "2",
+                "discipline": "Plat",
+                "distance": 3000
+            },
+            "12": {
+                "nom_cheval": "DEMPY",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "REMOUE PIE.",
+                "nom_entraineur": "BONILLA (S) D.",
+                "poid_du_cheval": 540,
+                "musique": "4p 5p 7p 7p 3p (25) 14p 2p 13p Ah 3h 10h 5p ",
+                "cotes": [
+                    "10.0",
+                    "11.0",
+                    "12.0"
+                ],
+                "gains": "84005",
+                "corde": "9",
+                "discipline": "Plat",
+                "distance": 3000
+            },
+            "5": {
+                "nom_cheval": "FERDINAND PREMIER",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "SOUMILLON C.",
+                "nom_entraineur": "BARBEROT (S) Y.",
+                "poid_du_cheval": 575,
+                "musique": "1p 1p Rp 4p (25) 3p 6p 9p 14p 2p 5p 1p 7p ",
+                "cotes": [
+                    "8.4",
+                    "9.2",
+                    "11.0"
+                ],
+                "gains": "52187",
+                "corde": "6",
+                "discipline": "Plat",
+                "distance": 3000
+            },
+            "1": {
+                "nom_cheval": "EPHESUS",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "DEMURO C.",
+                "nom_entraineur": "BRANDT (S) P&J.",
+                "poid_du_cheval": 615,
+                "musique": "2p (25) 1p 2p 6p 6p 4p 1p ",
+                "cotes": [
+                    "8.3",
+                    "7.2",
+                    "5.4"
+                ],
+                "gains": "38314",
+                "corde": "4",
+                "discipline": "Plat",
+                "distance": 3000
+            },
+            "6": {
+                "nom_cheval": "A BEAUREGARD",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "PROVOST D.",
+                "nom_entraineur": "CESANDRI (S) M.",
+                "poid_du_cheval": 570,
+                "musique": "10p 6p (25) 12p 1p 1p 5p 2p 3p 2p 2p 12p 9p ",
+                "cotes": [
+                    "40.0",
+                    "50.0",
+                    "27.0"
+                ],
+                "gains": "65635",
+                "corde": "11",
+                "discipline": "Plat",
+                "distance": 3000
+            },
+            "14": {
+                "nom_cheval": "SHEEMA'S ROSE",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "SANTIAGO MLLE D.",
+                "nom_entraineur": "NAKOUZI G.",
+                "poid_du_cheval": 530,
+                "musique": "6p 8p 2p 7p 14p (25) 11p 1p 11p 11p 14p 4p 8p ",
+                "cotes": [
+                    "12.0",
+                    "15.0",
+                    "17.0"
+                ],
+                "gains": "54379",
+                "corde": "1",
+                "discipline": "Plat",
+                "distance": 3000
+            }
+        },
+        "date": "23/04/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 53000,
+        "distance": 2700,
+        "prix": "PRIX CLAUDIA",
+        "lieu": "Vincennes",
+        "heure_depart": "20:15:00",
+        "details": "Pour 5 ans, n'ayant pas gagné 100.000.",
+        "partants": 15,
+        "non_partants": 0,
+        "arrivee": [
+            10,
+            12,
+            5,
+            7,
+            6,
+            14,
+            8
+        ],
+        "r/c": "R1/C8",
+        "arrivee_details": {
+            "10": {
+                "nom_cheval": "L'AMOUR SUPREME",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "DUVALDESTIN THÉO",
+                "nom_entraineur": "DUVALDESTIN TH.",
+                "poid_du_cheval": 2700,
+                "musique": "1a 0a (25) 0a 3a 8a 4a 1a 4a (24) Da 0a 7a 1a ",
+                "cotes": [
+                    "5.3",
+                    "5.1",
+                    "5.4"
+                ],
+                "gains": "96100",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "12": {
+                "nom_cheval": "L'ATOLL",
+                "sexe": "M",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "COLLETTE A.",
+                "nom_entraineur": "BOURLIER S.",
+                "poid_du_cheval": 2700,
+                "musique": "3a 4a 2a (25) 6a 6a 2a 1a 1a 3a 5a 7a (24) 1a ",
+                "cotes": [
+                    "11.0",
+                    "10.0",
+                    "10.0"
+                ],
+                "gains": "96560",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "5": {
+                "nom_cheval": "LE TOUQUET",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "DUVALDESTIN TH.",
+                "nom_entraineur": "DUVALDESTIN TH.",
+                "poid_du_cheval": 2700,
+                "musique": "3a 1a Da Da 0a (25) Da 1a 1a 1a Da 1a 1a ",
+                "cotes": [
+                    "9.2",
+                    "7.3",
+                    "7.8"
+                ],
+                "gains": "91345",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "7": {
+                "nom_cheval": "LE GENTLEMAN",
+                "sexe": "M",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "ROCHARD B.",
+                "nom_entraineur": "ENT. DUBOIS S.E.",
+                "poid_du_cheval": 2700,
+                "musique": "1a 9a (25) Da 2a 1a 1a 6a 8a (24) 1a 2a (23) 3a 4a ",
+                "cotes": [
+                    "4.8",
+                    "4.9",
+                    "3.5"
+                ],
+                "gains": "91935",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "6": {
+                "nom_cheval": "LAY UP",
+                "sexe": "M",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "RAFFIN E.",
+                "nom_entraineur": "RAFFESTIN J.",
+                "poid_du_cheval": 2700,
+                "musique": "2a 1a Da 0a (25) 5a 2a 6a 5a 8a 0a 0a Da ",
+                "cotes": [
+                    "10.0",
+                    "9.1",
+                    "9.9"
+                ],
+                "gains": "91605",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "14": {
+                "nom_cheval": "L'AMIRAL GAGNANT",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "BALU L.",
+                "nom_entraineur": "GUARATO S.",
+                "poid_du_cheval": 2700,
+                "musique": "6a (25) 9a Da 7a 3a 6a 2a 3a 0a 1a 1a 4a ",
+                "cotes": [
+                    "37.0",
+                    "48.0",
+                    "64.0"
+                ],
+                "gains": "98010",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "8": {
+                "nom_cheval": "LAMIE DU MESNIL",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "LAMY A.",
+                "nom_entraineur": "DOCQUIN Y.",
+                "poid_du_cheval": 2700,
+                "musique": "0a 6a 3a 1a (25) 8a Da 3a (24) 6a 4a 5a 0a 9a ",
+                "cotes": [
+                    "53.0",
+                    "53.0",
+                    "63.0"
+                ],
+                "gains": "92815",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            }
+        },
+        "date": "24/04/2026"
+    },
+    {
+        "type": "Haies",
+        "montant": 162000,
+        "distance": 4300,
+        "prix": "GRANDE COURSE DE HAIES DE PRINTEMPS (GROUPE III)",
+        "lieu": "Auteuil",
+        "heure_depart": "15:15:00",
+        "details": "HAIES, 4300 metres 162.000- HANDICAP Pour tous chevaux de 5 ans et au-dessus, ayant recu une allocation, en course de haies, depuis le 1er janvier de l annee derniere inclus",
+        "partants": 15,
+        "non_partants": 0,
+        "arrivee": [
+            9,
+            1,
+            13,
+            12,
+            2,
+            15,
+            11
+        ],
+        "r/c": "R1/C3",
+        "arrivee_details": {
+            "9": {
+                "nom_cheval": "LOQUAS",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "BRECHET LÉO P.",
+                "nom_entraineur": "FOUIN Y.",
+                "poid_du_cheval": 655,
+                "musique": "2h Ah 6h (25) 9h 7h 5h 1h 3h 9h (23) 1h 4h 1h ",
+                "cotes": [
+                    "12.0",
+                    "10.0",
+                    "11.0"
+                ],
+                "gains": "281020",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 4300
+            },
+            "1": {
+                "nom_cheval": "KYROV",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "NABET K.",
+                "nom_entraineur": "NICOLLE F.",
+                "poid_du_cheval": 720,
+                "musique": "2h 1s 2h Ts 5h (25) 3h 3h Th 1h 4h 2h 1h ",
+                "cotes": [
+                    "6.0",
+                    "6.3",
+                    "7.2"
+                ],
+                "gains": "622745",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 4300
+            },
+            "13": {
+                "nom_cheval": "JOUR POLAIRE",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "PHELIPPE JOE.",
+                "nom_entraineur": "SEROR (S) M.",
+                "poid_du_cheval": 630,
+                "musique": "1h 12h 13p 9h 6s (25) 7h 2h 4h (24) 1s 6h 6h 5h ",
+                "cotes": [
+                    "12.0",
+                    "12.0",
+                    "9.9"
+                ],
+                "gains": "176025",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 4300
+            },
+            "12": {
+                "nom_cheval": "NARUTO",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "CHEVILLARD T.",
+                "nom_entraineur": "VOVCENKO P.",
+                "poid_du_cheval": 630,
+                "musique": "(25) 10h 5h 1h 4h 5h 2h Ah (24) 1h 3s 4s 4h 2h ",
+                "cotes": [
+                    "51.0",
+                    "58.0",
+                    "51.0"
+                ],
+                "gains": "89770",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 4300
+            },
+            "2": {
+                "nom_cheval": "LE ROI DAVID",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "DE GILES F.",
+                "nom_entraineur": "SEROR (S) M.",
+                "poid_du_cheval": 720,
+                "musique": "4h 3s (25) 2h 1s Ah 1h 2p Ah As 6s 5s (24) 1s ",
+                "cotes": [
+                    "9.1",
+                    "7.8",
+                    "8.7"
+                ],
+                "gains": "488385",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 4300
+            },
+            "15": {
+                "nom_cheval": "JUMPER BAIE",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "FERREIRA N.",
+                "nom_entraineur": "SCHMIDLIN R.",
+                "poid_du_cheval": 620,
+                "musique": "3h 1h 3h (25) 8h 6h 9h 9h 13h Ah 3h 7h 7h ",
+                "cotes": [
+                    "15.0",
+                    "18.0",
+                    "19.0"
+                ],
+                "gains": "189545",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 4300
+            },
+            "11": {
+                "nom_cheval": "LOU FAST",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "BEAURAIN T.",
+                "nom_entraineur": "COLLET (S) ROB.",
+                "poid_du_cheval": 645,
+                "musique": "7h 9h Th 2s (25) 3h 4h 7h Ah 6h 2h 2h 4h ",
+                "cotes": [
+                    "19.0",
+                    "24.0",
+                    "23.0"
+                ],
+                "gains": "449820",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 4300
+            }
+        },
+        "date": "25/04/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 52800,
+        "distance": 1400,
+        "prix": "PRIX DE MARLY",
+        "lieu": "Paris-Longchamp",
+        "heure_depart": "15:15:00",
+        "details": "PLAT, 1400 metres , Corde a DROITE 52.800- HANDICAP DIVISE Pour poulains entiers, hongres et pouliches de 3 ans",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            6,
+            14,
+            3,
+            5,
+            11,
+            4,
+            1
+        ],
+        "r/c": "R1/C3",
+        "arrivee_details": {
+            "6": {
+                "nom_cheval": "TORNADO ALLEY",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "BOUTIN HUG.",
+                "nom_entraineur": "GRAFFARD (S) FH.",
+                "poid_du_cheval": 575,
+                "musique": "4p 1p 3p (25) 9p 7p ",
+                "cotes": [
+                    "9.2",
+                    "7.4",
+                    "6.1"
+                ],
+                "gains": "20758",
+                "corde": "2",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "14": {
+                "nom_cheval": "ROZARION",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "HAMELIN A.",
+                "nom_entraineur": "DELZANGLES M.",
+                "poid_du_cheval": 555,
+                "musique": "2p 2p 3p 7p (25) 1p 7p 3p 4p 12p ",
+                "cotes": [
+                    "6.9",
+                    "6.8",
+                    "7.4"
+                ],
+                "gains": "29974",
+                "corde": "8",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "3": {
+                "nom_cheval": "SAINT SAENS",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "SOUMILLON C.",
+                "nom_entraineur": "BARBEROT (S) Y.",
+                "poid_du_cheval": 580,
+                "musique": "1p 2p (25) 4p 5p 9p ",
+                "cotes": [
+                    "7.2",
+                    "6.8",
+                    "4.7"
+                ],
+                "gains": "34050",
+                "corde": "1",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "5": {
+                "nom_cheval": "BASANTI",
+                "sexe": "F",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "POUCHIN A.",
+                "nom_entraineur": "FABRE (S) A.",
+                "poid_du_cheval": 580,
+                "musique": "8p 6p 1p (25) 3p 8p ",
+                "cotes": [
+                    "12.0",
+                    "12.0",
+                    "13.0"
+                ],
+                "gains": "16953",
+                "corde": "5",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "11": {
+                "nom_cheval": "PALLADIO",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "VALLE SKAR MLLE F.",
+                "nom_entraineur": "LERNER (S) C&Y.",
+                "poid_du_cheval": 560,
+                "musique": "2p 2p 9p (25) 8p 4p ",
+                "cotes": [
+                    "9.8",
+                    "11.0",
+                    "13.0"
+                ],
+                "gains": "11854",
+                "corde": "3",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "4": {
+                "nom_cheval": "TISSIMO",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "PICCONE T.",
+                "nom_entraineur": "PANTALL (S) HA.",
+                "poid_du_cheval": 580,
+                "musique": "7p (25) 2p 1p 2p 8p ",
+                "cotes": [
+                    "15.0",
+                    "16.0",
+                    "16.0"
+                ],
+                "gains": "17268",
+                "corde": "7",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "1": {
+                "nom_cheval": "MATAKI",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "GRANDIN MAR.",
+                "nom_entraineur": "ROUGET (S) JC.",
+                "poid_du_cheval": 600,
+                "musique": "5p (25) 1p 3p 1p 2p 5p 2p 3p ",
+                "cotes": [
+                    "14.0",
+                    "13.0",
+                    "12.0"
+                ],
+                "gains": "40800",
+                "corde": "6",
+                "discipline": "Plat",
+                "distance": 1400
+            }
+        },
+        "date": "26/04/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 1600,
+        "prix": "HANDICAP DE BORDEAUX",
+        "lieu": "Bordeaux Le Bouscat",
+        "heure_depart": "13:55:00",
+        "details": "PLAT, 1600 metres , Corde a DROITE 50.900- HANDICAP DIVISE Pour chevaux entiers, hongres et juments de 4 ans et au-dessus",
+        "partants": 15,
+        "non_partants": 1,
+        "arrivee": [
+            3,
+            5,
+            11,
+            1,
+            9,
+            2,
+            16
+        ],
+        "r/c": "R1/C5",
+        "arrivee_details": {
+            "3": {
+                "nom_cheval": "LE MATELOT",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "DEMURO C.",
+                "nom_entraineur": "DE WATRIGANT D.",
+                "poid_du_cheval": 595,
+                "musique": "2p 7p (25) 6p 2p 6p 2p 3p 1p 4p ",
+                "cotes": [
+                    "11.0",
+                    "10.0",
+                    "8.0"
+                ],
+                "gains": "24890",
+                "corde": "16",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "5": {
+                "nom_cheval": "GRANDPA CEN",
+                "sexe": "M",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "LEMAITRE A.",
+                "nom_entraineur": "OLAVE VALDIVIELSO P.",
+                "poid_du_cheval": 585,
+                "musique": "5p (25) 1p 1p 3p 3p 2p 2p 2p 9p ",
+                "cotes": [
+                    "4.6",
+                    "4.5",
+                    "5.0"
+                ],
+                "gains": "33290",
+                "corde": "6",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "11": {
+                "nom_cheval": "ROMAN FORUM",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "MENDIZABAL I.",
+                "nom_entraineur": "GOURDAIN (S) CH.",
+                "poid_du_cheval": 565,
+                "musique": "3p (25) 5p 11p 2p 5p 1p 3p 2p ",
+                "cotes": [
+                    "9.9",
+                    "9.4",
+                    "9.9"
+                ],
+                "gains": "26108",
+                "corde": "8",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "1": {
+                "nom_cheval": "MR FLEURANT",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "WERLE A.",
+                "nom_entraineur": "WATRIGANT (S) A.",
+                "poid_du_cheval": 600,
+                "musique": "1p 1p 4p 5p (25) 11p 9p 6p 2p 4p 9p (24) 11p 7p ",
+                "cotes": [
+                    "17.0",
+                    "16.0",
+                    "8.2"
+                ],
+                "gains": "79964",
+                "corde": "11",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "9": {
+                "nom_cheval": "GENTLEMAN BEAUTY",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "SOUSA FERREIRA RIC. M.",
+                "nom_entraineur": "JIMENEZ ALVAREZ F.",
+                "poid_du_cheval": 575,
+                "musique": "3p 8p 6p 6p 13p (25) 4p 10p 10p 7p 5p 5p 4p ",
+                "cotes": [
+                    "28.0",
+                    "31.0",
+                    "24.0"
+                ],
+                "gains": "77499",
+                "corde": "15",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "2": {
+                "nom_cheval": "CREW DRAGON",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "BOUTIN HUG.",
+                "nom_entraineur": "BOUTIN (S) C.",
+                "poid_du_cheval": 595,
+                "musique": "11p 2p 15p 6p 1p 4p 2p 1p (25) 2p 4p 3p 3p ",
+                "cotes": [
+                    "17.0",
+                    "19.0",
+                    "24.0"
+                ],
+                "gains": "321280",
+                "corde": "3",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "16": {
+                "nom_cheval": "WELLINGTON PREMIER",
+                "sexe": "M",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "LE QUILLEUC S.",
+                "nom_entraineur": "ALONSO ROLDAN M.",
+                "poid_du_cheval": 550,
+                "musique": "8p 2p 2p (25) 12p 3p 4p 7p 6p 1p 8p 6p 11p ",
+                "cotes": [
+                    "16.0",
+                    "17.0",
+                    "16.0"
+                ],
+                "gains": "45874",
+                "corde": "4",
+                "discipline": "Plat",
+                "distance": 1600
+            }
+        },
+        "date": "27/04/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 1900,
+        "prix": "PRIX CHANTILLY CAPITALE DU CHEVAL",
+        "lieu": "Chantilly",
+        "heure_depart": "13:55:00",
+        "details": "PLAT, 1900 metres , PSF , Corde a DROITE 50.900- HANDICAP DIVISE Pour chevaux entiers, hongres et juments de 4 ans et au-dessus",
+        "partants": 15,
+        "non_partants": 1,
+        "arrivee": [
+            1,
+            16,
+            13,
+            6,
+            3,
+            2,
+            10
+        ],
+        "r/c": "R1/C1",
+        "arrivee_details": {
+            "1": {
+                "nom_cheval": "ZELZARI",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "GRANDIN MAR.",
+                "nom_entraineur": "MELE (S) D.",
+                "poid_du_cheval": 610,
+                "musique": "1p 4p 4p 1p 2p (25) 1p 3p 1p 8p 5p 2p (24) 2p ",
+                "cotes": [
+                    "14.0",
+                    "12.0",
+                    "9.0"
+                ],
+                "gains": "94530",
+                "corde": "9",
+                "discipline": "Plat",
+                "distance": 1900
+            },
+            "16": {
+                "nom_cheval": "FEARLESS CHEETAH",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "CLAUDIC J.",
+                "nom_entraineur": "BRESSON (S) F.",
+                "poid_du_cheval": 530,
+                "musique": "6p 8p (25) 1p 3p 3p 1p 8p 6p 1p 2p (24) 1p 7p ",
+                "cotes": [
+                    "33.0",
+                    "37.0",
+                    "49.0"
+                ],
+                "gains": "73017",
+                "corde": "4",
+                "discipline": "Plat",
+                "distance": 1900
+            },
+            "13": {
+                "nom_cheval": "LAVENDIN",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "SOUMILLON C.",
+                "nom_entraineur": "FOUASSIER A.",
+                "poid_du_cheval": 550,
+                "musique": "2p 5p 1p 1p 1p (25) 6p 1p 1p 12p 2p (24) 1p 3p ",
+                "cotes": [
+                    "9.5",
+                    "9.8",
+                    "12.0"
+                ],
+                "gains": "76593",
+                "corde": "10",
+                "discipline": "Plat",
+                "distance": 1900
+            },
+            "6": {
+                "nom_cheval": "PRESA DIRETTA",
+                "sexe": "F",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "LEMAITRE A.",
+                "nom_entraineur": "CARRASCO SANCHEZ A.",
+                "poid_du_cheval": 570,
+                "musique": "3p (25) 12p 15p 8p 1p 1p 1p 4p (24) 2p 1p 11p 5p ",
+                "cotes": [
+                    "32.0",
+                    "32.0",
+                    "46.0"
+                ],
+                "gains": "126145",
+                "corde": "15",
+                "discipline": "Plat",
+                "distance": 1900
+            },
+            "3": {
+                "nom_cheval": "CENTRAL PARK WEST",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "TRULLIER T.",
+                "nom_entraineur": "PHELIPPON J.",
+                "poid_du_cheval": 600,
+                "musique": "15p 2p 4p 1p 1p (25) 9p 3p 6p 2p 1p 12p 7p ",
+                "cotes": [
+                    "19.0",
+                    "17.0",
+                    "23.0"
+                ],
+                "gains": "365043",
+                "corde": "5",
+                "discipline": "Plat",
+                "distance": 1900
+            },
+            "2": {
+                "nom_cheval": "QUIET KING",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "BACHELOT T.",
+                "nom_entraineur": "WATTEL (S) S.",
+                "poid_du_cheval": 610,
+                "musique": "2p 2p (25) 3p 1p 1p 9p 2p 3p 2p 2p (24) 5p ",
+                "cotes": [
+                    "3.4",
+                    "3.4",
+                    "2.7"
+                ],
+                "gains": "77609",
+                "corde": "2",
+                "discipline": "Plat",
+                "distance": 1900
+            },
+            "10": {
+                "nom_cheval": "GEOPOLITICAL",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "ORANI ANT.",
+                "nom_entraineur": "BARATTI (S) M.",
+                "poid_du_cheval": 550,
+                "musique": "1p 3p (25) 12p 4p 3p 2p 2p 2p 4p (24) 2p 4p ",
+                "cotes": [
+                    "19.0",
+                    "16.0",
+                    "17.0"
+                ],
+                "gains": "38811",
+                "corde": "14",
+                "discipline": "Plat",
+                "distance": 1900
+            }
+        },
+        "date": "28/04/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 35000,
+        "distance": 2850,
+        "prix": "PRIX FFB 53",
+        "lieu": "Laval",
+        "heure_depart": "13:55:00",
+        "details": "Pour 6 à 11 ans inclus, n'ayant pas gagné 219.000. Sont seules admises à driver les personnes ayant gagné au moins cinq courses (en étant titulaire d'une autorisation de monter à titre professionnel).",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            14,
+            9,
+            3,
+            7,
+            13,
+            16,
+            4
+        ],
+        "r/c": "R1/C1",
+        "arrivee_details": {
+            "14": {
+                "nom_cheval": "KARNAC WOOD",
+                "sexe": "M",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "MONTHULE HUG.",
+                "nom_entraineur": "GUARATO S.",
+                "poid_du_cheval": 2850,
+                "musique": "4a 7a 1a (25) 0a 1a 1a 1a Da 1a 3a 3a 4a ",
+                "cotes": [
+                    "4.4",
+                    "4.4",
+                    "4.7"
+                ],
+                "gains": "217500",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "9": {
+                "nom_cheval": "KISS ME HONEY",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "BAUDOUIN L.",
+                "nom_entraineur": "BAUDOUIN J.M.",
+                "poid_du_cheval": 2850,
+                "musique": "3m 6m 1a Dm (25) 2m 2a 4a 0a 0a 0a 8a 5a ",
+                "cotes": [
+                    "7.9",
+                    "7.5",
+                    "7.7"
+                ],
+                "gains": "213620",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "3": {
+                "nom_cheval": "KEY OF LOVE",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "BARRIER A.",
+                "nom_entraineur": "LAMARE T.",
+                "poid_du_cheval": 2850,
+                "musique": "1a Da 2a 1a (25) 1a 1a 6a 9a Da 2a 0a 7a ",
+                "cotes": [
+                    "6.8",
+                    "6.3",
+                    "3.9"
+                ],
+                "gains": "198030",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "7": {
+                "nom_cheval": "KEMIA DU CHENE",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "PLOQUIN PAU. PH.",
+                "nom_entraineur": "LE MER J.",
+                "poid_du_cheval": 2850,
+                "musique": "8a 5a 0a 5a (25) 4a 4a 2a 6a 0a 5a 1a 0a ",
+                "cotes": [
+                    "21.0",
+                    "22.0",
+                    "26.0"
+                ],
+                "gains": "212250",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "13": {
+                "nom_cheval": "JAIN MAB",
+                "sexe": "F",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "ROCHARD B.",
+                "nom_entraineur": "BUISSON A.",
+                "poid_du_cheval": 2850,
+                "musique": "3a (25) 0a 2a 3a 0a 2a 7a 1a 7a 1a Da 1a ",
+                "cotes": [
+                    "13.0",
+                    "14.0",
+                    "17.0"
+                ],
+                "gains": "217240",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "16": {
+                "nom_cheval": "JACOMO BELLO",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "LAMY R.",
+                "nom_entraineur": "LEVESQUE T.",
+                "poid_du_cheval": 2850,
+                "musique": "5a 3a 3a (25) 3a 5a 3a 1a 1a 2a 3a Da Da ",
+                "cotes": [
+                    "9.0",
+                    "8.2",
+                    "10.0"
+                ],
+                "gains": "217660",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "4": {
+                "nom_cheval": "JERENAL D'HAMELINE",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "WIELS A.",
+                "nom_entraineur": "MARMION J.P.",
+                "poid_du_cheval": 2850,
+                "musique": "1a 2a 5a (25) 1a 1a 4a 2a 4a 3a 2a 1a 1a ",
+                "cotes": [
+                    "12.0",
+                    "11.0",
+                    "13.0"
+                ],
+                "gains": "199420",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            }
+        },
+        "date": "29/04/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 1400,
+        "prix": "PRIX DE CHEVILLY",
+        "lieu": "Paris-Longchamp",
+        "heure_depart": "20:15:00",
+        "details": "PLAT, 1400 metres , Corde a DROITE 50.900- HANDICAP DIVISE Pour chevaux entiers, hongres et juments de 4 ans et au-dessus",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            14,
+            4,
+            9,
+            11,
+            "1/5",
+            6
+        ],
+        "r/c": "R1/C8",
+        "arrivee_details": {
+            "14": {
+                "nom_cheval": "HALF HALF",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "POUCHIN A.",
+                "nom_entraineur": "SMAGA D.",
+                "poid_du_cheval": 545,
+                "musique": "6p 2p 3p 12p (25) 7p 3p (24) 9p 8p 10p 5p 5p 6p ",
+                "cotes": [
+                    "12.0",
+                    "9.4",
+                    "9.6"
+                ],
+                "gains": "131876",
+                "corde": "11",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "4": {
+                "nom_cheval": "SKYLIGHT BROCHARD",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "LEMAITRE A.",
+                "nom_entraineur": "DONWORTH (S) TIM.",
+                "poid_du_cheval": 585,
+                "musique": "13p 4p 5p 2p (25) 13p 3p 7p 2p 14p 3p 2p 12p ",
+                "cotes": [
+                    "13.0",
+                    "10.0",
+                    "9.1"
+                ],
+                "gains": "155598",
+                "corde": "2",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "9": {
+                "nom_cheval": "KRASKHOV",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "SOUMILLON C.",
+                "nom_entraineur": "DELCHER SANCHEZ M.",
+                "poid_du_cheval": 555,
+                "musique": "3p 4p (25) 1p 11p 2p 5p 1p 9p 4p (24) 7p ",
+                "cotes": [
+                    "4.9",
+                    "6.5",
+                    "7.8"
+                ],
+                "gains": "49901",
+                "corde": "12",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "11": {
+                "nom_cheval": "NO LIMIT DREAM",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "GUYON M.",
+                "nom_entraineur": "MOSSE (S) G.",
+                "poid_du_cheval": 550,
+                "musique": "8p 2p 7p 5p (25) 7p 2p 3p 10p 10p 12p 11p 14p ",
+                "cotes": [
+                    "15.0",
+                    "16.0",
+                    "22.0"
+                ],
+                "gains": "165231",
+                "corde": "16",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "1": {
+                "nom_cheval": "TORTISAMBERT",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "DEMURO C.",
+                "nom_entraineur": "CHAPPET (S) F.",
+                "poid_du_cheval": 600,
+                "musique": "1p 2p 8p (25) 3p 3p 4p 3p 3p 7p 7p 4p 3p ",
+                "cotes": [
+                    "8.4",
+                    "10.0",
+                    "9.5"
+                ],
+                "gains": "148099",
+                "corde": "6",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "5": {
+                "nom_cheval": "APAX",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "BARZALONA M.",
+                "nom_entraineur": "GAVILAN MME S.",
+                "poid_du_cheval": 585,
+                "musique": "10p 2p 12p 6p (25) 4p 9p 3p 3p 4p 5p 1p (24) 1p ",
+                "cotes": [
+                    "13.0",
+                    "11.0",
+                    "8.1"
+                ],
+                "gains": "200475",
+                "corde": "3",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "6": {
+                "nom_cheval": "JUSEARTH FAL",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "TROLLEY DE PREVAUX G.",
+                "nom_entraineur": "DONWORTH (S) TIM.",
+                "poid_du_cheval": 585,
+                "musique": "7p 4p 2p (25) 5p 8p 2p 2p 4p 1p ",
+                "cotes": [
+                    "17.0",
+                    "14.0",
+                    "8.7"
+                ],
+                "gains": "27008",
+                "corde": "5",
+                "discipline": "Plat",
+                "distance": 1400
+            }
+        },
+        "date": "30/04/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 52800,
+        "distance": 2000,
+        "prix": "PRIX DE BEAUMESNIL",
+        "lieu": "Saint Cloud",
+        "heure_depart": "15:15:00",
+        "details": "PLAT, 2000 metres , Corde a GAUCHE 52.800- HANDICAP DIVISE Pour poulains entiers, hongres et pouliches de 3 ans",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            4,
+            1,
+            7,
+            14,
+            9,
+            2,
+            16
+        ],
+        "r/c": "R1/C4",
+        "arrivee_details": {
+            "4": {
+                "nom_cheval": "MUST BAY",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "THOMAS RON.",
+                "nom_entraineur": "LERNER (S) C&Y.",
+                "poid_du_cheval": 585,
+                "musique": "3p 3p (25) 5p 2p ",
+                "cotes": [
+                    "11.0",
+                    "12.0",
+                    "7.9"
+                ],
+                "gains": "13218",
+                "corde": "2",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "1": {
+                "nom_cheval": "LIBECCIO WIND",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "GUYON M.",
+                "nom_entraineur": "FABRE (S) A.",
+                "poid_du_cheval": 600,
+                "musique": "3p 2p 3p ",
+                "cotes": [
+                    "6.5",
+                    "5.8",
+                    "6.2"
+                ],
+                "gains": "11610",
+                "corde": "7",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "7": {
+                "nom_cheval": "BOX OFFICER",
+                "sexe": "H",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "BACHELOT T.",
+                "nom_entraineur": "WATTEL (S) S.",
+                "poid_du_cheval": 570,
+                "musique": "1p 4p 2p (25) 10p ",
+                "cotes": [
+                    "10.0",
+                    "10.0",
+                    "10.0"
+                ],
+                "gains": "16517",
+                "corde": "8",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "14": {
+                "nom_cheval": "TOO DARN QUICK",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "POUCHIN A.",
+                "nom_entraineur": "FABRE (S) A.",
+                "poid_du_cheval": 555,
+                "musique": "6p 5p (25) 3p 8p ",
+                "cotes": [
+                    "6.0",
+                    "5.7",
+                    "6.7"
+                ],
+                "gains": "5424",
+                "corde": "1",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "9": {
+                "nom_cheval": "TI AMO BELLO",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "DEMURO C.",
+                "nom_entraineur": "PITART M.",
+                "poid_du_cheval": 565,
+                "musique": "5p 1p 7p 6p (25) 2p 4p ",
+                "cotes": [
+                    "15.0",
+                    "17.0",
+                    "19.0"
+                ],
+                "gains": "18432",
+                "corde": "12",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "2": {
+                "nom_cheval": "LOHENGREEN",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "GRANDIN MAR.",
+                "nom_entraineur": "ESCUDER C.",
+                "poid_du_cheval": 585,
+                "musique": "2p 2p 1p (25) 3p 7p ",
+                "cotes": [
+                    "13.0",
+                    "12.0",
+                    "9.8"
+                ],
+                "gains": "23380",
+                "corde": "11",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "16": {
+                "nom_cheval": "POET'S LYRICS",
+                "sexe": "F",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "LEMAITRE A.",
+                "nom_entraineur": "BARBEROT (S) Y.",
+                "poid_du_cheval": 540,
+                "musique": "5p (25) 6p 2p 6p ",
+                "cotes": [
+                    "33.0",
+                    "33.0",
+                    "37.0"
+                ],
+                "gains": "5139",
+                "corde": "16",
+                "discipline": "Plat",
+                "distance": 2000
+            }
+        },
+        "date": "01/05/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 75000,
+        "distance": 2100,
+        "prix": "PRIX DU ROUERGUE",
+        "lieu": "Vincennes",
+        "heure_depart": "15:15:00",
+        "details": "Pour 7 à 11 ans inclus, n'ayant pas gagné 425.000.",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            5,
+            3,
+            6,
+            8,
+            14,
+            2,
+            11
+        ],
+        "r/c": "R1/C4",
+        "arrivee_details": {
+            "5": {
+                "nom_cheval": "IDYLLE EXPRESS",
+                "sexe": "F",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "MOTTIER M.",
+                "nom_entraineur": "LELIEVRE P.",
+                "poid_du_cheval": 2100,
+                "musique": "4a 7a 1a (25) 1a 1a 1a Da 7a 1a Da Da Da ",
+                "cotes": [
+                    "5.7",
+                    "4.7",
+                    "5.2"
+                ],
+                "gains": "411420",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2100
+            },
+            "3": {
+                "nom_cheval": "HURRICANE CARTER",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "LEBOURGEOIS Y.",
+                "nom_entraineur": "RAIMOND MME S.",
+                "poid_du_cheval": 2100,
+                "musique": "Da 8a 3a (25) 1a 4a 9a 2a 2a 2a 3a Da 1a ",
+                "cotes": [
+                    "9.6",
+                    "9.2",
+                    "7.3"
+                ],
+                "gains": "423080",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2100
+            },
+            "6": {
+                "nom_cheval": "INDUS VAL",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "VERVA PIE. Y.",
+                "nom_entraineur": "CHAINEUX J.M.",
+                "poid_du_cheval": 2100,
+                "musique": "Da 2a 1a 5a (25) 4a 8a 4a 7a 3a 3a 1a 1a ",
+                "cotes": [
+                    "10.0",
+                    "11.0",
+                    "13.0"
+                ],
+                "gains": "406325",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2100
+            },
+            "8": {
+                "nom_cheval": "INDY ROCK",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "COLLETTE A.",
+                "nom_entraineur": "WESTHOLM J.",
+                "poid_du_cheval": 2100,
+                "musique": "Da Da Da 0a (25) Da Da 5a 5a 3a 0a 5a 0a ",
+                "cotes": [
+                    "21.0",
+                    "23.0",
+                    "31.0"
+                ],
+                "gains": "408899",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2100
+            },
+            "14": {
+                "nom_cheval": "IN RED",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "GELORMINI G.",
+                "nom_entraineur": "CHAVATTE A.",
+                "poid_du_cheval": 2100,
+                "musique": "9a (25) 5a 3a 1a 1a 2a 2a 2a 4a 0a 0a (24) 1a ",
+                "cotes": [
+                    "17.0",
+                    "14.0",
+                    "16.0"
+                ],
+                "gains": "366800",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2100
+            },
+            "2": {
+                "nom_cheval": "GIMS DU PLESSIS",
+                "sexe": "H",
+                "annee_de_naissance": "2016",
+                "nom_jockey": "RAFFIN E.",
+                "nom_entraineur": "BOUTIN PH.",
+                "poid_du_cheval": 2100,
+                "musique": "2a (25) 8a 7a 6a Da 1a Da Da 0a 8a 9a 1a ",
+                "cotes": [
+                    "6.5",
+                    "6.7",
+                    "6.7"
+                ],
+                "gains": "380330",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2100
+            },
+            "11": {
+                "nom_cheval": "INDY DARK",
+                "sexe": "M",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "ROCHARD B.",
+                "nom_entraineur": "MARY J.F.",
+                "poid_du_cheval": 2100,
+                "musique": "6a 0a (25) 7a 0a 7a 2a 4a 1a 2a 7a 2a 1a ",
+                "cotes": [
+                    "22.0",
+                    "24.0",
+                    "26.0"
+                ],
+                "gains": "360805",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2100
+            }
+        },
+        "date": "02/05/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 1800,
+        "prix": "PRIX DU PALAIS BOURBON",
+        "lieu": "Paris-Longchamp",
+        "heure_depart": "15:15:00",
+        "details": "PLAT, 1800 metres , Corde a DROITE 50.900- HANDICAP DIVISE Pour juments de 4 ans et au-dessus",
+        "partants": 15,
+        "non_partants": 1,
+        "arrivee": [
+            11,
+            8,
+            7,
+            9,
+            5,
+            16,
+            14
+        ],
+        "r/c": "R1/C4",
+        "arrivee_details": {
+            "11": {
+                "nom_cheval": "WEDGEWOOD PEARL",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "MOLINS MME AMB.",
+                "nom_entraineur": "DE CHEVIGNY P.",
+                "poid_du_cheval": 555,
+                "musique": "5p (25) 4p 4p 6p 4p 3p 6p 3p 1p 1p 4p (24) 3p ",
+                "cotes": [
+                    "16.0",
+                    "20.0",
+                    "21.0"
+                ],
+                "gains": "65004",
+                "corde": "16",
+                "discipline": "Plat",
+                "distance": 1800
+            },
+            "8": {
+                "nom_cheval": "LINFASOMMER",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "CLAUDIC J.",
+                "nom_entraineur": "PITART M.",
+                "poid_du_cheval": 565,
+                "musique": "10p 7p 5p 4p 1p (25) 7p 6p 8p 7p 9p 6p 2p ",
+                "cotes": [
+                    "28.0",
+                    "36.0",
+                    "40.0"
+                ],
+                "gains": "119968",
+                "corde": "12",
+                "discipline": "Plat",
+                "distance": 1800
+            },
+            "7": {
+                "nom_cheval": "MODERN LIGHT",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "VALLE SKAR MLLE F.",
+                "nom_entraineur": "BELVISI FX.",
+                "poid_du_cheval": 570,
+                "musique": "1p 9p 12p (25) 15p 14p 9p 7p 7p 5p (24) 4p 2p 1p ",
+                "cotes": [
+                    "14.0",
+                    "16.0",
+                    "15.0"
+                ],
+                "gains": "71965",
+                "corde": "11",
+                "discipline": "Plat",
+                "distance": 1800
+            },
+            "9": {
+                "nom_cheval": "JOURY",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "POUCHIN A.",
+                "nom_entraineur": "DEVIN (S) HF.",
+                "poid_du_cheval": 565,
+                "musique": "3p (25) 3p 4p 1p 2p 3p ",
+                "cotes": [
+                    "7.4",
+                    "6.8",
+                    "5.9"
+                ],
+                "gains": "22908",
+                "corde": "4",
+                "discipline": "Plat",
+                "distance": 1800
+            },
+            "5": {
+                "nom_cheval": "TROPHANE",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "GUYON M.",
+                "nom_entraineur": "LIBAUD (S) E.",
+                "poid_du_cheval": 585,
+                "musique": "1p (25) 7p 14p 1p 1p 2p 8p 2p 5p 5p (24) 6p 2p ",
+                "cotes": [
+                    "9.5",
+                    "8.8",
+                    "10.0"
+                ],
+                "gains": "76591",
+                "corde": "10",
+                "discipline": "Plat",
+                "distance": 1800
+            },
+            "16": {
+                "nom_cheval": "GOLDEN DISC",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "CRASTUS A.",
+                "nom_entraineur": "DEVIN (S) HF.",
+                "poid_du_cheval": 540,
+                "musique": "4p 2p (25) 5p 2p 6p 5p 2p 4p 12p ",
+                "cotes": [
+                    "10.0",
+                    "11.0",
+                    "11.0"
+                ],
+                "gains": "17092",
+                "corde": "8",
+                "discipline": "Plat",
+                "distance": 1800
+            },
+            "14": {
+                "nom_cheval": "CORTELLA",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "MADAMET A.",
+                "nom_entraineur": "CAULLERY N.",
+                "poid_du_cheval": 550,
+                "musique": "4p 6p 7p 9p (25) 3p 8p 4p 5p 3p 6p 6p 1p ",
+                "cotes": [
+                    "25.0",
+                    "28.0",
+                    "35.0"
+                ],
+                "gains": "32237",
+                "corde": "6",
+                "discipline": "Plat",
+                "distance": 1800
+            }
+        },
+        "date": "03/05/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 37000,
+        "distance": 2950,
+        "prix": "PRIX HENRI BERRY",
+        "lieu": "Vichy",
+        "heure_depart": "13:55:00",
+        "details": "Pour 8 à 11 ans inclus, n'ayant pas gagné 256.000",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            13,
+            16,
+            1,
+            11,
+            9,
+            10,
+            8
+        ],
+        "r/c": "R1/C4",
+        "arrivee_details": {
+            "13": {
+                "nom_cheval": "ISTORIC MAUZUN",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "DUCHER J. PH.",
+                "nom_entraineur": "DUCHER J.P.",
+                "poid_du_cheval": 2975,
+                "musique": "2a 4a Da 2a (25) 1a 3a 1a 1a 1a 1a (24) 1a 7a ",
+                "cotes": [
+                    "2.7",
+                    "2.4",
+                    "2.3"
+                ],
+                "gains": "252050",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2950
+            },
+            "16": {
+                "nom_cheval": "ICARE WILLIAMS",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "ABRIVARD M.",
+                "nom_entraineur": "ABRIVARD M.",
+                "poid_du_cheval": 2975,
+                "musique": "0a (25) 2m 1m 5m Da 3m Dm 2m 3m 1m Dm 4m ",
+                "cotes": [
+                    "6.6",
+                    "7.3",
+                    "8.5"
+                ],
+                "gains": "254611",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2950
+            },
+            "1": {
+                "nom_cheval": "ONE LOVE BIANCA",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "DUPERCHE A.",
+                "nom_entraineur": "DUPERCHE A.",
+                "poid_du_cheval": 2950,
+                "musique": "Da Da (25) Da 7a 4a 8a 0a 0a Da Da 9a 6a ",
+                "cotes": [
+                    "96.0",
+                    "134.0",
+                    "186.0"
+                ],
+                "gains": "74010",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2950
+            },
+            "11": {
+                "nom_cheval": "HERMES LUDOIS",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "GOURGAND C.",
+                "nom_entraineur": "BOURLIER S.",
+                "poid_du_cheval": 2975,
+                "musique": "8a 2a 4a 2a 0a 5a 4a 6a (25) 8a 6a 0a 5a ",
+                "cotes": [
+                    "16.0",
+                    "18.0",
+                    "22.0"
+                ],
+                "gains": "246375",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2950
+            },
+            "9": {
+                "nom_cheval": "HAPPY PACHA",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "ANDRE A.",
+                "nom_entraineur": "ABRIVARD L.CL.",
+                "poid_du_cheval": 2975,
+                "musique": "7m Da 5m 8a 5a (25) 4a Da 5a 9a 0a 0a (24) 8a ",
+                "cotes": [
+                    "37.0",
+                    "55.0",
+                    "76.0"
+                ],
+                "gains": "218960",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2950
+            },
+            "10": {
+                "nom_cheval": "HOLDING GIRL",
+                "sexe": "F",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "DAVID A. J.",
+                "nom_entraineur": "DREUX Y.",
+                "poid_du_cheval": 2975,
+                "musique": "9a 2a 0a (25) 3a 1a 2a 2a 2a 3a 1a 2a 2a ",
+                "cotes": [
+                    "16.0",
+                    "16.0",
+                    "21.0"
+                ],
+                "gains": "232625",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2950
+            },
+            "8": {
+                "nom_cheval": "HELMA DE BUSSET",
+                "sexe": "F",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "PELTIER F. J.",
+                "nom_entraineur": "PELTIER S.",
+                "poid_du_cheval": 2975,
+                "musique": "Da 2a (25) 3a 2a Da 1a 0a 3a 2a 0a 3a 3a ",
+                "cotes": [
+                    "15.0",
+                    "16.0",
+                    "21.0"
+                ],
+                "gains": "201390",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2950
+            }
+        },
+        "date": "04/05/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 52800,
+        "distance": 1600,
+        "prix": "PRIX DE FOUILLEUSE",
+        "lieu": "Saint Cloud",
+        "heure_depart": "13:55:00",
+        "details": "PLAT, 1600 metres , Corde a GAUCHE 52.800- HANDICAP DIVISE Pour poulains entiers, hongres et pouliches de 3 ans",
+        "partants": 14,
+        "non_partants": 2,
+        "arrivee": [
+            12,
+            10,
+            16,
+            13,
+            9,
+            1,
+            5
+        ],
+        "r/c": "R1/C1",
+        "arrivee_details": {
+            "12": {
+                "nom_cheval": "CHARLY",
+                "sexe": "H",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "PASQUIER S.",
+                "nom_entraineur": "CLEMENT & HERMANS (S)",
+                "poid_du_cheval": 550,
+                "musique": "3p 1p (25) 1p 1p 4p 6p 1p 2p ",
+                "cotes": [
+                    "3.8",
+                    "3.9",
+                    "3.0"
+                ],
+                "gains": "48212",
+                "corde": "3",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "10": {
+                "nom_cheval": "FAOLIO",
+                "sexe": "H",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "HAMELIN A.",
+                "nom_entraineur": "PROD'HOMME (S) D&P.",
+                "poid_du_cheval": 555,
+                "musique": "1p 4p 5p 6p ",
+                "cotes": [
+                    "9.5",
+                    "9.8",
+                    "10.0"
+                ],
+                "gains": "13355",
+                "corde": "12",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "16": {
+                "nom_cheval": "AMUSANTE",
+                "sexe": "F",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "CRASTUS A.",
+                "nom_entraineur": "SOGORB P.",
+                "poid_du_cheval": 545,
+                "musique": "3p 1p 4p 2p 2p (25) 6p ",
+                "cotes": [
+                    "12.0",
+                    "11.0",
+                    "14.0"
+                ],
+                "gains": "21837",
+                "corde": "1",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "13": {
+                "nom_cheval": "HOWITZER",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "FAVRIAUX MAL.",
+                "nom_entraineur": "GHABRI H.",
+                "poid_du_cheval": 550,
+                "musique": "6p 1p 9p (25) 6p 2p ",
+                "cotes": [
+                    "17.0",
+                    "15.0",
+                    "16.0"
+                ],
+                "gains": "18491",
+                "corde": "8",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "9": {
+                "nom_cheval": "THE TINKER",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "TRULLIER T.",
+                "nom_entraineur": "BRANDT (S) P&J.",
+                "poid_du_cheval": 560,
+                "musique": "8p 12p 5p (25) 7p 1p 9p ",
+                "cotes": [
+                    "17.0",
+                    "18.0",
+                    "23.0"
+                ],
+                "gains": "15190",
+                "corde": "2",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "1": {
+                "nom_cheval": "IKOTOFETSY",
+                "sexe": "H",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "BACHELOT T.",
+                "nom_entraineur": "ANDRIANTSOA RATSIMIHAH M.",
+                "poid_du_cheval": 610,
+                "musique": "10p (25) 3p 6p 4p 4p 4p 6p 1p 2p ",
+                "cotes": [
+                    "24.0",
+                    "29.0",
+                    "37.0"
+                ],
+                "gains": "48984",
+                "corde": "6",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "5": {
+                "nom_cheval": "LIMPIDE",
+                "sexe": "F",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "LEBOUC HUG.",
+                "nom_entraineur": "PANNIER G.",
+                "poid_du_cheval": 570,
+                "musique": "4p 2p 1p (25) 6p 3p 3p 3p 1p 3p 3p ",
+                "cotes": [
+                    "23.0",
+                    "25.0",
+                    "33.0"
+                ],
+                "gains": "49778",
+                "corde": "11",
+                "discipline": "Plat",
+                "distance": 1600
+            }
+        },
+        "date": "05/05/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 49000,
+        "distance": 2700,
+        "prix": "PRIX DE NIORT",
+        "lieu": "Vincennes",
+        "heure_depart": "13:55:00",
+        "details": "Pour 6, 7 et 8 ans, n'ayant pas gagné 121.000",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            2,
+            14,
+            8,
+            6,
+            16,
+            9,
+            15
+        ],
+        "r/c": "R1/C1",
+        "arrivee_details": {
+            "2": {
+                "nom_cheval": "ROCKY MOM",
+                "sexe": "M",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "VAN DEN PUTTE JR J.",
+                "nom_entraineur": "CORTY MME C.",
+                "poid_du_cheval": 2700,
+                "musique": "2a 1a 2a 2a (25) 3a 1a 1a 2a 1a 1a 1a 2a ",
+                "cotes": [
+                    "3.2",
+                    "2.9",
+                    "2.9"
+                ],
+                "gains": "100415",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "14": {
+                "nom_cheval": "DISTILLATO",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "THOMAIN D.",
+                "nom_entraineur": "BOVAY M.A.",
+                "poid_du_cheval": 2700,
+                "musique": "2a 1a 1a 0a (25) 0a 1a 6a 1a 3a 2a 1a 1a ",
+                "cotes": [
+                    "23.0",
+                    "22.0",
+                    "31.0"
+                ],
+                "gains": "118996",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "8": {
+                "nom_cheval": "KAPORAL CARISAIE",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "BONNE D.",
+                "nom_entraineur": "THUET J.E.",
+                "poid_du_cheval": 2700,
+                "musique": "1a 1a Da 1a 1a 1a 0a (25) 4a 1a 2a 6a Da ",
+                "cotes": [
+                    "22.0",
+                    "26.0",
+                    "34.0"
+                ],
+                "gains": "110460",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "6": {
+                "nom_cheval": "ENEA FONT",
+                "sexe": "M",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "GELORMINI G.",
+                "nom_entraineur": "GUARATO S.",
+                "poid_du_cheval": 2700,
+                "musique": "1a 8a Da 2a (25) 0a 6a 7a 1a 1a 4a Da 6a ",
+                "cotes": [
+                    "14.0",
+                    "12.0",
+                    "13.0"
+                ],
+                "gains": "103604",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "16": {
+                "nom_cheval": "ETRANGER JOYEUSE",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "GUZZINATI A.",
+                "nom_entraineur": "GUZZINATI A.",
+                "poid_du_cheval": 2700,
+                "musique": "1a 3a 7a (25) 1a 4a 3a 6a 3a 5a 8a 1a 1a ",
+                "cotes": [
+                    "10.0",
+                    "11.0",
+                    "10.0"
+                ],
+                "gains": "120396",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "9": {
+                "nom_cheval": "KAZAN BEACH",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "RAFFIN E.",
+                "nom_entraineur": "HAREL F.",
+                "poid_du_cheval": 2700,
+                "musique": "1a 6a 9a (25) 8a 3a Da 2a 8a 1a 4a 1a 1a ",
+                "cotes": [
+                    "8.5",
+                    "7.1",
+                    "6.7"
+                ],
+                "gains": "110485",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "15": {
+                "nom_cheval": "DAUPHIN JOYEUSE",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "ABRIVARD A.",
+                "nom_entraineur": "GUZZINATI A.",
+                "poid_du_cheval": 2700,
+                "musique": "1a 10a 3a 2a (25) 1a 1a 5a 3a 1a 2a 2a Da ",
+                "cotes": [
+                    "13.0",
+                    "15.0",
+                    "19.0"
+                ],
+                "gains": "120150",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            }
+        },
+        "date": "06/05/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 2400,
+        "prix": "PRIX DE LA CONCORDE",
+        "lieu": "Paris-Longchamp",
+        "heure_depart": "20:15:00",
+        "details": "PLAT, 2400 metres , Corde a DROITE 50.900- HANDICAP DIVISE Pour chevaux entiers, hongres et juments de 4 ans et au-dessus",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            5,
+            7,
+            14,
+            12,
+            10,
+            8,
+            13
+        ],
+        "r/c": "R1/C7",
+        "arrivee_details": {
+            "5": {
+                "nom_cheval": "REMBRAND TO GO",
+                "sexe": "M",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "GRANDIN MAR.",
+                "nom_entraineur": "RULEC (S) M.",
+                "poid_du_cheval": 570,
+                "musique": "2p 3p 5p 4p (25) 2p 1p 10p 4p 4p ",
+                "cotes": [
+                    "6.6",
+                    "6.0",
+                    "4.4"
+                ],
+                "gains": "41162",
+                "corde": "3",
+                "discipline": "Plat",
+                "distance": 2400
+            },
+            "7": {
+                "nom_cheval": "MARINALEDA",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "DEMURO C.",
+                "nom_entraineur": "BARATTI (S) M.",
+                "poid_du_cheval": 570,
+                "musique": "2p 2p (25) 3p 7p 5p 5p 1p ",
+                "cotes": [
+                    "9.0",
+                    "9.0",
+                    "11.0"
+                ],
+                "gains": "36472",
+                "corde": "8",
+                "discipline": "Plat",
+                "distance": 2400
+            },
+            "14": {
+                "nom_cheval": "RAM SEA",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "BRECHET LÉO P.",
+                "nom_entraineur": "MELE (S) D.",
+                "poid_du_cheval": 550,
+                "musique": "5p 8p 2p (25) 5p 2p 8p 11p 2p 1p 5p 5p 6p ",
+                "cotes": [
+                    "17.0",
+                    "17.0",
+                    "13.0"
+                ],
+                "gains": "25512",
+                "corde": "1",
+                "discipline": "Plat",
+                "distance": 2400
+            },
+            "12": {
+                "nom_cheval": "ZILRAK",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "CRASTUS A.",
+                "nom_entraineur": "BUTEL & BEAUNEZ (S)",
+                "poid_du_cheval": 555,
+                "musique": "9p 9p 4p 4p 14p (25) 1p 5p 12p 11p 5p 5p 4p ",
+                "cotes": [
+                    "25.0",
+                    "33.0",
+                    "43.0"
+                ],
+                "gains": "115967",
+                "corde": "16",
+                "discipline": "Plat",
+                "distance": 2400
+            },
+            "10": {
+                "nom_cheval": "PRINCESSE D'AMOUR",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "LECOEUVRE C.",
+                "nom_entraineur": "DUBOIS J.PH.",
+                "poid_du_cheval": 560,
+                "musique": "1p 12p (25) 9p 2p 5p 1p 3p 6p 3p 5p (24) 2p 4p ",
+                "cotes": [
+                    "12.0",
+                    "10.0",
+                    "7.2"
+                ],
+                "gains": "68844",
+                "corde": "14",
+                "discipline": "Plat",
+                "distance": 2400
+            },
+            "8": {
+                "nom_cheval": "MISTER GATZ",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "BACHELOT T.",
+                "nom_entraineur": "NIGGE (S) S.",
+                "poid_du_cheval": 570,
+                "musique": "2p 4p 10p (25) 7p 10p 10p 6p 4p 5p (24) 4p 2p 10p ",
+                "cotes": [
+                    "7.9",
+                    "7.9",
+                    "9.2"
+                ],
+                "gains": "74425",
+                "corde": "9",
+                "discipline": "Plat",
+                "distance": 2400
+            },
+            "13": {
+                "nom_cheval": "DEMPY",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "REMOUE PIE.",
+                "nom_entraineur": "BONILLA (S) D.",
+                "poid_du_cheval": 550,
+                "musique": "3p 4p 5p 7p 7p 3p (25) 14p 2p 13p Ah 3h 10h ",
+                "cotes": [
+                    "12.0",
+                    "12.0",
+                    "13.0"
+                ],
+                "gains": "91131",
+                "corde": "7",
+                "discipline": "Plat",
+                "distance": 2400
+            }
+        },
+        "date": "07/05/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 1600,
+        "prix": "PRIX HUBERT BAGUENAULT DE PUCHESSE",
+        "lieu": "Lyon Parilly",
+        "heure_depart": "15:15:00",
+        "details": "PLAT, 1600 metres , Corde a GAUCHE 50.900- HANDICAP DIVISE Pour chevaux entiers, hongres et juments de 4 ans et au-dessus",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            15,
+            4,
+            12,
+            2,
+            8,
+            1,
+            7
+        ],
+        "r/c": "R1/C3",
+        "arrivee_details": {
+            "15": {
+                "nom_cheval": "WAPI",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "THOMAS RON.",
+                "nom_entraineur": "LERNER (S) C&Y.",
+                "poid_du_cheval": 540,
+                "musique": "2p 5p (25) 2p 11p 9p 2p 4p 4p 15p 13p (24) 5p 11p ",
+                "cotes": [
+                    "5.5",
+                    "6.2",
+                    "3.9"
+                ],
+                "gains": "56501",
+                "corde": "11",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "4": {
+                "nom_cheval": "RIASSOU",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "BESNIER H.",
+                "nom_entraineur": "SIGAUD P.",
+                "poid_du_cheval": 590,
+                "musique": "7p 1p 1p 5p 5p (25) 1p 7p 1p 2p 6p 3p 9p ",
+                "cotes": [
+                    "13.0",
+                    "11.0",
+                    "12.0"
+                ],
+                "gains": "59033",
+                "corde": "5",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "12": {
+                "nom_cheval": "JOH SPIRIT",
+                "sexe": "F",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "MOLINS MME AMB.",
+                "nom_entraineur": "SIGAUD P.",
+                "poid_du_cheval": 550,
+                "musique": "8p 4p 5p 6p 11p 4p (25) 4p 12p 1p 9p 6p 6p ",
+                "cotes": [
+                    "17.0",
+                    "17.0",
+                    "21.0"
+                ],
+                "gains": "139294",
+                "corde": "3",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "2": {
+                "nom_cheval": "THOR LIGHTNING",
+                "sexe": "M",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "BACHELOT T.",
+                "nom_entraineur": "RICHTER S.",
+                "poid_du_cheval": 600,
+                "musique": "1p (25) 5p 3p 2p 7p 3p 7p 6p (24) 3p 2p 1p 2p ",
+                "cotes": [
+                    "6.7",
+                    "5.9",
+                    "6.4"
+                ],
+                "gains": "83084",
+                "corde": "10",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "8": {
+                "nom_cheval": "ZIGGY STAR",
+                "sexe": "M",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "PROVOST D.",
+                "nom_entraineur": "CESANDRI (S) M.",
+                "poid_du_cheval": 555,
+                "musique": "7p 4p 10p (25) 9p 9p 2p 1p 1p 2p 3p (24) 6p 8p ",
+                "cotes": [
+                    "8.2",
+                    "8.9",
+                    "9.1"
+                ],
+                "gains": "60744",
+                "corde": "9",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "1": {
+                "nom_cheval": "DIVIDE AND RULE",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "LEMAITRE A.",
+                "nom_entraineur": "GAUVIN (S) JP.",
+                "poid_du_cheval": 600,
+                "musique": "12p 1p (25) 15p 7p 4p 2p 5p 6p 5p 1p 6p 7p ",
+                "cotes": [
+                    "17.0",
+                    "15.0",
+                    "16.0"
+                ],
+                "gains": "110792",
+                "corde": "8",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "7": {
+                "nom_cheval": "HAZA",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "LEFEBVRE F.",
+                "nom_entraineur": "COELHO A.",
+                "poid_du_cheval": 555,
+                "musique": "4p 1p 5p 3p 9p 10p (25) 3p 8p 3p 7p 8p 4p ",
+                "cotes": [
+                    "26.0",
+                    "28.0",
+                    "30.0"
+                ],
+                "gains": "78491",
+                "corde": "16",
+                "discipline": "Plat",
+                "distance": 1600
+            }
+        },
+        "date": "08/05/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 150000,
+        "distance": 2450,
+        "prix": "PRIX DES DUCS DE NORMANDIE",
+        "lieu": "Caen",
+        "heure_depart": "15:15:00",
+        "details": "Pour 4 à 11 ans inclus, ayant gagné au moins 130.000. Sont seules admises à driver les personnes ayant gagné au moins trente-cinq courses dont dix au trot attelé (en étant titulaire d'une autorisation de monter à titre professionnel).",
+        "partants": 15,
+        "non_partants": 0,
+        "arrivee": [
+            12,
+            7,
+            11,
+            3,
+            15,
+            14,
+            13
+        ],
+        "r/c": "R1/C4",
+        "arrivee_details": {
+            "12": {
+                "nom_cheval": "INEXESS BLEU",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "ABRIVARD A.",
+                "nom_entraineur": "ABRIVARD L.CL.",
+                "poid_du_cheval": 2450,
+                "musique": "1a 6a (25) 2a 1a 1a Da 1a 1a 1a 1a 1a 1a ",
+                "cotes": [
+                    "9.4",
+                    "8.9",
+                    "9.9"
+                ],
+                "gains": "1328520",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2450
+            },
+            "7": {
+                "nom_cheval": "INO DU LUPIN",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "WIELS A.",
+                "nom_entraineur": "MARMION J.P.",
+                "poid_du_cheval": 2450,
+                "musique": "2a 1a 5a Dm 2a (25) 1a 2a 2a 3a 3a 1a 6a ",
+                "cotes": [
+                    "5.5",
+                    "5.1",
+                    "4.8"
+                ],
+                "gains": "887930",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2450
+            },
+            "11": {
+                "nom_cheval": "KOCTEL DU DAIN",
+                "sexe": "M",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "THOMAIN D.",
+                "nom_entraineur": "ALLAIRE PH.",
+                "poid_du_cheval": 2450,
+                "musique": "Da 0a Da (25) 8a Da 2a 2a 6a 2a 1a 1a 3a ",
+                "cotes": [
+                    "15.0",
+                    "14.0",
+                    "13.0"
+                ],
+                "gains": "1317250",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2450
+            },
+            "3": {
+                "nom_cheval": "IGREC DE CELLAND",
+                "sexe": "M",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "ROCHARD B.",
+                "nom_entraineur": "JARIEL CHR.",
+                "poid_du_cheval": 2450,
+                "musique": "4a 1a 9a 5a (25) 8a 2a 1a 7a 8a 2a Da 3a ",
+                "cotes": [
+                    "15.0",
+                    "18.0",
+                    "22.0"
+                ],
+                "gains": "551020",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2450
+            },
+            "15": {
+                "nom_cheval": "IDAO DE TILLARD",
+                "sexe": "M",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "DUVALDESTIN C.",
+                "nom_entraineur": "DUVALDESTIN TH.",
+                "poid_du_cheval": 2450,
+                "musique": "1a 7a 7a (25) 4a 3a 6a 1a (24) 1a 8a 4a 3a 1a ",
+                "cotes": [
+                    "2.9",
+                    "2.7",
+                    "2.6"
+                ],
+                "gains": "3038768",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2450
+            },
+            "14": {
+                "nom_cheval": "HOOKER BERRY",
+                "sexe": "M",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "RAFFIN E.",
+                "nom_entraineur": "LHERETE A.",
+                "poid_du_cheval": 2450,
+                "musique": "6a 5a 5a 9a 6a (25) 0a Da 5a 7a Da 0a 0a ",
+                "cotes": [
+                    "17.0",
+                    "18.0",
+                    "20.0"
+                ],
+                "gains": "1859003",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2450
+            },
+            "13": {
+                "nom_cheval": "HOKKAIDO JIEL",
+                "sexe": "M",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "NIVARD F.",
+                "nom_entraineur": "DERSOIR J.L.",
+                "poid_du_cheval": 2450,
+                "musique": "Da Da 8a 1a (25) 4a 6a 6a 5a (24) 4a 3a 0a 5a ",
+                "cotes": [
+                    "12.0",
+                    "15.0",
+                    "17.0"
+                ],
+                "gains": "1504780",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2450
+            }
+        },
+        "date": "09/05/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 96000,
+        "distance": 2000,
+        "prix": "SUPER HANDICAP DU PRINTEMPS",
+        "lieu": "Paris-Longchamp",
+        "heure_depart": "15:15:00",
+        "details": "PLAT, 2000 metres , Corde a DROITE 96.000- HANDICAP DIVISE Pour chevaux entiers, hongres et juments de 4 ans et au-dessus",
+        "partants": 20,
+        "non_partants": 0,
+        "arrivee": [
+            13,
+            8,
+            12,
+            3,
+            15,
+            2,
+            9
+        ],
+        "r/c": "R1/C5",
+        "arrivee_details": {
+            "13": {
+                "nom_cheval": "SABROSO",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "DEMURO C.",
+                "nom_entraineur": "DELCHER SANCHEZ M.",
+                "poid_du_cheval": 540,
+                "musique": "3p 2p (25) 2p 2p 4p 1p 6p (24) 10p 1p 1p 4p 2p ",
+                "cotes": [
+                    "6.0",
+                    "5.6",
+                    "4.3"
+                ],
+                "gains": "117739",
+                "corde": "9",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "8": {
+                "nom_cheval": "BAYAMOON",
+                "sexe": "M",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "VERON F.",
+                "nom_entraineur": "REYNIER (S) J.",
+                "poid_du_cheval": 570,
+                "musique": "12p 8p 1p (25) 1p 6p 6p 3p 5p 7p 7p 5p (24) 4p ",
+                "cotes": [
+                    "33.0",
+                    "39.0",
+                    "47.0"
+                ],
+                "gains": "85004",
+                "corde": "3",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "12": {
+                "nom_cheval": "BIG LOG",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "HAMELIN A.",
+                "nom_entraineur": "PROD'HOMME (S) D&P.",
+                "poid_du_cheval": 540,
+                "musique": "3p 1p 13p 5p (25) 2p 1p 3p 3p 2p 6p 7p 4p ",
+                "cotes": [
+                    "8.7",
+                    "9.8",
+                    "11.0"
+                ],
+                "gains": "168310",
+                "corde": "4",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "3": {
+                "nom_cheval": "AVIDE",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "GUYON M.",
+                "nom_entraineur": "FABRE (S) A.",
+                "poid_du_cheval": 595,
+                "musique": "5p (25) 2p 6p 2p (24) 1p ",
+                "cotes": [
+                    "9.2",
+                    "9.0",
+                    "10.0"
+                ],
+                "gains": "29592",
+                "corde": "2",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "15": {
+                "nom_cheval": "EVERILLO",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "CLAUDIC J.",
+                "nom_entraineur": "BRESSON (S) F.",
+                "poid_du_cheval": 535,
+                "musique": "1p 7p (25) 7p 9p 5p 3p 4p 1p 18p 2p (24) 4p 13p ",
+                "cotes": [
+                    "16.0",
+                    "20.0",
+                    "27.0"
+                ],
+                "gains": "155995",
+                "corde": "1",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "2": {
+                "nom_cheval": "POSCHIAVO",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "LECOEUVRE C.",
+                "nom_entraineur": "NIGGE (S) M.",
+                "poid_du_cheval": 595,
+                "musique": "4p 4p (25) 6p 1p 2p 3p 2p 1p 2p 1p (24) 6p 5p ",
+                "cotes": [
+                    "16.0",
+                    "14.0",
+                    "16.0"
+                ],
+                "gains": "80796",
+                "corde": "5",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "9": {
+                "nom_cheval": "SPANISH BREEZE CEN",
+                "sexe": "M",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "LEMAITRE A.",
+                "nom_entraineur": "HEAD MME V.",
+                "poid_du_cheval": 570,
+                "musique": "3p (25) 6p 1p 4p 1p 9p 2p (24) 2p ",
+                "cotes": [
+                    "12.0",
+                    "13.0",
+                    "12.0"
+                ],
+                "gains": "42738",
+                "corde": "8",
+                "discipline": "Plat",
+                "distance": 2000
+            }
+        },
+        "date": "10/05/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 32000,
+        "distance": 2800,
+        "prix": "PRIX DE MARIGNY",
+        "lieu": "Vichy",
+        "heure_depart": "13:55:00",
+        "details": "Pour 6, 7 et 8 ans, n'ayant pas gagné 90.000. Sont seules admises à driver les personnes ayant gagné au moins cinq courses (en étant titulaire d'une autorisation de monter à titre professionnel).",
+        "partants": 13,
+        "non_partants": 0,
+        "arrivee": [
+            7,
+            11,
+            6,
+            9,
+            1,
+            3,
+            2
+        ],
+        "r/c": "R1/C4",
+        "arrivee_details": {
+            "7": {
+                "nom_cheval": "KELCANTO BELLO",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "WIELS A.",
+                "nom_entraineur": "MARMION J.P.",
+                "poid_du_cheval": 2800,
+                "musique": "1a (25) 2a 1a 1a 1a Da Da 1a 3a Da 2a 3a ",
+                "cotes": [
+                    "1.9",
+                    "1.9",
+                    "1.8"
+                ],
+                "gains": "88135",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2800
+            },
+            "11": {
+                "nom_cheval": "KAPITANO DE LOU",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "DUPERCHE A.",
+                "nom_entraineur": "DUPERCHE A.",
+                "poid_du_cheval": 2800,
+                "musique": "7a 9a 8a 8a (25) 5m Da 0a 9a Da 0a 8a 6a ",
+                "cotes": [
+                    "29.0",
+                    "34.0",
+                    "44.0"
+                ],
+                "gains": "73445",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2800
+            },
+            "6": {
+                "nom_cheval": "KATSUKI",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "BERTIN LIL.",
+                "nom_entraineur": "GRIMAULT A.P.",
+                "poid_du_cheval": 2800,
+                "musique": "2a 2a 8a Da (25) 0a 1a Da 1a Da 7a Da Da ",
+                "cotes": [
+                    "7.7",
+                    "8.0",
+                    "6.5"
+                ],
+                "gains": "89710",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2800
+            },
+            "9": {
+                "nom_cheval": "KEVA LUDOISE",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "BOURLIER S.",
+                "nom_entraineur": "BOURLIER S.",
+                "poid_du_cheval": 2800,
+                "musique": "1a 0a 0a (25) 5a 0a 1a 5a 1a 1a 7a 0a 5a ",
+                "cotes": [
+                    "13.0",
+                    "8.1",
+                    "11.0"
+                ],
+                "gains": "81570",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2800
+            },
+            "1": {
+                "nom_cheval": "JET DE BUSSET",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "ABRIVARD M.",
+                "nom_entraineur": "MARION A.",
+                "poid_du_cheval": 2800,
+                "musique": "0a 4a 4a 5a Da (25) 0a 9a Da Da 0a Da 7a ",
+                "cotes": [
+                    "9.5",
+                    "9.4",
+                    "6.6"
+                ],
+                "gains": "89360",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2800
+            },
+            "3": {
+                "nom_cheval": "KSAR BLUE BOCAIN",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "CHAVATTE J.",
+                "nom_entraineur": "CHAVATTE J.",
+                "poid_du_cheval": 2800,
+                "musique": "2a Da Da 0a (25) 8a 4a Da 6a 3a 0a Da 1a ",
+                "cotes": [
+                    "35.0",
+                    "38.0",
+                    "51.0"
+                ],
+                "gains": "87175",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2800
+            },
+            "2": {
+                "nom_cheval": "KENZA KALOUMA",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "BEKAERT D.",
+                "nom_entraineur": "HUGUET G.R.",
+                "poid_du_cheval": 2800,
+                "musique": "4a 1a 5a 8a (25) Da 0a 7a 3a 8a 1a 0a 5a ",
+                "cotes": [
+                    "14.0",
+                    "13.0",
+                    "16.0"
+                ],
+                "gains": "87370",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2800
+            }
+        },
+        "date": "11/05/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 1200,
+        "prix": "PRIX DE MONTAGNY",
+        "lieu": "Chantilly",
+        "heure_depart": "13:55:00",
+        "details": "PLAT, 1200 metres , Ligne DROITE 50.900- HANDICAP DIVISE Pour chevaux entiers, hongres et juments de 4 ans et au-dessus",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            12,
+            15,
+            9,
+            7,
+            2,
+            4,
+            5
+        ],
+        "r/c": "R1/C1",
+        "arrivee_details": {
+            "12": {
+                "nom_cheval": "ROYALWOOD",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "VALLE SKAR MLLE F.",
+                "nom_entraineur": "BARANDE BARBE MME C.",
+                "poid_du_cheval": 570,
+                "musique": "10p 1p 4p 10p 3p 9p (25) 10p 9p 6p 2p 7p 6p ",
+                "cotes": [
+                    "12.0",
+                    "11.0",
+                    "11.0"
+                ],
+                "gains": "162306",
+                "corde": "4",
+                "discipline": "Plat",
+                "distance": 1200
+            },
+            "15": {
+                "nom_cheval": "GRAND SCOOP",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "POUCHIN A.",
+                "nom_entraineur": "MOSSE (S) G.",
+                "poid_du_cheval": 565,
+                "musique": "4p 4p 6p 9p (25) 16p 8p 7p 4p 4p 4p 1p 7p ",
+                "cotes": [
+                    "7.2",
+                    "7.0",
+                    "7.0"
+                ],
+                "gains": "65571",
+                "corde": "3",
+                "discipline": "Plat",
+                "distance": 1200
+            },
+            "9": {
+                "nom_cheval": "MISTER CHANG",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "JOURNIAC H.",
+                "nom_entraineur": "BARBEROT (S) Y.",
+                "poid_du_cheval": 580,
+                "musique": "2p 4p 1p (25) 3p 2p 3p 11p 15p 11p 2p 11p 2p ",
+                "cotes": [
+                    "3.4",
+                    "3.4",
+                    "3.9"
+                ],
+                "gains": "91229",
+                "corde": "2",
+                "discipline": "Plat",
+                "distance": 1200
+            },
+            "7": {
+                "nom_cheval": "CIAO PA",
+                "sexe": "M",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "BOUTIN HUG.",
+                "nom_entraineur": "BOUTIN (S) C.",
+                "poid_du_cheval": 585,
+                "musique": "12p 5p 3p 5p 7p 4p (25) 4p 7p 15p 8p 12p 16p ",
+                "cotes": [
+                    "15.0",
+                    "18.0",
+                    "19.0"
+                ],
+                "gains": "205195",
+                "corde": "9",
+                "discipline": "Plat",
+                "distance": 1200
+            },
+            "2": {
+                "nom_cheval": "MAJOR OAK",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "LECOEUVRE C.",
+                "nom_entraineur": "WEISSMEIER M. F.",
+                "poid_du_cheval": 595,
+                "musique": "14p (25) 6p 11p 11p 9p 4p 13p 1p 4p 6p 16p 6p ",
+                "cotes": [
+                    "25.0",
+                    "30.0",
+                    "31.0"
+                ],
+                "gains": "154133",
+                "corde": "5",
+                "discipline": "Plat",
+                "distance": 1200
+            },
+            "4": {
+                "nom_cheval": "DURYTHME",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "GUYON M.",
+                "nom_entraineur": "HEAD (S) CHR.",
+                "poid_du_cheval": 590,
+                "musique": "8p (25) 13p 7p 6p (24) 1p 6p 1p 1p 2p 2p 2p ",
+                "cotes": [
+                    "19.0",
+                    "18.0",
+                    "17.0"
+                ],
+                "gains": "68160",
+                "corde": "1",
+                "discipline": "Plat",
+                "distance": 1200
+            },
+            "5": {
+                "nom_cheval": "REGALIEN",
+                "sexe": "M",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "SANTIAGO MLLE D.",
+                "nom_entraineur": "PLISSON (S) CH.",
+                "poid_du_cheval": 585,
+                "musique": "1p 7p 14p 12p 13p 1p 6p 5p 2p 1p (25) 2p 3p ",
+                "cotes": [
+                    "22.0",
+                    "23.0",
+                    "28.0"
+                ],
+                "gains": "267140",
+                "corde": "16",
+                "discipline": "Plat",
+                "distance": 1200
+            }
+        },
+        "date": "12/05/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 90000,
+        "distance": 2700,
+        "prix": "PRIX DU PERREUX",
+        "lieu": "Vincennes",
+        "heure_depart": "13:55:00",
+        "details": "Pour 5 et 6 ans, n'ayant pas gagné 251.000. Sont seuls admis à participer à cette épreuve les chevaux n'ayant pas, dans les 12 mois précédant la course, été classés, au trot attelé, 1er, 2ème ou 3ème d'une épreuve de Groupe I.",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            12,
+            11,
+            3,
+            10,
+            1,
+            9,
+            4
+        ],
+        "r/c": "R1/C1",
+        "arrivee_details": {
+            "12": {
+                "nom_cheval": "LORD DELO",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "BAZIRE J. M.",
+                "nom_entraineur": "BAZIRE N.",
+                "poid_du_cheval": 2700,
+                "musique": "2a 1a Da Da (25) 1a 7a 2a 1a 1a (24) 2a 1a 8a ",
+                "cotes": [
+                    "3.2",
+                    "3.2",
+                    "3.4"
+                ],
+                "gains": "204410",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "11": {
+                "nom_cheval": "KEY OF LOVE",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "BARRIER A.",
+                "nom_entraineur": "LAMARE T.",
+                "poid_du_cheval": 2700,
+                "musique": "3a 1a Da 2a 1a (25) 1a 1a 6a 9a Da 2a 0a ",
+                "cotes": [
+                    "12.0",
+                    "12.0",
+                    "12.0"
+                ],
+                "gains": "202930",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "3": {
+                "nom_cheval": "NELSON GREENWOOD",
+                "sexe": "M",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "ABRIVARD A.",
+                "nom_entraineur": "LOCQUENEUX D.",
+                "poid_du_cheval": 2700,
+                "musique": "3a 0a (25) 3a Da 4a 3a 3a 4a Da 6a 4a 0a ",
+                "cotes": [
+                    "32.0",
+                    "36.0",
+                    "43.0"
+                ],
+                "gains": "159584",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "10": {
+                "nom_cheval": "EVERY TIME WINNER",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "RAFFIN E.",
+                "nom_entraineur": "BONDO H.E.",
+                "poid_du_cheval": 2700,
+                "musique": "Da 3m Da 3a 4a 7a 4a (25) 6a 3a Da 5a 7a ",
+                "cotes": [
+                    "17.0",
+                    "22.0",
+                    "24.0"
+                ],
+                "gains": "188698",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "1": {
+                "nom_cheval": "OMERTA BOKO",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "PLOQUIN PAU. PH.",
+                "nom_entraineur": "LOCQUENEUX D.",
+                "poid_du_cheval": 2700,
+                "musique": "4a 9a 6a 2a (25) 1a 0a 2a 1a 1a 1a 6a (24) 4a ",
+                "cotes": [
+                    "28.0",
+                    "25.0",
+                    "17.0"
+                ],
+                "gains": "150643",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "9": {
+                "nom_cheval": "KEY LADY",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "BAUDRON L.",
+                "nom_entraineur": "BAUDRON (S) L.",
+                "poid_du_cheval": 2700,
+                "musique": "2a 0a Da 4a (25) 3a 5a 3a 4a 1a 1a 6a 6a ",
+                "cotes": [
+                    "43.0",
+                    "46.0",
+                    "64.0"
+                ],
+                "gains": "188660",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "4": {
+                "nom_cheval": "ENOCK",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "NIVARD F.",
+                "nom_entraineur": "BONDO H.E.",
+                "poid_du_cheval": 2700,
+                "musique": "Da Da Da (25) Dm 8a 9a 2a 3a 3a Aa 4a 0a ",
+                "cotes": [
+                    "49.0",
+                    "64.0",
+                    "84.0"
+                ],
+                "gains": "160008",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            }
+        },
+        "date": "13/05/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 1400,
+        "prix": "PRIX DU PALAIS DES GLACES",
+        "lieu": "Paris-Longchamp",
+        "heure_depart": "20:15:00",
+        "details": "PLAT, 1400 metres , Corde a DROITE 50.900- HANDICAP DIVISE Pour juments de 4 ans et au-dessus",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            10,
+            6,
+            3,
+            13,
+            14,
+            16,
+            11
+        ],
+        "r/c": "R1/C7",
+        "arrivee_details": {
+            "10": {
+                "nom_cheval": "FREJA",
+                "sexe": "F",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "LEMAITRE A.",
+                "nom_entraineur": "CHAPPET (S) F.",
+                "poid_du_cheval": 550,
+                "musique": "9p 5p 3p 1p 4p (25) 13p 8p 7p 7p 9p (24) 4p 10p ",
+                "cotes": [
+                    "7.4",
+                    "7.8",
+                    "6.4"
+                ],
+                "gains": "143180",
+                "corde": "4",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "6": {
+                "nom_cheval": "THE SHADOW",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "GUYON M.",
+                "nom_entraineur": "CAULLERY N.",
+                "poid_du_cheval": 565,
+                "musique": "1p 2p 4p (25) 13p 2p 3p 1p 1p 2p 2p ",
+                "cotes": [
+                    "7.8",
+                    "7.0",
+                    "4.5"
+                ],
+                "gains": "54811",
+                "corde": "13",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "3": {
+                "nom_cheval": "LA MANDALA",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "SOUMILLON C.",
+                "nom_entraineur": "CHOTARD R.",
+                "poid_du_cheval": 600,
+                "musique": "1p (25) 2p 2p 5p 12p 1p 8p 15p (24) 8p 5p 1p 3p ",
+                "cotes": [
+                    "14.0",
+                    "12.0",
+                    "13.0"
+                ],
+                "gains": "67750",
+                "corde": "16",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "13": {
+                "nom_cheval": "DARK ZEL",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "HARDOUIN E.",
+                "nom_entraineur": "CAULLERY N.",
+                "poid_du_cheval": 525,
+                "musique": "6p 3p 4p 8p 4p (25) 7p 3p 1p 2p 1p 3p 10p ",
+                "cotes": [
+                    "20.0",
+                    "22.0",
+                    "28.0"
+                ],
+                "gains": "81602",
+                "corde": "6",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "14": {
+                "nom_cheval": "PLACEHOLDER",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "BOISSEAU L.",
+                "nom_entraineur": "HERNON G.",
+                "poid_du_cheval": 520,
+                "musique": "10p (25) 9p 1p 6p 5p 5p 7p 1p 5p 1p 2p 10p ",
+                "cotes": [
+                    "42.0",
+                    "48.0",
+                    "44.0"
+                ],
+                "gains": "51941",
+                "corde": "8",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "16": {
+                "nom_cheval": "ROMANCE MARINE",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "PLOMMEE LÉO.",
+                "nom_entraineur": "PROD'HOMME (S) D&P.",
+                "poid_du_cheval": 510,
+                "musique": "2p 11p 4p 10p 3p 1p 10p (25) 3p 3p 4p 4p 11p ",
+                "cotes": [
+                    "13.0",
+                    "12.0",
+                    "16.0"
+                ],
+                "gains": "78565",
+                "corde": "1",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "11": {
+                "nom_cheval": "CITY BABE",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "DEMURO C.",
+                "nom_entraineur": "WATTEL (S) S.",
+                "poid_du_cheval": 545,
+                "musique": "9p 8p (25) 5p 5p 5p 3p ",
+                "cotes": [
+                    "23.0",
+                    "24.0",
+                    "30.0"
+                ],
+                "gains": "7410",
+                "corde": "14",
+                "discipline": "Plat",
+                "distance": 1400
+            }
+        },
+        "date": "14/05/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 52000,
+        "distance": 2700,
+        "prix": "PRIX DEJANIRA",
+        "lieu": "Vincennes",
+        "heure_depart": "20:15:00",
+        "details": "Pour 7, 8 et 9 ans, n'ayant pas gagné 156.000",
+        "partants": 14,
+        "non_partants": 0,
+        "arrivee": [
+            9,
+            7,
+            11,
+            3,
+            4,
+            6,
+            13
+        ],
+        "r/c": "R1/C4",
+        "arrivee_details": {
+            "9": {
+                "nom_cheval": "MAX OCCAGNES",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "RAFFIN E.",
+                "nom_entraineur": "LOCQUENEUX D.",
+                "poid_du_cheval": 2700,
+                "musique": "1a Da 9a 6a (25) 5a 1a 8a 4a 4a (24) 2a 4a 8a ",
+                "cotes": [
+                    "4.0",
+                    "3.6",
+                    "3.7"
+                ],
+                "gains": "152012",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "7": {
+                "nom_cheval": "HASHTAG SIMONI",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "GELORMINI G.",
+                "nom_entraineur": "BONDO H.E.",
+                "poid_du_cheval": 2700,
+                "musique": "2a 4a 5a 3a 0a (25) Dm Da Da 2a 4a Dm 4a ",
+                "cotes": [
+                    "8.8",
+                    "8.3",
+                    "9.4"
+                ],
+                "gains": "144295",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "11": {
+                "nom_cheval": "INVICTUS DE NILREM",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "COLLETTE A.",
+                "nom_entraineur": "MICHARDIERE B.",
+                "poid_du_cheval": 2700,
+                "musique": "Da Da 4a 2a 5a (25) Da Da 7a 1a Da Da 1a ",
+                "cotes": [
+                    "27.0",
+                    "27.0",
+                    "33.0"
+                ],
+                "gains": "153715",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "3": {
+                "nom_cheval": "JUDGE DREDD SISU",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "ABRIVARD M.",
+                "nom_entraineur": "CHENU C.",
+                "poid_du_cheval": 2700,
+                "musique": "7a 7a (25) 7a 2a 0a 3a 8a 6a 4a 4a 0a 5a ",
+                "cotes": [
+                    "36.0",
+                    "40.0",
+                    "41.0"
+                ],
+                "gains": "78791",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "4": {
+                "nom_cheval": "EVER SO MUCH",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "MOTTIER M.",
+                "nom_entraineur": "TORNQVIST MME M.",
+                "poid_du_cheval": 2700,
+                "musique": "3a 2a 3a (25) 0a Da 0a 4a 0a 0a 1a 2a (24) 6a ",
+                "cotes": [
+                    "11.0",
+                    "12.0",
+                    "12.0"
+                ],
+                "gains": "79434",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "6": {
+                "nom_cheval": "ODANA VRIJTHOUT",
+                "sexe": "F",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "PLOQUIN PAU. PH.",
+                "nom_entraineur": "BROUWER D.",
+                "poid_du_cheval": 2700,
+                "musique": "Da 1a 7a 8a 4a Da 5a (25) 6a 5a 5a (24) 6a 5a ",
+                "cotes": [
+                    "7.3",
+                    "5.8",
+                    "3.9"
+                ],
+                "gains": "129761",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "13": {
+                "nom_cheval": "ISERE",
+                "sexe": "F",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "THOMAIN D.",
+                "nom_entraineur": "DESMONTILS MME C.",
+                "poid_du_cheval": 2700,
+                "musique": "0a 9a 5a 7a (25) 2a 6a 0a 3a 3a 1a 5a 2a ",
+                "cotes": [
+                    "27.0",
+                    "35.0",
+                    "45.0"
+                ],
+                "gains": "154945",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            }
+        },
+        "date": "15/05/2026"
+    },
+    {
+        "type": "Haies",
+        "montant": 98000,
+        "distance": 3600,
+        "prix": "PRIX LE GUALES DE MEZAUBRAN",
+        "lieu": "Auteuil",
+        "heure_depart": "15:15:00",
+        "details": "HAIES, 3600 metres 98.000- HANDICAP DIVISE Des primes de 7 150, 3 250, 2 600, seront offertes par le Fonds Europeen de l Elevage respectivement attribuees aux trois premiers qui ne seront versees que si les chevaux sont issus d etalons inscrits au F.E.E",
+        "partants": 15,
+        "non_partants": 1,
+        "arrivee": [
+            15,
+            8,
+            13,
+            3,
+            16,
+            2,
+            1
+        ],
+        "r/c": "R1/C4",
+        "arrivee_details": {
+            "15": {
+                "nom_cheval": "FRENCH LOVER",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "CHARRON J.",
+                "nom_entraineur": "LAGENESTE & MACAIRE (S)",
+                "poid_du_cheval": 650,
+                "musique": "5h 3h 5h (25) 2h 7h ",
+                "cotes": [
+                    "10.0",
+                    "11.0",
+                    "8.5"
+                ],
+                "gains": "22420",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "8": {
+                "nom_cheval": "MON MILLESIME",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "CHEVILLARD T.",
+                "nom_entraineur": "NICOLLE F.",
+                "poid_du_cheval": 670,
+                "musique": "7h 1h 3h ",
+                "cotes": [
+                    "17.0",
+                    "17.0",
+                    "15.0"
+                ],
+                "gains": "34215",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "13": {
+                "nom_cheval": "AZOU",
+                "sexe": "M",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "LE CLERC B.",
+                "nom_entraineur": "BELLEMERE F.",
+                "poid_du_cheval": 650,
+                "musique": "2h 3h 3h (25) Ah 9p 3p 3p 3p 4p 4p 5p 1p ",
+                "cotes": [
+                    "24.0",
+                    "25.0",
+                    "19.0"
+                ],
+                "gains": "15290",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "3": {
+                "nom_cheval": "MISS DES BOULLATS",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "FROST MLLE B.",
+                "nom_entraineur": "SEROR (S) M.",
+                "poid_du_cheval": 685,
+                "musique": "3p 7h 8h (25) Ts 2h 1h 4h 4h 1h 9s 4h 6h ",
+                "cotes": [
+                    "16.0",
+                    "24.0",
+                    "31.0"
+                ],
+                "gains": "99145",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "16": {
+                "nom_cheval": "FALCON JET",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "DE GILES F.",
+                "nom_entraineur": "GEORGE & A N.",
+                "poid_du_cheval": 635,
+                "musique": "1h 3h Ah (25) Ah 9h 5h ",
+                "cotes": [
+                    "12.0",
+                    "11.0",
+                    "8.5"
+                ],
+                "gains": "37410",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "2": {
+                "nom_cheval": "MULOUGHBOY",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "REVELEY J.",
+                "nom_entraineur": "GEORGE & A N.",
+                "poid_du_cheval": 690,
+                "musique": "3h 3h 2h 8h (25) 3h 3s 1h 3h ",
+                "cotes": [
+                    "5.1",
+                    "5.6",
+                    "6.2"
+                ],
+                "gains": "76280",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "1": {
+                "nom_cheval": "NICOS INVICTA",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "NABET K.",
+                "nom_entraineur": "NICOLLE F.",
+                "poid_du_cheval": 710,
+                "musique": "3h (25) 3s 5h 1h 11h ",
+                "cotes": [
+                    "10.0",
+                    "8.7",
+                    "10.0"
+                ],
+                "gains": "46840",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            }
+        },
+        "date": "16/05/2026"
+    },
+    {
+        "type": "Steeple-Chase",
+        "montant": 837000,
+        "distance": 6000,
+        "prix": "GRAND STEEPLE-CHASE DE PARIS",
+        "lieu": "Auteuil",
+        "heure_depart": "16:05:00",
+        "details": "STEEPLE-CHASE, 6000 metres 837.000- GROUPE I Pour tous chevaux de 5 ans et au-dessus",
+        "partants": 14,
+        "non_partants": 0,
+        "arrivee": [
+            9,
+            3,
+            2,
+            4,
+            1,
+            7,
+            5
+        ],
+        "r/c": "R1/C5",
+        "arrivee_details": {
+            "9": {
+                "nom_cheval": "SEL JEM",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "CHARRON J.",
+                "nom_entraineur": "LAGENESTE & MACAIRE (S)",
+                "poid_du_cheval": 680,
+                "musique": "5s 7h (25) 3s 1s 3s 6s 1s (24) As 3h (22) 1s 2s 1s ",
+                "cotes": [
+                    "14.0",
+                    "13.0",
+                    "15.0"
+                ],
+                "gains": "956147",
+                "corde": "",
+                "discipline": "Steeple-Chase",
+                "distance": 6000
+            },
+            "3": {
+                "nom_cheval": "BON GARCON",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "PRICHARD MLLE C.",
+                "nom_entraineur": "CHAILLE-CHAILLE & PAMART (S)",
+                "poid_du_cheval": 680,
+                "musique": "8s Ts (25) 4s 2s 1s 4s 2s (24) 2s 1s 2s 2s 10h ",
+                "cotes": [
+                    "35.0",
+                    "39.0",
+                    "32.0"
+                ],
+                "gains": "423500",
+                "corde": "",
+                "discipline": "Steeple-Chase",
+                "distance": 6000
+            },
+            "2": {
+                "nom_cheval": "GOLD TWEET",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "LEFEBVRE MR C.",
+                "nom_entraineur": "LEENDERS GAB.",
+                "poid_du_cheval": 680,
+                "musique": "1s 7s 5h (25) 2s 5h 6h 2h Ts (24) 4s 5s 4s 6s ",
+                "cotes": [
+                    "13.0",
+                    "12.0",
+                    "14.0"
+                ],
+                "gains": "855882",
+                "corde": "",
+                "discipline": "Steeple-Chase",
+                "distance": 6000
+            },
+            "4": {
+                "nom_cheval": "JUNTOS GANAMOS",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "SAMARIA Q.",
+                "nom_entraineur": "COTTIN D.",
+                "poid_du_cheval": 680,
+                "musique": "4h 4s (25) 5s 2h Ts (24) 7s 2s 1s Ts 1h 1s (23) Ts ",
+                "cotes": [
+                    "24.0",
+                    "23.0",
+                    "23.0"
+                ],
+                "gains": "810880",
+                "corde": "",
+                "discipline": "Steeple-Chase",
+                "distance": 6000
+            },
+            "1": {
+                "nom_cheval": "IN LOVE",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "MEUNIER GAB.",
+                "nom_entraineur": "MERIENNE (S) H.",
+                "poid_du_cheval": 680,
+                "musique": "6s 4s (25) Ts 3h 7s 3h Ah 6s (24) 5s 3s 7s 7h ",
+                "cotes": [
+                    "36.0",
+                    "45.0",
+                    "65.0"
+                ],
+                "gains": "472784",
+                "corde": "",
+                "discipline": "Steeple-Chase",
+                "distance": 6000
+            },
+            "7": {
+                "nom_cheval": "KENTUCKY WOOD",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "RE G.",
+                "nom_entraineur": "NICOLLE F.",
+                "poid_du_cheval": 680,
+                "musique": "9s 2s 4s (25) 2s 6h 8h 4h 4h 2h 4s 3s 7s ",
+                "cotes": [
+                    "24.0",
+                    "33.0",
+                    "46.0"
+                ],
+                "gains": "560445",
+                "corde": "",
+                "discipline": "Steeple-Chase",
+                "distance": 6000
+            },
+            "5": {
+                "nom_cheval": "TOSCANA DU BERLAIS",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "BAYLE F.",
+                "nom_entraineur": "CHAILLE-CHAILLE & PAMART (S)",
+                "poid_du_cheval": 680,
+                "musique": "2s 4s (25) 1s 2s 4s 4s 2s 7s (24) 7s 7s 3s 2s ",
+                "cotes": [
+                    "9.1",
+                    "7.6",
+                    "9.4"
+                ],
+                "gains": "866130",
+                "corde": "",
+                "discipline": "Steeple-Chase",
+                "distance": 6000
+            }
+        },
+        "date": "17/05/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 2000,
+        "prix": "PRIX LOUIS BRUNET",
+        "lieu": "Marseille Borely",
+        "heure_depart": "13:55:00",
+        "details": "PLAT, 2000 metres , Corde a GAUCHE 50.900- HANDICAP DIVISE Pour chevaux entiers, hongres et juments de 4 ans et au-dessus",
+        "partants": 14,
+        "non_partants": 2,
+        "arrivee": [
+            1,
+            7,
+            10,
+            9,
+            5,
+            8,
+            11
+        ],
+        "r/c": "R1/C4",
+        "arrivee_details": {
+            "1": {
+                "nom_cheval": "KOURPLUVIX",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "HARDOUIN E.",
+                "nom_entraineur": "REYNIER (S) J.",
+                "poid_du_cheval": 600,
+                "musique": "4p 4p 9p 4p (25) 1p 1p 1p 6p 4p 2p 1p ",
+                "cotes": [
+                    "9.4",
+                    "10.0",
+                    "9.8"
+                ],
+                "gains": "65118",
+                "corde": "2",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "7": {
+                "nom_cheval": "CLEOD'OR",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "PUILLET-RODA EMI.",
+                "nom_entraineur": "PITART M.",
+                "poid_du_cheval": 565,
+                "musique": "8p 1p 6p 6p 11p 3p (25) 10p 1p 7p 3p 7p 1p ",
+                "cotes": [
+                    "23.0",
+                    "26.0",
+                    "22.0"
+                ],
+                "gains": "266454",
+                "corde": "5",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "10": {
+                "nom_cheval": "MARCHEMALO",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "BESNIER H.",
+                "nom_entraineur": "COTTIER P.",
+                "poid_du_cheval": 555,
+                "musique": "3p 14p 2p 3p (25) 8p 4p 8p 8p 1p 2p 4p 4p ",
+                "cotes": [
+                    "8.6",
+                    "7.6",
+                    "7.0"
+                ],
+                "gains": "43938",
+                "corde": "4",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "9": {
+                "nom_cheval": "AMEDRAS",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "MOLINS MME AMB.",
+                "nom_entraineur": "SALTON MME L.",
+                "poid_du_cheval": 560,
+                "musique": "4p 4p 9p 2p 10p (25) 12p 1p 15p 15p 11p 16p 8p ",
+                "cotes": [
+                    "18.0",
+                    "19.0",
+                    "25.0"
+                ],
+                "gains": "281454",
+                "corde": "9",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "5": {
+                "nom_cheval": "RAKHIM",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "DEMURO C.",
+                "nom_entraineur": "REYNIER (S) J.",
+                "poid_du_cheval": 575,
+                "musique": "7p 8p 1p 4p (25) 7p 5p 4p 3p 1p 3p ",
+                "cotes": [
+                    "9.6",
+                    "8.7",
+                    "9.6"
+                ],
+                "gains": "34751",
+                "corde": "6",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "8": {
+                "nom_cheval": "MAX VERST",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "BOUTIN HUG.",
+                "nom_entraineur": "FRADET (S) R.",
+                "poid_du_cheval": 560,
+                "musique": "3p 8p 7p 8p 4p 14p (25) 3p 5p 1p 7p 6p 5p ",
+                "cotes": [
+                    "16.0",
+                    "18.0",
+                    "23.0"
+                ],
+                "gains": "201525",
+                "corde": "14",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "11": {
+                "nom_cheval": "DAMASK BLADE",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "VELON MLLE M.",
+                "nom_entraineur": "ESCUDER C.",
+                "poid_du_cheval": 550,
+                "musique": "2p 6p 5p 7p 4p 8p (25) 4p 1p 3p 7p 2p 1p ",
+                "cotes": [
+                    "12.0",
+                    "15.0",
+                    "17.0"
+                ],
+                "gains": "124551",
+                "corde": "1",
+                "discipline": "Plat",
+                "distance": 2000
+            }
+        },
+        "date": "18/05/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 1900,
+        "prix": "PRIX DE LA FORET DE CHANTILLY",
+        "lieu": "Chantilly",
+        "heure_depart": "13:55:00",
+        "details": "PLAT, 1900 metres , PSF , Corde a DROITE 50.900- HANDICAP DIVISE Pour chevaux entiers, hongres et juments de 4 ans et au-dessus",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            1,
+            6,
+            7,
+            12,
+            15,
+            10,
+            5
+        ],
+        "r/c": "R1/C1",
+        "arrivee_details": {
+            "1": {
+                "nom_cheval": "ZELZARI",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "GRANDIN MAR.",
+                "nom_entraineur": "MELE (S) D.",
+                "poid_du_cheval": 640,
+                "musique": "1p 1p 4p 4p 1p 2p (25) 1p 3p 1p 8p 5p 2p ",
+                "cotes": [
+                    "6.9",
+                    "5.2",
+                    "4.7"
+                ],
+                "gains": "119980",
+                "corde": "4",
+                "discipline": "Plat",
+                "distance": 1900
+            },
+            "6": {
+                "nom_cheval": "AL MAX",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "MADAMET A.",
+                "nom_entraineur": "DECOUZ (S) P.",
+                "poid_du_cheval": 575,
+                "musique": "5p 3p 1p (25) 9p 3p 1p 2p 3p 6p (24) 7p 5p ",
+                "cotes": [
+                    "15.0",
+                    "13.0",
+                    "9.7"
+                ],
+                "gains": "42207",
+                "corde": "6",
+                "discipline": "Plat",
+                "distance": 1900
+            },
+            "7": {
+                "nom_cheval": "SAUCEPOT",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "BARZALONA M.",
+                "nom_entraineur": "GRAFFARD (S) FH.",
+                "poid_du_cheval": 575,
+                "musique": "6p 1p (25) 2p ",
+                "cotes": [
+                    "10.0",
+                    "10.0",
+                    "9.6"
+                ],
+                "gains": "12682",
+                "corde": "10",
+                "discipline": "Plat",
+                "distance": 1900
+            },
+            "12": {
+                "nom_cheval": "HUMAN EVOLUTION",
+                "sexe": "M",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "PICCONE T.",
+                "nom_entraineur": "PANTALL (S) HA.",
+                "poid_du_cheval": 545,
+                "musique": "1p 5p 1p 2p (25) 2p 3p 3p 10p 5p 6p 3p 4p ",
+                "cotes": [
+                    "5.9",
+                    "7.2",
+                    "5.7"
+                ],
+                "gains": "95168",
+                "corde": "7",
+                "discipline": "Plat",
+                "distance": 1900
+            },
+            "15": {
+                "nom_cheval": "STANGHELI",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "POUCHIN A.",
+                "nom_entraineur": "FABRE (S) A.",
+                "poid_du_cheval": 535,
+                "musique": "12p (25) 15p 13p 2p 3p 8p 8p 3p 15p (24) 11p 7p 10p ",
+                "cotes": [
+                    "15.0",
+                    "18.0",
+                    "22.0"
+                ],
+                "gains": "119386",
+                "corde": "11",
+                "discipline": "Plat",
+                "distance": 1900
+            },
+            "10": {
+                "nom_cheval": "DOUBLE UP",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "BACHELOT T.",
+                "nom_entraineur": "WATTEL (S) S.",
+                "poid_du_cheval": 565,
+                "musique": "9p 13p 7p (25) 1p 3p 4p 1p 12p ",
+                "cotes": [
+                    "15.0",
+                    "16.0",
+                    "20.0"
+                ],
+                "gains": "31403",
+                "corde": "9",
+                "discipline": "Plat",
+                "distance": 1900
+            },
+            "5": {
+                "nom_cheval": "SIYOUKING",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "SIAS GIO.",
+                "nom_entraineur": "KOPLIK Z.",
+                "poid_du_cheval": 575,
+                "musique": "3p (25) 1p 2p 4p 6p 12p 1p 2p 6p (24) 9p 12p 6p ",
+                "cotes": [
+                    "13.0",
+                    "13.0",
+                    "14.0"
+                ],
+                "gains": "97209",
+                "corde": "5",
+                "discipline": "Plat",
+                "distance": 1900
+            }
+        },
+        "date": "19/05/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 90000,
+        "distance": 2825,
+        "prix": "GRAND NATIONAL DU TROT",
+        "lieu": "Le Croise Laroche",
+        "heure_depart": "13:55:00",
+        "details": "Pour 5 à 10 ans inclus, les 5, 6 et 7 ans ayant gagné au moins 34.000, les 8 ans au moins 68.000, les 9 et 10 ans au moins 130.000",
+        "partants": 15,
+        "non_partants": 1,
+        "arrivee": [
+            11,
+            1,
+            10,
+            13,
+            4,
+            3,
+            2
+        ],
+        "r/c": "R1/C1",
+        "arrivee_details": {
+            "11": {
+                "nom_cheval": "KANTO AVIS",
+                "sexe": "M",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "ROCHARD B.",
+                "nom_entraineur": "SASSIER M.",
+                "poid_du_cheval": 2850,
+                "musique": "3a 0a Da (25) 7a 8a 9a 7a 4a 0a 1a 4a 1a ",
+                "cotes": [
+                    "21.0",
+                    "23.0",
+                    "30.0"
+                ],
+                "gains": "435110",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2825
+            },
+            "1": {
+                "nom_cheval": "KARNAC WOOD",
+                "sexe": "M",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "MONTHULE HUG.",
+                "nom_entraineur": "GUARATO S.",
+                "poid_du_cheval": 2825,
+                "musique": "1a 4a 7a 1a (25) 0a 1a 1a 1a Da 1a 3a 3a ",
+                "cotes": [
+                    "8.5",
+                    "7.3",
+                    "4.7"
+                ],
+                "gains": "233250",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2825
+            },
+            "10": {
+                "nom_cheval": "INDUS VAL",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "VERVA PIE. Y.",
+                "nom_entraineur": "CHAINEUX J.M.",
+                "poid_du_cheval": 2850,
+                "musique": "3a Da 2a 1a 5a (25) 4a 8a 4a 7a 3a 3a 1a ",
+                "cotes": [
+                    "17.0",
+                    "20.0",
+                    "26.0"
+                ],
+                "gains": "416825",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2825
+            },
+            "13": {
+                "nom_cheval": "HEDIC GEMA",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "GENDROT A.",
+                "nom_entraineur": "SASSIER M.",
+                "poid_du_cheval": 2850,
+                "musique": "7a 6a 1a (25) 7a 0a 4a 0a 5a (24) 3a 0a 2a 2a ",
+                "cotes": [
+                    "43.0",
+                    "59.0",
+                    "75.0"
+                ],
+                "gains": "450860",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2825
+            },
+            "4": {
+                "nom_cheval": "JET EXPRESS",
+                "sexe": "M",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "DAUGEARD PH.",
+                "nom_entraineur": "DAUGEARD PH.",
+                "poid_du_cheval": 2825,
+                "musique": "2a (25) 3a 2a 2a 2a 3a 0a 4a 8a 3a 2a 3a ",
+                "cotes": [
+                    "8.8",
+                    "9.6",
+                    "11.0"
+                ],
+                "gains": "260450",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2825
+            },
+            "3": {
+                "nom_cheval": "JENTIL DIESCHOOT",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "COLLETTE A.",
+                "nom_entraineur": "LEBLANC K.",
+                "poid_du_cheval": 2825,
+                "musique": "3a 7a 1a 4a 1a 2a (25) 4a 3a 0a 0a Da 1a ",
+                "cotes": [
+                    "15.0",
+                    "18.0",
+                    "12.0"
+                ],
+                "gains": "255660",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2825
+            },
+            "2": {
+                "nom_cheval": "JOY DU CARNOIS",
+                "sexe": "F",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "BODIN ALE.",
+                "nom_entraineur": "MOTTIER C.",
+                "poid_du_cheval": 2825,
+                "musique": "2a 2a 2a 2a (25) 9a 7a 2a 1a 2a 1a 1a 3a ",
+                "cotes": [
+                    "23.0",
+                    "29.0",
+                    "36.0"
+                ],
+                "gains": "255265",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2825
+            }
+        },
+        "date": "20/05/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 52800,
+        "distance": 1400,
+        "prix": "PRIX DE LA VILLE DE PARIS",
+        "lieu": "Paris-Longchamp",
+        "heure_depart": "20:15:00",
+        "details": "PLAT, 1400 metres , Corde a DROITE 52.800- HANDICAP DIVISE Pour poulains entiers, hongres et pouliches de 3 ans",
+        "partants": 15,
+        "non_partants": 1,
+        "arrivee": [
+            4,
+            11,
+            "3/6",
+            15,
+            5,
+            10
+        ],
+        "r/c": "R1/C7",
+        "arrivee_details": {
+            "4": {
+                "nom_cheval": "PAS DANSANT",
+                "sexe": "H",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "WERLE A.",
+                "nom_entraineur": "TRIGODET (S) O.",
+                "poid_du_cheval": 575,
+                "musique": "7p 3p 3p (25) 5p 1p 7p 5p 7p 3p 1p ",
+                "cotes": [
+                    "12.0",
+                    "12.0",
+                    "10.0"
+                ],
+                "gains": "36304",
+                "corde": "3",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "11": {
+                "nom_cheval": "MELUSINE DU HOULEY",
+                "sexe": "F",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "DEMURO C.",
+                "nom_entraineur": "BARBEROT (S) Y.",
+                "poid_du_cheval": 560,
+                "musique": "8p 3p 2p 2p (25) 2p 5p 3p ",
+                "cotes": [
+                    "6.4",
+                    "6.5",
+                    "7.2"
+                ],
+                "gains": "26918",
+                "corde": "7",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "3": {
+                "nom_cheval": "SAINT SAENS",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "GUYON M.",
+                "nom_entraineur": "BARBEROT (S) Y.",
+                "poid_du_cheval": 575,
+                "musique": "3p 1p 2p (25) 4p 5p 9p ",
+                "cotes": [
+                    "6.1",
+                    "4.6",
+                    "4.3"
+                ],
+                "gains": "41442",
+                "corde": "6",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "6": {
+                "nom_cheval": "BASANTI",
+                "sexe": "F",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "POUCHIN A.",
+                "nom_entraineur": "FABRE (S) A.",
+                "poid_du_cheval": 575,
+                "musique": "4p 8p 6p 1p (25) 3p 8p ",
+                "cotes": [
+                    "8.2",
+                    "8.9",
+                    "8.5"
+                ],
+                "gains": "21705",
+                "corde": "1",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "15": {
+                "nom_cheval": "PALLADIO",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "VALLE SKAR MLLE F.",
+                "nom_entraineur": "LERNER (S) C&Y.",
+                "poid_du_cheval": 555,
+                "musique": "5p 2p 2p 9p (25) 8p 4p ",
+                "cotes": [
+                    "14.0",
+                    "14.0",
+                    "17.0"
+                ],
+                "gains": "13966",
+                "corde": "10",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "5": {
+                "nom_cheval": "NELLIEDONADO",
+                "sexe": "F",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "LECOEUVRE C.",
+                "nom_entraineur": "WATTEL (S) S.",
+                "poid_du_cheval": 575,
+                "musique": "1p 2p 5p 3p (25) 2p 9p ",
+                "cotes": [
+                    "16.0",
+                    "12.0",
+                    "12.0"
+                ],
+                "gains": "24930",
+                "corde": "4",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "10": {
+                "nom_cheval": "HOLY SPIRIT",
+                "sexe": "H",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "MADAMET A.",
+                "nom_entraineur": "DELCHER SANCHEZ M.",
+                "poid_du_cheval": 565,
+                "musique": "6p 1p 8p ",
+                "cotes": [
+                    "36.0",
+                    "45.0",
+                    "42.0"
+                ],
+                "gains": "12852",
+                "corde": "11",
+                "discipline": "Plat",
+                "distance": 1400
+            }
+        },
+        "date": "21/05/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 68000,
+        "distance": 2700,
+        "prix": "PRIX SIRRAH",
+        "lieu": "Vincennes",
+        "heure_depart": "20:15:00",
+        "details": "Pour 7 à 11 ans inclus, n'ayant pas gagné 265.000.",
+        "partants": 15,
+        "non_partants": 0,
+        "arrivee": [
+            11,
+            5,
+            13,
+            7,
+            8,
+            2,
+            3
+        ],
+        "r/c": "R1/C4",
+        "arrivee_details": {
+            "11": {
+                "nom_cheval": "IRIS DES ROSEAUX",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "DUVALDESTIN C.",
+                "nom_entraineur": "DUVALDESTIN TH.",
+                "poid_du_cheval": 2700,
+                "musique": "9a (25) Dm 2a 2a 2a 1a 1a 4a 9a (24) 1a 2a 1a ",
+                "cotes": [
+                    "11.0",
+                    "11.0",
+                    "13.0"
+                ],
+                "gains": "256770",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "5": {
+                "nom_cheval": "JACOMO BELLO",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "LEVESQUE TH.",
+                "nom_entraineur": "LEVESQUE T.",
+                "poid_du_cheval": 2700,
+                "musique": "6a 5a 3a 3a (25) 3a 5a 3a 1a 1a 2a 3a Da ",
+                "cotes": [
+                    "10.0",
+                    "12.0",
+                    "11.0"
+                ],
+                "gains": "224850",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "13": {
+                "nom_cheval": "JOLIVERT DU GERS",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "BAZIRE J. M.",
+                "nom_entraineur": "ABRIVARD M.",
+                "poid_du_cheval": 2700,
+                "musique": "5a 4a 1a 3a (25) 7a 4a 2a 2a 5a 6a 3a 5a ",
+                "cotes": [
+                    "3.6",
+                    "3.4",
+                    "4.0"
+                ],
+                "gains": "259495",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "7": {
+                "nom_cheval": "JAPAROV LIRE",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "COLLETTE A.",
+                "nom_entraineur": "ROELENS L.",
+                "poid_du_cheval": 2700,
+                "musique": "9a 0a 1a 2a Da 8a (25) 2a 0a 3a Da 5a 9a ",
+                "cotes": [
+                    "20.0",
+                    "24.0",
+                    "24.0"
+                ],
+                "gains": "239880",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "8": {
+                "nom_cheval": "JANKO HAUFOR",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "BONNE D.",
+                "nom_entraineur": "BIGEON CH.",
+                "poid_du_cheval": 2700,
+                "musique": "4a 2a 0a 1a (25) 2a 1a 0a 0a 0a 2a 7a Da ",
+                "cotes": [
+                    "7.3",
+                    "6.2",
+                    "5.9"
+                ],
+                "gains": "240100",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "2": {
+                "nom_cheval": "JAIN MAB",
+                "sexe": "F",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "ROCHARD B.",
+                "nom_entraineur": "BUISSON A.",
+                "poid_du_cheval": 2700,
+                "musique": "5a 3a (25) 0a 2a 3a 0a 2a 7a 1a 7a 1a Da ",
+                "cotes": [
+                    "12.0",
+                    "14.0",
+                    "18.0"
+                ],
+                "gains": "218990",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "3": {
+                "nom_cheval": "JIMINY CRICKET",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "MONCLIN J. PH.",
+                "nom_entraineur": "MONCLIN J.P.",
+                "poid_du_cheval": 2700,
+                "musique": "1a 1a 7m 4m (25) 2m 1m 1m Dm 2m 1m 1m 0a ",
+                "cotes": [
+                    "14.0",
+                    "14.0",
+                    "12.0"
+                ],
+                "gains": "220260",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            }
+        },
+        "date": "22/05/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 71000,
+        "distance": 2150,
+        "prix": "PRIX DU RHONE",
+        "lieu": "Enghien Soisy",
+        "heure_depart": "15:15:00",
+        "details": "Pour 5, 6 et 7 ans, n'ayant pas gagné 240.000. Sont seuls admis à participer à cette épreuve les chevaux n'ayant pas, dans les 12 mois précédant la course, été classés, au trot attelé, 1er, 2ème ou 3ème d'une épreuve de Groupe I.",
+        "partants": 14,
+        "non_partants": 2,
+        "arrivee": [
+            5,
+            6,
+            3,
+            2,
+            4,
+            11,
+            1
+        ],
+        "r/c": "R1/C4",
+        "arrivee_details": {
+            "5": {
+                "nom_cheval": "KATCHI QUICK",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "DUVALDESTIN C.",
+                "nom_entraineur": "DUVALDESTIN TH.",
+                "poid_du_cheval": 2150,
+                "musique": "1a 1a Da 1a 1a 0a (25) 0a 4a 2a 2a (24) 6a 1a ",
+                "cotes": [
+                    "2.5",
+                    "2.0",
+                    "1.8"
+                ],
+                "gains": "215430",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "6": {
+                "nom_cheval": "KISS ME HONEY",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "BAUDOUIN L.",
+                "nom_entraineur": "BAUDOUIN J.M.",
+                "poid_du_cheval": 2150,
+                "musique": "2a 3m 6m 1a Dm (25) 2m 2a 4a 0a 0a 0a 8a ",
+                "cotes": [
+                    "15.0",
+                    "13.0",
+                    "14.0"
+                ],
+                "gains": "222370",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "3": {
+                "nom_cheval": "KEMIA DU CHENE",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "PLOQUIN PAU. PH.",
+                "nom_entraineur": "LE MER J.",
+                "poid_du_cheval": 2150,
+                "musique": "4a 8a 5a 0a 5a (25) 4a 4a 2a 6a 0a 5a 1a ",
+                "cotes": [
+                    "29.0",
+                    "33.0",
+                    "42.0"
+                ],
+                "gains": "215050",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "2": {
+                "nom_cheval": "XERAVA C.D.",
+                "sexe": "F",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "GELORMINI G.",
+                "nom_entraineur": "R STROMBERG H.",
+                "poid_du_cheval": 2150,
+                "musique": "4a 1a 5m 3a 2a (25) 5a 1a 5a 3a 4m 4a 3a ",
+                "cotes": [
+                    "20.0",
+                    "24.0",
+                    "23.0"
+                ],
+                "gains": "200908",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "4": {
+                "nom_cheval": "DIABEL",
+                "sexe": "F",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "ABRIVARD A.",
+                "nom_entraineur": "BONDO H.E.",
+                "poid_du_cheval": 2150,
+                "musique": "2a 9a 2a 5a (25) 3a Da 1a 8a 1a 1a 2a Da ",
+                "cotes": [
+                    "7.7",
+                    "8.4",
+                    "9.1"
+                ],
+                "gains": "239735",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "11": {
+                "nom_cheval": "LEWIS RIVER",
+                "sexe": "M",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "BONNE D.",
+                "nom_entraineur": "GUARATO S.",
+                "poid_du_cheval": 2150,
+                "musique": "2a 2a Da 6a (25) 8a 4a 2a 6a 8a 5a 8a 7a ",
+                "cotes": [
+                    "17.0",
+                    "24.0",
+                    "26.0"
+                ],
+                "gains": "137580",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "1": {
+                "nom_cheval": "KENO PETTEVINIERE",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "BEKAERT D.",
+                "nom_entraineur": "ROGER S.",
+                "poid_du_cheval": 2150,
+                "musique": "5a 1a 7a 6a 0a 2a 9a (25) 9a 8a 1a 1a 3a ",
+                "cotes": [
+                    "41.0",
+                    "55.0",
+                    "71.0"
+                ],
+                "gains": "211140",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            }
+        },
+        "date": "23/05/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 1400,
+        "prix": "PRIX DE L'ORANGERIE",
+        "lieu": "Paris-Longchamp",
+        "heure_depart": "15:15:00",
+        "details": "PLAT, 1400 metres , Corde a DROITE 50.900- HANDICAP DIVISE Pour chevaux entiers, hongres et juments de 4 ans et au-dessus",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            4,
+            1,
+            5,
+            "2/7",
+            6,
+            9
+        ],
+        "r/c": "R1/C3",
+        "arrivee_details": {
+            "4": {
+                "nom_cheval": "PURE LEGEND",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "PROVOST D.",
+                "nom_entraineur": "DEVIN (S) HF.",
+                "poid_du_cheval": 585,
+                "musique": "4p 4p (25) 7p 6p 4p 2p 7p 3p (24) 1p 1p ",
+                "cotes": [
+                    "34.0",
+                    "35.0",
+                    "33.0"
+                ],
+                "gains": "51642",
+                "corde": "7",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "1": {
+                "nom_cheval": "TORTISAMBERT",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "DEMURO C.",
+                "nom_entraineur": "CHAPPET (S) F.",
+                "poid_du_cheval": 615,
+                "musique": "5p 1p 2p 8p (25) 3p 3p 4p 3p 3p 7p 7p 4p ",
+                "cotes": [
+                    "17.0",
+                    "16.0",
+                    "20.0"
+                ],
+                "gains": "149753",
+                "corde": "13",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "5": {
+                "nom_cheval": "TALENTUOSO",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "GRANDIN MAR.",
+                "nom_entraineur": "DUBOIS (S) PE.",
+                "poid_du_cheval": 580,
+                "musique": "9p 3p 2p 3p 1p (25) 2p 4p 8p 4p 10p 5p 12p ",
+                "cotes": [
+                    "31.0",
+                    "29.0",
+                    "26.0"
+                ],
+                "gains": "96567",
+                "corde": "16",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "2": {
+                "nom_cheval": "AFOGADO",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "LECOEUVRE C.",
+                "nom_entraineur": "BRANDT (S) P&J.",
+                "poid_du_cheval": 610,
+                "musique": "7p (25) 10p 4p 8p 3p 2p 1p 1p (24) 2p 5p 6p ",
+                "cotes": [
+                    "22.0",
+                    "23.0",
+                    "33.0"
+                ],
+                "gains": "72360",
+                "corde": "11",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "7": {
+                "nom_cheval": "AWAITING CHRISTMAS",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "BACHELOT T.",
+                "nom_entraineur": "LUKA V.",
+                "poid_du_cheval": 570,
+                "musique": "9p 11p (25) 16p 4p 11p 11p 5p 3p 1p (24) 3p 4p 1p ",
+                "cotes": [
+                    "43.0",
+                    "60.0",
+                    "86.0"
+                ],
+                "gains": "65056",
+                "corde": "12",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "6": {
+                "nom_cheval": "KRASKHOV",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "SOUMILLON C.",
+                "nom_entraineur": "DELCHER SANCHEZ M.",
+                "poid_du_cheval": 570,
+                "musique": "3p 3p 4p (25) 1p 11p 2p 5p 1p 9p 4p (24) 7p ",
+                "cotes": [
+                    "4.1",
+                    "4.1",
+                    "4.1"
+                ],
+                "gains": "57027",
+                "corde": "5",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "9": {
+                "nom_cheval": "NO LIMIT DREAM",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "GUYON M.",
+                "nom_entraineur": "MOSSE (S) G.",
+                "poid_du_cheval": 565,
+                "musique": "4p 8p 2p 7p 5p (25) 7p 2p 3p 10p 10p 12p 11p ",
+                "cotes": [
+                    "5.0",
+                    "5.5",
+                    "5.0"
+                ],
+                "gains": "169812",
+                "corde": "6",
+                "discipline": "Plat",
+                "distance": 1400
+            }
+        },
+        "date": "24/05/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 1600,
+        "prix": "PRIX DES HAUTS DE FRANCE",
+        "lieu": "Compiegne",
+        "heure_depart": "15:15:00",
+        "details": "PLAT, 1600 metres , Corde a GAUCHE 50.900- HANDICAP DIVISE Pour chevaux entiers, hongres et juments de 4 ans et au-dessus",
+        "partants": 15,
+        "non_partants": 1,
+        "arrivee": [
+            4,
+            2,
+            8,
+            6,
+            5,
+            9,
+            7
+        ],
+        "r/c": "R1/C3",
+        "arrivee_details": {
+            "4": {
+                "nom_cheval": "CALAS",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "GUYON M.",
+                "nom_entraineur": "BRANDT (S) P&J.",
+                "poid_du_cheval": 590,
+                "musique": "1p 5p (25) 1p 5p 13p (24) 7p 4p 9p 4p 3p 4p 2p ",
+                "cotes": [
+                    "8.0",
+                    "7.4",
+                    "5.2"
+                ],
+                "gains": "110750",
+                "corde": "8",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "2": {
+                "nom_cheval": "HALF HALF",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "POUCHIN A.",
+                "nom_entraineur": "SMAGA D.",
+                "poid_du_cheval": 600,
+                "musique": "1p 6p 2p 3p 12p (25) 7p 3p (24) 9p 8p 10p 5p 5p ",
+                "cotes": [
+                    "10.0",
+                    "10.0",
+                    "7.1"
+                ],
+                "gains": "157326",
+                "corde": "6",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "8": {
+                "nom_cheval": "ZIGGY STAR",
+                "sexe": "M",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "PROVOST D.",
+                "nom_entraineur": "CESANDRI (S) M.",
+                "poid_du_cheval": 565,
+                "musique": "5p 7p 4p 10p (25) 9p 9p 2p 1p 1p 2p 3p (24) 6p ",
+                "cotes": [
+                    "13.0",
+                    "14.0",
+                    "10.0"
+                ],
+                "gains": "66230",
+                "corde": "12",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "6": {
+                "nom_cheval": "SERINES",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "LEMAITRE A.",
+                "nom_entraineur": "KARKOSA MME A.",
+                "poid_du_cheval": 570,
+                "musique": "10p 7p (25) 9p 12p 7p 6p 1p 3p 1p 3p 8p (24) 11p ",
+                "cotes": [
+                    "21.0",
+                    "22.0",
+                    "27.0"
+                ],
+                "gains": "56189",
+                "corde": "14",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "5": {
+                "nom_cheval": "COMME QUOI",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "SOUMILLON C.",
+                "nom_entraineur": "PERRET (S) N.",
+                "poid_du_cheval": 585,
+                "musique": "2p 2p 6p 7p (25) 2p 10p 4p 1p 2p (24) 4p 1p 2p ",
+                "cotes": [
+                    "4.8",
+                    "4.5",
+                    "5.9"
+                ],
+                "gains": "95333",
+                "corde": "4",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "9": {
+                "nom_cheval": "DUBALAA",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "BARZALONA M.",
+                "nom_entraineur": "REYNIER (S) J.",
+                "poid_du_cheval": 565,
+                "musique": "11p 2p 2p 4p (25) 1p 1p 2p 8p 3p ",
+                "cotes": [
+                    "6.6",
+                    "4.9",
+                    "6.5"
+                ],
+                "gains": "45237",
+                "corde": "2",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "7": {
+                "nom_cheval": "TRUE TEDESCO",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "VELON MLLE M.",
+                "nom_entraineur": "SUBORICS A.",
+                "poid_du_cheval": 565,
+                "musique": "10p 10p 13p (25) 8p 10p 1p 3p 4p 10p 2p 6p 4p ",
+                "cotes": [
+                    "22.0",
+                    "29.0",
+                    "31.0"
+                ],
+                "gains": "135057",
+                "corde": "7",
+                "discipline": "Plat",
+                "distance": 1600
+            }
+        },
+        "date": "25/05/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 46000,
+        "distance": 2700,
+        "prix": "PRIX JOHANNA",
+        "lieu": "Vincennes",
+        "heure_depart": "18:25:00",
+        "details": "Pour juments de 5 ans, n'ayant pas gagné 61.500.",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            1,
+            14,
+            2,
+            12,
+            4,
+            6,
+            3
+        ],
+        "r/c": "R1/C5",
+        "arrivee_details": {
+            "1": {
+                "nom_cheval": "LEONTINE CASH",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "NIVARD F.",
+                "nom_entraineur": "HACHIN P.",
+                "poid_du_cheval": 2700,
+                "musique": "Da 6a (25) 0a 1a 3a Da 6a 1a 2a 3a (24) 2a 1a ",
+                "cotes": [
+                    "8.3",
+                    "7.4",
+                    "8.9"
+                ],
+                "gains": "51260",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "14": {
+                "nom_cheval": "LYRA POTERIE",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "PLOQUIN PAU. PH.",
+                "nom_entraineur": "CUILLER C.",
+                "poid_du_cheval": 2700,
+                "musique": "Da 5a 7a Da (25) Da 6a Da 3a Da Da 3a 2a ",
+                "cotes": [
+                    "17.0",
+                    "27.0",
+                    "23.0"
+                ],
+                "gains": "60480",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "2": {
+                "nom_cheval": "LUTTE DE COSSE",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "BAUDE S.",
+                "nom_entraineur": "LEDUC A.",
+                "poid_du_cheval": 2700,
+                "musique": "2a 6a 2a Da 4a 3a 8a 6a (25) 8a 8a 0a 2a ",
+                "cotes": [
+                    "27.0",
+                    "40.0",
+                    "50.0"
+                ],
+                "gains": "56400",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "12": {
+                "nom_cheval": "LITTLE DU RIB",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "PERRON N.",
+                "nom_entraineur": "HALLAIS J.",
+                "poid_du_cheval": 2700,
+                "musique": "3a Da 3a 5a (25) 1a 4a 2a 5a 6a 6a 5a 5a ",
+                "cotes": [
+                    "7.8",
+                    "8.2",
+                    "5.6"
+                ],
+                "gains": "58420",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "4": {
+                "nom_cheval": "LA TRINITE NEMO",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "DESMOTTES A.",
+                "nom_entraineur": "DESMOTTES A.",
+                "poid_du_cheval": 2700,
+                "musique": "1a Da 2a 0a (25) Da Da 4a 1a 1a 3a 4a 3a ",
+                "cotes": [
+                    "36.0",
+                    "37.0",
+                    "37.0"
+                ],
+                "gains": "56605",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "6": {
+                "nom_cheval": "LEGENDE GAMES",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "ABRIVARD M.",
+                "nom_entraineur": "LE MOEL P.",
+                "poid_du_cheval": 2700,
+                "musique": "7a 1a 5a 5a Da (25) 3a 2a 1a Da 1a 2a 1a ",
+                "cotes": [
+                    "28.0",
+                    "31.0",
+                    "40.0"
+                ],
+                "gains": "57455",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "3": {
+                "nom_cheval": "LUCKY STAR JIEL",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "GELORMINI G.",
+                "nom_entraineur": "DERSOIR J.L.",
+                "poid_du_cheval": 2700,
+                "musique": "2a 7a 0a 8a 6a (25) Da 9a 1a Da 5a Da 3a ",
+                "cotes": [
+                    "19.0",
+                    "26.0",
+                    "33.0"
+                ],
+                "gains": "56510",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            }
+        },
+        "date": "26/05/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 3000,
+        "prix": "PRIX DE LA MUSIQUE",
+        "lieu": "Strasbourg",
+        "heure_depart": "13:55:00",
+        "details": "PLAT, 3000 metres , Corde a DROITE 50.900- HANDICAP DIVISE Pour tous chevaux de 4 ans et au-dessus",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            4,
+            8,
+            12,
+            1,
+            9,
+            2,
+            14
+        ],
+        "r/c": "R1/C4",
+        "arrivee_details": {
+            "4": {
+                "nom_cheval": "SHRIHARA",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "HARDOUIN E.",
+                "nom_entraineur": "FEY MLLE C.",
+                "poid_du_cheval": 575,
+                "musique": "3p 5p (25) 1p 3p 1p 2p 4p 3p 7p 9p ",
+                "cotes": [
+                    "6.4",
+                    "6.9",
+                    "10.0"
+                ],
+                "gains": "36108",
+                "corde": "10",
+                "discipline": "Plat",
+                "distance": 3000
+            },
+            "8": {
+                "nom_cheval": "MYKISS",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "LEMAITRE A.",
+                "nom_entraineur": "BATISTIC G.",
+                "poid_du_cheval": 540,
+                "musique": "4p 10p 5p (25) 7p 6p 1p 16p 8p 4p 7p 3p 7p ",
+                "cotes": [
+                    "12.0",
+                    "11.0",
+                    "15.0"
+                ],
+                "gains": "234742",
+                "corde": "15",
+                "discipline": "Plat",
+                "distance": 3000
+            },
+            "12": {
+                "nom_cheval": "IT'S EAGLE",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "TRULLIER T.",
+                "nom_entraineur": "VOLLMER MME Y.",
+                "poid_du_cheval": 520,
+                "musique": "2p 5p (25) 16p 6p 8p 12p 1p 6p 4p 1p (24) 7p 4p ",
+                "cotes": [
+                    "10.0",
+                    "9.7",
+                    "11.0"
+                ],
+                "gains": "37492",
+                "corde": "9",
+                "discipline": "Plat",
+                "distance": 3000
+            },
+            "1": {
+                "nom_cheval": "VAZIRPOUR",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "ZATLOUKAL MIL.",
+                "nom_entraineur": "MANOVA MME J.",
+                "poid_du_cheval": 600,
+                "musique": "1p 9p (25) 1p 7p 1p 4p 4p 2p 14p 10p 6p 11p ",
+                "cotes": [
+                    "21.0",
+                    "23.0",
+                    "25.0"
+                ],
+                "gains": "62921",
+                "corde": "13",
+                "discipline": "Plat",
+                "distance": 3000
+            },
+            "9": {
+                "nom_cheval": "BEAUTY APPROACH",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "FLAMENT B.",
+                "nom_entraineur": "NIESLANIK M.",
+                "poid_du_cheval": 535,
+                "musique": "6p (25) 4p 1p 6p 2p 11p (24) 7p 6p 2p 1p 2p 7p ",
+                "cotes": [
+                    "44.0",
+                    "50.0",
+                    "81.0"
+                ],
+                "gains": "14360",
+                "corde": "12",
+                "discipline": "Plat",
+                "distance": 3000
+            },
+            "2": {
+                "nom_cheval": "PRETTY QUEEN",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "THOMAS RON.",
+                "nom_entraineur": "LERNER (S) C&Y.",
+                "poid_du_cheval": 590,
+                "musique": "2p 8p 5p (25) 1p 5p 1p ",
+                "cotes": [
+                    "6.6",
+                    "6.6",
+                    "8.3"
+                ],
+                "gains": "23872",
+                "corde": "14",
+                "discipline": "Plat",
+                "distance": 3000
+            },
+            "14": {
+                "nom_cheval": "QUE BELLA",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "MARIE BENJ.",
+                "nom_entraineur": "SUBORICS A.",
+                "poid_du_cheval": 520,
+                "musique": "1p 1p 8p (25) 8p 4p 7p 4p 6p 2p 11p 4p 4p ",
+                "cotes": [
+                    "21.0",
+                    "20.0",
+                    "29.0"
+                ],
+                "gains": "22403",
+                "corde": "5",
+                "discipline": "Plat",
+                "distance": 3000
+            }
+        },
+        "date": "27/05/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 52800,
+        "distance": 2100,
+        "prix": "SOSAFE PRIX DES EPINETTES",
+        "lieu": "Paris-Longchamp",
+        "heure_depart": "20:15:00",
+        "details": "PLAT, 2100 metres , Corde a DROITE 52.800- HANDICAP DIVISE Pour poulains entiers, hongres et pouliches de 3 ans",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            7,
+            11,
+            2,
+            15,
+            14,
+            1,
+            5
+        ],
+        "r/c": "R1/C6",
+        "arrivee_details": {
+            "7": {
+                "nom_cheval": "BOX OFFICER",
+                "sexe": "H",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "BACHELOT T.",
+                "nom_entraineur": "WATTEL (S) S.",
+                "poid_du_cheval": 570,
+                "musique": "3p 1p 4p 2p (25) 10p ",
+                "cotes": [
+                    "10.0",
+                    "9.6",
+                    "7.0"
+                ],
+                "gains": "23909",
+                "corde": "4",
+                "discipline": "Plat",
+                "distance": 2100
+            },
+            "11": {
+                "nom_cheval": "TOO DARN QUICK",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "POUCHIN A.",
+                "nom_entraineur": "FABRE (S) A.",
+                "poid_du_cheval": 555,
+                "musique": "4p 6p 5p (25) 3p 8p ",
+                "cotes": [
+                    "8.2",
+                    "8.3",
+                    "9.5"
+                ],
+                "gains": "10176",
+                "corde": "12",
+                "discipline": "Plat",
+                "distance": 2100
+            },
+            "2": {
+                "nom_cheval": "REVE BLEU",
+                "sexe": "F",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "BARZALONA M.",
+                "nom_entraineur": "BIETOLINI G.",
+                "poid_du_cheval": 590,
+                "musique": "5p 7p (25) 1p 3p ",
+                "cotes": [
+                    "12.0",
+                    "14.0",
+                    "20.0"
+                ],
+                "gains": "18560",
+                "corde": "8",
+                "discipline": "Plat",
+                "distance": 2100
+            },
+            "15": {
+                "nom_cheval": "MISTER BLACK",
+                "sexe": "H",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "HAMELIN A.",
+                "nom_entraineur": "LERNER (S) C&Y.",
+                "poid_du_cheval": 535,
+                "musique": "2p 2p 10p 4p 9p ",
+                "cotes": [
+                    "8.8",
+                    "8.5",
+                    "9.8"
+                ],
+                "gains": "16694",
+                "corde": "3",
+                "discipline": "Plat",
+                "distance": 2100
+            },
+            "14": {
+                "nom_cheval": "NOTIONI FAL",
+                "sexe": "F",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "LEMAITRE A.",
+                "nom_entraineur": "GROUALLE (S) P.",
+                "poid_du_cheval": 535,
+                "musique": "1p 5p 3p (25) 3p 6p 4p ",
+                "cotes": [
+                    "30.0",
+                    "25.0",
+                    "30.0"
+                ],
+                "gains": "23285",
+                "corde": "11",
+                "discipline": "Plat",
+                "distance": 2100
+            },
+            "1": {
+                "nom_cheval": "MUST BAY",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "THOMAS RON.",
+                "nom_entraineur": "LERNER (S) C&Y.",
+                "poid_du_cheval": 620,
+                "musique": "1p 3p 3p (25) 5p 2p ",
+                "cotes": [
+                    "8.4",
+                    "8.3",
+                    "5.1"
+                ],
+                "gains": "39618",
+                "corde": "2",
+                "discipline": "Plat",
+                "distance": 2100
+            },
+            "5": {
+                "nom_cheval": "ZARLAND",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "SOUMILLON C.",
+                "nom_entraineur": "WATTEL (S) S.",
+                "poid_du_cheval": 580,
+                "musique": "6p 5p 3p (25) 3p ",
+                "cotes": [
+                    "11.0",
+                    "12.0",
+                    "15.0"
+                ],
+                "gains": "8899",
+                "corde": "7",
+                "discipline": "Plat",
+                "distance": 2100
+            }
+        },
+        "date": "28/05/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 59000,
+        "distance": 2850,
+        "prix": "PRIX DE CLAIREFONTAINE",
+        "lieu": "Vincennes",
+        "heure_depart": "20:15:00",
+        "details": "Pour 8 à 11 ans inclus, n'ayant pas gagné 180.000.",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            9,
+            3,
+            10,
+            12,
+            16,
+            14,
+            4
+        ],
+        "r/c": "R1/C4",
+        "arrivee_details": {
+            "9": {
+                "nom_cheval": "IENISSE DE BARBRAY",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "RAFFIN E.",
+                "nom_entraineur": "MALLET CH.A.",
+                "poid_du_cheval": 2850,
+                "musique": "0a 2a 0a 2a 0a (25) 2a 3a 9a 0a 9a 2a 2a ",
+                "cotes": [
+                    "7.8",
+                    "7.4",
+                    "6.4"
+                ],
+                "gains": "173745",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "3": {
+                "nom_cheval": "ISOLEE DU BOUILLON",
+                "sexe": "F",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "LAGADEUC F.",
+                "nom_entraineur": "MARIE B.",
+                "poid_du_cheval": 2850,
+                "musique": "3a 0a 9a 8a (25) 7a 8a 6a 1a Da 1a 0a 2a ",
+                "cotes": [
+                    "24.0",
+                    "23.0",
+                    "28.0"
+                ],
+                "gains": "169155",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "10": {
+                "nom_cheval": "IDOLE ELDE",
+                "sexe": "F",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "MOTTIER M.",
+                "nom_entraineur": "LEMETAYER N.",
+                "poid_du_cheval": 2850,
+                "musique": "4a 1a 0a (25) 6a Da 4a 1a 1a Da 1a 2a (24) 9a ",
+                "cotes": [
+                    "9.1",
+                    "8.1",
+                    "6.3"
+                ],
+                "gains": "175265",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "12": {
+                "nom_cheval": "GITANO JACK",
+                "sexe": "H",
+                "annee_de_naissance": "2016",
+                "nom_jockey": "PLOQUIN PAU. PH.",
+                "nom_entraineur": "BERNIER G.M.",
+                "poid_du_cheval": 2850,
+                "musique": "3a 0a 0a (25) Da Da 0a 3a 0a 3a Da 6a Da ",
+                "cotes": [
+                    "21.0",
+                    "32.0",
+                    "44.0"
+                ],
+                "gains": "175780",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "16": {
+                "nom_cheval": "HERAKLION DESBOIS",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "GENDROT A.",
+                "nom_entraineur": "GENDRY PH.",
+                "poid_du_cheval": 2850,
+                "musique": "4a 6a 9a 7a (25) 3a 6a 0a 8a 4a 0a 7a 8m ",
+                "cotes": [
+                    "18.0",
+                    "25.0",
+                    "34.0"
+                ],
+                "gains": "179755",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "14": {
+                "nom_cheval": "ILTON DE BELLANDE",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "ABRIVARD M.",
+                "nom_entraineur": "FOURNIGAULT G.",
+                "poid_du_cheval": 2850,
+                "musique": "4a (25) 4a 1a 3a 2a 4a 6a Da 1a 8a 6a 2a ",
+                "cotes": [
+                    "4.7",
+                    "5.2",
+                    "6.8"
+                ],
+                "gains": "177095",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "4": {
+                "nom_cheval": "ICARE DUNGY",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "LAMY R.",
+                "nom_entraineur": "LACOMBE Y.",
+                "poid_du_cheval": 2850,
+                "musique": "0a 2a 1a 2a 3a (25) 1a 3a 1a 2a 1a 0a Da ",
+                "cotes": [
+                    "12.0",
+                    "9.4",
+                    "11.0"
+                ],
+                "gains": "169415",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            }
+        },
+        "date": "29/05/2026"
+    },
+    {
+        "type": "Haies",
+        "montant": 98000,
+        "distance": 3600,
+        "prix": "PRIX HARDATIT",
+        "lieu": "Auteuil",
+        "heure_depart": "15:15:00",
+        "details": "HAIES, 3600 metres 98.000- HANDICAP DIVISE Pour tous chevaux de 5 ans et au-dessus , ayant couru, depuis le 1er septembre 2024 inclus",
+        "partants": 14,
+        "non_partants": 2,
+        "arrivee": [
+            7,
+            2,
+            8,
+            5,
+            4,
+            10,
+            12
+        ],
+        "r/c": "R1/C9",
+        "arrivee_details": {
+            "7": {
+                "nom_cheval": "JOUR POLAIRE",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "DE GILES F.",
+                "nom_entraineur": "SEROR (S) M.",
+                "poid_du_cheval": 660,
+                "musique": "3h 3h 1h 12h 13p 9h 6s (25) 7h 2h 4h (24) 1s 6h ",
+                "cotes": [
+                    "4.7",
+                    "4.1",
+                    "4.1"
+                ],
+                "gains": "209825",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "2": {
+                "nom_cheval": "HAMANDIO",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "REVELEY J.",
+                "nom_entraineur": "GEORGE & A N.",
+                "poid_du_cheval": 720,
+                "musique": "8s 5h 1s (25) 8h 6h 1h 5h 1h 1h 1h 6h 10h ",
+                "cotes": [
+                    "17.0",
+                    "14.0",
+                    "18.0"
+                ],
+                "gains": "314662",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "8": {
+                "nom_cheval": "ROBIN HILL",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "BEAURAIN T.",
+                "nom_entraineur": "CARBERRY (S) L.",
+                "poid_du_cheval": 655,
+                "musique": "10h (25) 1h 5h 3h (24) 4h 1h 8h ",
+                "cotes": [
+                    "12.0",
+                    "11.0",
+                    "14.0"
+                ],
+                "gains": "70495",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "5": {
+                "nom_cheval": "NORVILLE",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "MAYEUR R.",
+                "nom_entraineur": "FOUIN Y.",
+                "poid_du_cheval": 695,
+                "musique": "3h Ah (25) 2h (23) 2h 4h 2h 9p 1p 8p 8p Th (22) 1h ",
+                "cotes": [
+                    "22.0",
+                    "21.0",
+                    "24.0"
+                ],
+                "gains": "291300",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "4": {
+                "nom_cheval": "NIKKALUOKTA",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "LESTRADE B.",
+                "nom_entraineur": "SEROR (S) M.",
+                "poid_du_cheval": 700,
+                "musique": "4h 7h 6h (25) 5h 5h Ah Th 1h 4h 1h Dh 4h ",
+                "cotes": [
+                    "9.0",
+                    "8.2",
+                    "9.1"
+                ],
+                "gains": "177070",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "10": {
+                "nom_cheval": "FOLLOW YOU",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "MEUNIER GAB.",
+                "nom_entraineur": "MARTINON C.",
+                "poid_du_cheval": 640,
+                "musique": "5p 1p 5p 8p 7p 5p 8p 4p 6p 11p 9p 8p ",
+                "cotes": [
+                    "28.0",
+                    "26.0",
+                    "26.0"
+                ],
+                "gains": "22021",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "12": {
+                "nom_cheval": "WALFER",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "CHEVILLARD T.",
+                "nom_entraineur": "WINDRIF D.",
+                "poid_du_cheval": 625,
+                "musique": "4h 1h 2h 1h (25) Ah As 10s Ah Ah (24) 11h 4h 5h ",
+                "cotes": [
+                    "14.0",
+                    "16.0",
+                    "19.0"
+                ],
+                "gains": "121405",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            }
+        },
+        "date": "30/05/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 1500000,
+        "distance": 2100,
+        "prix": "QATAR PRIX DU JOCKEY CLUB",
+        "lieu": "Chantilly",
+        "heure_depart": "16:30:00",
+        "details": "PLAT, 2100 metres , Corde a DROITE 1.500.000- GROUPE I Pour poulains entiers et pouliches de 3 ans",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            16,
+            6,
+            14,
+            15,
+            4,
+            2,
+            1
+        ],
+        "r/c": "R1/C7",
+        "arrivee_details": {
+            "16": {
+                "nom_cheval": "CONSTITUTION RIVER",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "MOORE RYA. L.",
+                "nom_entraineur": "O'BRIEN AP.",
+                "poid_du_cheval": 580,
+                "musique": "1p (25) 1p 1p 2p ",
+                "cotes": [
+                    "6.3",
+                    "4.3",
+                    "3.4"
+                ],
+                "gains": "156278",
+                "corde": "15",
+                "discipline": "Plat",
+                "distance": 2100
+            },
+            "6": {
+                "nom_cheval": "HAWK MOUNTAIN",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "SOUMILLON C.",
+                "nom_entraineur": "O'BRIEN AP.",
+                "poid_du_cheval": 580,
+                "musique": "1p (25) 1p 1p 1p 5p ",
+                "cotes": [
+                    "7.3",
+                    "7.4",
+                    "7.6"
+                ],
+                "gains": "256386",
+                "corde": "11",
+                "discipline": "Plat",
+                "distance": 2100
+            },
+            "14": {
+                "nom_cheval": "MONTREAL",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "LORDAN WM.",
+                "nom_entraineur": "O'BRIEN AP.",
+                "poid_du_cheval": 580,
+                "musique": "2p (25) 1p 3p ",
+                "cotes": [
+                    "34.0",
+                    "35.0",
+                    "37.0"
+                ],
+                "gains": "23660",
+                "corde": "8",
+                "discipline": "Plat",
+                "distance": 2100
+            },
+            "15": {
+                "nom_cheval": "A BOY NAMED SUSIE",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "GUYON M.",
+                "nom_entraineur": "O'BRIEN D.",
+                "poid_du_cheval": 580,
+                "musique": "3p (25) 2p 2p 4p 4p 1p ",
+                "cotes": [
+                    "21.0",
+                    "29.0",
+                    "38.0"
+                ],
+                "gains": "100930",
+                "corde": "13",
+                "discipline": "Plat",
+                "distance": 2100
+            },
+            "4": {
+                "nom_cheval": "ALAM",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "HAMELIN A.",
+                "nom_entraineur": "DELZANGLES M.",
+                "poid_du_cheval": 580,
+                "musique": "1p 2p 2p (25) 4p ",
+                "cotes": [
+                    "26.0",
+                    "19.0",
+                    "28.0"
+                ],
+                "gains": "48454",
+                "corde": "16",
+                "discipline": "Plat",
+                "distance": 2100
+            },
+            "2": {
+                "nom_cheval": "DOLMALAN",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "LECOEUVRE C.",
+                "nom_entraineur": "DELZANGLES M.",
+                "poid_du_cheval": 580,
+                "musique": "1p 1p (25) 1p ",
+                "cotes": [
+                    "11.0",
+                    "14.0",
+                    "12.0"
+                ],
+                "gains": "51650",
+                "corde": "6",
+                "discipline": "Plat",
+                "distance": 2100
+            },
+            "1": {
+                "nom_cheval": "DARYZAN",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "BARZALONA M.",
+                "nom_entraineur": "GRAFFARD (S) FH.",
+                "poid_du_cheval": 580,
+                "musique": "1p ",
+                "cotes": [
+                    "5.0",
+                    "5.6",
+                    "6.1"
+                ],
+                "gains": "12350",
+                "corde": "10",
+                "discipline": "Plat",
+                "distance": 2100
+            }
+        },
+        "date": "31/05/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 33000,
+        "distance": 2950,
+        "prix": "PRIX DE CHATELPERRON",
+        "lieu": "Vichy",
+        "heure_depart": "13:55:00",
+        "details": "Pour 8 à 11 ans inclus, n'ayant pas gagné 173.000. Sont seules admises à driver les personnes ayant gagné au moins cinq courses (en étant titulaire d'une autorisation de monter à titre professionnel).",
+        "partants": 13,
+        "non_partants": 0,
+        "arrivee": [
+            5,
+            6,
+            7,
+            9,
+            12,
+            11,
+            2
+        ],
+        "r/c": "R1/C4",
+        "arrivee_details": {
+            "5": {
+                "nom_cheval": "IMPERATOR D'EM",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "ABRIVARD M.",
+                "nom_entraineur": "DESAUNETTE P.L.",
+                "poid_du_cheval": 2950,
+                "musique": "1a 0a 3a 3a 0a 0a (25) 0a 8a 1a 0a 7a 2a ",
+                "cotes": [
+                    "6.0",
+                    "5.9",
+                    "3.7"
+                ],
+                "gains": "160505",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2950
+            },
+            "6": {
+                "nom_cheval": "GOLDY SMILE",
+                "sexe": "H",
+                "annee_de_naissance": "2016",
+                "nom_jockey": "GENDROT A.",
+                "nom_entraineur": "DESLANDES B.",
+                "poid_du_cheval": 2950,
+                "musique": "8a (25) 0a 2a 8a 6a 5a Da 9a 0a 6a 8a 8a ",
+                "cotes": [
+                    "20.0",
+                    "22.0",
+                    "27.0"
+                ],
+                "gains": "162010",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2950
+            },
+            "7": {
+                "nom_cheval": "HIGH TECH ROC",
+                "sexe": "F",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "CHAUVE-LAFFAY BEN.",
+                "nom_entraineur": "PACHA N.",
+                "poid_du_cheval": 2950,
+                "musique": "Dm 6a 0a 4a 8a 5a (25) 0a 2a 4a 0a 2a 8a ",
+                "cotes": [
+                    "42.0",
+                    "48.0",
+                    "60.0"
+                ],
+                "gains": "162390",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2950
+            },
+            "9": {
+                "nom_cheval": "IASELMA",
+                "sexe": "F",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "GOSSELIN J.",
+                "nom_entraineur": "GOSSELIN J.",
+                "poid_du_cheval": 2950,
+                "musique": "1a 7a 3a 8a 0a (25) 6a 6a 3a 2a 1a 1a 4a ",
+                "cotes": [
+                    "7.7",
+                    "8.1",
+                    "9.2"
+                ],
+                "gains": "165835",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2950
+            },
+            "12": {
+                "nom_cheval": "IDEAL DELADOU",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "LALOUM S.",
+                "nom_entraineur": "PACHA N.",
+                "poid_du_cheval": 2950,
+                "musique": "9a Da Da Da Da 9a Da 8a (25) 5a Da Da 1a ",
+                "cotes": [
+                    "39.0",
+                    "56.0",
+                    "55.0"
+                ],
+                "gains": "169705",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2950
+            },
+            "11": {
+                "nom_cheval": "IRENO DES PLAINES",
+                "sexe": "M",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "BARCELO BISQUERRA MIQ. J.",
+                "nom_entraineur": "LEBLANC K.",
+                "poid_du_cheval": 2950,
+                "musique": "0a 0a 5a 8a (25) 0a 0a 9a 1a 0a 0a 7a 0a ",
+                "cotes": [
+                    "28.0",
+                    "34.0",
+                    "42.0"
+                ],
+                "gains": "168465",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2950
+            },
+            "2": {
+                "nom_cheval": "HELLO BOY DU PIC",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "CUOQ J.",
+                "nom_entraineur": "CUOQ J.",
+                "poid_du_cheval": 2950,
+                "musique": "5a 0a 8a Da 5a 4a 0a 8a 7a (25) 9a 0a 4a ",
+                "cotes": [
+                    "19.0",
+                    "24.0",
+                    "27.0"
+                ],
+                "gains": "137420",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2950
+            }
+        },
+        "date": "01/06/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 2000,
+        "prix": "PRIX DU CHATEAU DE SAINT-CLOUD",
+        "lieu": "Saint Cloud",
+        "heure_depart": "13:55:00",
+        "details": "PLAT, 2000 metres , Corde a DROITE 50.900- HANDICAP DIVISE Pour chevaux entiers, hongres et juments de 4 ans et au-dessus",
+        "partants": 15,
+        "non_partants": 1,
+        "arrivee": [
+            2,
+            3,
+            12,
+            1,
+            16,
+            14,
+            9
+        ],
+        "r/c": "R1/C1",
+        "arrivee_details": {
+            "2": {
+                "nom_cheval": "DOURIANN",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "LEMAITRE A.",
+                "nom_entraineur": "PANNIER G.",
+                "poid_du_cheval": 590,
+                "musique": "2p 7p 8p (25) 11p 10p 4p 3p 3p 2p 1p 5p 2p ",
+                "cotes": [
+                    "11.0",
+                    "9.9",
+                    "11.0"
+                ],
+                "gains": "135516",
+                "corde": "6",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "3": {
+                "nom_cheval": "ANOTHER LIGHT",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "PASQUIER S.",
+                "nom_entraineur": "GRAFFARD (S) FH.",
+                "poid_du_cheval": 590,
+                "musique": "10p 1p (25) 2p 4p ",
+                "cotes": [
+                    "6.7",
+                    "6.8",
+                    "3.8"
+                ],
+                "gains": "14050",
+                "corde": "8",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "12": {
+                "nom_cheval": "PLOTINUS",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "GROSBOIS CHR.",
+                "nom_entraineur": "BARON A.",
+                "poid_du_cheval": 570,
+                "musique": "9p 8p 1p (25) 10p 9p 9p 4p 8p 9p 1p 1p 2p ",
+                "cotes": [
+                    "50.0",
+                    "42.0",
+                    "34.0"
+                ],
+                "gains": "62278",
+                "corde": "15",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "1": {
+                "nom_cheval": "HERMES WOOD",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "HARDOUIN E.",
+                "nom_entraineur": "FEY MLLE C.",
+                "poid_du_cheval": 600,
+                "musique": "1p 6p 4p 4p 7p 2p 7p (25) 3p 1p 2p 4p 14p ",
+                "cotes": [
+                    "24.0",
+                    "21.0",
+                    "22.0"
+                ],
+                "gains": "61821",
+                "corde": "10",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "16": {
+                "nom_cheval": "MEAUTIS",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "GUYON M.",
+                "nom_entraineur": "BOTTI (S) A.",
+                "poid_du_cheval": 560,
+                "musique": "7p 2p 2p 11p 3p (25) 7p 5p 10p 5p 6p 10p 1p ",
+                "cotes": [
+                    "16.0",
+                    "16.0",
+                    "13.0"
+                ],
+                "gains": "52936",
+                "corde": "13",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "14": {
+                "nom_cheval": "EFFIRA",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "JUSTUM M.",
+                "nom_entraineur": "LOTOUX (S) C.",
+                "poid_du_cheval": 565,
+                "musique": "3p 4p 1p (25) 1p 2p 2p 7p 9p 2p 3p 1p 3p ",
+                "cotes": [
+                    "16.0",
+                    "17.0",
+                    "14.0"
+                ],
+                "gains": "62996",
+                "corde": "2",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "9": {
+                "nom_cheval": "TAMYZ",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "BACHELOT T.",
+                "nom_entraineur": "WATTEL (S) S.",
+                "poid_du_cheval": 580,
+                "musique": "7p 3p (25) 2p 1p 3p 4p 6p 2p (24) 1p 2p 2p 4p ",
+                "cotes": [
+                    "5.4",
+                    "5.3",
+                    "6.4"
+                ],
+                "gains": "60169",
+                "corde": "11",
+                "discipline": "Plat",
+                "distance": 2000
+            }
+        },
+        "date": "02/06/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 90000,
+        "distance": 2850,
+        "prix": "GRAND NATIONAL DU TROT",
+        "lieu": "Laval",
+        "heure_depart": "13:55:00",
+        "details": "Pour 5 à 10 ans inclus, les 5, 6 et 7 ans ayant gagné au moins 34.000, les 8 ans au moins 68.000, les 9 et 10 ans au moins 130.000",
+        "partants": 18,
+        "non_partants": 0,
+        "arrivee": [
+            16,
+            14,
+            9,
+            2,
+            6,
+            17,
+            7
+        ],
+        "r/c": "R1/C1",
+        "arrivee_details": {
+            "16": {
+                "nom_cheval": "KANTO AVIS",
+                "sexe": "M",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "ROCHARD B.",
+                "nom_entraineur": "SASSIER M.",
+                "poid_du_cheval": 2875,
+                "musique": "1a 3a 0a Da (25) 7a 8a 9a 7a 4a 0a 1a 4a ",
+                "cotes": [
+                    "9.8",
+                    "8.1",
+                    "6.4"
+                ],
+                "gains": "475610",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "14": {
+                "nom_cheval": "HORATIUS D'ELA",
+                "sexe": "M",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "ABRIVARD M.",
+                "nom_entraineur": "SASSIER M.",
+                "poid_du_cheval": 2875,
+                "musique": "7a 5a 0a 6a 2a 9a (25) 6a 7a 0a 1a Da 2a ",
+                "cotes": [
+                    "33.0",
+                    "36.0",
+                    "44.0"
+                ],
+                "gains": "465355",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "9": {
+                "nom_cheval": "IRIS DES ROSEAUX",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "DUVALDESTIN C.",
+                "nom_entraineur": "DUVALDESTIN TH.",
+                "poid_du_cheval": 2850,
+                "musique": "1a 9a (25) Dm 2a 2a 2a 1a 1a 4a 9a (24) 1a 2a ",
+                "cotes": [
+                    "8.5",
+                    "9.4",
+                    "10.0"
+                ],
+                "gains": "287370",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "2": {
+                "nom_cheval": "KEY OF LOVE",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "BARRIER A.",
+                "nom_entraineur": "LAMARE T.",
+                "poid_du_cheval": 2850,
+                "musique": "2a 3a 1a Da 2a 1a (25) 1a 1a 6a 9a Da 2a ",
+                "cotes": [
+                    "6.9",
+                    "6.6",
+                    "5.0"
+                ],
+                "gains": "225430",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "6": {
+                "nom_cheval": "ILEO PIERJI",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "RAFFIN E.",
+                "nom_entraineur": "MARY C.A.",
+                "poid_du_cheval": 2850,
+                "musique": "Da 1a Dm Da (25) Da 2a 3a 1a Da 5m 8m 0a ",
+                "cotes": [
+                    "22.0",
+                    "23.0",
+                    "27.0"
+                ],
+                "gains": "272785",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "17": {
+                "nom_cheval": "HARMONISTA",
+                "sexe": "F",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "NIVARD F.",
+                "nom_entraineur": "NIVARD F.",
+                "poid_du_cheval": 2875,
+                "musique": "6m 2m 9m 5m Dm (25) 3m 8a 8a 2a 6a 5a 8a ",
+                "cotes": [
+                    "35.0",
+                    "36.0",
+                    "48.0"
+                ],
+                "gains": "478530",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "7": {
+                "nom_cheval": "INHERIT",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "VERVA PIE. Y.",
+                "nom_entraineur": "BEAUFILS G.",
+                "poid_du_cheval": 2850,
+                "musique": "0a 0a 6a 5a 7a 7a 1a (25) 3a 3a 3a 4a 5a ",
+                "cotes": [
+                    "50.0",
+                    "55.0",
+                    "72.0"
+                ],
+                "gains": "275675",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            }
+        },
+        "date": "03/06/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 1600,
+        "prix": "GRAND PRIX DES FEMMES JOCKEYS",
+        "lieu": "Paris-Longchamp",
+        "heure_depart": "20:15:00",
+        "details": "PLAT, 1600 metres , Corde a DROITE 50.900- HANDICAP DIVISE Pour juments de 4 ans et au-dessus",
+        "partants": 14,
+        "non_partants": 0,
+        "arrivee": [
+            12,
+            7,
+            14,
+            10,
+            1,
+            11,
+            4
+        ],
+        "r/c": "R1/C6",
+        "arrivee_details": {
+            "12": {
+                "nom_cheval": "TOPY'SIM",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "BAILS MLLE L.",
+                "nom_entraineur": "GUILBERT N.",
+                "poid_du_cheval": 520,
+                "musique": "10p 2p (25) 2p 2p 1p 4p 10p 2p 11p 3p 7p 11p ",
+                "cotes": [
+                    "11.0",
+                    "10.0",
+                    "9.2"
+                ],
+                "gains": "47461",
+                "corde": "11",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "7": {
+                "nom_cheval": "THE SHADOW",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "GALLO MLLE L.",
+                "nom_entraineur": "CAULLERY N.",
+                "poid_du_cheval": 555,
+                "musique": "2p 1p 2p 4p (25) 13p 2p 3p 1p 1p 2p 2p ",
+                "cotes": [
+                    "4.8",
+                    "4.9",
+                    "4.7"
+                ],
+                "gains": "64483",
+                "corde": "8",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "14": {
+                "nom_cheval": "SPRING HEART",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "TISON MLLE S.",
+                "nom_entraineur": "BOTTI (S) A.",
+                "poid_du_cheval": 515,
+                "musique": "6p 7p 11p 1p (25) 2p 6p 8p 1p 2p 2p 2p 2p ",
+                "cotes": [
+                    "37.0",
+                    "35.0",
+                    "38.0"
+                ],
+                "gains": "83321",
+                "corde": "10",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "10": {
+                "nom_cheval": "AURA",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "CHEYER MME PER.",
+                "nom_entraineur": "BARATTI (S) M.",
+                "poid_du_cheval": 535,
+                "musique": "8p 1p (25) 1p 6p 7p 8p 3p 2p ",
+                "cotes": [
+                    "17.0",
+                    "20.0",
+                    "19.0"
+                ],
+                "gains": "27250",
+                "corde": "12",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "1": {
+                "nom_cheval": "DIVIDE AND RULE",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "VELON MLLE M.",
+                "nom_entraineur": "GAUVIN (S) JP.",
+                "poid_du_cheval": 610,
+                "musique": "6p 12p 1p (25) 15p 7p 4p 2p 5p 6p 5p 1p 6p ",
+                "cotes": [
+                    "18.0",
+                    "17.0",
+                    "16.0"
+                ],
+                "gains": "112064",
+                "corde": "5",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "11": {
+                "nom_cheval": "ELUSIVE BELARDO",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "MEROU MLLE A.",
+                "nom_entraineur": "CAULLERY N.",
+                "poid_du_cheval": 530,
+                "musique": "10p 4p 8p 4p (25) 10p 11p 8p 4p 1p 1p 3p 2p ",
+                "cotes": [
+                    "14.0",
+                    "17.0",
+                    "21.0"
+                ],
+                "gains": "45579",
+                "corde": "1",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "4": {
+                "nom_cheval": "ABIAT",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "POGGIONOVO MME LAU.",
+                "nom_entraineur": "RULEC (S) M.",
+                "poid_du_cheval": 575,
+                "musique": "9p 2p 15p 1p 7p (25) 10p 5p 5p 1p 4p (24) 6p 2p ",
+                "cotes": [
+                    "17.0",
+                    "14.0",
+                    "17.0"
+                ],
+                "gains": "78193",
+                "corde": "13",
+                "discipline": "Plat",
+                "distance": 1600
+            }
+        },
+        "date": "04/06/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 59000,
+        "distance": 2100,
+        "prix": "PRIX VILLE DE NOGENT SUR MARNE (ADALBERTA)",
+        "lieu": "Vincennes",
+        "heure_depart": "20:15:00",
+        "details": "Pour 8 à 11 ans inclus, n'ayant pas gagné 195.000.",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            4,
+            13,
+            2,
+            5,
+            7,
+            16,
+            10
+        ],
+        "r/c": "R1/C4",
+        "arrivee_details": {
+            "4": {
+                "nom_cheval": "IDOLE JALLERIE",
+                "sexe": "F",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "NIVARD F.",
+                "nom_entraineur": "HEON D.",
+                "poid_du_cheval": 2100,
+                "musique": "Da Da 3a 3a 1a 1a (25) Da 3a Da Da Da 2a ",
+                "cotes": [
+                    "3.4",
+                    "2.7",
+                    "2.7"
+                ],
+                "gains": "193375",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2100
+            },
+            "13": {
+                "nom_cheval": "IALKO JENILAT",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "DESMARRES AU.",
+                "nom_entraineur": "DESMARRES A.",
+                "poid_du_cheval": 2100,
+                "musique": "6a 7a 3a (25) 1a 3a 2a 1a 5a 3a 1a 5a 1a ",
+                "cotes": [
+                    "22.0",
+                    "33.0",
+                    "41.0"
+                ],
+                "gains": "176285",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2100
+            },
+            "2": {
+                "nom_cheval": "HIPPARIS",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "SENET J.F.",
+                "nom_entraineur": "SENET J.F.",
+                "poid_du_cheval": 2100,
+                "musique": "7a 0a 2a 2a 2a 6a 3a (25) 1a 2a 3a 9a 6a ",
+                "cotes": [
+                    "10.0",
+                    "10.0",
+                    "11.0"
+                ],
+                "gains": "190280",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2100
+            },
+            "5": {
+                "nom_cheval": "FAXIMA",
+                "sexe": "F",
+                "annee_de_naissance": "2015",
+                "nom_jockey": "ABRIVARD M.",
+                "nom_entraineur": "JULIEN PH.",
+                "poid_du_cheval": 2100,
+                "musique": "4a 3a 6a 7a 5a Da (25) 5a 6a 0a 9a 5a 2a ",
+                "cotes": [
+                    "10.0",
+                    "10.0",
+                    "7.7"
+                ],
+                "gains": "188920",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2100
+            },
+            "7": {
+                "nom_cheval": "IZIA DE MONGIVAL",
+                "sexe": "F",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "GELORMINI G.",
+                "nom_entraineur": "LIZEE G.",
+                "poid_du_cheval": 2100,
+                "musique": "7a 6a 5a 7a (25) 0a 0a 0a 0a 8a 7a 2a 1a ",
+                "cotes": [
+                    "15.0",
+                    "16.0",
+                    "12.0"
+                ],
+                "gains": "183610",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2100
+            },
+            "16": {
+                "nom_cheval": "HELALI DE MONTCEAU",
+                "sexe": "F",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "POU POU G. A.",
+                "nom_entraineur": "POU POU G.A.",
+                "poid_du_cheval": 2100,
+                "musique": "4a 3a 9a Da 7a 7a 6a (25) 5a Da 4a 8a 9a ",
+                "cotes": [
+                    "19.0",
+                    "25.0",
+                    "32.0"
+                ],
+                "gains": "161935",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2100
+            },
+            "10": {
+                "nom_cheval": "HERAKLION DESBOIS",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "GENDROT A.",
+                "nom_entraineur": "GENDRY PH.",
+                "poid_du_cheval": 2100,
+                "musique": "5a 4a 6a 9a 7a (25) 3a 6a 0a 8a 4a 0a 7a ",
+                "cotes": [
+                    "50.0",
+                    "69.0",
+                    "96.0"
+                ],
+                "gains": "182705",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2100
+            }
+        },
+        "date": "05/06/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 120000,
+        "distance": 2700,
+        "prix": "PRIX JULES THIBAULT",
+        "lieu": "Vincennes",
+        "heure_depart": "15:15:00",
+        "details": "Pour poulains de 4 ans, hongres exclus, ayant gagné au moins 25.000. Sont seules admises à driver les personnes ayant gagné au moins trente-cinq courses dont dix au trot attelé (en étant titulaire d'une autorisation de monter à titre professionnel).",
+        "partants": 14,
+        "non_partants": 0,
+        "arrivee": [
+            11,
+            8,
+            14,
+            13,
+            7,
+            4,
+            3
+        ],
+        "r/c": "R1/C4",
+        "arrivee_details": {
+            "11": {
+                "nom_cheval": "MAGIC MAN",
+                "sexe": "M",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "RAFFIN E.",
+                "nom_entraineur": "ENT. DUBOIS S.E.",
+                "poid_du_cheval": 2700,
+                "musique": "1a Da 4a Da (25) Da 4a Da 2a 1a 1a 3a 1a ",
+                "cotes": [
+                    "4.8",
+                    "4.8",
+                    "3.6"
+                ],
+                "gains": "211530",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "8": {
+                "nom_cheval": "MENTOR DE PLAY",
+                "sexe": "M",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "BLANDIN F.",
+                "nom_entraineur": "BLANDIN F.",
+                "poid_du_cheval": 2700,
+                "musique": "3a 1a 1a 1a 1a 1a (25) 5a 7a 4a 5a 6a 8a ",
+                "cotes": [
+                    "4.0",
+                    "3.3",
+                    "3.6"
+                ],
+                "gains": "196760",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "14": {
+                "nom_cheval": "MACK DE BLARY",
+                "sexe": "M",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "DUVALDESTIN THÉO",
+                "nom_entraineur": "DUVALDESTIN TH.",
+                "poid_du_cheval": 2700,
+                "musique": "6a 4a (25) 1a 2a 1a 1a 1a 1a 3a 3a 5a (24) 1a ",
+                "cotes": [
+                    "8.0",
+                    "8.1",
+                    "10.0"
+                ],
+                "gains": "581175",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "13": {
+                "nom_cheval": "MAITRE JACQUES",
+                "sexe": "M",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "ABRIVARD A.",
+                "nom_entraineur": "ABRIVARD L.CL.",
+                "poid_du_cheval": 2700,
+                "musique": "1a 1a (25) 3a Da 2a Da Da 2a 9a 3a 1a 1a ",
+                "cotes": [
+                    "11.0",
+                    "11.0",
+                    "15.0"
+                ],
+                "gains": "494870",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "7": {
+                "nom_cheval": "MONZON NORMAND",
+                "sexe": "M",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "THOMAIN D.",
+                "nom_entraineur": "ALLAIRE PH.",
+                "poid_du_cheval": 2700,
+                "musique": "Da 5a 0a (25) 6a 5a Da Da 3a 5a 2a 6a 2a ",
+                "cotes": [
+                    "29.0",
+                    "43.0",
+                    "55.0"
+                ],
+                "gains": "175735",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "4": {
+                "nom_cheval": "MANASLU",
+                "sexe": "M",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "LEBOURGEOIS Y.",
+                "nom_entraineur": "ALLAIRE PH.",
+                "poid_du_cheval": 2700,
+                "musique": "5a (25) Da 1a Da Da 3a Da 2a (24) 2a 1a 2a 1a ",
+                "cotes": [
+                    "19.0",
+                    "21.0",
+                    "27.0"
+                ],
+                "gains": "99475",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "3": {
+                "nom_cheval": "MILORD JAVRONNAIS",
+                "sexe": "M",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "LEVESQUE TH.",
+                "nom_entraineur": "LEVESQUE T.",
+                "poid_du_cheval": 2700,
+                "musique": "3m 2a 7m (25) 5a 4m 1a 1a Da Da 2m (24) 7a 1a ",
+                "cotes": [
+                    "66.0",
+                    "92.0",
+                    "118.0"
+                ],
+                "gains": "99185",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            }
+        },
+        "date": "06/06/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 1400,
+        "prix": "PRIX DE L'ILE DE LA CITE",
+        "lieu": "Paris-Longchamp",
+        "heure_depart": "15:15:00",
+        "details": "PLAT, 1400 metres , Corde a DROITE 50.900- HANDICAP DIVISE Pour chevaux entiers, hongres et juments de 4 ans et au-dessus",
+        "partants": 15,
+        "non_partants": 1,
+        "arrivee": [
+            10,
+            1,
+            2,
+            9,
+            6,
+            12,
+            5
+        ],
+        "r/c": "R1/C3",
+        "arrivee_details": {
+            "10": {
+                "nom_cheval": "LA MANDALA",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "SOUMILLON C.",
+                "nom_entraineur": "CHOTARD R.",
+                "poid_du_cheval": 570,
+                "musique": "3p 1p (25) 2p 2p 5p 12p 1p 8p 15p (24) 8p 5p 1p ",
+                "cotes": [
+                    "11.0",
+                    "10.0",
+                    "8.5"
+                ],
+                "gains": "74876",
+                "corde": "1",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "1": {
+                "nom_cheval": "TORTISAMBERT",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "BARZALONA M.",
+                "nom_entraineur": "CHAPPET (S) F.",
+                "poid_du_cheval": 610,
+                "musique": "2p 5p 1p 2p 8p (25) 3p 3p 4p 3p 3p 7p 7p ",
+                "cotes": [
+                    "5.1",
+                    "4.5",
+                    "4.3"
+                ],
+                "gains": "159425",
+                "corde": "2",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "2": {
+                "nom_cheval": "ALEM",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "DEMURO C.",
+                "nom_entraineur": "PANTALL (S) HA.",
+                "poid_du_cheval": 605,
+                "musique": "4p 5p 3p 5p (25) 3p 2p 1p 4p 1p 3p 1p (24) 4p ",
+                "cotes": [
+                    "11.0",
+                    "11.0",
+                    "10.0"
+                ],
+                "gains": "74695",
+                "corde": "4",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "9": {
+                "nom_cheval": "TALENTUOSO",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "GRANDIN MAR.",
+                "nom_entraineur": "DUBOIS (S) PE.",
+                "poid_du_cheval": 575,
+                "musique": "3p 9p 3p 2p 3p 1p (25) 2p 4p 8p 4p 10p 5p ",
+                "cotes": [
+                    "11.0",
+                    "10.0",
+                    "10.0"
+                ],
+                "gains": "103693",
+                "corde": "10",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "6": {
+                "nom_cheval": "TEN HORNS",
+                "sexe": "M",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "POUCHIN A.",
+                "nom_entraineur": "COTTIER P.",
+                "poid_du_cheval": 595,
+                "musique": "13p 3p 2p 2p 4p (25) 2p 2p 3p 4p 6p 5p 5p ",
+                "cotes": [
+                    "10.0",
+                    "10.0",
+                    "8.1"
+                ],
+                "gains": "199012",
+                "corde": "5",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "12": {
+                "nom_cheval": "REVE DE VALLARSA",
+                "sexe": "M",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "SANTIAGO MLLE D.",
+                "nom_entraineur": "GAVILAN MME S.",
+                "poid_du_cheval": 550,
+                "musique": "11p 2p 1p 13p (25) 12p 12p 6p 6p 2p 9p 11p 4p ",
+                "cotes": [
+                    "25.0",
+                    "33.0",
+                    "40.0"
+                ],
+                "gains": "125872",
+                "corde": "8",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "5": {
+                "nom_cheval": "MARCUS AURELIUS",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "PICCONE T.",
+                "nom_entraineur": "PANTALL (S) HA.",
+                "poid_du_cheval": 600,
+                "musique": "1p 5p 1p (25) 4p 5p 2p 7p 7p 6p 7p 1p (24) 4p ",
+                "cotes": [
+                    "15.0",
+                    "16.0",
+                    "10.0"
+                ],
+                "gains": "64219",
+                "corde": "16",
+                "discipline": "Plat",
+                "distance": 1400
+            }
+        },
+        "date": "07/06/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 2300,
+        "prix": "HANDICAP D'ANGERS LOIRE METROPOLE",
+        "lieu": "Angers",
+        "heure_depart": "18:30:00",
+        "details": "PLAT, 2300 metres , Corde a DROITE 50.900- HANDICAP DIVISE Pour chevaux entiers, hongres et juments de 4 ans et au-dessus",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            15,
+            16,
+            6,
+            4,
+            1,
+            3,
+            14
+        ],
+        "r/c": "R1/C8",
+        "arrivee_details": {
+            "15": {
+                "nom_cheval": "RAM SEA",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "BRECHET LÉO P.",
+                "nom_entraineur": "MELE (S) D.",
+                "poid_du_cheval": 540,
+                "musique": "3p 5p 8p 2p (25) 5p 2p 8p 11p 2p 1p 5p 5p ",
+                "cotes": [
+                    "10.0",
+                    "11.0",
+                    "9.6"
+                ],
+                "gains": "32638",
+                "corde": "1",
+                "discipline": "Plat",
+                "distance": 2300
+            },
+            "16": {
+                "nom_cheval": "MR TEE",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "MADAMET A.",
+                "nom_entraineur": "MONFORT (S) ED.",
+                "poid_du_cheval": 540,
+                "musique": "(25) 1p 1p 10p 6p ",
+                "cotes": [
+                    "43.0",
+                    "37.0",
+                    "48.0"
+                ],
+                "gains": "15100",
+                "corde": "13",
+                "discipline": "Plat",
+                "distance": 2300
+            },
+            "6": {
+                "nom_cheval": "DARK SECRET",
+                "sexe": "M",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "D' ANDIGNE O.",
+                "nom_entraineur": "COUETIL (S) A.",
+                "poid_du_cheval": 570,
+                "musique": "1p 2p 2p 4p (25) 3p 3p (24) 2p ",
+                "cotes": [
+                    "4.7",
+                    "5.0",
+                    "3.3"
+                ],
+                "gains": "32323",
+                "corde": "7",
+                "discipline": "Plat",
+                "distance": 2300
+            },
+            "4": {
+                "nom_cheval": "SEONA",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "GUYON M.",
+                "nom_entraineur": "MONFORT (S) FR.",
+                "poid_du_cheval": 575,
+                "musique": "4p 11p 2p 6p 2p (25) 7p 1p 4p 2p 4p 4p 6p ",
+                "cotes": [
+                    "10.0",
+                    "10.0",
+                    "12.0"
+                ],
+                "gains": "92096",
+                "corde": "2",
+                "discipline": "Plat",
+                "distance": 2300
+            },
+            "1": {
+                "nom_cheval": "LOVE IS GOLD",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "REMOUE PIE.",
+                "nom_entraineur": "MENARD PIER.",
+                "poid_du_cheval": 605,
+                "musique": "1p 4p 12p 7p (25) 5p 3p 1p 5p 3p 1p 5p 15p ",
+                "cotes": [
+                    "20.0",
+                    "20.0",
+                    "23.0"
+                ],
+                "gains": "128335",
+                "corde": "8",
+                "discipline": "Plat",
+                "distance": 2300
+            },
+            "3": {
+                "nom_cheval": "ZILYA",
+                "sexe": "F",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "PROVOST D.",
+                "nom_entraineur": "CESANDRI (S) M.",
+                "poid_du_cheval": 580,
+                "musique": "15p 1p 6p 4p (25) 1p 1p 7p 2p 3p 2p 4p 8p ",
+                "cotes": [
+                    "39.0",
+                    "45.0",
+                    "72.0"
+                ],
+                "gains": "132944",
+                "corde": "15",
+                "discipline": "Plat",
+                "distance": 2300
+            },
+            "14": {
+                "nom_cheval": "XILOFONO",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "LECOEUVRE C.",
+                "nom_entraineur": "ARIZKORRETA ELOSEGUI G.",
+                "poid_du_cheval": 550,
+                "musique": "2p 2p 16p 12p (25) 13p 1p 7p 2p 6p 6p 3p 1p ",
+                "cotes": [
+                    "23.0",
+                    "21.0",
+                    "15.0"
+                ],
+                "gains": "77442",
+                "corde": "16",
+                "discipline": "Plat",
+                "distance": 2300
+            }
+        },
+        "date": "08/06/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 52800,
+        "distance": 1800,
+        "prix": "PRIX BENJAMIN BOUTIN",
+        "lieu": "Compiegne",
+        "heure_depart": "18:30:00",
+        "details": "PLAT, 1800 metres , Corde a GAUCHE 52.800- HANDICAP DIVISE Pour poulains entiers, hongres et pouliches de 3 ans",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            8,
+            12,
+            11,
+            10,
+            7,
+            1,
+            6
+        ],
+        "r/c": "R1/C8",
+        "arrivee_details": {
+            "8": {
+                "nom_cheval": "TI AMO BELLO",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "DEMURO C.",
+                "nom_entraineur": "PITART M.",
+                "poid_du_cheval": 570,
+                "musique": "9p 5p 5p 1p 7p 6p (25) 2p 4p ",
+                "cotes": [
+                    "11.0",
+                    "9.9",
+                    "8.0"
+                ],
+                "gains": "20544",
+                "corde": "12",
+                "discipline": "Plat",
+                "distance": 1800
+            },
+            "12": {
+                "nom_cheval": "EGYPTIAN GLORY",
+                "sexe": "F",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "BACHELOT T.",
+                "nom_entraineur": "WATTEL (S) S.",
+                "poid_du_cheval": 565,
+                "musique": "5p 1p 6p ",
+                "cotes": [
+                    "29.0",
+                    "31.0",
+                    "43.0"
+                ],
+                "gains": "13991",
+                "corde": "10",
+                "discipline": "Plat",
+                "distance": 1800
+            },
+            "11": {
+                "nom_cheval": "FAOLIO",
+                "sexe": "H",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "HAMELIN A.",
+                "nom_entraineur": "PROD'HOMME (S) D&P.",
+                "poid_du_cheval": 565,
+                "musique": "2p 1p 4p 5p 6p ",
+                "cotes": [
+                    "5.4",
+                    "5.1",
+                    "4.7"
+                ],
+                "gains": "23387",
+                "corde": "4",
+                "discipline": "Plat",
+                "distance": 1800
+            },
+            "10": {
+                "nom_cheval": "ZELZARA",
+                "sexe": "F",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "JOURNIAC H.",
+                "nom_entraineur": "BARBEROT (S) Y.",
+                "poid_du_cheval": 565,
+                "musique": "10p 8p 2p 7p 6p (25) 7p 2p 4p 2p 1p 6p ",
+                "cotes": [
+                    "16.0",
+                    "13.0",
+                    "10.0"
+                ],
+                "gains": "33809",
+                "corde": "1",
+                "discipline": "Plat",
+                "distance": 1800
+            },
+            "7": {
+                "nom_cheval": "SEA NYMPH",
+                "sexe": "F",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "PICCONE T.",
+                "nom_entraineur": "PANTALL (S) HA.",
+                "poid_du_cheval": 575,
+                "musique": "3p 5p 1p (25) 6p ",
+                "cotes": [
+                    "16.0",
+                    "24.0",
+                    "22.0"
+                ],
+                "gains": "9595",
+                "corde": "16",
+                "discipline": "Plat",
+                "distance": 1800
+            },
+            "1": {
+                "nom_cheval": "BON VIVEUR",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "PASQUIER S.",
+                "nom_entraineur": "PITART M.",
+                "poid_du_cheval": 600,
+                "musique": "3p 3p 1p 2p 3p 2p ",
+                "cotes": [
+                    "11.0",
+                    "11.0",
+                    "13.0"
+                ],
+                "gains": "26576",
+                "corde": "14",
+                "discipline": "Plat",
+                "distance": 1800
+            },
+            "6": {
+                "nom_cheval": "INCENTIVE VICTORY",
+                "sexe": "F",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "GRANDIN MAR.",
+                "nom_entraineur": "KOBAYASHI S.",
+                "poid_du_cheval": 575,
+                "musique": "7p 6p (25) 1p 5p ",
+                "cotes": [
+                    "26.0",
+                    "29.0",
+                    "36.0"
+                ],
+                "gains": "15820",
+                "corde": "9",
+                "discipline": "Plat",
+                "distance": 1800
+            }
+        },
+        "date": "09/06/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 35000,
+        "distance": 2450,
+        "prix": "PRIX DE THURY HARCOURT",
+        "lieu": "Caen",
+        "heure_depart": "18:30:00",
+        "details": "Pour 6 à 11 ans inclus, n'ayant pas gagné 241.000. - Recul de 25 m. à 120.000.",
+        "partants": 18,
+        "non_partants": 0,
+        "arrivee": [
+            3,
+            7,
+            6,
+            15,
+            4,
+            12,
+            10
+        ],
+        "r/c": "R1/C6",
+        "arrivee_details": {
+            "3": {
+                "nom_cheval": "KISS ATOUT",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "DUVALDESTIN THÉO",
+                "nom_entraineur": "DUVALDESTIN TH.",
+                "poid_du_cheval": 2450,
+                "musique": "2a 3a Da (25) 3a Da 2a 1a 8a (24) 3a (23) 4a 5a 7a ",
+                "cotes": [
+                    "4.3",
+                    "4.0",
+                    "3.6"
+                ],
+                "gains": "112310",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2450
+            },
+            "7": {
+                "nom_cheval": "KANCALAIS",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "LAGADEUC F.",
+                "nom_entraineur": "MARY C.A.",
+                "poid_du_cheval": 2450,
+                "musique": "8a 2a 2a 6a Da (25) 4a 3a 2a 4a 1a 0a 0a ",
+                "cotes": [
+                    "12.0",
+                    "12.0",
+                    "7.7"
+                ],
+                "gains": "117480",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2450
+            },
+            "6": {
+                "nom_cheval": "KNOK",
+                "sexe": "M",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "LE BELLER B.",
+                "nom_entraineur": "LE BELLER B.",
+                "poid_du_cheval": 2450,
+                "musique": "8a 5a 4a 8a 3a 5a 3a (25) 7a 3a 4a 6a 8a ",
+                "cotes": [
+                    "33.0",
+                    "35.0",
+                    "45.0"
+                ],
+                "gains": "116915",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2450
+            },
+            "15": {
+                "nom_cheval": "JERZINHO SPORT",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "ROCHARD B.",
+                "nom_entraineur": "DESMONTILS MME C.",
+                "poid_du_cheval": 2475,
+                "musique": "Da 2a 1a 6a 3a (25) 5a 1a 3a 3a 1a Da 2a ",
+                "cotes": [
+                    "13.0",
+                    "13.0",
+                    "17.0"
+                ],
+                "gains": "228125",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2450
+            },
+            "4": {
+                "nom_cheval": "KAISER RIVER",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "LAMY R.",
+                "nom_entraineur": "VARIN E.",
+                "poid_du_cheval": 2450,
+                "musique": "1a 8a (25) 6a 0a 3a (24) 0a 6a 3a 8a 7a 1a 3a ",
+                "cotes": [
+                    "36.0",
+                    "39.0",
+                    "44.0"
+                ],
+                "gains": "112400",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2450
+            },
+            "12": {
+                "nom_cheval": "KNOCKONWOOD",
+                "sexe": "M",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "LARUE R. CH.",
+                "nom_entraineur": "LARUE R.C.",
+                "poid_du_cheval": 2475,
+                "musique": "Da 8a Da 5a 9a 0a Da 0a 0a (25) 7a 8a 0a ",
+                "cotes": [
+                    "47.0",
+                    "66.0",
+                    "99.0"
+                ],
+                "gains": "188860",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2450
+            },
+            "10": {
+                "nom_cheval": "KAISER",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "NIVARD F.",
+                "nom_entraineur": "NIVARD F.",
+                "poid_du_cheval": 2475,
+                "musique": "1a Da 3a 2a 5a (25) 4a 4a 5a 2a 4a 3a 4a ",
+                "cotes": [
+                    "10.0",
+                    "10.0",
+                    "11.0"
+                ],
+                "gains": "181700",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2450
+            }
+        },
+        "date": "10/06/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 52800,
+        "distance": 1400,
+        "prix": "PRIX DU BEL AIR",
+        "lieu": "Paris-Longchamp",
+        "heure_depart": "20:15:00",
+        "details": "PLAT, 1400 metres , Corde a DROITE 52.800- HANDICAP DIVISE Pour poulains entiers, hongres et pouliches de 3 ans",
+        "partants": 14,
+        "non_partants": 2,
+        "arrivee": [
+            7,
+            1,
+            3,
+            5,
+            16,
+            6,
+            4
+        ],
+        "r/c": "R1/C6",
+        "arrivee_details": {
+            "7": {
+                "nom_cheval": "TISSIMO",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "PASQUIER S.",
+                "nom_entraineur": "PANTALL (S) HA.",
+                "poid_du_cheval": 570,
+                "musique": "10p 6p 7p (25) 2p 1p 2p 8p ",
+                "cotes": [
+                    "10.0",
+                    "9.3",
+                    "10.0"
+                ],
+                "gains": "18588",
+                "corde": "14",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "1": {
+                "nom_cheval": "TORNADO ALLEY",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "BOUTIN HUG.",
+                "nom_entraineur": "GRAFFARD (S) FH.",
+                "poid_du_cheval": 600,
+                "musique": "1p 4p 1p 3p (25) 9p 7p ",
+                "cotes": [
+                    "15.0",
+                    "13.0",
+                    "9.9"
+                ],
+                "gains": "47158",
+                "corde": "10",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "3": {
+                "nom_cheval": "ASPIRE",
+                "sexe": "F",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "CRASTUS A.",
+                "nom_entraineur": "REYNIER (S) J.",
+                "poid_du_cheval": 575,
+                "musique": "1p 4p 3p 1p 2p ",
+                "cotes": [
+                    "15.0",
+                    "15.0",
+                    "10.0"
+                ],
+                "gains": "31663",
+                "corde": "6",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "5": {
+                "nom_cheval": "BASANTI",
+                "sexe": "F",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "POUCHIN A.",
+                "nom_entraineur": "FABRE (S) A.",
+                "poid_du_cheval": 570,
+                "musique": "3p 4p 8p 6p 1p (25) 3p 8p ",
+                "cotes": [
+                    "12.0",
+                    "12.0",
+                    "13.0"
+                ],
+                "gains": "27777",
+                "corde": "13",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "16": {
+                "nom_cheval": "SELENITE",
+                "sexe": "F",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "CLAUDIC J.",
+                "nom_entraineur": "BLANCPAIN (S) M.",
+                "poid_du_cheval": 540,
+                "musique": "7p 2p 5p 1p 5p (25) 11p ",
+                "cotes": [
+                    "21.0",
+                    "20.0",
+                    "23.0"
+                ],
+                "gains": "16915",
+                "corde": "4",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "6": {
+                "nom_cheval": "NELLIEDONADO",
+                "sexe": "F",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "SOUMILLON C.",
+                "nom_entraineur": "WATTEL (S) S.",
+                "poid_du_cheval": 570,
+                "musique": "6p 1p 2p 5p 3p (25) 2p 9p ",
+                "cotes": [
+                    "10.0",
+                    "9.6",
+                    "8.6"
+                ],
+                "gains": "26250",
+                "corde": "7",
+                "discipline": "Plat",
+                "distance": 1400
+            },
+            "4": {
+                "nom_cheval": "SAINT SAENS",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "GUYON M.",
+                "nom_entraineur": "BARBEROT (S) Y.",
+                "poid_du_cheval": 570,
+                "musique": "3p 3p 1p 2p (25) 4p 5p 9p ",
+                "cotes": [
+                    "13.0",
+                    "8.5",
+                    "7.4"
+                ],
+                "gains": "47514",
+                "corde": "16",
+                "discipline": "Plat",
+                "distance": 1400
+            }
+        },
+        "date": "11/06/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 68000,
+        "distance": 2700,
+        "prix": "PRIX EUDORA",
+        "lieu": "Vincennes",
+        "heure_depart": "20:15:00",
+        "details": "Pour 7 à 11 ans inclus, n'ayant pas gagné 325.000.",
+        "partants": 15,
+        "non_partants": 1,
+        "arrivee": [
+            4,
+            8,
+            14,
+            1,
+            9,
+            6,
+            12
+        ],
+        "r/c": "R1/C4",
+        "arrivee_details": {
+            "4": {
+                "nom_cheval": "JOLIE STAR",
+                "sexe": "F",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "MOTTIER M.",
+                "nom_entraineur": "MOTTIER M.",
+                "poid_du_cheval": 2700,
+                "musique": "Da 1a 1a 1a Da 8a Da 6a (25) Da 0a 0a Da ",
+                "cotes": [
+                    "2.9",
+                    "2.1",
+                    "2.2"
+                ],
+                "gains": "294890",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "8": {
+                "nom_cheval": "JUST A MIDI",
+                "sexe": "M",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "RAFFIN E.",
+                "nom_entraineur": "ENT. SOULOY S.F.",
+                "poid_du_cheval": 2700,
+                "musique": "7a 0a 0a (25) Da 0a 4a 3a 1a 9a Da 4a (24) 6a ",
+                "cotes": [
+                    "12.0",
+                    "14.0",
+                    "11.0"
+                ],
+                "gains": "300920",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "14": {
+                "nom_cheval": "GUERRIER CASTELETS",
+                "sexe": "H",
+                "annee_de_naissance": "2016",
+                "nom_jockey": "ROCHARD B.",
+                "nom_entraineur": "GUENET MME B.",
+                "poid_du_cheval": 2700,
+                "musique": "9a 3a 8a 4a 6a 9a Da 4a (25) 4a 4a Da 6a ",
+                "cotes": [
+                    "19.0",
+                    "23.0",
+                    "28.0"
+                ],
+                "gains": "313517",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "1": {
+                "nom_cheval": "SCHAMPUS",
+                "sexe": "M",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "GELORMINI G.",
+                "nom_entraineur": "EHLERT H. K.",
+                "poid_du_cheval": 2700,
+                "musique": "4a 7a (25) 1a 9a 5a Da 3a 7a 1a (24) 1a 1a 3a ",
+                "cotes": [
+                    "15.0",
+                    "17.0",
+                    "17.0"
+                ],
+                "gains": "259391",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "9": {
+                "nom_cheval": "IGUANE DE CAPONET",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "LEBOURGEOIS Y.",
+                "nom_entraineur": "RAIMBAUD C.",
+                "poid_du_cheval": 2700,
+                "musique": "(25) 8a 1a 1a 2a 1a 1a 1a Da (24) 6a Da 3a 1a ",
+                "cotes": [
+                    "9.7",
+                    "11.0",
+                    "12.0"
+                ],
+                "gains": "300980",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "6": {
+                "nom_cheval": "IMPERIAL DURABUTIN",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "DROMIGNY T.",
+                "nom_entraineur": "DELLIAUX J.R.",
+                "poid_du_cheval": 2700,
+                "musique": "3a 4a 2a 0a (25) 1a 0a 4a 2a Da 1a 8a 1a ",
+                "cotes": [
+                    "16.0",
+                    "18.0",
+                    "22.0"
+                ],
+                "gains": "297305",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "12": {
+                "nom_cheval": "JAPPELOUP TURGOT",
+                "sexe": "M",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "ABRIVARD M.",
+                "nom_entraineur": "ABRIVARD M.",
+                "poid_du_cheval": 2700,
+                "musique": "8a 1a 3a 9a 8a (25) Da 9a 4a 5a 4a 5a 2a ",
+                "cotes": [
+                    "7.9",
+                    "9.9",
+                    "9.5"
+                ],
+                "gains": "309815",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            }
+        },
+        "date": "12/06/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 90000,
+        "distance": 2150,
+        "prix": "PRIX DE NEW YORK",
+        "lieu": "Enghien Soisy",
+        "heure_depart": "15:15:00",
+        "details": "Pour 5 à 11 ans inclus, n'ayant pas gagné 455.000, les 5, 6 et 7 ans ayant gagné au moins 61.000.",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            7,
+            3,
+            4,
+            5,
+            1,
+            16,
+            12
+        ],
+        "r/c": "R1/C4",
+        "arrivee_details": {
+            "7": {
+                "nom_cheval": "INDUS VAL",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "VERVA PIE. Y.",
+                "nom_entraineur": "CHAINEUX J.M.",
+                "poid_du_cheval": 2150,
+                "musique": "3a 3a Da 2a 1a 5a (25) 4a 8a 4a 7a 3a 3a ",
+                "cotes": [
+                    "11.0",
+                    "9.8",
+                    "11.0"
+                ],
+                "gains": "429425",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "3": {
+                "nom_cheval": "IBIZA BELLA",
+                "sexe": "F",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "WIELS A.",
+                "nom_entraineur": "MARMION J.P.",
+                "poid_du_cheval": 2150,
+                "musique": "2a 0a 1a 6a 2a (25) 8a Da Da 5a 1a 7a 2a ",
+                "cotes": [
+                    "15.0",
+                    "14.0",
+                    "15.0"
+                ],
+                "gains": "402830",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "4": {
+                "nom_cheval": "INVICTUS MADIBA",
+                "sexe": "M",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "NIVARD F.",
+                "nom_entraineur": "MICHARDIERE B.",
+                "poid_du_cheval": 2150,
+                "musique": "0a 4a 4a 0a 0a (25) 0a Dm 1a Da 2m 6a 9a ",
+                "cotes": [
+                    "27.0",
+                    "35.0",
+                    "48.0"
+                ],
+                "gains": "454587",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "5": {
+                "nom_cheval": "LANCIER DU GOUTIER",
+                "sexe": "M",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "DUVALDESTIN THÉO",
+                "nom_entraineur": "DUVALDESTIN TH.",
+                "poid_du_cheval": 2150,
+                "musique": "1a Da 2a 4a (25) 1a 2a 4a 3a 1a 1a 1a 1a ",
+                "cotes": [
+                    "2.0",
+                    "1.9",
+                    "1.6"
+                ],
+                "gains": "452150",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "1": {
+                "nom_cheval": "JILORD VIVA",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "RAFFESTIN J.",
+                "nom_entraineur": "RAFFESTIN J.",
+                "poid_du_cheval": 2150,
+                "musique": "6a 9a 1a 5a 0a (25) 4a 1a 1a 3a 2a Da Da ",
+                "cotes": [
+                    "83.0",
+                    "89.0",
+                    "123.0"
+                ],
+                "gains": "382550",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "16": {
+                "nom_cheval": "HAMILTON DU HAM",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "MARTENS C.",
+                "nom_entraineur": "DESMET Y.",
+                "poid_du_cheval": 2150,
+                "musique": "3a 9a 4a Da 6a Da Da (25) 3a 6a 8a 0a 6a ",
+                "cotes": [
+                    "60.0",
+                    "71.0",
+                    "100.0"
+                ],
+                "gains": "366010",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "12": {
+                "nom_cheval": "COLBERT WF",
+                "sexe": "M",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "RAFFIN E.",
+                "nom_entraineur": "BONDO H.E.",
+                "poid_du_cheval": 2150,
+                "musique": "4a 8a 5a 7a Da 5a (25) Da 2a Da 2a 3a Da ",
+                "cotes": [
+                    "15.0",
+                    "19.0",
+                    "25.0"
+                ],
+                "gains": "327396",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            }
+        },
+        "date": "13/06/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 72000,
+        "distance": 1800,
+        "prix": "GRAND HANDICAP DE LAMORLAYE LONGINES",
+        "lieu": "Chantilly",
+        "heure_depart": "15:20:00",
+        "details": "PLAT, 1800 metres , Corde a DROITE 72.000- HANDICAP DIVISE Pour chevaux entiers, hongres et juments de 4 ans et au-dessus",
+        "partants": 18,
+        "non_partants": 0,
+        "arrivee": [
+            13,
+            2,
+            14,
+            7,
+            3,
+            16,
+            18
+        ],
+        "r/c": "R1/C4",
+        "arrivee_details": {
+            "13": {
+                "nom_cheval": "WAPI",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "THOMAS RON.",
+                "nom_entraineur": "LERNER (S) C&Y.",
+                "poid_du_cheval": 545,
+                "musique": "1p 2p 5p (25) 2p 11p 9p 2p 4p 4p 15p 13p (24) 5p ",
+                "cotes": [
+                    "16.0",
+                    "17.0",
+                    "9.3"
+                ],
+                "gains": "81951",
+                "corde": "9",
+                "discipline": "Plat",
+                "distance": 1800
+            },
+            "2": {
+                "nom_cheval": "CALAS",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "SOUMILLON C.",
+                "nom_entraineur": "BRANDT (S) P&J.",
+                "poid_du_cheval": 595,
+                "musique": "1p 1p 5p (25) 1p 5p 13p (24) 7p 4p 9p 4p 3p 4p ",
+                "cotes": [
+                    "12.0",
+                    "9.7",
+                    "8.6"
+                ],
+                "gains": "136200",
+                "corde": "7",
+                "discipline": "Plat",
+                "distance": 1800
+            },
+            "14": {
+                "nom_cheval": "DOUBLE UP",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "TRULLIER T.",
+                "nom_entraineur": "WATTEL (S) S.",
+                "poid_du_cheval": 545,
+                "musique": "6p 9p 13p 7p (25) 1p 3p 4p 1p 12p ",
+                "cotes": [
+                    "20.0",
+                    "24.0",
+                    "26.0"
+                ],
+                "gains": "32675",
+                "corde": "6",
+                "discipline": "Plat",
+                "distance": 1800
+            },
+            "7": {
+                "nom_cheval": "HALF HALF",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "POUCHIN A.",
+                "nom_entraineur": "SMAGA D.",
+                "poid_du_cheval": 565,
+                "musique": "2p 1p 5p 2p 3p 12p (25) 7p 3p (24) 9p 8p 10p 5p ",
+                "cotes": [
+                    "6.5",
+                    "5.8",
+                    "6.2"
+                ],
+                "gains": "169938",
+                "corde": "4",
+                "discipline": "Plat",
+                "distance": 1800
+            },
+            "3": {
+                "nom_cheval": "TIEGO THE FIRST",
+                "sexe": "M",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "GUYON M.",
+                "nom_entraineur": "BRANDT (S) P&J.",
+                "poid_du_cheval": 590,
+                "musique": "2p 8p (25) 8p 10p 2p 1p 4p 6p (24) 8p 5p 1p 3p ",
+                "cotes": [
+                    "13.0",
+                    "14.0",
+                    "18.0"
+                ],
+                "gains": "92594",
+                "corde": "14",
+                "discipline": "Plat",
+                "distance": 1800
+            },
+            "16": {
+                "nom_cheval": "FEARLESS CHEETAH",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "CLAUDIC J.",
+                "nom_entraineur": "BRESSON (S) F.",
+                "poid_du_cheval": 530,
+                "musique": "1p 2p 6p 8p (25) 1p 3p 3p 1p 8p 6p 1p 2p ",
+                "cotes": [
+                    "28.0",
+                    "35.0",
+                    "27.0"
+                ],
+                "gains": "95639",
+                "corde": "8",
+                "discipline": "Plat",
+                "distance": 1800
+            },
+            "18": {
+                "nom_cheval": "LAKOTA BEAU",
+                "sexe": "M",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "CRASTUS A.",
+                "nom_entraineur": "HERNON G.",
+                "poid_du_cheval": 530,
+                "musique": "12p 8p (25) 8p 1p 1p 7p 3p 3p 2p (24) 5p ",
+                "cotes": [
+                    "22.0",
+                    "36.0",
+                    "30.0"
+                ],
+                "gains": "34600",
+                "corde": "5",
+                "discipline": "Plat",
+                "distance": 1800
+            }
+        },
+        "date": "14/06/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 1800,
+        "prix": "PRIX DU PETIT PRE",
+        "lieu": "Paris-Longchamp",
+        "heure_depart": "18:30:00",
+        "details": "PLAT, 1800 metres , Corde a DROITE 50.900- HANDICAP DIVISE Pour chevaux entiers, hongres et juments de 4 ans et au-dessus",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            15,
+            1,
+            8,
+            6,
+            13,
+            16,
+            14
+        ],
+        "r/c": "R1/C6",
+        "arrivee_details": {
+            "15": {
+                "nom_cheval": "FEVE",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "LEMAITRE A.",
+                "nom_entraineur": "LEROY J.",
+                "poid_du_cheval": 575,
+                "musique": "14p 13p 10p 15p 6p 3p (25) 4p 1p 16p 2p 9p 8p ",
+                "cotes": [
+                    "23.0",
+                    "26.0",
+                    "31.0"
+                ],
+                "gains": "55550",
+                "corde": "14",
+                "discipline": "Plat",
+                "distance": 1800
+            },
+            "1": {
+                "nom_cheval": "MAX VERST",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "BARZALONA M.",
+                "nom_entraineur": "FRADET (S) R.",
+                "poid_du_cheval": 600,
+                "musique": "6p 3p 8p 7p 8p 4p 14p (25) 3p 5p 1p 7p 6p ",
+                "cotes": [
+                    "10.0",
+                    "10.0",
+                    "10.0"
+                ],
+                "gains": "202797",
+                "corde": "3",
+                "discipline": "Plat",
+                "distance": 1800
+            },
+            "8": {
+                "nom_cheval": "HERMES WOOD",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "HARDOUIN E.",
+                "nom_entraineur": "FEY MLLE C.",
+                "poid_du_cheval": 595,
+                "musique": "4p 1p 6p 4p 4p 7p 2p 7p (25) 3p 1p 2p 4p ",
+                "cotes": [
+                    "8.8",
+                    "8.6",
+                    "7.8"
+                ],
+                "gains": "66402",
+                "corde": "13",
+                "discipline": "Plat",
+                "distance": 1800
+            },
+            "6": {
+                "nom_cheval": "MONONOF",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "SUGAWARA AKI.",
+                "nom_entraineur": "KOBAYASHI S.",
+                "poid_du_cheval": 600,
+                "musique": "5p 5p 3p (25) 8p 2p 2p 7p 7p 4p 5p 8p 7p ",
+                "cotes": [
+                    "15.0",
+                    "14.0",
+                    "16.0"
+                ],
+                "gains": "69890",
+                "corde": "1",
+                "discipline": "Plat",
+                "distance": 1800
+            },
+            "13": {
+                "nom_cheval": "EL PEQUENIO",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "TRULLIER T.",
+                "nom_entraineur": "CLEMENT & HERMANS (S)",
+                "poid_du_cheval": 580,
+                "musique": "8p 14p 9p (25) 14p 7p 9p 1p 3p 3p 2p 7p 13p ",
+                "cotes": [
+                    "7.4",
+                    "7.4",
+                    "7.9"
+                ],
+                "gains": "87184",
+                "corde": "8",
+                "discipline": "Plat",
+                "distance": 1800
+            },
+            "16": {
+                "nom_cheval": "PESTACLE",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "BREUX D.",
+                "nom_entraineur": "FORESI F.",
+                "poid_du_cheval": 575,
+                "musique": "4p 7p 1p 7p 12p 7p (25) 5p 5p 3p 7p 2p 6p ",
+                "cotes": [
+                    "11.0",
+                    "14.0",
+                    "16.0"
+                ],
+                "gains": "73295",
+                "corde": "4",
+                "discipline": "Plat",
+                "distance": 1800
+            },
+            "14": {
+                "nom_cheval": "HAPPY SAXON",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "PICCONE T.",
+                "nom_entraineur": "HERNON G.",
+                "poid_du_cheval": 580,
+                "musique": "8p 10p 16p 6p (25) 8p 5p 6p 14p (24) 5p 6p 2p 1p ",
+                "cotes": [
+                    "35.0",
+                    "32.0",
+                    "24.0"
+                ],
+                "gains": "35827",
+                "corde": "16",
+                "discipline": "Plat",
+                "distance": 1800
+            }
+        },
+        "date": "15/06/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 1600,
+        "prix": "PRIX AFTER WORK",
+        "lieu": "Nantes",
+        "heure_depart": "18:40:00",
+        "details": "PLAT, 1600 metres , Corde a GAUCHE 50.900- HANDICAP DIVISE Pour chevaux entiers, hongres et juments de 4 ans et au-dessus",
+        "partants": 15,
+        "non_partants": 1,
+        "arrivee": [
+            3,
+            4,
+            12,
+            14,
+            16,
+            9,
+            1
+        ],
+        "r/c": "R1/C2",
+        "arrivee_details": {
+            "3": {
+                "nom_cheval": "GRANDPA CEN",
+                "sexe": "M",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "LEMAITRE A.",
+                "nom_entraineur": "OLAVE VALDIVIELSO P.",
+                "poid_du_cheval": 590,
+                "musique": "2p 5p (25) 1p 1p 3p 3p 2p 2p 2p 9p ",
+                "cotes": [
+                    "4.3",
+                    "4.1",
+                    "3.2"
+                ],
+                "gains": "42962",
+                "corde": "11",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "4": {
+                "nom_cheval": "CICCIO BOY",
+                "sexe": "M",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "JUSTUM M.",
+                "nom_entraineur": "JUSTUM M.",
+                "poid_du_cheval": 585,
+                "musique": "13p 4p 1p 3p 4p 11p 9p (25) 10p 7p 8p 5p 7p ",
+                "cotes": [
+                    "14.0",
+                    "13.0",
+                    "17.0"
+                ],
+                "gains": "301042",
+                "corde": "7",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "12": {
+                "nom_cheval": "CHIRICCO",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "MADAMET A.",
+                "nom_entraineur": "BRASME (S) M.",
+                "poid_du_cheval": 550,
+                "musique": "4p 10p 5p (25) 10p 5p 16p 7p 1p 2p 5p 1p 1p ",
+                "cotes": [
+                    "8.1",
+                    "9.2",
+                    "12.0"
+                ],
+                "gains": "74868",
+                "corde": "10",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "14": {
+                "nom_cheval": "KEANU",
+                "sexe": "M",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "GROSBOIS CHR.",
+                "nom_entraineur": "PLISSON K.",
+                "poid_du_cheval": 535,
+                "musique": "1p 5p 6p 6p 5p 2p 2p 7p 6p (25) 1p 2p 1p ",
+                "cotes": [
+                    "13.0",
+                    "11.0",
+                    "14.0"
+                ],
+                "gains": "92125",
+                "corde": "4",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "16": {
+                "nom_cheval": "CROWDFUNDING",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "MANGIONE R.",
+                "nom_entraineur": "BOUTIN (S) C.",
+                "poid_du_cheval": 525,
+                "musique": "9p 4p 4p 5p 4p 6p 2p 5p 9p 2p 4p (25) 14p ",
+                "cotes": [
+                    "11.0",
+                    "13.0",
+                    "14.0"
+                ],
+                "gains": "164756",
+                "corde": "1",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "9": {
+                "nom_cheval": "KER WELEN",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "ROUSSEL LEO",
+                "nom_entraineur": "LEENDERS N.",
+                "poid_du_cheval": 565,
+                "musique": "5p 8p 5p (25) 1p 9p 5p 4p 2p 4p 6p 3p 2p ",
+                "cotes": [
+                    "13.0",
+                    "14.0",
+                    "17.0"
+                ],
+                "gains": "164985",
+                "corde": "9",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "1": {
+                "nom_cheval": "FELIX AUX ORMES",
+                "sexe": "M",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "JOURNIAC H.",
+                "nom_entraineur": "BARBEROT (S) Y.",
+                "poid_du_cheval": 620,
+                "musique": "5p 1p 2p 8p 3p 2p (25) 5p 10p 3p 10p 7p 7p ",
+                "cotes": [
+                    "10.0",
+                    "8.8",
+                    "6.2"
+                ],
+                "gains": "114412",
+                "corde": "3",
+                "discipline": "Plat",
+                "distance": 1600
+            }
+        },
+        "date": "16/06/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 32000,
+        "distance": 2625,
+        "prix": "PRIX DE L'AGGLOMERATION D'AGEN",
+        "lieu": "Agen",
+        "heure_depart": "18:30:00",
+        "details": "Pour 6 ans, ayant gagné au moins 10.000, mais pas 110.000. - Recul de 25 m. à 55.000.",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            9,
+            14,
+            10,
+            8,
+            13,
+            1,
+            15
+        ],
+        "r/c": "R1/C3",
+        "arrivee_details": {
+            "9": {
+                "nom_cheval": "KEEPING JYL",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "GRASSET M.",
+                "nom_entraineur": "ENT. GRASSET S.B.",
+                "poid_du_cheval": 2625,
+                "musique": "Da 5a 2a 4a Dm 6a (25) Da 2m 1a 0a Dm 5a ",
+                "cotes": [
+                    "12.0",
+                    "12.0",
+                    "13.0"
+                ],
+                "gains": "54580",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2625
+            },
+            "14": {
+                "nom_cheval": "KERLAZ D'AVE",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "TRAVERS J.",
+                "nom_entraineur": "PROVOOST S.",
+                "poid_du_cheval": 2650,
+                "musique": "2a 2a 4a Da Da 2a 1a 3a 1a 2a 0a Da ",
+                "cotes": [
+                    "5.3",
+                    "4.3",
+                    "3.7"
+                ],
+                "gains": "95465",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2625
+            },
+            "10": {
+                "nom_cheval": "KIRELLA",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "ABRIVARD A.",
+                "nom_entraineur": "HUBERT A.",
+                "poid_du_cheval": 2625,
+                "musique": "3a 7a 7a Da (25) 1a 2a 4a 9a 3a 6a 5a 2a ",
+                "cotes": [
+                    "3.7",
+                    "3.2",
+                    "3.3"
+                ],
+                "gains": "54690",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2625
+            },
+            "8": {
+                "nom_cheval": "KIFILL CHOISI",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "VIMOND N.",
+                "nom_entraineur": "VIMOND N.",
+                "poid_du_cheval": 2625,
+                "musique": "4a 0a Da 5a Da 4a 4a (25) 8a 8a 4a 2a 2a ",
+                "cotes": [
+                    "30.0",
+                    "40.0",
+                    "46.0"
+                ],
+                "gains": "52570",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2625
+            },
+            "13": {
+                "nom_cheval": "KAROUZO",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "GESRET P.",
+                "nom_entraineur": "TREICH J.H.",
+                "poid_du_cheval": 2650,
+                "musique": "4a 5a Da Da 2a Da Da 2a 4a (25) 0a 9a 3a ",
+                "cotes": [
+                    "15.0",
+                    "18.0",
+                    "17.0"
+                ],
+                "gains": "94150",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2625
+            },
+            "1": {
+                "nom_cheval": "KAHORS DE LA PIECE",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "DAOUGABEL M.",
+                "nom_entraineur": "DAOUGABEL M.",
+                "poid_du_cheval": 2625,
+                "musique": "(25) Da 9a 2a 9a Da 1a 1a 2a 5a 2a 0a 4a ",
+                "cotes": [
+                    "41.0",
+                    "56.0",
+                    "71.0"
+                ],
+                "gains": "46085",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2625
+            },
+            "15": {
+                "nom_cheval": "KIKI",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "GERGOUIL MAT.",
+                "nom_entraineur": "FOIN J.",
+                "poid_du_cheval": 2650,
+                "musique": "2a 5a 3a Da (25) 1a 1a 3a 2a Da 3a 1a 1a ",
+                "cotes": [
+                    "5.9",
+                    "6.1",
+                    "7.0"
+                ],
+                "gains": "102620",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2625
+            }
+        },
+        "date": "17/06/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 52800,
+        "distance": 2200,
+        "prix": "PRIX DU NABOB",
+        "lieu": "Paris-Longchamp",
+        "heure_depart": "20:15:00",
+        "details": "PLAT, 2200 metres , Corde a DROITE 52.800- HANDICAP DIVISE Pour poulains entiers, hongres et pouliches de 3 ans",
+        "partants": 14,
+        "non_partants": 0,
+        "arrivee": [
+            2,
+            7,
+            13,
+            1,
+            3,
+            6,
+            11
+        ],
+        "r/c": "R1/C7",
+        "arrivee_details": {
+            "2": {
+                "nom_cheval": "COSY BEAR",
+                "sexe": "H",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "GUYON M.",
+                "nom_entraineur": "BRANDT (S) P&J.",
+                "poid_du_cheval": 580,
+                "musique": "8p 3p (25) 2p 2p 2p 3p 7p 3p 9p 8p ",
+                "cotes": [
+                    "5.1",
+                    "4.4",
+                    "4.8"
+                ],
+                "gains": "25389",
+                "corde": "6",
+                "discipline": "Plat",
+                "distance": 2200
+            },
+            "7": {
+                "nom_cheval": "MISTER BLACK",
+                "sexe": "H",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "POUCHIN A.",
+                "nom_entraineur": "LERNER (S) C&Y.",
+                "poid_du_cheval": 545,
+                "musique": "4p 2p 2p 10p 4p 9p ",
+                "cotes": [
+                    "7.3",
+                    "7.5",
+                    "6.7"
+                ],
+                "gains": "21446",
+                "corde": "12",
+                "discipline": "Plat",
+                "distance": 2200
+            },
+            "13": {
+                "nom_cheval": "ZARABABY",
+                "sexe": "F",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "BOISSEAU L.",
+                "nom_entraineur": "ARTU (S) D.",
+                "poid_du_cheval": 520,
+                "musique": "3p 5p 6p 8p ",
+                "cotes": [
+                    "23.0",
+                    "29.0",
+                    "36.0"
+                ],
+                "gains": "4167",
+                "corde": "9",
+                "discipline": "Plat",
+                "distance": 2200
+            },
+            "1": {
+                "nom_cheval": "REVE BLEU",
+                "sexe": "F",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "BARZALONA M.",
+                "nom_entraineur": "BIETOLINI G.",
+                "poid_du_cheval": 600,
+                "musique": "3p 5p 7p (25) 1p 3p ",
+                "cotes": [
+                    "8.3",
+                    "8.6",
+                    "7.3"
+                ],
+                "gains": "25952",
+                "corde": "2",
+                "discipline": "Plat",
+                "distance": 2200
+            },
+            "3": {
+                "nom_cheval": "TOO DARN QUICK",
+                "sexe": "M",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "BOUDOT P. C.",
+                "nom_entraineur": "FABRE (S) A.",
+                "poid_du_cheval": 570,
+                "musique": "2p 4p 6p 5p (25) 3p 8p ",
+                "cotes": [
+                    "5.6",
+                    "4.7",
+                    "5.3"
+                ],
+                "gains": "20208",
+                "corde": "14",
+                "discipline": "Plat",
+                "distance": 2200
+            },
+            "6": {
+                "nom_cheval": "NOTIONI FAL",
+                "sexe": "F",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "LECOEUVRE C.",
+                "nom_entraineur": "GROUALLE (S) P.",
+                "poid_du_cheval": 545,
+                "musique": "5p 1p 5p 3p (25) 3p 6p 4p ",
+                "cotes": [
+                    "12.0",
+                    "12.0",
+                    "8.1"
+                ],
+                "gains": "25397",
+                "corde": "1",
+                "discipline": "Plat",
+                "distance": 2200
+            },
+            "11": {
+                "nom_cheval": "STAN LE GRAND",
+                "sexe": "H",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "HARDOUIN E.",
+                "nom_entraineur": "PROD'HOMME (S) D&P.",
+                "poid_du_cheval": 525,
+                "musique": "2p 8p 10p (25) 10p ",
+                "cotes": [
+                    "15.0",
+                    "21.0",
+                    "18.0"
+                ],
+                "gains": "3838",
+                "corde": "8",
+                "discipline": "Plat",
+                "distance": 2200
+            }
+        },
+        "date": "18/06/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 59000,
+        "distance": 2700,
+        "prix": "PRIX RHODOPE",
+        "lieu": "Vincennes",
+        "heure_depart": "20:15:00",
+        "details": "Pour 8 à 11 ans inclus, n'ayant pas gagné 215.000.",
+        "partants": 17,
+        "non_partants": 1,
+        "arrivee": [
+            13,
+            16,
+            6,
+            17,
+            15,
+            12,
+            10
+        ],
+        "r/c": "R1/C4",
+        "arrivee_details": {
+            "13": {
+                "nom_cheval": "IRISH NICE ELGE",
+                "sexe": "M",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "LEBOURGEOIS Y.",
+                "nom_entraineur": "STAEL L.",
+                "poid_du_cheval": 2700,
+                "musique": "Da 3a Da Da 9a 9a 3a 8a 6a (25) 7a 8a 0a ",
+                "cotes": [
+                    "35.0",
+                    "47.0",
+                    "44.0"
+                ],
+                "gains": "208900",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "16": {
+                "nom_cheval": "IMAGE D'ATALANTE",
+                "sexe": "F",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "NIVARD F.",
+                "nom_entraineur": "CHERBONNEL D.",
+                "poid_du_cheval": 2700,
+                "musique": "2a 8a 4a 0a 4a 6a 4a 4a 9a (25) 0a 0a 3a ",
+                "cotes": [
+                    "16.0",
+                    "13.0",
+                    "16.0"
+                ],
+                "gains": "210995",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "6": {
+                "nom_cheval": "IENISSE DE BARBRAY",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "RAFFIN E.",
+                "nom_entraineur": "MALLET CH.A.",
+                "poid_du_cheval": 2700,
+                "musique": "1a 0a 2a 0a 2a 0a (25) 2a 3a 9a 0a 9a 2a ",
+                "cotes": [
+                    "4.6",
+                    "3.4",
+                    "2.8"
+                ],
+                "gains": "200295",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "17": {
+                "nom_cheval": "INTELLO DE CHENU",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "THOMAIN D.",
+                "nom_entraineur": "PELLEROT P.",
+                "poid_du_cheval": 2700,
+                "musique": "6a 5a 4a 5a (25) 0a 0a 3a 3a 3a Da 3a Da ",
+                "cotes": [
+                    "10.0",
+                    "10.0",
+                    "9.5"
+                ],
+                "gains": "211350",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "15": {
+                "nom_cheval": "FULL CASH DE PADD",
+                "sexe": "H",
+                "annee_de_naissance": "2015",
+                "nom_jockey": "ROCHARD B.",
+                "nom_entraineur": "MONACO M.",
+                "poid_du_cheval": 2700,
+                "musique": "7a 0a (25) 0a 7a 6m 0a 5a 8a Da Da 1a 1a ",
+                "cotes": [
+                    "35.0",
+                    "52.0",
+                    "68.0"
+                ],
+                "gains": "210815",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "12": {
+                "nom_cheval": "IDEM DU PONT",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "ABRIVARD A.",
+                "nom_entraineur": "BOVAY M.A.",
+                "poid_du_cheval": 2700,
+                "musique": "3a Da 1a 2a 2a 2a Da 5a (25) Da 3a Da 1a ",
+                "cotes": [
+                    "13.0",
+                    "13.0",
+                    "17.0"
+                ],
+                "gains": "207952",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            },
+            "10": {
+                "nom_cheval": "HADRIEN",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "COLLETTE A.",
+                "nom_entraineur": "MONACO M.",
+                "poid_du_cheval": 2700,
+                "musique": "8a 9a 4a (25) 9a 4m 0a Da Da (24) 0a 3a 0a 1a ",
+                "cotes": [
+                    "38.0",
+                    "48.0",
+                    "61.0"
+                ],
+                "gains": "205610",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2700
+            }
+        },
+        "date": "19/06/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 2800,
+        "prix": "PRIX RACE AND CARE",
+        "lieu": "Compiegne",
+        "heure_depart": "15:15:00",
+        "details": "PLAT, 2800 metres , Corde a GAUCHE 50.900- HANDICAP DIVISE Pour tous chevaux de 4 ans et au-dessus",
+        "partants": 13,
+        "non_partants": 1,
+        "arrivee": [
+            13,
+            3,
+            1,
+            9,
+            5,
+            8,
+            7
+        ],
+        "r/c": "R1/C3",
+        "arrivee_details": {
+            "13": {
+                "nom_cheval": "STANDING STONE",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "BAILS MLLE L.",
+                "nom_entraineur": "GUILBERT N.",
+                "poid_du_cheval": 520,
+                "musique": "1p 6p 2p 8p (25) 6p 3p 13p 10p 8p 2p 5p 5p ",
+                "cotes": [
+                    "20.0",
+                    "25.0",
+                    "21.0"
+                ],
+                "gains": "52663",
+                "corde": "14",
+                "discipline": "Plat",
+                "distance": 2800
+            },
+            "3": {
+                "nom_cheval": "SPANISH PRINCE",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "DEMURO C.",
+                "nom_entraineur": "REYNIER (S) J.",
+                "poid_du_cheval": 585,
+                "musique": "2p 3p 1p 3p (25) 2p 3p 2p 15p 2p 5p 4p 3p ",
+                "cotes": [
+                    "6.8",
+                    "6.7",
+                    "6.3"
+                ],
+                "gains": "72222",
+                "corde": "5",
+                "discipline": "Plat",
+                "distance": 2800
+            },
+            "1": {
+                "nom_cheval": "CHESS",
+                "sexe": "M",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "GUYON M.",
+                "nom_entraineur": "BRANDT (S) P&J.",
+                "poid_du_cheval": 600,
+                "musique": "2p 2p 3p 1p (25) 13p 8p 14p 6p 16p 7p 2p (24) 1p ",
+                "cotes": [
+                    "4.1",
+                    "3.5",
+                    "4.0"
+                ],
+                "gains": "106326",
+                "corde": "7",
+                "discipline": "Plat",
+                "distance": 2800
+            },
+            "9": {
+                "nom_cheval": "HAVIASSOR",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "BARZALONA M.",
+                "nom_entraineur": "DE CHEVIGNY P.",
+                "poid_du_cheval": 545,
+                "musique": "9p 2p 15p 3p 2p 7p (25) 10p 4p 6p 4p 1p 1p ",
+                "cotes": [
+                    "8.4",
+                    "9.8",
+                    "11.0"
+                ],
+                "gains": "91510",
+                "corde": "6",
+                "discipline": "Plat",
+                "distance": 2800
+            },
+            "5": {
+                "nom_cheval": "DON'T SHUT ME DOWN",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "TRULLIER T.",
+                "nom_entraineur": "BRANDT (S) P&J.",
+                "poid_du_cheval": 570,
+                "musique": "7p 12p 7p 6p (25) 9p 2p 8p 1p 5p 1p 7p 5p ",
+                "cotes": [
+                    "19.0",
+                    "17.0",
+                    "9.9"
+                ],
+                "gains": "54342",
+                "corde": "4",
+                "discipline": "Plat",
+                "distance": 2800
+            },
+            "8": {
+                "nom_cheval": "SAPRISTI",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "THOMAS RON.",
+                "nom_entraineur": "CAULLERY N.",
+                "poid_du_cheval": 550,
+                "musique": "1p 13p 10p (25) 14p 2p 9p 3p 2p 1p 2p 2p (24) 10p ",
+                "cotes": [
+                    "7.0",
+                    "7.4",
+                    "8.4"
+                ],
+                "gains": "119548",
+                "corde": "9",
+                "discipline": "Plat",
+                "distance": 2800
+            },
+            "7": {
+                "nom_cheval": "A BEAUREGARD",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "PROVOST D.",
+                "nom_entraineur": "CESANDRI (S) M.",
+                "poid_du_cheval": 565,
+                "musique": "16p 6p 10p 6p (25) 12p 1p 1p 5p 2p 3p 2p 2p ",
+                "cotes": [
+                    "25.0",
+                    "27.0",
+                    "20.0"
+                ],
+                "gains": "66907",
+                "corde": "8",
+                "discipline": "Plat",
+                "distance": 2800
+            }
+        },
+        "date": "20/06/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 90000,
+        "distance": 2850,
+        "prix": "PRIX JEAN-YVES LECUYER",
+        "lieu": "Vincennes",
+        "heure_depart": "13:15:00",
+        "details": "Pour 5 et 6 ans, n'ayant pas gagné 265.000. Sont seuls admis à participer à cette épreuve les chevaux n'ayant pas, dans les 12 mois précédant la course, été classés, au trot attelé, 1er, 2ème ou 3ème d'une épreuve de Groupe I.",
+        "partants": 15,
+        "non_partants": 0,
+        "arrivee": [
+            3,
+            13,
+            12,
+            5,
+            15,
+            11,
+            1
+        ],
+        "r/c": "R1/C9",
+        "arrivee_details": {
+            "3": {
+                "nom_cheval": "LOUIS VITTON MIJO",
+                "sexe": "M",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "ABRIVARD M.",
+                "nom_entraineur": "GUARATO S.",
+                "poid_du_cheval": 2850,
+                "musique": "3a Da Da Da 4a Da Da (25) 1a Da Da 7a 3a ",
+                "cotes": [
+                    "18.0",
+                    "17.0",
+                    "19.0"
+                ],
+                "gains": "154180",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "13": {
+                "nom_cheval": "LORD DELO",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "BAZIRE J. M.",
+                "nom_entraineur": "BAZIRE N.",
+                "poid_du_cheval": 2850,
+                "musique": "1a 2a 1a Da Da (25) 1a 7a 2a 1a 1a (24) 2a 1a ",
+                "cotes": [
+                    "2.9",
+                    "2.7",
+                    "2.6"
+                ],
+                "gains": "244910",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "12": {
+                "nom_cheval": "KEY OF LOVE",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "BARRIER A.",
+                "nom_entraineur": "LAMARE T.",
+                "poid_du_cheval": 2850,
+                "musique": "4a 2a 3a 1a Da 2a 1a (25) 1a 1a 6a 9a Da ",
+                "cotes": [
+                    "12.0",
+                    "14.0",
+                    "17.0"
+                ],
+                "gains": "232630",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "5": {
+                "nom_cheval": "EVERY TIME WINNER",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "PLOQUIN PAU. PH.",
+                "nom_entraineur": "BONDO H.E.",
+                "poid_du_cheval": 2850,
+                "musique": "8a 4a Da 3m Da 3a 4a 7a 4a (25) 6a 3a Da ",
+                "cotes": [
+                    "38.0",
+                    "54.0",
+                    "71.0"
+                ],
+                "gains": "195898",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "15": {
+                "nom_cheval": "LITTLE BROWN",
+                "sexe": "M",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "THOMAIN D.",
+                "nom_entraineur": "ALLAIRE PH.",
+                "poid_du_cheval": 2850,
+                "musique": "3a 6a 3a (25) 0a 9a 0a 4a Da 6a 7a 0a 4a ",
+                "cotes": [
+                    "15.0",
+                    "18.0",
+                    "22.0"
+                ],
+                "gains": "256748",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "11": {
+                "nom_cheval": "LUNELLA LEMAN",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "ROBIN B.",
+                "nom_entraineur": "ROBIN B.",
+                "poid_du_cheval": 2850,
+                "musique": "Da 1a 3a 1a (25) 1a 5a Da 1a 2a 3a 5a 4a ",
+                "cotes": [
+                    "8.6",
+                    "7.6",
+                    "7.8"
+                ],
+                "gains": "231715",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "1": {
+                "nom_cheval": "FIRST TIME ROC",
+                "sexe": "M",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "GELORMINI G.",
+                "nom_entraineur": "CIOTOLA V.",
+                "poid_du_cheval": 2850,
+                "musique": "2a 5a 6a 0a 3a Da 4a (25) 0a 9a Da 0a 3a ",
+                "cotes": [
+                    "47.0",
+                    "61.0",
+                    "83.0"
+                ],
+                "gains": "137434",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            }
+        },
+        "date": "21/06/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 2000,
+        "prix": "PRIX FEDERATION DES COURSES DU CENTRE-EST",
+        "lieu": "Lyon Parilly",
+        "heure_depart": "13:35:00",
+        "details": "PLAT, 2000 metres , Corde a GAUCHE 50.900- HANDICAP DIVISE Pour chevaux entiers, hongres et juments de 4 ans et au-dessus",
+        "partants": 13,
+        "non_partants": 2,
+        "arrivee": [
+            7,
+            1,
+            13,
+            2,
+            5
+        ],
+        "r/c": "R1/C8",
+        "arrivee_details": {
+            "7": {
+                "nom_cheval": "HUMAN EVOLUTION",
+                "sexe": "M",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "PICCONE T.",
+                "nom_entraineur": "PANTALL (S) HA.",
+                "poid_du_cheval": 555,
+                "musique": "4p 1p 5p 1p 2p (25) 2p 3p 3p 10p 5p 6p 3p ",
+                "cotes": [
+                    "6.4",
+                    "5.4",
+                    "5.5"
+                ],
+                "gains": "99749",
+                "corde": "4",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "1": {
+                "nom_cheval": "ANSSIO",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "LECOEUVRE C.",
+                "nom_entraineur": "BELLANGER (S) N.",
+                "poid_du_cheval": 605,
+                "musique": "3p 5p (25) 1p 2p 1p 5p 11p 1p 1p 4p ",
+                "cotes": [
+                    "12.0",
+                    "11.0",
+                    "11.0"
+                ],
+                "gains": "59160",
+                "corde": "7",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "13": {
+                "nom_cheval": "NOCE DE RUBIS",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "TRULLIER T.",
+                "nom_entraineur": "ANDREU (S) J.",
+                "poid_du_cheval": 525,
+                "musique": "7p 5p 4p 5p 5p (25) 4p 3p 5p 1p 4p 13p 2p ",
+                "cotes": [
+                    "20.0",
+                    "23.0",
+                    "28.0"
+                ],
+                "gains": "29225",
+                "corde": "1",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "2": {
+                "nom_cheval": "DOURIANN",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "LEMAITRE A.",
+                "nom_entraineur": "PANNIER G.",
+                "poid_du_cheval": 570,
+                "musique": "1p 2p 7p 8p (25) 11p 10p 4p 3p 3p 2p 1p 5p ",
+                "cotes": [
+                    "15.0",
+                    "13.0",
+                    "13.0"
+                ],
+                "gains": "160966",
+                "corde": "2",
+                "discipline": "Plat",
+                "distance": 2000
+            },
+            "5": {
+                "nom_cheval": "CLEOD'OR",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "PUILLET-RODA EMI.",
+                "nom_entraineur": "PITART M.",
+                "poid_du_cheval": 560,
+                "musique": "2p 8p 1p 6p 6p 11p 3p (25) 10p 1p 7p 3p 7p ",
+                "cotes": [
+                    "11.0",
+                    "12.0",
+                    "15.0"
+                ],
+                "gains": "276126",
+                "corde": "14",
+                "discipline": "Plat",
+                "distance": 2000
+            }
+        },
+        "date": "22/06/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 1100,
+        "prix": "PRIX DIEPPE MARITIME",
+        "lieu": "Dieppe",
+        "heure_depart": "21:15:00",
+        "details": "PLAT, 1100 metres , Ligne DROITE 50.900- HANDICAP DIVISE Pour chevaux entiers, hongres et juments de 4 ans et au-dessus",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            5,
+            7,
+            8,
+            2,
+            9,
+            11,
+            12
+        ],
+        "r/c": "R1/C8",
+        "arrivee_details": {
+            "5": {
+                "nom_cheval": "MISTER CHANG",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "JOURNIAC H.",
+                "nom_entraineur": "BARBEROT (S) Y.",
+                "poid_du_cheval": 580,
+                "musique": "3p 2p 4p 1p (25) 3p 2p 3p 11p 15p 11p 2p 11p ",
+                "cotes": [
+                    "4.5",
+                    "5.0",
+                    "4.9"
+                ],
+                "gains": "98355",
+                "corde": "3",
+                "discipline": "Plat",
+                "distance": 1100
+            },
+            "7": {
+                "nom_cheval": "BAILEYS BACHELOR",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "BAZIRE P.",
+                "nom_entraineur": "TOUX JV.",
+                "poid_du_cheval": 575,
+                "musique": "4p 11p 14p 7p (25) 5p 9p 1p 7p 3p 1p 1p 4p ",
+                "cotes": [
+                    "11.0",
+                    "12.0",
+                    "11.0"
+                ],
+                "gains": "99014",
+                "corde": "4",
+                "discipline": "Plat",
+                "distance": 1100
+            },
+            "8": {
+                "nom_cheval": "SCHUMAN",
+                "sexe": "M",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "MADAMET A.",
+                "nom_entraineur": "MONNIER (S) F.",
+                "poid_du_cheval": 575,
+                "musique": "5p 11p 10p 4p 6p 7p (25) 1p 14p 2p 1p 5p 4p ",
+                "cotes": [
+                    "24.0",
+                    "25.0",
+                    "13.0"
+                ],
+                "gains": "39008",
+                "corde": "5",
+                "discipline": "Plat",
+                "distance": 1100
+            },
+            "2": {
+                "nom_cheval": "PROFUMO DI IENA",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "DEMURO C.",
+                "nom_entraineur": "GUARNIERI M.",
+                "poid_du_cheval": 610,
+                "musique": "4p 6p 3p 1p 2p 6p (25) 12p 5p 1p 1p 1p 7p ",
+                "cotes": [
+                    "13.0",
+                    "10.0",
+                    "9.1"
+                ],
+                "gains": "80804",
+                "corde": "14",
+                "discipline": "Plat",
+                "distance": 1100
+            },
+            "9": {
+                "nom_cheval": "OZAN",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "LEMAITRE A.",
+                "nom_entraineur": "DOLEUZE G.",
+                "poid_du_cheval": 575,
+                "musique": "13p 16p 11p (25) 14p 9p 4p 1p 10p 12p 13p 5p 4p ",
+                "cotes": [
+                    "14.0",
+                    "13.0",
+                    "15.0"
+                ],
+                "gains": "188760",
+                "corde": "12",
+                "discipline": "Plat",
+                "distance": 1100
+            },
+            "11": {
+                "nom_cheval": "GLANWORTH",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "BOISSEAU L.",
+                "nom_entraineur": "BELLANGER (S) N.",
+                "poid_du_cheval": 565,
+                "musique": "6p 16p 10p 15p 3p 4p (25) 7p 5p 1p 8p 2p 1p ",
+                "cotes": [
+                    "15.0",
+                    "12.0",
+                    "11.0"
+                ],
+                "gains": "55416",
+                "corde": "11",
+                "discipline": "Plat",
+                "distance": 1100
+            },
+            "12": {
+                "nom_cheval": "GRAND SCOOP",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "POUCHIN A.",
+                "nom_entraineur": "MOSSE (S) G.",
+                "poid_du_cheval": 565,
+                "musique": "2p 4p 4p 6p 9p (25) 16p 8p 7p 4p 4p 4p 1p ",
+                "cotes": [
+                    "7.6",
+                    "7.2",
+                    "7.7"
+                ],
+                "gains": "75243",
+                "corde": "9",
+                "discipline": "Plat",
+                "distance": 1100
+            }
+        },
+        "date": "23/06/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 33000,
+        "distance": 2625,
+        "prix": "GRAND PRIX EPHREM HOUEL - 190 ANS DES CO",
+        "lieu": "Cherbourg",
+        "heure_depart": "18:30:00",
+        "details": "Pour 7 à 11 ans inclus, n'ayant pas gagné 240.000. - Recul de 25 m. à 127.000. Sont seules admises à driver les personnes ayant gagné au moins cinq courses (en étant titulaire d'une autorisation de monter à titre professionnel).",
+        "partants": 18,
+        "non_partants": 0,
+        "arrivee": [
+            5,
+            16,
+            9,
+            18,
+            11,
+            6,
+            12
+        ],
+        "r/c": "R1/C3",
+        "arrivee_details": {
+            "5": {
+                "nom_cheval": "INSERT BOY",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "RAFFIN E.",
+                "nom_entraineur": "DREUX Y.",
+                "poid_du_cheval": 2625,
+                "musique": "0a Da 1a 1a 1a 1a 2a (25) 2a 1a 1a Da 3m ",
+                "cotes": [
+                    "5.7",
+                    "4.8",
+                    "3.0"
+                ],
+                "gains": "124305",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2625
+            },
+            "16": {
+                "nom_cheval": "HEAD OF STATE",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "DUVALDESTIN C.",
+                "nom_entraineur": "DUVALDESTIN TH.",
+                "poid_du_cheval": 2650,
+                "musique": "6a (25) 8a 1a 1a Da 1a Da Da (24) 2a 2a Da 1a ",
+                "cotes": [
+                    "12.0",
+                    "11.0",
+                    "14.0"
+                ],
+                "gains": "232610",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2625
+            },
+            "9": {
+                "nom_cheval": "JIBI DU FRUITIER",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "MOTTIER M.",
+                "nom_entraineur": "BRUNEAU C.M.",
+                "poid_du_cheval": 2650,
+                "musique": "2a 0a 0a 0a (25) 5a 7a 9a 5a 6a 3a 5a 3a ",
+                "cotes": [
+                    "12.0",
+                    "12.0",
+                    "14.0"
+                ],
+                "gains": "216595",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2625
+            },
+            "18": {
+                "nom_cheval": "HELIOS SOMOLLI",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "DUDOUIT M.",
+                "nom_entraineur": "FICHAUX J.P.",
+                "poid_du_cheval": 2650,
+                "musique": "9a 0a 0a (25) 6a 4a 7a (24) Da 1a 2a 2a 7a 6a ",
+                "cotes": [
+                    "43.0",
+                    "72.0",
+                    "109.0"
+                ],
+                "gains": "235780",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2625
+            },
+            "11": {
+                "nom_cheval": "ILIO MANNETOT",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "BAUDE S.",
+                "nom_entraineur": "SZIRMAY E.",
+                "poid_du_cheval": 2650,
+                "musique": "2a 8a 4a Am 9a 6a (25) 5a 8a 3m 0a 5m 1a ",
+                "cotes": [
+                    "23.0",
+                    "26.0",
+                    "34.0"
+                ],
+                "gains": "222870",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2625
+            },
+            "6": {
+                "nom_cheval": "IDEFIX DES LANDES",
+                "sexe": "M",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "HARDY B.",
+                "nom_entraineur": "HARDY S.",
+                "poid_du_cheval": 2625,
+                "musique": "Da 7a 8a Da 8a 8m 5a 0a (25) 3a 8a 5a 8a ",
+                "cotes": [
+                    "65.0",
+                    "113.0",
+                    "161.0"
+                ],
+                "gains": "124495",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2625
+            },
+            "12": {
+                "nom_cheval": "HERMES D'ECROVILLE",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "LEGROS M.",
+                "nom_entraineur": "MARIE B.",
+                "poid_du_cheval": 2650,
+                "musique": "3a 0a 8a 0a 5a 0a 5a 3a 0a (25) 4a 5a Da ",
+                "cotes": [
+                    "48.0",
+                    "78.0",
+                    "109.0"
+                ],
+                "gains": "224650",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2625
+            }
+        },
+        "date": "24/06/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 27000,
+        "distance": 2850,
+        "prix": "PRIX DE LA COTE DE JADE",
+        "lieu": "Laval",
+        "heure_depart": "20:45:00",
+        "details": "Pour 5 ans, n'ayant pas gagné 71.000. Sont seules admises à driver les personnes ayant gagné au moins cinq courses (en étant titulaire d'une autorisation de monter à titre professionnel).",
+        "partants": 15,
+        "non_partants": 1,
+        "arrivee": [
+            16,
+            4,
+            3,
+            7,
+            15
+        ],
+        "r/c": "R5/C4",
+        "arrivee_details": {
+            "16": {
+                "nom_cheval": "L'AS DE SAINT JEAN",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "RAFFIN E.",
+                "nom_entraineur": "CHAVATTE A.",
+                "poid_du_cheval": 2850,
+                "musique": "2a 9a (25) 4a 3a 2a 2a Da 2a 8a (24) 1a Da 1a ",
+                "cotes": [
+                    "10.0",
+                    "6.7",
+                    null
+                ],
+                "gains": "69300",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "4": {
+                "nom_cheval": "LOVELY MILL",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "PLOQUIN PAU. PH.",
+                "nom_entraineur": "ROUSSELLE S.",
+                "poid_du_cheval": 2850,
+                "musique": "9a 1a Da (25) 5a 9a 1a 4a 9a Da 3a 9a 1a ",
+                "cotes": [
+                    "11.0",
+                    "17.0",
+                    null
+                ],
+                "gains": "62025",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "3": {
+                "nom_cheval": "LOVE DE CERIZE",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "ABRIVARD M.",
+                "nom_entraineur": "ABRIVARD M.",
+                "poid_du_cheval": 2850,
+                "musique": "1a 1a 3a 1a 4a 0a (25) Da Da 5a Da Da 1a ",
+                "cotes": [
+                    "4.6",
+                    "3.0",
+                    null
+                ],
+                "gains": "61870",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "7": {
+                "nom_cheval": "LADY DE SAFRAN",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "LE BELLER B.",
+                "nom_entraineur": "LE BELLER B.",
+                "poid_du_cheval": 2850,
+                "musique": "8a 5m 8m 0a 7a 4m 3m (25) 0a 6a 1a 1a 5a ",
+                "cotes": [
+                    "19.0",
+                    "38.0",
+                    null
+                ],
+                "gains": "64490",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            },
+            "15": {
+                "nom_cheval": "LIBERTE DE L'AUNAY",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "COLLETTE A.",
+                "nom_entraineur": "RAIMBAULT V.",
+                "poid_du_cheval": 2850,
+                "musique": "0a 1a 2a 4a 6a 2a 3a (25) 3a 4a 1a 8a 1a ",
+                "cotes": [
+                    "13.0",
+                    "15.0",
+                    null
+                ],
+                "gains": "69005",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2850
+            }
+        },
+        "date": "25/06/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 53000,
+        "distance": 2150,
+        "prix": "PRIX EVA",
+        "lieu": "Enghien Soisy",
+        "heure_depart": "20:15:00",
+        "details": "Pour juments de 4 et 5 ans, n'ayant pas gagné 105.000",
+        "partants": 13,
+        "non_partants": 0,
+        "arrivee": [
+            3,
+            5,
+            12,
+            11,
+            1,
+            4,
+            2
+        ],
+        "r/c": "R1/C3",
+        "arrivee_details": {
+            "3": {
+                "nom_cheval": "FLORIDA BI",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "RAFFIN E.",
+                "nom_entraineur": "BONDO H.E.",
+                "poid_du_cheval": 2150,
+                "musique": "1a 3a 1a (25) 1a 1a 1a 1a Da 1a Da 1a 1a ",
+                "cotes": [
+                    "3.1",
+                    "2.4",
+                    "2.2"
+                ],
+                "gains": "102574",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "5": {
+                "nom_cheval": "MARINELLA VRIE",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "MOTTIER M.",
+                "nom_entraineur": "MOTTIER M.",
+                "poid_du_cheval": 2150,
+                "musique": "1a 3a (25) 1a 4a 1a 3a 4a 1a 1a 1a ",
+                "cotes": [
+                    "7.1",
+                    "6.3",
+                    "4.5"
+                ],
+                "gains": "100995",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "12": {
+                "nom_cheval": "GOGGIA",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "PLOQUIN PAU. PH.",
+                "nom_entraineur": "BONDO H.E.",
+                "poid_du_cheval": 2150,
+                "musique": "1a 4a 5a Da 5a (25) Da Da 8a Da 1a Da Da ",
+                "cotes": [
+                    "14.0",
+                    "16.0",
+                    "17.0"
+                ],
+                "gains": "76518",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "11": {
+                "nom_cheval": "LOVELY WILMA",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "OUVRIE F.",
+                "nom_entraineur": "CIOTOLA V.",
+                "poid_du_cheval": 2150,
+                "musique": "1a 3a 1a (25) 8a 3a 7a 1a 1a 2a 2a 2a 0a ",
+                "cotes": [
+                    "13.0",
+                    "14.0",
+                    "16.0"
+                ],
+                "gains": "83033",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "1": {
+                "nom_cheval": "MARILOU",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "DUVALDESTIN THÉO",
+                "nom_entraineur": "DUVALDESTIN TH.",
+                "poid_du_cheval": 2150,
+                "musique": "7a 2a 3a (25) 7a 5a 6a 6a 2a 5a 8a 9a 1a ",
+                "cotes": [
+                    "8.3",
+                    "8.5",
+                    "9.0"
+                ],
+                "gains": "97715",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "4": {
+                "nom_cheval": "LA FORMIDABLE",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "GELORMINI G.",
+                "nom_entraineur": "FERRO L.",
+                "poid_du_cheval": 2150,
+                "musique": "2a 9a 2a 3a (25) 1a 4a 1a 5a 5a 5a (24) 1a 3a ",
+                "cotes": [
+                    "12.0",
+                    "14.0",
+                    "17.0"
+                ],
+                "gains": "85409",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "2": {
+                "nom_cheval": "PANERAI",
+                "sexe": "F",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "ROCHARD B.",
+                "nom_entraineur": "WESTHOLM J.",
+                "poid_du_cheval": 2150,
+                "musique": "0a 3m 5a 3a 3a Da 7a (25) 0a 2a 5a Da 4a ",
+                "cotes": [
+                    "15.0",
+                    "17.0",
+                    "22.0"
+                ],
+                "gains": "83428",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            }
+        },
+        "date": "26/06/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 59000,
+        "distance": 2875,
+        "prix": "PRIX DE NEUILLY-LEVALLOIS",
+        "lieu": "Enghien Soisy",
+        "heure_depart": "19:15:00",
+        "details": "Pour 8 à 11 ans inclus, n'ayant pas gagné 205.000.",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            15,
+            13,
+            9,
+            14,
+            5,
+            3,
+            6
+        ],
+        "r/c": "R1/C2",
+        "arrivee_details": {
+            "15": {
+                "nom_cheval": "IXELLE BLEUE",
+                "sexe": "F",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "MOTTIER M.",
+                "nom_entraineur": "TRIHOLLET A.",
+                "poid_du_cheval": 2875,
+                "musique": "Da 0a Da 6a (25) 1a 3a 5a 3a 5a 8a 6a 0a ",
+                "cotes": [
+                    "23.0",
+                    "26.0",
+                    "31.0"
+                ],
+                "gains": "204150",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2875
+            },
+            "13": {
+                "nom_cheval": "GERONIMO MATICA",
+                "sexe": "H",
+                "annee_de_naissance": "2016",
+                "nom_jockey": "DROMIGNY T.",
+                "nom_entraineur": "DELAPLACE T.",
+                "poid_du_cheval": 2875,
+                "musique": "3a Da 2a (25) 7a 3a 2a 4a 2a Da 1a 7a 1a ",
+                "cotes": [
+                    "20.0",
+                    "25.0",
+                    "26.0"
+                ],
+                "gains": "199380",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2875
+            },
+            "9": {
+                "nom_cheval": "HOLLYWOOD BOND",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "ROCHARD B.",
+                "nom_entraineur": "DE JESUS A.",
+                "poid_du_cheval": 2875,
+                "musique": "2a 1a 7a 0a (25) 1a 3a 0a 0a 3a 5a 9a 1a ",
+                "cotes": [
+                    "8.4",
+                    "8.7",
+                    "9.7"
+                ],
+                "gains": "192475",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2875
+            },
+            "14": {
+                "nom_cheval": "IDEAL DE CASTELLE",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "RAFFIN E.",
+                "nom_entraineur": "CHAVATTE A.",
+                "poid_du_cheval": 2875,
+                "musique": "0a (25) 3a 4a 2a 1a 1a 1a Da 2a 2a 7a (23) Da ",
+                "cotes": [
+                    "3.6",
+                    "3.0",
+                    "2.8"
+                ],
+                "gains": "200545",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2875
+            },
+            "5": {
+                "nom_cheval": "ISOLEE DU BOUILLON",
+                "sexe": "F",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "LEGROS M.",
+                "nom_entraineur": "MARIE B.",
+                "poid_du_cheval": 2875,
+                "musique": "0a 2a 3a 0a 9a 8a (25) 7a 8a 6a 1a Da 1a ",
+                "cotes": [
+                    "14.0",
+                    "12.0",
+                    "12.0"
+                ],
+                "gains": "183905",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2875
+            },
+            "3": {
+                "nom_cheval": "ITALIANO DI PAO",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "MARTIN G.",
+                "nom_entraineur": "TERRY F.",
+                "poid_du_cheval": 2875,
+                "musique": "1a 9a 2a 1a 0a (25) Da Da 2a 5a 5a 2a Da ",
+                "cotes": [
+                    "25.0",
+                    "25.0",
+                    "28.0"
+                ],
+                "gains": "180805",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2875
+            },
+            "6": {
+                "nom_cheval": "ISIS DE LA FERME",
+                "sexe": "F",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "BARRIER A.",
+                "nom_entraineur": "DESAUNETTE P.L.",
+                "poid_du_cheval": 2875,
+                "musique": "1a 0a 9a 1a 7a (25) 7a 6a 1a 1a Da 2a 1a ",
+                "cotes": [
+                    "21.0",
+                    "28.0",
+                    "20.0"
+                ],
+                "gains": "185825",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2875
+            }
+        },
+        "date": "27/06/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 2400,
+        "prix": "HANDICAP D'ETE",
+        "lieu": "Saint Cloud",
+        "heure_depart": "15:20:00",
+        "details": "PLAT, 2400 metres , Corde a GAUCHE 50.900- HANDICAP DIVISE Pour chevaux entiers, hongres et juments de 4 ans et au-dessus",
+        "partants": 15,
+        "non_partants": 1,
+        "arrivee": [
+            3,
+            9,
+            13,
+            11,
+            5,
+            1,
+            7
+        ],
+        "r/c": "R1/C3",
+        "arrivee_details": {
+            "3": {
+                "nom_cheval": "DALAKIR",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "BARZALONA M.",
+                "nom_entraineur": "GRAFFARD (S) FH.",
+                "poid_du_cheval": 575,
+                "musique": "6p 12p 1p 4p (25) 7p 9p 2p 2p 3p 1p 4p (24) 9p ",
+                "cotes": [
+                    "6.7",
+                    "6.1",
+                    "3.5"
+                ],
+                "gains": "71026",
+                "corde": "4",
+                "discipline": "Plat",
+                "distance": 2400
+            },
+            "9": {
+                "nom_cheval": "MISS TARKEN",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "REMOUE PIE.",
+                "nom_entraineur": "SPEICHER T.",
+                "poid_du_cheval": 535,
+                "musique": "1p 5p 3p (25) 4p 4p 1p 6p 8p ",
+                "cotes": [
+                    "16.0",
+                    "14.0",
+                    "20.0"
+                ],
+                "gains": "28600",
+                "corde": "12",
+                "discipline": "Plat",
+                "distance": 2400
+            },
+            "13": {
+                "nom_cheval": "PLOTINUS",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "PLOMMEE LÉO.",
+                "nom_entraineur": "POCHE T.",
+                "poid_du_cheval": 510,
+                "musique": "3p 9p 8p 1p (25) 10p 9p 9p 4p 8p 9p 1p 1p ",
+                "cotes": [
+                    "15.0",
+                    "13.0",
+                    "13.0"
+                ],
+                "gains": "69404",
+                "corde": "2",
+                "discipline": "Plat",
+                "distance": 2400
+            },
+            "11": {
+                "nom_cheval": "WEEMAGATEE",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "VERON F.",
+                "nom_entraineur": "ANDREU (S) J.",
+                "poid_du_cheval": 520,
+                "musique": "3p 11p 10p 2p (25) 15p 2p 3p 6p 1p 1p 1p (24) 5p ",
+                "cotes": [
+                    "14.0",
+                    "16.0",
+                    "14.0"
+                ],
+                "gains": "57549",
+                "corde": "3",
+                "discipline": "Plat",
+                "distance": 2400
+            },
+            "5": {
+                "nom_cheval": "MOST GLAMOROUS",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "TRULLIER T.",
+                "nom_entraineur": "CLEMENT & HERMANS (S)",
+                "poid_du_cheval": 565,
+                "musique": "1p 8p 5p 4p (25) 15p 1p 4p 5p 1p 2p 7p ",
+                "cotes": [
+                    "20.0",
+                    "20.0",
+                    "13.0"
+                ],
+                "gains": "52423",
+                "corde": "16",
+                "discipline": "Plat",
+                "distance": 2400
+            },
+            "1": {
+                "nom_cheval": "QUIET KING",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "BACHELOT T.",
+                "nom_entraineur": "WATTEL (S) S.",
+                "poid_du_cheval": 600,
+                "musique": "10p 6p 2p 2p (25) 3p 1p 1p 9p 2p 3p 2p 2p ",
+                "cotes": [
+                    "6.7",
+                    "4.8",
+                    "4.9"
+                ],
+                "gains": "78881",
+                "corde": "13",
+                "discipline": "Plat",
+                "distance": 2400
+            },
+            "7": {
+                "nom_cheval": "MARINALEDA",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "POUCHIN A.",
+                "nom_entraineur": "BARATTI (S) M.",
+                "poid_du_cheval": 540,
+                "musique": "9p 2p 2p 2p (25) 3p 7p 5p 5p 1p ",
+                "cotes": [
+                    "7.4",
+                    "6.3",
+                    "8.2"
+                ],
+                "gains": "46144",
+                "corde": "11",
+                "discipline": "Plat",
+                "distance": 2400
+            }
+        },
+        "date": "28/06/2026"
+    },
+    {
+        "type": "Haies",
+        "montant": 83000,
+        "distance": 3600,
+        "prix": "PRIX DE LA VILLE DE TOURGEVILLE",
+        "lieu": "Clairefontaine",
+        "heure_depart": "18:30:00",
+        "details": "HAIES, 3600 metres 83.000- HANDICAP DIVISE Pour tous poulains et pouliches de 4 ans , ayant couru depuis le 1er janvier de l annee derniere inclus",
+        "partants": 14,
+        "non_partants": 2,
+        "arrivee": [
+            11,
+            13,
+            7,
+            14,
+            8,
+            9,
+            5
+        ],
+        "r/c": "R1/C5",
+        "arrivee_details": {
+            "11": {
+                "nom_cheval": "LUNAROSA",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "DE GILES F.",
+                "nom_entraineur": "GEORGE & A N.",
+                "poid_du_cheval": 670,
+                "musique": "1h 6h (25) Ah ",
+                "cotes": [
+                    "21.0",
+                    "21.0",
+                    "24.0"
+                ],
+                "gains": "11670",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "13": {
+                "nom_cheval": "DEHADAME",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "MASURE G.",
+                "nom_entraineur": "CHAILLE-CHAILLE & PAMART (S)",
+                "poid_du_cheval": 650,
+                "musique": "6h (25) 3h 1h Th ",
+                "cotes": [
+                    "11.0",
+                    "10.0",
+                    "9.1"
+                ],
+                "gains": "16440",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "7": {
+                "nom_cheval": "CARISHA",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "REVELEY J.",
+                "nom_entraineur": "GEORGE & A N.",
+                "poid_du_cheval": 690,
+                "musique": "1h Ah 2h (25) 15p 5p 13p 7p 16p 3p 1p 8p (24) 3p ",
+                "cotes": [
+                    "12.0",
+                    "14.0",
+                    "7.8"
+                ],
+                "gains": "25990",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "14": {
+                "nom_cheval": "LIMONCELOU",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "SMEULDERS C.",
+                "nom_entraineur": "LE STANG MME J.",
+                "poid_du_cheval": 635,
+                "musique": "1h 9h Ah 5h (25) 10p ",
+                "cotes": [
+                    "52.0",
+                    "42.0",
+                    "47.0"
+                ],
+                "gains": "17730",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "8": {
+                "nom_cheval": "MATHILDE DU BERGER",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "PHILIPPERON L.",
+                "nom_entraineur": "ROLLAND (S) M.",
+                "poid_du_cheval": 685,
+                "musique": "1h 2h 6h 5h (25) 3p 2p 4p 2p 2p 1p ",
+                "cotes": [
+                    "11.0",
+                    "11.0",
+                    "13.0"
+                ],
+                "gains": "37445",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "9": {
+                "nom_cheval": "PHILADELPHIE",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "NABET K.",
+                "nom_entraineur": "PITART M.",
+                "poid_du_cheval": 675,
+                "musique": "2h 4h 1h (25) 3h 4h 3h ",
+                "cotes": [
+                    "4.3",
+                    "4.0",
+                    "4.4"
+                ],
+                "gains": "50140",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            },
+            "5": {
+                "nom_cheval": "MINUIT DU SEUIL",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "LE CLERC B.",
+                "nom_entraineur": "SEROR (S) M.",
+                "poid_du_cheval": 690,
+                "musique": "Ah 7h Th 9p 2h 2h 1h (25) 4h 1h 5h 3h 4h ",
+                "cotes": [
+                    "31.0",
+                    "34.0",
+                    "43.0"
+                ],
+                "gains": "65605",
+                "corde": "",
+                "discipline": "Haies",
+                "distance": 3600
+            }
+        },
+        "date": "29/06/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 120000,
+        "distance": 2950,
+        "prix": "GRAND PRIX DU CONSEIL MUNICIPAL",
+        "lieu": "Vichy",
+        "heure_depart": "18:30:00",
+        "details": "Pour 4 à 11 ans inclus. - Recul de 25 m. à 450.000. Sont seules admises à driver les personnes ayant gagné au moins trente-cinq courses (en étant titulaire d'une autorisation de monter à titre professionnel).",
+        "partants": 13,
+        "non_partants": 0,
+        "arrivee": [
+            3,
+            1,
+            6,
+            11,
+            13,
+            10,
+            2
+        ],
+        "r/c": "R1/C5",
+        "arrivee_details": {
+            "3": {
+                "nom_cheval": "JEANNETTE PRIORY",
+                "sexe": "F",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "LE BELLER T.",
+                "nom_entraineur": "LE BELLER T.",
+                "poid_du_cheval": 2950,
+                "musique": "2a Da Da 4a (25) 6a Da Da 1a 1a Da 6a 4a ",
+                "cotes": [
+                    "12.0",
+                    "13.0",
+                    "14.0"
+                ],
+                "gains": "359340",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2950
+            },
+            "1": {
+                "nom_cheval": "JOLIE STAR",
+                "sexe": "F",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "MOTTIER M.",
+                "nom_entraineur": "MOTTIER M.",
+                "poid_du_cheval": 2950,
+                "musique": "1a Da 1a 1a 1a Da 8a Da 6a (25) Da 0a 0a ",
+                "cotes": [
+                    "7.1",
+                    "4.6",
+                    "3.4"
+                ],
+                "gains": "325490",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2950
+            },
+            "6": {
+                "nom_cheval": "JILORD VIVA",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "RAFFESTIN J.",
+                "nom_entraineur": "RAFFESTIN J.",
+                "poid_du_cheval": 2950,
+                "musique": "5a 6a 9a 1a 5a 0a (25) 4a 1a 1a 3a 2a Da ",
+                "cotes": [
+                    "10.0",
+                    "10.0",
+                    "11.0"
+                ],
+                "gains": "387050",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2950
+            },
+            "11": {
+                "nom_cheval": "KANTO AVIS",
+                "sexe": "M",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "ROCHARD B.",
+                "nom_entraineur": "SASSIER M.",
+                "poid_du_cheval": 2975,
+                "musique": "1a 1a 3a 0a Da (25) 7a 8a 9a 7a 4a 0a 1a ",
+                "cotes": [
+                    "6.6",
+                    "6.3",
+                    "6.6"
+                ],
+                "gains": "516110",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2950
+            },
+            "13": {
+                "nom_cheval": "INO DU LUPIN",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "WIELS A.",
+                "nom_entraineur": "MARMION J.P.",
+                "poid_du_cheval": 2975,
+                "musique": "9a 2a 2a 1a 5a Dm 2a (25) 1a 2a 2a 3a 3a ",
+                "cotes": [
+                    "4.0",
+                    "3.8",
+                    "4.2"
+                ],
+                "gains": "925430",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2950
+            },
+            "10": {
+                "nom_cheval": "ISTER MAN",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "CUOQ J.",
+                "nom_entraineur": "CUOQ J.",
+                "poid_du_cheval": 2975,
+                "musique": "1a Da 2a 1a 1a (25) 1a 8a 7a 2a 3a 1a 2a ",
+                "cotes": [
+                    "12.0",
+                    "13.0",
+                    "15.0"
+                ],
+                "gains": "506630",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2950
+            },
+            "2": {
+                "nom_cheval": "IMPLORA MAUZUN",
+                "sexe": "F",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "DUCHER J. PH.",
+                "nom_entraineur": "DUCHER J.P.",
+                "poid_du_cheval": 2950,
+                "musique": "1a 6a 8a 3a (25) 5m 2a 3a 1a Da 3a 2a 0a ",
+                "cotes": [
+                    "25.0",
+                    "28.0",
+                    "27.0"
+                ],
+                "gains": "356940",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2950
+            }
+        },
+        "date": "30/06/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 46000,
+        "distance": 2150,
+        "prix": "PRIX DE LA TOUR EIFFEL",
+        "lieu": "Enghien Soisy",
+        "heure_depart": "18:30:00",
+        "details": "Pour 5, 6 et 7 ans, n'ayant pas gagné 136.000.",
+        "partants": 15,
+        "non_partants": 0,
+        "arrivee": [
+            7,
+            1,
+            6,
+            9,
+            14,
+            8,
+            11
+        ],
+        "r/c": "R1/C8",
+        "arrivee_details": {
+            "7": {
+                "nom_cheval": "LE GRAAL",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "DUVALDESTIN C.",
+                "nom_entraineur": "DUVALDESTIN TH.",
+                "poid_du_cheval": 2150,
+                "musique": "Da 1a 1a 2a 5a Da Da 9a (24) 8a 2a Da 1a ",
+                "cotes": [
+                    "5.0",
+                    "3.3",
+                    "2.6"
+                ],
+                "gains": "124815",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "1": {
+                "nom_cheval": "KLASSICA BLEUE",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "ABRIVARD A.",
+                "nom_entraineur": "ABRIVARD L.CL.",
+                "poid_du_cheval": 2150,
+                "musique": "Da Da 1a Da Da Da Aa 3a (25) 8a 4a Da 1a ",
+                "cotes": [
+                    "14.0",
+                    "16.0",
+                    "16.0"
+                ],
+                "gains": "131990",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "6": {
+                "nom_cheval": "KATIA DHELPA",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "ROCHARD B.",
+                "nom_entraineur": "BUHIGNE C.",
+                "poid_du_cheval": 2150,
+                "musique": "1a 6a 2a 1a 2a 0a Da Da (25) 3a 8a 4a Da ",
+                "cotes": [
+                    "14.0",
+                    "12.0",
+                    "14.0"
+                ],
+                "gains": "129520",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "9": {
+                "nom_cheval": "LOVEBIRD",
+                "sexe": "M",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "BONNE D.",
+                "nom_entraineur": "DUBOIS J.P.",
+                "poid_du_cheval": 2150,
+                "musique": "3a 4a Da 5a 5a (25) 3a 6a Da 3a 4a 2a Da ",
+                "cotes": [
+                    "14.0",
+                    "15.0",
+                    "18.0"
+                ],
+                "gains": "106020",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "14": {
+                "nom_cheval": "LAMONT DU DOUET",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "LAGADEUC F.",
+                "nom_entraineur": "BRIDAULT N.",
+                "poid_du_cheval": 2150,
+                "musique": "7m 7a 7a Da 3a 2a 2a (25) Da 2a Da 2a Dm ",
+                "cotes": [
+                    "29.0",
+                    "52.0",
+                    "71.0"
+                ],
+                "gains": "118510",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "8": {
+                "nom_cheval": "KISS ATOUT",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "DUVALDESTIN THÉO",
+                "nom_entraineur": "DUVALDESTIN TH.",
+                "poid_du_cheval": 2150,
+                "musique": "1a 2a 3a Da (25) 3a Da 2a 1a 8a (24) 3a (23) 4a 5a ",
+                "cotes": [
+                    "6.2",
+                    "5.6",
+                    "6.0"
+                ],
+                "gains": "128060",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "11": {
+                "nom_cheval": "LARIANO",
+                "sexe": "M",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "MOTTIER M.",
+                "nom_entraineur": "ENT. DUBOIS S.E.",
+                "poid_du_cheval": 2150,
+                "musique": "1a 6a Da 9a 8a 7a (25) 2a 0a 5a 3a (24) 1a Da ",
+                "cotes": [
+                    "10.0",
+                    "11.0",
+                    "9.6"
+                ],
+                "gains": "112895",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            }
+        },
+        "date": "01/07/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 52800,
+        "distance": 1600,
+        "prix": "PRIX DE LA GARDEN PARTY",
+        "lieu": "Paris-Longchamp",
+        "heure_depart": "20:15:00",
+        "details": "PLAT, 1600 metres , Corde a DROITE 52.800- HANDICAP DIVISE Pour poulains entiers, hongres et pouliches de 3 ans",
+        "partants": 15,
+        "non_partants": 1,
+        "arrivee": [
+            8,
+            6,
+            11,
+            15,
+            1,
+            12,
+            4
+        ],
+        "r/c": "R1/C7",
+        "arrivee_details": {
+            "8": {
+                "nom_cheval": "MELUSINE DU HOULEY",
+                "sexe": "F",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "DEMURO C.",
+                "nom_entraineur": "BARBEROT (S) Y.",
+                "poid_du_cheval": 565,
+                "musique": "2p 8p 3p 2p 2p (25) 2p 5p 3p ",
+                "cotes": [
+                    "4.1",
+                    "4.2",
+                    "4.4"
+                ],
+                "gains": "36950",
+                "corde": "6",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "6": {
+                "nom_cheval": "HELLO AVENUE",
+                "sexe": "F",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "MADAMET A.",
+                "nom_entraineur": "DUBOIS J.PH.",
+                "poid_du_cheval": 570,
+                "musique": "6p 1p 3p 4p 7p (25) 9p 2p 2p 3p 2p ",
+                "cotes": [
+                    "22.0",
+                    "20.0",
+                    "25.0"
+                ],
+                "gains": "37085",
+                "corde": "13",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "11": {
+                "nom_cheval": "MUENCHEN",
+                "sexe": "H",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "ORANI ANT.",
+                "nom_entraineur": "ESCUDER C.",
+                "poid_du_cheval": 550,
+                "musique": "7p (25) 1p 2p 2p 5p ",
+                "cotes": [
+                    "32.0",
+                    "37.0",
+                    "46.0"
+                ],
+                "gains": "21812",
+                "corde": "15",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "15": {
+                "nom_cheval": "RED SCOTCH",
+                "sexe": "H",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "PROTTI MAR.",
+                "nom_entraineur": "PANTALL (S) HA.",
+                "poid_du_cheval": 530,
+                "musique": "1p 4p 12p 3p 3p 5p 2p (25) 4p 6p 3p 8p ",
+                "cotes": [
+                    "31.0",
+                    "36.0",
+                    "47.0"
+                ],
+                "gains": "27637",
+                "corde": "14",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "1": {
+                "nom_cheval": "VALDORCIA",
+                "sexe": "F",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "PICCONE T.",
+                "nom_entraineur": "PANTALL (S) HA.",
+                "poid_du_cheval": 600,
+                "musique": "3p 8p 5p 2p (25) 1p 3p 3p ",
+                "cotes": [
+                    "18.0",
+                    "17.0",
+                    "19.0"
+                ],
+                "gains": "21061",
+                "corde": "3",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "12": {
+                "nom_cheval": "SONO IO",
+                "sexe": "H",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "LEMAITRE A.",
+                "nom_entraineur": "DONWORTH (S) TIM.",
+                "poid_du_cheval": 545,
+                "musique": "1p 4p 11p 2p 9p ",
+                "cotes": [
+                    "19.0",
+                    "19.0",
+                    "24.0"
+                ],
+                "gains": "14948",
+                "corde": "12",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "4": {
+                "nom_cheval": "BASANTI",
+                "sexe": "F",
+                "annee_de_naissance": "2023",
+                "nom_jockey": "POUCHIN A.",
+                "nom_entraineur": "FABRE (S) A&L.",
+                "poid_du_cheval": 580,
+                "musique": "4p 3p 4p 8p 6p 1p (25) 3p 8p ",
+                "cotes": [
+                    "8.6",
+                    "8.0",
+                    "7.9"
+                ],
+                "gains": "32529",
+                "corde": "9",
+                "discipline": "Plat",
+                "distance": 1600
+            }
+        },
+        "date": "02/07/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 37000,
+        "distance": 2750,
+        "prix": "PRIX PAUL VIEL",
+        "lieu": "Cabourg",
+        "heure_depart": "20:15:00",
+        "details": "Pour 6 à 11 ans inclus, n'ayant pas gagné 195.000. Sont seuls admis à participer à cette épreuve les chevaux n'ayant pas, dans les 12 mois précédant la course, été classés, au trot attelé, 1er, 2ème ou 3ème d'une épreuve de Groupe I.",
+        "partants": 15,
+        "non_partants": 1,
+        "arrivee": [
+            7,
+            5,
+            10,
+            12,
+            4,
+            1,
+            16
+        ],
+        "r/c": "R1/C4",
+        "arrivee_details": {
+            "7": {
+                "nom_cheval": "KAISER",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "NIVARD F.",
+                "nom_entraineur": "NIVARD F.",
+                "poid_du_cheval": 2750,
+                "musique": "7a 1a Da 3a 2a 5a (25) 4a 4a 5a 2a 4a 3a ",
+                "cotes": [
+                    "11.0",
+                    "13.0",
+                    "15.0"
+                ],
+                "gains": "182050",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2750
+            },
+            "5": {
+                "nom_cheval": "DADA DEL RONCO",
+                "sexe": "F",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "ERNAULT S.",
+                "nom_entraineur": "BONDO H.E.",
+                "poid_du_cheval": 2750,
+                "musique": "4a 0a 8a 8a (25) 2a 0a 7a 8a 5a 1a 1a 3a ",
+                "cotes": [
+                    "26.0",
+                    "32.0",
+                    "38.0"
+                ],
+                "gains": "175288",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2750
+            },
+            "10": {
+                "nom_cheval": "KALITA D'HENINEL",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "VAN EECKHAUTE JÉR. G.",
+                "nom_entraineur": "VAN EECKHAUTE J.G.",
+                "poid_du_cheval": 2750,
+                "musique": "3a 2a Da 9a 6a 5a (25) 7a 2a 3a 8a 1a 1a ",
+                "cotes": [
+                    "21.0",
+                    "21.0",
+                    "26.0"
+                ],
+                "gains": "184115",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2750
+            },
+            "12": {
+                "nom_cheval": "KNOCKONWOOD",
+                "sexe": "M",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "LARUE R. CH.",
+                "nom_entraineur": "LARUE R.C.",
+                "poid_du_cheval": 2750,
+                "musique": "6a Da 8a Da 5a 9a 0a Da 0a 0a (25) 7a 8a ",
+                "cotes": [
+                    "23.0",
+                    "37.0",
+                    "49.0"
+                ],
+                "gains": "189560",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2750
+            },
+            "4": {
+                "nom_cheval": "KORONA DELADOU",
+                "sexe": "F",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "BAUDE S.",
+                "nom_entraineur": "LETOUZE E.",
+                "poid_du_cheval": 2750,
+                "musique": "Da 3a 4a Da 5a 1a (25) 2a 6a 8a 3a 9a 7a ",
+                "cotes": [
+                    "25.0",
+                    "28.0",
+                    "35.0"
+                ],
+                "gains": "174360",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2750
+            },
+            "1": {
+                "nom_cheval": "CAMERON",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "LAMY R.",
+                "nom_entraineur": "WESTHOLM J.",
+                "poid_du_cheval": 2750,
+                "musique": "2a 2m Am Da 5m 4a 4a 0a 1a (25) 4m 4a 0a ",
+                "cotes": [
+                    "38.0",
+                    "44.0",
+                    "50.0"
+                ],
+                "gains": "163328",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2750
+            },
+            "16": {
+                "nom_cheval": "JUDY MATIDY",
+                "sexe": "F",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "ANDRE A.",
+                "nom_entraineur": "LECROQ D.",
+                "poid_du_cheval": 2750,
+                "musique": "5a 5a 4a 1a 3a 3a 2a (25) 4a 1a 7a 5a 8a ",
+                "cotes": [
+                    "31.0",
+                    "49.0",
+                    "63.0"
+                ],
+                "gains": "194855",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2750
+            }
+        },
+        "date": "03/07/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 52000,
+        "distance": 2150,
+        "prix": "PRIX D'ORGEVAL",
+        "lieu": "Enghien Soisy",
+        "heure_depart": "15:15:00",
+        "details": "Pour 8 à 11 ans inclus, n'ayant pas gagné 175.000.",
+        "partants": 15,
+        "non_partants": 1,
+        "arrivee": [
+            5,
+            13,
+            11,
+            16,
+            7,
+            2,
+            10
+        ],
+        "r/c": "R1/C4",
+        "arrivee_details": {
+            "5": {
+                "nom_cheval": "I LOVE JOSSELYN",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "DERIEUX R.",
+                "nom_entraineur": "DERIEUX R.",
+                "poid_du_cheval": 2150,
+                "musique": "Da 2a 4a 2a 0a (25) 2a 1a 0a 0a 7a (24) 0a Da ",
+                "cotes": [
+                    "4.5",
+                    "4.1",
+                    "3.8"
+                ],
+                "gains": "174590",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "13": {
+                "nom_cheval": "IMPACT PLAYER",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "ALLARD E.",
+                "nom_entraineur": "ENT. ALLARD S.E.",
+                "poid_du_cheval": 2150,
+                "musique": "8a 1a 0a 6a (25) 6a 4a 4a 3a 7a 4a Da 5a ",
+                "cotes": [
+                    "16.0",
+                    "18.0",
+                    "21.0"
+                ],
+                "gains": "154730",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "11": {
+                "nom_cheval": "IDEFIX JIHEM",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "DE JESUS EST.",
+                "nom_entraineur": "DE JESUS A.",
+                "poid_du_cheval": 2150,
+                "musique": "1a 7a 2a (25) 2m 2m Da 9a 2m 2m 0a 6a 7a ",
+                "cotes": [
+                    "10.0",
+                    "7.4",
+                    "9.1"
+                ],
+                "gains": "166450",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "16": {
+                "nom_cheval": "HOLLYWOOD TORINO",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "DUPERCHE A.",
+                "nom_entraineur": "DUPERCHE A.",
+                "poid_du_cheval": 2150,
+                "musique": "Da 0a (25) 0a 3a 5a 4a 0a Aa 5a 5a Da 1a ",
+                "cotes": [
+                    "70.0",
+                    "92.0",
+                    "118.0"
+                ],
+                "gains": "162440",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "7": {
+                "nom_cheval": "HORACE D'ARTHENAY",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "ROCHARD B.",
+                "nom_entraineur": "RETAUX F.",
+                "poid_du_cheval": 2150,
+                "musique": "4m 8a 5a 0a 6a 8a 6a (25) 3a 5a 0a 2a 9a ",
+                "cotes": [
+                    "17.0",
+                    "18.0",
+                    "20.0"
+                ],
+                "gains": "173000",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "2": {
+                "nom_cheval": "ISSIA DE CHARLY",
+                "sexe": "F",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "OUVRIE F.",
+                "nom_entraineur": "GODEY P.",
+                "poid_du_cheval": 2150,
+                "musique": "8a Da 4a 9a 0a 6a 0a (25) 4a 0a Dm 6a Da ",
+                "cotes": [
+                    "18.0",
+                    "24.0",
+                    "32.0"
+                ],
+                "gains": "174230",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            },
+            "10": {
+                "nom_cheval": "HEROS DHELPA",
+                "sexe": "H",
+                "annee_de_naissance": "2017",
+                "nom_jockey": "MAILLARD JÉR. P.",
+                "nom_entraineur": "SZIRMAY E.",
+                "poid_du_cheval": 2150,
+                "musique": "6a 7a 3a 5a 2a 9a 2a 3a 3a 7a (25) 4a 0a ",
+                "cotes": [
+                    "30.0",
+                    "39.0",
+                    "50.0"
+                ],
+                "gains": "158500",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2150
+            }
+        },
+        "date": "04/07/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 50900,
+        "distance": 1600,
+        "prix": "WORLD POOL BY PMU",
+        "lieu": "Saint Cloud",
+        "heure_depart": "15:15:00",
+        "details": "PLAT, 1600 metres , Corde a GAUCHE 50.900- HANDICAP DIVISE Pour chevaux entiers, hongres et juments de 4 ans et au-dessus",
+        "partants": 16,
+        "non_partants": 0,
+        "arrivee": [
+            6,
+            2,
+            4,
+            1,
+            5,
+            8,
+            9
+        ],
+        "r/c": "R1/C3",
+        "arrivee_details": {
+            "6": {
+                "nom_cheval": "PYRAMIDE",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "MADAMET A.",
+                "nom_entraineur": "HERNON G.",
+                "poid_du_cheval": 570,
+                "musique": "5p (25) 3p 7p 1p 2p 2p 5p 2p 1p (24) 11p ",
+                "cotes": [
+                    "12.0",
+                    "13.0",
+                    "14.0"
+                ],
+                "gains": "50144",
+                "corde": "6",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "2": {
+                "nom_cheval": "FELIX AUX ORMES",
+                "sexe": "M",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "DEMURO C.",
+                "nom_entraineur": "BARBEROT (S) Y.",
+                "poid_du_cheval": 585,
+                "musique": "7p 5p 1p 2p 8p 3p 2p (25) 5p 10p 3p 10p 7p ",
+                "cotes": [
+                    "17.0",
+                    "17.0",
+                    "10.0"
+                ],
+                "gains": "115175",
+                "corde": "1",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "4": {
+                "nom_cheval": "HALF HALF",
+                "sexe": "H",
+                "annee_de_naissance": "2020",
+                "nom_jockey": "POUCHIN A.",
+                "nom_entraineur": "SMAGA D.",
+                "poid_du_cheval": 580,
+                "musique": "4p 2p 1p 5p 2p 3p 12p (25) 7p 3p (24) 9p 8p 10p ",
+                "cotes": [
+                    "7.1",
+                    "6.3",
+                    "4.4"
+                ],
+                "gains": "176418",
+                "corde": "3",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "1": {
+                "nom_cheval": "TIEGO THE FIRST",
+                "sexe": "M",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "GUYON M.",
+                "nom_entraineur": "BRANDT (S) P&J.",
+                "poid_du_cheval": 605,
+                "musique": "5p 2p 8p (25) 8p 10p 2p 1p 4p 6p (24) 8p 5p 1p ",
+                "cotes": [
+                    "11.0",
+                    "9.6",
+                    "9.0"
+                ],
+                "gains": "95474",
+                "corde": "12",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "5": {
+                "nom_cheval": "MR FLEURANT",
+                "sexe": "H",
+                "annee_de_naissance": "2021",
+                "nom_jockey": "HARDOUIN E.",
+                "nom_entraineur": "WATRIGANT (S) A.",
+                "poid_du_cheval": 575,
+                "musique": "4p 4p 1p 1p 4p 5p (25) 11p 9p 6p 2p 4p 9p ",
+                "cotes": [
+                    "15.0",
+                    "17.0",
+                    "26.0"
+                ],
+                "gains": "86273",
+                "corde": "10",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "8": {
+                "nom_cheval": "KRASKHOV",
+                "sexe": "H",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "SOUMILLON C.",
+                "nom_entraineur": "DELCHER SANCHEZ M.",
+                "poid_du_cheval": 560,
+                "musique": "6p 3p 3p 4p (25) 1p 11p 2p 5p 1p 9p 4p (24) 7p ",
+                "cotes": [
+                    "4.9",
+                    "4.4",
+                    "4.0"
+                ],
+                "gains": "58299",
+                "corde": "5",
+                "discipline": "Plat",
+                "distance": 1600
+            },
+            "9": {
+                "nom_cheval": "ALSABA",
+                "sexe": "F",
+                "annee_de_naissance": "2022",
+                "nom_jockey": "PASQUIER S.",
+                "nom_entraineur": "CLEMENT & HERMANS (S)",
+                "poid_du_cheval": 555,
+                "musique": "10p 6p (25) 16p 11p 4p 1p 2p 2p (24) 2p 2p 3p 5p ",
+                "cotes": [
+                    "28.0",
+                    "35.0",
+                    "56.0"
+                ],
+                "gains": "48342",
+                "corde": "16",
+                "discipline": "Plat",
+                "distance": 1600
+            }
+        },
+        "date": "05/07/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 32000,
+        "distance": 2650,
+        "prix": "PRIX DES SABLES D'OLONNE AGGLOMERATION",
+        "lieu": "Les Sables D'olonne",
+        "heure_depart": "18:30:00",
+        "details": "Pour 7 à 10 ans inclus, n'ayant pas gagné 151.000",
+        "partants": 13,
+        "non_partants": 0,
+        "arrivee": [
+            7,
+            4,
+            2,
+            8,
+            3,
+            13,
+            12
+        ],
+        "r/c": "R1/C8",
+        "arrivee_details": {
+            "7": {
+                "nom_cheval": "JACKPOT MEARAS",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "PIETERS DWI.",
+                "nom_entraineur": "TORNQVIST MME M.",
+                "poid_du_cheval": 2650,
+                "musique": "8a 1a 1a 1a (25) 0a 1a 1a 6a 2a 1a 1a 2a ",
+                "cotes": [
+                    "4.0",
+                    "4.2",
+                    "3.8"
+                ],
+                "gains": "149542",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2650
+            },
+            "4": {
+                "nom_cheval": "RUGER",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "PACHA N.",
+                "nom_entraineur": "LINDEGREN E.",
+                "poid_du_cheval": 2650,
+                "musique": "Da 0a 9a 0a (25) 2a Da 1a 2a 8a 2a 0a 1a ",
+                "cotes": [
+                    "26.0",
+                    "28.0",
+                    "19.0"
+                ],
+                "gains": "133672",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2650
+            },
+            "2": {
+                "nom_cheval": "JIM D'ALOUETTE",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "RAFFIN E.",
+                "nom_entraineur": "CHAVATTE A.",
+                "poid_du_cheval": 2650,
+                "musique": "1a 2a 7a 4a 0a (25) 4a 2a 1a 1a 1a 9a 2a ",
+                "cotes": [
+                    "4.3",
+                    "3.3",
+                    "3.2"
+                ],
+                "gains": "144895",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2650
+            },
+            "8": {
+                "nom_cheval": "JUST A COUET",
+                "sexe": "H",
+                "annee_de_naissance": "2019",
+                "nom_jockey": "HUBERT A.",
+                "nom_entraineur": "HUBERT A.",
+                "poid_du_cheval": 2650,
+                "musique": "8a 5m 5a 3a 7a 0a 0a (25) 5a 8a Da 4a 3a ",
+                "cotes": [
+                    "20.0",
+                    "29.0",
+                    "36.0"
+                ],
+                "gains": "149915",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2650
+            },
+            "3": {
+                "nom_cheval": "VINCI NICE",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "NIVARD F.",
+                "nom_entraineur": "UNTERSTEINER J.",
+                "poid_du_cheval": 2650,
+                "musique": "0a 8a 4a 2a 7a 7a 1a (25) 6a Da 6a 6a 0a ",
+                "cotes": [
+                    "12.0",
+                    "13.0",
+                    "13.0"
+                ],
+                "gains": "142620",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2650
+            },
+            "13": {
+                "nom_cheval": "ORLANDO YOUNG",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "BONNE D.",
+                "nom_entraineur": "GUNDERSEN G.V.",
+                "poid_du_cheval": 2650,
+                "musique": "3a (25) 3a 7a 5a 2a 5a 1a Da 4a 2a 9a 5a ",
+                "cotes": [
+                    "11.0",
+                    "15.0",
+                    "18.0"
+                ],
+                "gains": "106918",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2650
+            },
+            "12": {
+                "nom_cheval": "DYNAMITE SENSATION",
+                "sexe": "H",
+                "annee_de_naissance": "2018",
+                "nom_jockey": "RAFFIN O.",
+                "nom_entraineur": "RAFFIN O.",
+                "poid_du_cheval": 2650,
+                "musique": "7a 8a 0a (25) 6a 7m 6a Da 4a Da 0a 5a 0a ",
+                "cotes": [
+                    "28.0",
+                    "47.0",
+                    "63.0"
+                ],
+                "gains": "106668",
+                "corde": "",
+                "discipline": "Attelé",
+                "distance": 2650
+            }
+        },
+        "date": "06/07/2026"
+    },
+    {
+        "type": "Plat",
+        "montant": 52800,
+        "distance": 2000,
+        "prix": "PRIX LE ROI SOLEIL",
+        "lieu": "Chantilly",
+        "heure_depart": "18:30:00",
+        "details": "PLAT, 2000 metres , Corde a DROITE 52.800- HANDICAP DIVISE Pour poulains entiers, hongres et pouliches de 3 ans",
+        "partants": 15,
+        "non_partants": 1,
+        "arrivee": [],
+        "r/c": "R1/C8",
+        "arrivee_details": {},
+        "date": "07/07/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 34000,
+        "distance": 2725,
+        "prix": "PRIX DU CASINO PARTOUCHE DE PORNICHET",
+        "lieu": "Pornichet La Baule",
+        "heure_depart": "18:30:00",
+        "details": "Pour 7 à 11 ans inclus, n'ayant pas gagné 229.000. - Recul de 25 m. à 129.000. Sont seules admises à driver les personnes ayant gagné au moins cinq courses (en étant titulaire d'une autorisation de monter à titre professionnel).",
+        "partants": 14,
+        "non_partants": 0,
+        "arrivee": [],
+        "r/c": "R1/C5",
+        "arrivee_details": {},
+        "date": "08/07/2026"
+    },
+    {
+        "type": "Attelé",
+        "montant": 68000,
+        "distance": 2150,
+        "prix": "PRIX DE L'OPERA",
+        "lieu": "Enghien Soisy",
+        "heure_depart": "20:15:00",
+        "details": "Pour 7 à 11 ans inclus, n'ayant pas gagné 295.000. Sont seuls admis à participer à cette épreuve les chevaux n'ayant pas, dans les 12 mois précédant la course, été classés, au trot attelé, 1er, 2ème ou 3ème d'une épreuve de Groupe I.",
+        "partants": 14,
+        "non_partants": 0,
+        "arrivee": [],
+        "r/c": "R1/C8",
+        "arrivee_details": {},
+        "date": "09/07/2026"
     }
 ]
 
