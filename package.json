@@ -8,7 +8,6 @@
   "description": "Une API REST open source pour consulter les arrivées de courses PMU par date, hippodrome ou prix.",
   "main": "clean.js",
   "dependencies": {
-    "@tailwindcss/cli": "^4.3.2",
     "tailwindcss": "^3.4.19",
     "undici-types": "^6.21.0"
   },
