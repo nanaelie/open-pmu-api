@@ -25,15 +25,15 @@ hippo=HIPPODROME
 ### Exemples d'appel
 
 ```http
-GET https://open-pmu-api.vercel.app/api/arrivees?date=05/05/2021
+GET https://open-pmu-api.vercel.app/api/arrivees?date=04/04/2026
 ```
 
 ```http
-GET https://open-pmu-api.vercel.app/api/arrivees?prix=Prix de la foret de fontainebleau
+GET https://open-pmu-api.vercel.app/api/arrivees?prix=Prix kerjacques
 ```
 
 ```http
-GET https://open-pmu-api.vercel.app/api/arrivees?hippo=Fontainebleau
+GET https://open-pmu-api.vercel.app/api/arrivees?hippo=Vincennes
 ```
 
 
@@ -43,17 +43,17 @@ Réponse
   "error": false,
   "message": [
     {
-      "date": "05/05/2021",
-      "type": "Plat",
-      "montant": 50000,
-      "distance": 1100,
-      "prix": "Prix de la foret de fontainebleau",
-      "lieu": "Fontainebleau",
-      "r/c": "R1C1",
-      "partants": 16,
-      "non partants": 7,
-      "arrivee": "1 - 2 - 8 - 9 - 5",
-      "details": "PLAT, 1100 mètres , Ligne DROITE- HANDICAP DIVISE Pour chevaux entiers, hongres et juments de 4 ans et au-dessus , ayant couru depuis le 1er novembre 2020 inclus. Un souvenir sera offert au propriétaire du cheval gagnant. Les nouvelles conditions deversement des allocations à compter du 1er mars 2021 publiées dans l'additif aux conditions générales 2021 du 26 février 2021 sont applicables dans ce prix."
+      "date": "04/04/2026",
+      "type": "Attelé",
+      "montant": 120000,
+      "distance": 2700,
+      "prix": "Prix kerjacques",
+      "lieu": "Vincennes",
+      "r/c": "R1C4",
+      "partants": 13,
+      "non_partants": null,
+      "arrivee": [10, 8, 7, 3, 12],
+      "details": "Pour 6 à 11 ans inclus, ayant gagné au moins 130.000. Sont seules admises à driver les personnes ayant gagné au moins trente-cinq courses dont dix au trot attelé (en étant titulaire d'une autorisation de monter à titre professionnel)."
     }
   ]
 }
