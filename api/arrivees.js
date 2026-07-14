@@ -6,25 +6,6 @@ export default (req, res) => {
 		return;
 	}
 
-	const ua = (req.headers['user-agent'] || '').toLowerCase();
-
-	const blocked = [
-		'python-requests',
-		'curl',
-		'wget',
-		'httpx',
-		'aiohttp',
-		'python-urllib'
-	];
-
-	if (blocked.some(agent => ua.includes(agent)) || ua.length < 20) {
-		console.log('Automation requests are not allowed.')
-		return res.status(403).json({
-			error: true,
-			message: 'Not allowed'
-		});
-	}
-
 	try {
 		const prix = req.query.prix;
 		const hippo = req.query.hippo;
