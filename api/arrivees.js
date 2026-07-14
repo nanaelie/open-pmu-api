@@ -44,7 +44,6 @@ export default (req, res) => {
 		} else {
 			_resp = [false, "Aucun paramètre fourni."];
 		}
-		console.log({ ip: req.ip, userAgent: req.get('user-agent'), param })
 
 		res.setHeader('Content-Type', 'application/json');
 		res.status(200).send({
