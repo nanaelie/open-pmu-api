@@ -1,5 +1,13 @@
 import db from './connections/index.js';
 
+function formatDate(date) {
+    const [jour, mois, annee] = date.split("/");
+
+    const fullYear = annee.length === 2 ? `20${annee}` : annee;
+
+    return `${fullYear}-${mois}-${jour}`;
+}
+
 export default async function getData({ prix, hippo, date }) {
 	try {
 		let key = null, value = null, operator = 'LIKE';
@@ -11,7 +19,7 @@ export default async function getData({ prix, hippo, date }) {
 			value = hippo;
 		} else if (date) {
 			key = 'races.date';
-			const formattedDate = new Date(date).toISOString().split("T")[0];
+			const formattedDate = formatDate(date);
 			value = formattedDate;
 			operator = '=';
 		}
