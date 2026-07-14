@@ -24,6 +24,8 @@ export default (req, res) => {
 		});
 	}
 
+	console.log(req.headers);
+
 	try {
 		const prix = req.query.prix;
 		const hippo = req.query.hippo;
