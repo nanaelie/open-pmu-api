@@ -13,7 +13,7 @@ export default async function getData({ prix, hippo, date }) {
 			key = 'races.date';
 			const formattedDate = new Date(date).toISOString().split("T")[0];
 			value = formattedDate;
-			operator = '='
+			operator = '=';
 		}
 
 		if (key && value) {
