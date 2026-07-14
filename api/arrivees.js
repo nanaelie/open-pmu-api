@@ -17,6 +17,7 @@ export default (req, res) => {
 		'python-urllib'
 	];
 
+	console.log(req.headers);
 	if (blocked.some(agent => ua.includes(agent))) {
 		return res.status(403).json({
 			error: true,
@@ -24,7 +25,6 @@ export default (req, res) => {
 		});
 	}
 
-	console.log(req.headers);
 
 	try {
 		const prix = req.query.prix;
