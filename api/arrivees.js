@@ -1,6 +1,6 @@
 import getData from '../get-data.js';
 
-export default (req, res) => {
+export default async (req, res) => {
 	if (req.method !== 'GET') {
 		res.status(405).send('Method Not Allowed');
 		return;
@@ -15,11 +15,11 @@ export default (req, res) => {
 		let param = null;
 
 		if (prix) {
-			_resp = getData({ prix });
+			_resp = await getData({ prix });
 		} else if (hippo) {
-			_resp = getData({ hippo });
+			_resp = await getData({ hippo });
 		} else if (date) {
-			_resp = getData({ date });
+			_resp = await getData({ date });
 		} else {
 			_resp = [false, "Aucun paramètre fourni."];
 		}
