@@ -103,19 +103,15 @@ export default async function getData({ prix, hippo, date }) {
 			}
 	
 			const response = Object.values(races);
-			console.log(response);
 			if (response.length > 0) {
 				return [true, response];
 			} else {
-				console.log("Pas de correspondance");
 				return [false, "Pas de correspondance"];
 			}
 		} else {
-			console.log("Pas de correspondance");
 			return [false, "Pas de correspondance"];
 		}
 	} catch (err) {
-		console.log(err);
 		return [false, []]
 	}
 }
