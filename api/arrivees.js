@@ -35,13 +35,10 @@ export default (req, res) => {
 
 		if (prix) {
 			_resp = getData({ prix });
-			param = 'prix';
 		} else if (hippo) {
 			_resp = getData({ hippo });
-			param = 'hippo';
 		} else if (date) {
 			_resp = getData({ date });
-			param = 'date';
 		} else {
 			_resp = [false, "Aucun paramètre fourni."];
 		}
