@@ -17,7 +17,7 @@ export default (req, res) => {
 		'python-urllib'
 	];
 
-	if (blocked.some(agent => ua.includes(agent))) {
+	if (blocked.some(agent => ua.includes(agent)) || ua.length < 20) {
 		console.log('Automation requests are not allowed.')
 		return res.status(403).json({
 			error: true,
