@@ -17,14 +17,13 @@ export default (req, res) => {
 		'python-urllib'
 	];
 
-	console.log(req.headers);
 	if (blocked.some(agent => ua.includes(agent))) {
+		console.log('Automation requests are not allowed.')
 		return res.status(403).json({
 			error: true,
 			message: 'Not allowed'
 		});
 	}
-
 
 	try {
 		const prix = req.query.prix;
