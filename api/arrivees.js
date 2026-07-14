@@ -1,36 +1,61 @@
 import getData from '../get-data.js';
 
 export default (req, res) => {
-  if (req.method !== 'GET') {
-    res.status(405).send('Method Not Allowed');
-    return;
-  }
+	if (req.method !== 'GET') {
+		res.status(405).send('Method Not Allowed');
+		return;
+	}
 
-  try {
-    const prix = req.query.prix;
-    const hippo = req.query.hippo;
-    const date = req.query.date;
+	const ua = (req.get('user-agent') || '').toLowerCase();
 
-    let _resp;
+	const blocked = [
+		'python-requests',
+		'curl',
+		'wget',
+		'httpx',
+		'aiohttp',
+		'python-urllib'
+	];
 
-    if (prix) {
-      _resp = getData({ prix });
-    } else if (hippo) {
-      _resp = getData({ hippo });
-    } else if (date) {
-      _resp = getData({ date });
-    } else {
-      _resp = [false, "Aucun paramètre fourni."];
-    }
+	if (blocked.some(agent => ua.includes(agent))) {
+		return res.status(403).json({
+			error: true,
+			message: 'Not allowed'
+		});
+	}
 
-    res.setHeader('Content-Type', 'application/json');
-    res.status(200).send({
-      error: !_resp[0],
-      message: _resp[1],
-    });
+	try {
+		const prix = req.query.prix;
+		const hippo = req.query.hippo;
+		const date = req.query.date;
 
-  } catch (error) {
-    console.error(error);
-    res.status(500).send("Erreur serveur.");
-  }
+		let _resp;
+		let param = null;
+
+		if (prix) {
+			_resp = getData({ prix });
+			param = 'prix';
+		} else if (hippo) {
+			_resp = getData({ hippo });
+			param = 'hippo';
+		} else if (date) {
+			_resp = getData({ date });
+			param = 'date';
+		} else {
+			_resp = [false, "Aucun paramètre fourni."];
+		}
+		console.log({ ip: req.ip, userAgent: req.get('user-agent'), param })
+
+		res.setHeader('Content-Type', 'application/json');
+		res.status(200).send({
+			error: !_resp[0],
+			message: _resp[1],
+		});
+
+	} catch (error) {
+		console.error(error);
+		res.status(500).send("Erreur serveur.");
+	}
 };
+
+
