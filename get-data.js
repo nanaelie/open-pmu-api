@@ -105,7 +105,7 @@ export default async function getData({ prix, hippo, date }) {
 		}
 	} catch (err) {
 		console.log(err);
-		return [false, err]
+		return [false, []]
 	}
 }
 
