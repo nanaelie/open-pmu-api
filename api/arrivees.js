@@ -6,7 +6,7 @@ export default (req, res) => {
 		return;
 	}
 
-	const ua = (req.get('user-agent') || '').toLowerCase();
+	const ua = (req.headers['user-agent'] || '').toLowerCase();
 
 	const blocked = [
 		'python-requests',
@@ -57,5 +57,4 @@ export default (req, res) => {
 		res.status(500).send("Erreur serveur.");
 	}
 };
-
 
