@@ -1,74 +1,143 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <title>Open PMU API</title>
-        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
-        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=false;" />
-        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;" />
-        <meta name="author" content="open-pmu-api">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="default">
-        <meta name="mobile-web-app-capable" content="yes">
-        <link rel="icon" href="/favicon.png"/>
-	      <link rel="stylesheet" href="/assets/css/style.css">
-    </head>
-    <body class="bg-gradient-to-br dmsans from-zinc-950 via-zinc-900 to-zinc-950 text-gray-200 bg-zinc-950">
-        <main class="relative max-w-5xl mx-auto px-6 py-12">
-            <div class="flex w-full items-center justify-between">
-                <h1 class="text-2xl ptone font-bold bg-gradient-to-r from-sky-400 to-blue-600 bg-clip-text text-transparent">open-pmu-api</h1>
-                <a href="https://github.com/open-pmu-api/open-pmu-api" target="_blank" class="text-white hover:scale-110 transition">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 499.368" class="w-9 h-9 fill-current">
-                        <path d="M256.003 0C114.555 0 0 114.555 0 256.003c0 113.286 73.28 208.961 175.038 242.865 12.796 2.247 17.586-5.433 17.586-12.153 0-6.077-.309-26.225-.309-47.686-64.313 11.844-80.941-15.674-86.058-30.055-2.896-7.37-15.359-30.1-26.269-36.177-8.948-4.808-21.752-16.652-.31-16.961 20.168-.309 34.574 18.564 39.382 26.244 23.038 38.732 59.839 27.828 74.555 21.101 2.227-16.627 8.947-27.828 16.318-34.239-56.968-6.386-116.467-28.471-116.467-126.399 0-27.827 9.907-50.866 26.225-68.787-2.562-6.41-11.51-32.655 2.562-67.853 0 0 21.436-6.72 70.409 26.244 20.483-5.767 42.227-8.638 63.998-8.638 21.751 0 43.52 2.896 63.997 8.638 48.973-33.279 70.39-26.244 70.39-26.244 14.09 35.192 5.117 61.443 2.562 67.853 16.318 17.921 26.244 40.625 26.244 68.787 0 98.237-59.84 119.988-116.801 126.399 9.282 8.014 17.277 23.373 17.277 47.371 0 34.238-.309 61.751-.309 70.389 0 6.721 4.808 14.735 17.586 12.179C438.739 464.964 512 368.955 512 256.003 512 114.555 397.445 0 256.003 0z"/>
-                    </svg>
-                </a>
-            </div>
-            <span class="inline-block mt-16 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-4 py-1 text-sm font-semibold text-emerald-400">Open Source • Gratuit</span>
-            <div class="mt-8 space-y-5 text-gray-300 leading-8">
-                <p>
-                    Open PMU API est une API REST open source conçue pour permettre l’accès structuré
-                    aux arrivées officielles des courses PMU. Elle offre un moyen simple, rapide et
-                    fiable d’interroger des données historiques détaillées sur les courses hippiques.
-                </p>
-                <p>
-                    L’API permet de consulter les <strong>arrivées des courses PMU</strong>
-                    en les filtrant par <strong>date</strong>,
-                    <strong>nom d’hippodrome</strong> ou
-                    <strong>nom de prix</strong>.
-                    Chaque réponse fournit des informations complètes incluant le type de course,
-                    le montant, la distance, le nombre de partants,
-                    les non-partants, l’arrivée officielle ainsi que les détails descriptifs de l’épreuve.
-                </p>
-                <p>
-                    Conçue pour les développeurs, analystes de données et passionnés de courses,
-                    Open PMU API facilite l’intégration des données hippiques dans des applications,
-                    outils statistiques, dashboards ou projets de recherche.
-                </p>
-                <p>Période des données : <strong>22/01/2004</strong> → <strong>06/07/2026</strong></p>
-                <p>Dernière mise à jour : <strong>07/07/2026</strong></p>
-            </div>
-            <section class="mt-12">
-                <h2 class="text-3xl font-semibold text-white mb-6">Fonctionnalités</h2>
-                <ul class="list-disc ml-6 space-y-2 text-gray-300">
-                    <li>Recherche par date</li>
-                    <li>Recherche par hippodrome</li>
-                    <li>Recherche par prix</li>
-                </ul>
-            </section>
-            <section class="mt-12">
-                <h2 class="text-3xl font-semibold text-white mb-6">Utilisation</h2>
-                <pre class="overflow-x-auto rounded-xl border border-emerald-500/20 bg-black/60 p-5 text-emerald-400"><code>GET https://open-pmu-api.vercel.app/api/arrivees</code></pre>
-                <pre class="mt-4 overflow-x-auto rounded-xl border border-emerald-500/20 bg-black/60 p-5 text-emerald-400"><code>date=DAY/MONTH/YEAR
+<head>
+  <meta charset="UTF-8">
+  <title>Open PMU API</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="author" content="open-pmu-api">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" href="/favicon.png"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+    
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: #09090b;
+    }
+
+    .code-block {
+      background: linear-gradient(145deg, #18181b 0%, #09090b 100%);
+      border: 1px solid #27272a;
+      box-shadow: 0 4px 20px -4px rgba(0, 0, 0, 0.5);
+    }
+
+    .section-card {
+      background: rgba(24, 24, 27, 0.6);
+      border: 1px solid #27272a;
+      border-radius: 1rem;
+      padding: 1.75rem;
+    }
+  </style>
+</head>
+<body class="text-zinc-300 antialiased">
+  <main class="relative max-w-5xl mx-auto px-6 py-14">
+
+    <!-- Header -->
+    <div class="flex w-full items-center justify-between mb-2">
+      <h1 class="text-3xl font-bold tracking-tight bg-gradient-to-r from-sky-400 via-blue-400 to-indigo-400 bg-clip-text text-transparent">
+        open-pmu-api
+      </h1>
+      <a href="https://github.com/open-pmu-api/open-pmu-api" target="_blank" 
+         class="p-2 rounded-xl bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-white hover:border-zinc-600 transition-all duration-200 hover:scale-105">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 499.368" class="w-8 h-8 fill-current">
+          <path d="M256.003 0C114.555 0 0 114.555 0 256.003c0 113.286 73.28 208.961 175.038 242.865 12.796 2.247 17.586-5.433 17.586-12.153 0-6.077-.309-26.225-.309-47.686-64.313 11.844-80.941-15.674-86.058-30.055-2.896-7.37-15.359-30.1-26.269-36.177-8.948-4.808-21.752-16.652-.31-16.961 20.168-.309 34.574 18.564 39.382 26.244 23.038 38.732 59.839 27.828 74.555 21.101 2.227-16.627 8.947-27.828 16.318-34.239-56.968-6.386-116.467-28.471-116.467-126.399 0-27.827 9.907-50.866 26.225-68.787-2.562-6.41-11.51-32.655 2.562-67.853 0 0 21.436-6.72 70.409 26.244 20.483-5.767 42.227-8.638 63.998-8.638 21.751 0 43.52 2.896 63.997 8.638 48.973-33.279 70.39-26.244 70.39-26.244 14.09 35.192 5.117 61.443 2.562 67.853 16.318 17.921 26.244 40.625 26.244 68.787 0 98.237-59.84 119.988-116.801 126.399 9.282 8.014 17.277 23.373 17.277 47.371 0 34.238-.309 61.751-.309 70.389 0 6.721 4.808 14.735 17.586 12.179C438.739 464.964 512 368.955 512 256.003 512 114.555 397.445 0 256.003 0z"/>
+        </svg>
+      </a>
+    </div>
+
+    <!-- Badge -->
+    <div class="mt-12">
+      <span class="inline-flex items-center gap-2 rounded-full border border-emerald-500/40 bg-emerald-500/10 px-5 py-1.5 text-sm font-semibold text-emerald-400 shadow-lg shadow-emerald-500/10">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        Open Source • Gratuit
+      </span>
+    </div>
+
+    <!-- Description -->
+    <div class="mt-10 space-y-6 text-[17px] leading-8 text-zinc-300 max-w-3xl">
+      <p>
+        Open PMU API est une API REST open source conçue pour permettre l’accès structuré
+        aux arrivées officielles des courses PMU. Elle offre un moyen simple, rapide et
+        fiable d’interroger des données historiques détaillées sur les courses hippiques.
+      </p>
+      <p>
+        L’API permet de consulter les <strong class="text-white font-semibold">arrivées des courses PMU</strong>
+        en les filtrant par <strong class="text-white font-semibold">date</strong>,
+        <strong class="text-white font-semibold">nom d’hippodrome</strong> ou
+        <strong class="text-white font-semibold">nom de prix</strong>.
+        Chaque réponse fournit des informations complètes incluant le type de course,
+        le montant, la distance, le nombre de partants,
+        les non-partants, l’arrivée officielle ainsi que les détails descriptifs de l’épreuve.
+      </p>
+      <p>
+        Conçue pour les développeurs, analystes de données et passionnés de courses,
+        Open PMU API facilite l’intégration des données hippiques dans des applications,
+        outils statistiques, dashboards ou projets de recherche.
+      </p>
+      
+      <div class="flex flex-wrap gap-6 pt-2 text-[15px]">
+        <p class="flex items-center gap-2">
+          <span class="text-zinc-500">Période des données :</span>
+          <strong class="text-white">22/01/2004 → 06/07/2026</strong>
+        </p>
+        <p class="flex items-center gap-2">
+          <span class="text-zinc-500">Dernière mise à jour :</span>
+          <strong class="text-white">07/07/2026</strong>
+        </p>
+      </div>
+    </div>
+
+    <!-- Fonctionnalités -->
+    <section class="mt-16">
+      <h2 class="text-2xl font-semibold text-white mb-6 flex items-center gap-3">
+        <span class="w-1.5 h-6 rounded-full bg-sky-500"></span>
+        Fonctionnalités
+      </h2>
+      <div class="section-card">
+        <ul class="space-y-3 text-zinc-300">
+          <li class="flex items-center gap-3">
+            <span class="flex items-center justify-center w-6 h-6 rounded-full bg-sky-500/20 text-sky-400 text-xs font-bold">1</span>
+            Recherche par date
+          </li>
+          <li class="flex items-center gap-3">
+            <span class="flex items-center justify-center w-6 h-6 rounded-full bg-sky-500/20 text-sky-400 text-xs font-bold">2</span>
+            Recherche par hippodrome
+          </li>
+          <li class="flex items-center gap-3">
+            <span class="flex items-center justify-center w-6 h-6 rounded-full bg-sky-500/20 text-sky-400 text-xs font-bold">3</span>
+            Recherche par prix
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Utilisation -->
+    <section class="mt-16">
+      <h2 class="text-2xl font-semibold text-white mb-6 flex items-center gap-3">
+        <span class="w-1.5 h-6 rounded-full bg-emerald-500"></span>
+        Utilisation
+      </h2>
+
+      <div class="space-y-4">
+        <pre class="code-block overflow-x-auto rounded-xl p-5 text-emerald-400 text-[14px]"><code>GET https://open-pmu-api.vercel.app/api/arrivees</code></pre>
+        
+        <pre class="code-block overflow-x-auto rounded-xl p-5 text-emerald-400 text-[14px]"><code>date=DAY/MONTH/YEAR
 prix=PRIX
 hippo=HIPPODROME</code></pre>
-                <h3 class="mt-10 mb-4 text-xl font-medium text-gray-200">Exemples d'appel</h3>
-                <div class="space-y-4">
-                    <pre class="overflow-x-auto rounded-xl border border-emerald-500/20 bg-black/60 p-5 text-emerald-400"><code>GET https://open-pmu-api.vercel.app/api/arrivees?date=06/07/2026</code></pre>
-                    <pre class="overflow-x-auto rounded-xl border border-emerald-500/20 bg-black/60 p-5 text-emerald-400"><code>GET https://open-pmu-api.vercel.app/api/arrivees?prix=PRIX DES SABLES D'OLONNE AGGLOMERATION</code></pre>
-                    <pre class="overflow-x-auto rounded-xl border border-emerald-500/20 bg-black/60 p-5 text-emerald-400"><code>GET https://open-pmu-api.vercel.app/api/arrivees?hippo=Les Sables D'olonne</code></pre>
-                </div>
-                <h3 class="mt-10 mb-4 text-xl font-medium text-gray-200">Réponse</h3>
-                <pre class="overflow-x-auto rounded-xl border border-cyan-500/20 bg-black/60 p-5 text-sky-400"><code>{
+      </div>
+
+      <h3 class="mt-12 mb-5 text-lg font-medium text-white">Exemples d'appel</h3>
+      <div class="space-y-4">
+        <pre class="code-block overflow-x-auto rounded-xl p-5 text-emerald-400 text-[14px]"><code>GET https://open-pmu-api.vercel.app/api/arrivees?date=06/07/2026</code></pre>
+        <pre class="code-block overflow-x-auto rounded-xl p-5 text-emerald-400 text-[14px]"><code>GET https://open-pmu-api.vercel.app/api/arrivees?prix=PRIX DES SABLES D'OLONNE AGGLOMERATION</code></pre>
+        <pre class="code-block overflow-x-auto rounded-xl p-5 text-emerald-400 text-[14px]"><code>GET https://open-pmu-api.vercel.app/api/arrivees?hippo=Les Sables D'olonne</code></pre>
+      </div>
+
+      <h3 class="mt-12 mb-5 text-lg font-medium text-white">Réponse</h3>
+      <pre class="code-block overflow-x-auto rounded-xl p-5 text-sky-400 text-[13px] leading-relaxed"><code>{
     "error":false,
     "message":[
         {
@@ -215,11 +284,16 @@ hippo=HIPPODROME</code></pre>
         }
     ]
 }</code></pre>
-            </section>
-            <footer class="mt-20 border-t border-white/10 pt-8 text-center text-sm text-gray-500">
-                <p>© 2026 <span class="font-semibold text-white">Open PMU API</span><p>
-                <p>Tous droits réservés</p>
-            </footer>
-        </main>
-    </body>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mt-24 pt-10 border-t border-zinc-800 text-center">
+      <p class="text-sm text-zinc-500">
+        © 2026 <span class="font-semibold text-zinc-300">Open PMU API</span>
+      </p>
+      <p class="text-sm text-zinc-600 mt-1">Tous droits réservés</p>
+    </footer>
+
+  </main>
+</body>
 </html>
