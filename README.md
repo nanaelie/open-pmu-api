@@ -3,8 +3,8 @@ Une API REST open source pour consulter les arrivées de courses PMU par date, h
 
 Une API REST gratuite et open source pour consulter les **arrivées des courses PMU**, filtrables par **date**, **hippodrome** ou **prix**.
 
-Période des données : du ```22/01/2004``` au ```06/07/2026```  
-Dernière mise à jour : ```07/07/2026```
+Période des données : du ```22/01/2004``` au ```18/08/2026```  
+Dernière mise à jour : ```19/08/2026```
 
 ## Fonctionnalités
 
@@ -25,172 +25,128 @@ hippo=HIPPODROME
 ### Exemples d'appel
 
 ```http
-GET https://open-pmu-api.vercel.app/api/arrivees?date=06/07/2026
+GET https://open-pmu-api.vercel.app/api/arrivees?date=18/08/2026
 ```
 
 ```http
-GET https://open-pmu-api.vercel.app/api/arrivees?prix=PRIX DES SABLES D'OLONNE AGGLOMERATION
+GET https://open-pmu-api.vercel.app/api/arrivees?prix=PRIX DU VIEUX BASSIN
 ```
 
 ```http
-GET https://open-pmu-api.vercel.app/api/arrivees?hippo=Les Sables D'olonne
+GET https://open-pmu-api.vercel.app/api/arrivees?hippo=Deauville
 ```
-
 
 Réponse
 ```JSON
 {
-    "error":false,
-    "message":[
+    "error": false,
+    "message": [
         {
-            "type":"Attelé",
-            "montant":32000,
-            "distance":2650,
-            "prix":"PRIX DES SABLES D'OLONNE AGGLOMERATION",
-            "lieu":"Les Sables D'olonne",
-            "heure_depart":"18:30:00",
-            "details":"Pour 7 à 10 ans inclus, n'ayant pas gagné 151.000",
-            "partants":13,
-            "non_partants":0,
-            "arrivee":[
-                7,
-                4,
-                2,
-                8,
-                3,
-                13,
-                12
-            ],
-            "r/c":"R1/C8",
-            "arrivee_details":{
-                "2":{
-                    "nom_cheval":"JIM D'ALOUETTE",
-                    "sexe":"H",
-                    "annee_de_naissance":"2019",
-                    "nom_jockey":"RAFFIN E.",
-                    "nom_entraineur":"CHAVATTE A.",
-                    "poid_du_cheval":2650,
-                    "musique":"1a 2a 7a 4a 0a (25) 4a 2a 1a 1a 1a 9a 2a ",
-                    "cotes":[
-                        "4.3",
-                        "3.3",
-                        "3.2"
-                    ],
-                    "gains":"144895",
-                    "corde":"",
-                    "discipline":"Attelé",
-                    "distance":2650
+            "type": "Plat",
+            "montant": 50900,
+            "distance": 2500,
+            "prix": "PRIX DU VIEUX BASSIN",
+            "lieu": "Deauville",
+            "heure_depart": "18:30:00",
+            "details": "PLAT, 2500 metres , Corde a DROITE 50.900- HANDICAP DIVISE Pour chevaux entiers, hongres et juments de 4 ans et au-dessus",
+            "partants": 15,
+            "non_partants": [ 1 ],
+            "arrivee": [ 2, 9, 13, 14, 15, 8, 12 ],
+            "r/c": "R1/C8",
+            "arrivee_details": {
+                "2": {
+                    "nom_cheval": "MISS OF CHANGE",
+                    "sexe": "F",
+                    "annee_de_naissance": 2022,
+                    "nom_jockey": "LEMAITRE A.",
+                    "nom_entraineur": "NIESLANIK M.",
+                    "musique": "5p 6p 6p 5p 9p 10p 5p 6p 6p (25) 7p Dp 5p ",
+                    "cotes": [ "23.0", "25.0", "31.0" ],
+                    "gains": 84773,
+                    "corde": 16,
+                    "discipline": "Plat",
+                    "distance": 2500
                 },
-                "3":{
-                    "nom_cheval":"VINCI NICE",
-                    "sexe":"H",
-                    "annee_de_naissance":"2018",
-                    "nom_jockey":"NIVARD F.",
-                    "nom_entraineur":"UNTERSTEINER J.",
-                    "poid_du_cheval":2650,
-                    "musique":"0a 8a 4a 2a 7a 7a 1a (25) 6a Da 6a 6a 0a ",
-                    "cotes":[
-                        "12.0",
-                        "13.0",
-                        "13.0"
-                    ],
-                    "gains":"142620",
-                    "corde":"",
-                    "discipline":"Attelé",
-                    "distance":2650
+                "8": {
+                    "nom_cheval": "GOLDEN BLUSH",
+                    "sexe": "F",
+                    "annee_de_naissance": 2022,
+                    "nom_jockey": "PICCONE T.",
+                    "nom_entraineur": "ESCUDER C.",
+                    "musique": "8p 1p 1p 10p 1p 1p 3p 7p 10p 6p 3p 7p ",
+                    "cotes": [ "27.0", "27.0", "33.0" ],
+                    "gains": 63084,
+                    "corde": 4,
+                    "discipline": "Plat",
+                    "distance": 2500
                 },
-                "4":{
-                    "nom_cheval":"RUGER",
-                    "sexe":"H",
-                    "annee_de_naissance":"2018",
-                    "nom_jockey":"PACHA N.",
-                    "nom_entraineur":"LINDEGREN E.",
-                    "poid_du_cheval":2650,
-                    "musique":"Da 0a 9a 0a (25) 2a Da 1a 2a 8a 2a 0a 1a ",
-                    "cotes":[
-                        "26.0",
-                        "28.0",
-                        "19.0"
-                    ],
-                    "gains":"133672",
-                    "corde":"",
-                    "discipline":"Attelé",
-                    "distance":2650
+                "9": {
+                    "nom_cheval": "PRINCESSE D'AMOUR",
+                    "sexe": "F",
+                    "annee_de_naissance": 2022,
+                    "nom_jockey": "LECOEUVRE C.",
+                    "nom_entraineur": "DUBOIS J.PH.",
+                    "musique": "1p 5p 1p 12p (25) 9p 2p 5p 1p 3p 6p 3p 5p ",
+                    "cotes": [ "6.5", "5.5", "4.4" ],
+                    "gains": 80930,
+                    "corde": 1,
+                    "discipline": "Plat",
+                    "distance": 2500
                 },
-                "7":{
-                    "nom_cheval":"JACKPOT MEARAS",
-                    "sexe":"H",
-                    "annee_de_naissance":"2019",
-                    "nom_jockey":"PIETERS DWI.",
-                    "nom_entraineur":"TORNQVIST MME M.",
-                    "poid_du_cheval":2650,
-                    "musique":"8a 1a 1a 1a (25) 0a 1a 1a 6a 2a 1a 1a 2a ",
-                    "cotes":[
-                        "4.0",
-                        "4.2",
-                        "3.8"
-                    ],
-                    "gains":"149542",
-                    "corde":"",
-                    "discipline":"Attelé",
-                    "distance":2650
+                "12": {
+                    "nom_cheval": "MISTER GATZ",
+                    "sexe": "H",
+                    "annee_de_naissance": 2021,
+                    "nom_jockey": "GRANDIN MAR.",
+                    "nom_entraineur": "NIGGE (S) S.",
+                    "musique": "6p 2p 4p 10p (25) 7p 10p 10p 6p 4p 5p (24) 4p 2p ",
+                    "cotes": [ "14.0", "10.0", "11.0" ],
+                    "gains": 75697,
+                    "corde": 3,
+                    "discipline": "Plat",
+                    "distance": 2500
                 },
-                "8":{
-                    "nom_cheval":"JUST A COUET",
-                    "sexe":"H",
-                    "annee_de_naissance":"2019",
-                    "nom_jockey":"HUBERT A.",
-                    "nom_entraineur":"HUBERT A.",
-                    "poid_du_cheval":2650,
-                    "musique":"8a 5m 5a 3a 7a 0a 0a (25) 5a 8a Da 4a 3a ",
-                    "cotes":[
-                        "20.0",
-                        "29.0",
-                        "36.0"
-                    ],
-                    "gains":"149915",
-                    "corde":"",
-                    "discipline":"Attelé",
-                    "distance":2650
+                "13": {
+                    "nom_cheval": "GOLD PLAYER",
+                    "sexe": "H",
+                    "annee_de_naissance": 2019,
+                    "nom_jockey": "BOISSEAU L.",
+                    "nom_entraineur": "FORESI F.",
+                    "musique": "13p 8p 11p 14p 1p 6p 7p (25) 4p 1p 3p 5p 14p ",
+                    "cotes": [ "31.0", "44.0", "58.0" ],
+                    "gains": 156320,
+                    "corde": 5,
+                    "discipline": "Plat",
+                    "distance": 2500
                 },
-                "12":{
-                    "nom_cheval":"DYNAMITE SENSATION",
-                    "sexe":"H",
-                    "annee_de_naissance":"2018",
-                    "nom_jockey":"RAFFIN O.",
-                    "nom_entraineur":"RAFFIN O.",
-                    "poid_du_cheval":2650,
-                    "musique":"7a 8a 0a (25) 6a 7m 6a Da 4a Da 0a 5a 0a ",
-                    "cotes":[
-                        "28.0",
-                        "47.0",
-                        "63.0"
-                    ],
-                    "gains":"106668",
-                    "corde":"",
-                    "discipline":"Attelé",
-                    "distance":2650
+                "14": {
+                    "nom_cheval": "BRITANIA",
+                    "sexe": "F",
+                    "annee_de_naissance": 2022,
+                    "nom_jockey": "MENDIZABAL I.",
+                    "nom_entraineur": "ROHAUT F.",
+                    "musique": "8p 11p 5p 5p (25) 3p 2p 1p 2p 1p 3p 2p 2p ",
+                    "cotes": [ "18.0", "16.0", "19.0" ],
+                    "gains": 66508,
+                    "corde": 12,
+                    "discipline": "Plat",
+                    "distance": 2500
                 },
-                "13":{
-                    "nom_cheval":"ORLANDO YOUNG",
-                    "sexe":"H",
-                    "annee_de_naissance":"2018",
-                    "nom_jockey":"BONNE D.",
-                    "nom_entraineur":"GUNDERSEN G.V.",
-                    "poid_du_cheval":2650,
-                    "musique":"3a (25) 3a 7a 5a 2a 5a 1a Da 4a 2a 9a 5a ",
-                    "cotes":[
-                        "11.0",
-                        "15.0",
-                        "18.0"
-                    ],
-                    "gains":"106918",
-                    "corde":"",
-                    "discipline":"Attelé",
-                    "distance":2650
+                "15": {
+                    "nom_cheval": "JAYCLE DE GREE",
+                    "sexe": "H",
+                    "annee_de_naissance": 2021,
+                    "nom_jockey": "GROSBOIS CHR.",
+                    "nom_entraineur": "AUDOUIN B.",
+                    "musique": "1p 4p 2p 3p 6p 1p 4p (25) 1p 2p 1p 2p 2p ",
+                    "cotes": [ "16.0", "13.0", "8.4" ],
+                    "gains": 63521,
+                    "corde": 11,
+                    "discipline": "Plat",
+                    "distance": 2500
                 }
             },
-            "date":"06/07/2026"
+            "date": "2026-08-18T00:00:00.000Z"
         }
     ]
 }
