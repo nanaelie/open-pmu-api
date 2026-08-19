@@ -110,6 +110,7 @@ export default async function getData({ prix, hippo, date }) {
 			return [false, "Pas de correspondance"];
 		}
 	} catch (err) {
+		console.log(err);
 		return [false, []]
 	}
 }
