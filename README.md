@@ -25,7 +25,7 @@ hippo=HIPPODROME
 ### Exemples d'appel
 
 ```http
-GET https://open-pmu-api.vercel.app/api/arrivees?date=18/08/2026
+GET https://open-pmu-api.vercel.app/api/arrivees?date=08/18/2026
 ```
 
 ```http
